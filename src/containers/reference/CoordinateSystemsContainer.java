@@ -7,10 +7,10 @@ import org.opengis.referencing.crs.CoordinateReferenceSystem;
 
 /**
  * 
- * @author Mike
+ * @author Michael Fotiadis
  *
  */
-public class CoordinateSystems {
+public class CoordinateSystemsContainer {
 
 	private final String OSGB1936_2D_LAT_LON = "EPSG:4277";
 	private final String OSGB1936_NATIONAL_GRID_EAST_NORTH = "EPSG:27700";
@@ -41,8 +41,6 @@ public class CoordinateSystems {
 	public String getWKT(String coordinateSystem) throws NoSuchAuthorityCodeException, FactoryException {
 		CoordinateReferenceSystem crs = CRS.decode(coordinateSystem);
 		String wkt = crs.toWKT();
-//		System.out.println("Well Known Text for " + coordinateSystem);
-//		System.out.println(wkt);
 		return wkt;
 	}
 	

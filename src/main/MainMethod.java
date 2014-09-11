@@ -1,8 +1,10 @@
 package main;
 
+import userinterface.layouts.MainLayout;
+
 /**
  * 
- * @author Mike
+ * @author Michael Fotiadis
  *
  */
 public class MainMethod {
@@ -11,9 +13,7 @@ public class MainMethod {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-
-		userinterface.layouts.MainLayout.initUI();
-
+		new MainLayout().initUI();
 	}
 
 }

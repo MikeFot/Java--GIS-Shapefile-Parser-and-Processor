@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.IOException;
 
 import javax.swing.JMenuBar;
+import javax.swing.SwingUtilities;
 
 import org.geotools.data.FileDataStore;
 import org.geotools.data.FileDataStoreFinder;
@@ -27,13 +28,31 @@ public class MapDisplay {
 	 * @param shapefile : The input ShapeFile in FILE format
 	 * @throws IOException
 	 */
-	public static void shapefileDisplay(File shapefile) throws IOException {
+	public void shapefileDisplay(final File shapefile) {
 
+		SwingUtilities.invokeLater(new Runnable() {
+			public void run() {
+				constructMapUI(shapefile);
+			}
+		});
+
+	}
+
+	private static void constructMapUI(final File shapefile) {
+		
 		JMapFrame frame;
 		MapContent map = new MapContent();
 
-		FileDataStore dataStore = FileDataStoreFinder.getDataStore(shapefile);
-		SimpleFeatureSource shapefileSource = dataStore.getFeatureSource();
+		FileDataStore dataStore;
+		SimpleFeatureSource shapefileSource;
+		
+		try {
+			dataStore = FileDataStoreFinder.getDataStore(shapefile);
+			shapefileSource = dataStore.getFeatureSource();
+		} catch (IOException e) {
+			e.printStackTrace();
+			return;
+		}
 		Style shpStyle = SLD.createPolygonStyle(Color.RED, null, 0.0f);
 		Layer shpLayer = new FeatureLayer(shapefileSource, shpStyle);
 		map.addLayer(shpLayer);
@@ -50,7 +69,7 @@ public class MapDisplay {
 		frame.setVisible(true);
 
 		frame.setDefaultCloseOperation(JMapFrame.HIDE_ON_CLOSE);
-
+		
 	}
-
+	
 }

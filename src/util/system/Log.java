@@ -179,6 +179,7 @@ public class Log {
 			status.setTopIndex(status.getItemCount() - 1); // ensure list always scrolls down
 		}
 		
+		MainLayout.getSTATUS_LIST().ergoList.redraw();
 	}
 	
 }

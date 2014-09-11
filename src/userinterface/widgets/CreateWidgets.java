@@ -1,19 +1,14 @@
 package userinterface.widgets;
 
 import org.eclipse.swt.SWT;
-import org.eclipse.swt.events.SelectionAdapter;
-import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.graphics.Rectangle;
 import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.widgets.Canvas;
 import org.eclipse.swt.widgets.Label;
-import org.eclipse.swt.widgets.Menu;
-import org.eclipse.swt.widgets.MenuItem;
 import org.eclipse.swt.widgets.Scale;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.widgets.Text;
 
-import userinterface.layouts.MainLayout;
 import containers.ergo.widgets.ErgoButton;
 import containers.ergo.widgets.ErgoCombo;
 import containers.ergo.widgets.ErgoList;
@@ -29,7 +24,7 @@ public class CreateWidgets {
 	 * @param horizontalSpan : the Integer number of columns the widget occupies
 	 * @return Label widget
 	 */
-	public static Label createLabel(Shell shell, GridData gridData, String labelText, int width, int horizontalSpan) {
+	public Label createLabel(Shell shell, GridData gridData, String labelText, int width, int horizontalSpan) {
 		Label myLabel = new Label(shell, SWT.NONE);
 
 		gridData.widthHint = width;
@@ -50,7 +45,7 @@ public class CreateWidgets {
 	 * @param horizontalSpan : the Integer number of columns the widget occupies
 	 * @return Text widget
 	 */
-	public static Text createText(Shell shell, GridData gridData, String labelText, int width, int horizontalSpan) {
+	public Text createText(Shell shell, GridData gridData, String labelText, int width, int horizontalSpan) {
 		Text myText = new Text(shell, SWT.MULTI | SWT.BORDER);
 
 		gridData.widthHint = width;
@@ -70,7 +65,7 @@ public class CreateWidgets {
 	 * @param horizontalSpan : the Integer number of columns the widget occupies
 	 * @return Button widget
 	 */
-	public static ErgoButton createButton(Shell shell, GridData gridData, String labelText, int horizontalSpan) {
+	public ErgoButton createButton(Shell shell, GridData gridData, String labelText, int horizontalSpan) {
 
 		ErgoButton myButton = new ErgoButton(shell, SWT.PUSH);
 		myButton.setErgoID(myButton.getErgoButton().hashCode());
@@ -91,7 +86,7 @@ public class CreateWidgets {
 	 * @param horizontalSpan
 	 * @return
 	 */
-	public static ErgoCombo createCombo(Shell shell, GridData gridData, int width,  int horizontalSpan) {
+	public ErgoCombo createCombo(Shell shell, GridData gridData, int width,  int horizontalSpan) {
 
 		ErgoCombo myCombo = new ErgoCombo(shell, SWT.READ_ONLY);
 
@@ -114,7 +109,7 @@ public class CreateWidgets {
 	 * @param horisontalSpan : the Integer number of rows the widget occupies
 	 * @return List widget
 	 */
-	public static ErgoList createList(Shell shell, GridData gridData, int width, int height, int horisontalSpan) {
+	public ErgoList createList(Shell shell, GridData gridData, int width, int height, int horisontalSpan) {
 		
 		ErgoList myList = new ErgoList(shell, SWT.SINGLE | SWT.BORDER | SWT.V_SCROLL);
 		
@@ -137,7 +132,7 @@ public class CreateWidgets {
 	 * @param verticalSpan : the Integer number of rows the widget occupies
 	 * @return Canvas widget
 	 */
-	public static Canvas createCanvas(Shell shell, GridData gridData, int width, int height, int verticalSpan) {
+	public Canvas createCanvas(Shell shell, GridData gridData, int width, int height, int verticalSpan) {
 
 		Canvas myCanvas = new Canvas(shell, SWT.BORDER);
 
@@ -159,7 +154,7 @@ public class CreateWidgets {
 	 * @param intSetSelection : the Integer initial value of the slider
 	 * @return Scale widget
 	 */
-	public static Scale createScale(Shell shell, int intMin, int intMax, int intIncrements, int intPageIncrement, int intSetSelection) {
+	public Scale createScale(Shell shell, int intMin, int intMax, int intIncrements, int intPageIncrement, int intSetSelection) {
 
 		Scale myScale = new Scale(shell, SWT.HORIZONTAL);
 
@@ -172,45 +167,4 @@ public class CreateWidgets {
 		return myScale;
 
 	}
-
-	/**
-	 * 
-	 * @param inputShell
-	 */
-	public static void createMenuItems(final Shell inputShell) {
-		Shell myShell = inputShell;
-		// Menu item section
-		Menu menuBar = new Menu(myShell, SWT.BAR);
-		MenuItem cascadeFileMenu = new MenuItem(menuBar, SWT.CASCADE);
-		cascadeFileMenu.setText("&File");
-		Menu fileMenu = new Menu(myShell, SWT.DROP_DOWN);
-		cascadeFileMenu.setMenu(fileMenu);
-
-		MenuItem newItem = new MenuItem(fileMenu, SWT.PUSH);
-		newItem.setText("&New"); // New button
-		myShell.setMenuBar(menuBar);
-
-		newItem.addSelectionListener(new SelectionAdapter() {
-			@Override
-			public void widgetSelected(SelectionEvent e) {
-				inputShell.setEnabled(false); // could skip this
-				inputShell.setVisible(false);
-				MainLayout.initUI();
-			}
-		});
-
-		MenuItem exitItem = new MenuItem(fileMenu, SWT.PUSH);
-		exitItem.setText("&Exit"); // exit button
-		myShell.setMenuBar(menuBar);
-
-		exitItem.addSelectionListener(new SelectionAdapter() {
-			@Override
-			public void widgetSelected(SelectionEvent e) {
-				inputShell.getDisplay().dispose();
-				System.exit(0);
-			}
-		});// end menu item section
-		
-	}
-
 }

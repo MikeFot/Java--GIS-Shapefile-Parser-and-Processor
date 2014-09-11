@@ -6,7 +6,7 @@ import util.file.HelperOperations;
 
 /**
  * 
- * @author Mike
+ * @author Michael Fotiadis
  *
  */
 public class FileVariables {

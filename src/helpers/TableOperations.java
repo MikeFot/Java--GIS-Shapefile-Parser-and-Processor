@@ -6,6 +6,11 @@ import containers.ergo.geometry.ErgoPolyline;
 import containers.ergo.geometry.ErgoReferenceSystem;
 import containers.ergo.geometry.ErgoVertex;
 
+/**
+ * 
+ * @author Michael Fotiadis
+ *
+ */
 public class TableOperations {
 
 	/**
@@ -13,7 +18,7 @@ public class TableOperations {
 	 * @param polyline
 	 * @return
 	 */
-	public static String[] buildCoordList(ErgoPolyline polyline) {
+	public String[] buildCoordList(ErgoPolyline polyline) {
 
 		String[] coordinateTable = new String[polyline.getVertexList().size()];
 		int iter_CoordinateCount = 0;
@@ -38,7 +43,7 @@ public class TableOperations {
 	 * @param polyline
 	 * @return
 	 */
-	public static String[] buildAttributeList(String[] stringkeys, ErgoPolyline polyline) {
+	public String[] buildAttributeList(String[] stringkeys, ErgoPolyline polyline) {
 		
 		int sizePline = polyline.getHashMapSize();
 		
@@ -65,7 +70,7 @@ public class TableOperations {
 	 * @param fileName
 	 * @return
 	 */
-	public static String[] createComboString(String fileName) {
+	public String[] createComboString(String fileName) {
 
 		final String epsgTable[][] = ParseEPSGFile.readAndParseEPSGFile(fileName);
 
@@ -90,7 +95,7 @@ public class TableOperations {
 	 * @param input : The input String to be split
 	 * @return String of the format "EPSG:#" 
 	 */
-	public static ErgoReferenceSystem splitComboString(String input) {
+	public ErgoReferenceSystem splitComboString(String input) {
 		final String[] firstSplit = input.split("EPSG: ");
 		final String[] secondSplit = firstSplit[1].split(" , ");
 		

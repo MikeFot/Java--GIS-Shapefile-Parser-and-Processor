@@ -18,7 +18,7 @@ public class FileOperations {
 
 	private final String SHAPEFILE_DESCRIPTION = "ShapeFile";
 	private final String SHAPEFILE_EXTENSION = ".shp";
-	
+
 	/**
 	 * Opens a browser for shapefiles
 	 * @return Location of the user selected file in FILE format
@@ -41,76 +41,74 @@ public class FileOperations {
 			return null;
 		}
 	}
-	
-	
+
+
 	/**
 	 * Opens a browser for shapefiles
 	 * @return Location of the user selected shapefile in URL format 
 	 */
 	@SuppressWarnings("deprecation")
 	public URL browseAndReturnURL() {
-	
-	URL shapeURL = null;
-	JFileChooser fileChooser = new JFileChooser();
-	fileChooser.setFileFilter(new SimpleFileFilter("shp", SHAPEFILE_DESCRIPTION)); // browse for a Shapefile
-	int result = fileChooser.showOpenDialog(null);
-	 
-	if (result == JFileChooser.APPROVE_OPTION) {
-	    File f = fileChooser.getSelectedFile();
-	  
-	    try {
-			shapeURL = f.toURL();
-		} catch (MalformedURLException e) {
-			e.printStackTrace();
+
+		URL shapeURL = null;
+		JFileChooser fileChooser = new JFileChooser();
+		fileChooser.setFileFilter(new SimpleFileFilter("shp", SHAPEFILE_DESCRIPTION)); // browse for a Shapefile
+		int result = fileChooser.showOpenDialog(null);
+
+		if (result == JFileChooser.APPROVE_OPTION) {
+			File f = fileChooser.getSelectedFile();
+
+			try {
+				shapeURL = f.toURL();
+			} catch (MalformedURLException e) {
+				e.printStackTrace();
+			}
+
+		} else {
+			System.err.println("FileOperations Report: File error.");
 		}
-	    
-	} else {
-		System.err.println("FileOperations Report: File error.");
+		return shapeURL;
 	}
-	
-	return shapeURL;
-	
-	}
-	
-	
+
+
 	/**
 	 * 
 	 * @param dataDir
 	 * @return
 	 */
 	public static boolean isDirectoryEmpty(String dataDir) {
-		   File targetDirectory = new File(dataDir);
-		   if (targetDirectory.isDirectory()) {
-               String[] fileList = targetDirectory.list();
-               if (fileList.length > 0) {
-            	   
-                       System.out.println("Directory " + targetDirectory.getPath() + "/ is not empty.");
-                       return false;
-               } else {
-            	   System.out.println("Directory is empty.");
-            	   return true;
-               }
-       } else { 
-    	   System.out.println("This is not a directory.");
-    	   return true;
-       }
-		
+		File targetDirectory = new File(dataDir);
+		if (targetDirectory.isDirectory()) {
+			String[] fileList = targetDirectory.list();
+			if (fileList.length > 0) {
+
+				System.out.println("Directory " + targetDirectory.getPath() + "/ is not empty.");
+				return false;
+			} else {
+				System.out.println("Directory is empty.");
+				return true;
+			}
+		} else { 
+			System.out.println("This is not a directory.");
+			return true;
+		}
+
 	}
-	
+
 	/**
 	 * 
 	 * @param dataDir
 	 * @return
 	 */
 	public static String[] listFilesInDir(String dataDir){
-		
+
 		File targetDirectory = new File(dataDir);
-        String[] fileList = targetDirectory.list();
-        
-        return fileList;
-		
+		String[] fileList = targetDirectory.list();
+
+		return fileList;
+
 	}
-	
+
 	/**
 	 * Code for extending the File Chooser
 	 */

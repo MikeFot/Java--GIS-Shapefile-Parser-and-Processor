@@ -9,9 +9,11 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.NoSuchElementException;
 
 import javax.swing.JOptionPane;
 
+import org.eclipse.swt.widgets.Display;
 import org.geotools.data.DataStore;
 import org.geotools.data.DataStoreFinder;
 import org.geotools.data.FeatureSource;
@@ -22,91 +24,153 @@ import org.opengis.feature.Feature;
 import org.opengis.feature.Property;
 import org.opengis.feature.type.FeatureType;
 import org.opengis.referencing.FactoryException;
-import org.opengis.referencing.NoSuchAuthorityCodeException;
-import org.opengis.referencing.crs.CoordinateReferenceSystem;
 
-import userinterface.layouts.MainLayout;
 import util.system.Log;
+import constants.AppConstants;
 import containers.ergo.geometry.ErgoPolyline;
 import containers.ergo.geometry.ErgoVertex;
+import containers.file.ShapefileContainer;
 
 public class ParseShapefile {
 
-	private static CoordinateReferenceSystem VERBOSE_CRS;
-	private static String GEOMETRY_TYPE;
-	private static int EPSG_CODE;
+	private static boolean userChoice;
+	private ShapefileContainer shapefileContainer;
+
+
+	private boolean makeUserDialog(int fsSize, String shpPrintout) {
+		Display.getDefault().syncExec(new Runnable() {
+
+			@Override
+			public void run() {
+				// Wait for user input before continuing
+				final int dialogButton = JOptionPane.YES_NO_OPTION;
+				int dialogResult = JOptionPane.showConfirmDialog (null, "Shapefile contains " + fsSize + 
+						" items. \nThe geometry type is " + shapefileContainer.getGeometryType() +
+						". \nThe reference system is " + shpPrintout + 
+						".\n\nContinue parsing?","Valid Shapefile Detected",dialogButton);
+
+				if (dialogResult == JOptionPane.NO_OPTION){
+					userChoice = false;
+				} else {
+					userChoice = true;
+				}
+			}
+		});
+		return userChoice;
+	}
 
 	@SuppressWarnings("rawtypes")
-	public static Collection<ErgoPolyline> parseURLshapefile(final URL shapeURL) throws IOException, NoSuchAuthorityCodeException {
+	public ShapefileContainer parseURLshapefile(final URL shapeURL) {
 
-		Collection<ErgoPolyline> GEOMETRY_COLLECTION = new ArrayList<ErgoPolyline>(); // don't make static, we need it to reset
-		String shpReferenceSystem;
+		shapefileContainer = new ShapefileContainer();
 
-		Map<String, URL> map = new HashMap<String, URL>();
+		final String shpReferenceSystem;
+
+		final Map<String, URL> map = new HashMap<String, URL>();
 		map.put( "url", shapeURL );
-		final DataStore shpDataStore = DataStoreFinder.getDataStore(map); // look for existing datastore
-		
-		final String name = shpDataStore.getTypeNames()[0];
-		final FeatureSource featureSource = shpDataStore.getFeatureSource(name);
+		final DataStore shpDataStore;
+		final String typeName;
+		final FeatureSource featureSource;
+
+		try {
+			shpDataStore = DataStoreFinder.getDataStore(map);
+			typeName = shpDataStore.getTypeNames()[0];
+			featureSource = shpDataStore.getFeatureSource(typeName);
+		} catch (IOException e) {
+			Log.Exception(e, 0);
+			return null;
+		} 
+
 		Log.Out("Feature Source Hashcode = " + featureSource.hashCode(), 2, false);
 		final FeatureType spatialFeatureType = featureSource.getSchema();
 
-		VERBOSE_CRS = spatialFeatureType.getCoordinateReferenceSystem(); // store the WKT description
-
-		if (VERBOSE_CRS!= null) {
-			shpReferenceSystem = VERBOSE_CRS.getName().toString();
-			if (VERBOSE_CRS.getName().toString().equals("British_National_Grid")) {
-				EPSG_CODE = 27700;
+		if (spatialFeatureType.getCoordinateReferenceSystem()!= null) {
+			shpReferenceSystem = spatialFeatureType.getCoordinateReferenceSystem().getName().toString();
+			if (shpReferenceSystem.equals(AppConstants.USER_PREFERRED_CRS)) {
+				shapefileContainer.setEpsgCode(AppConstants.USER_PREFERRED_EPSG);
 			} else {
-
 				try {
-					EPSG_CODE = CRS.lookupEpsgCode(VERBOSE_CRS, true);
+					shapefileContainer.setEpsgCode(
+							CRS.lookupEpsgCode(spatialFeatureType.getCoordinateReferenceSystem(), true));
 				} catch (FactoryException eFactory) {
 					Log.Exception(eFactory, 0);
 					eFactory.printStackTrace();
+					shapefileContainer.setEpsgCode(0);
 				} // store the EPSG code
 			}
 		} else {
 			shpReferenceSystem = "Not Defined";
 		}
 
-		Log.Out("Geometry Type : " + spatialFeatureType.getGeometryDescriptor().getName() , 1, false); // e.g. prints "Points"
-		final FeatureCollection fsShape = featureSource.getFeatures(); 
+		shapefileContainer.setVerboseCRS(spatialFeatureType.getCoordinateReferenceSystem().toString());
+
+		// e.g. prints "Points"
+		Log.Out("Geometry Type : " + spatialFeatureType.getGeometryDescriptor().getName() , 1, false); 
+		FeatureCollection fsShape;
+		try {
+			fsShape = featureSource.getFeatures();
+		} catch (IOException e) {
+			Log.Exception(e, 0);
+			return null;
+		} 
 
 		final String shpPrintout = shpReferenceSystem.replace('_', ' ');
 
 		final int fsSize = fsShape.size();
 
-		final String geom = featureSource.getFeatures().features().next().getDefaultGeometryProperty().getType().getName().toString();
-
-		switch (geom) {
-		case "Point" : GEOMETRY_TYPE = "Point"; break;
-		case "MultiLineString" : GEOMETRY_TYPE = "Polyline"; break;
-		case "MultiPolygon" : GEOMETRY_TYPE = "Polygon";break;
-		default : GEOMETRY_TYPE = geom; break;
-		}
-
-		Log.Out("Waiting for user input...", 2, true);
-
-		// Wait for user input before continuing
-		final int dialogButton = JOptionPane.YES_NO_OPTION;
-		final int dialogResult = JOptionPane.showConfirmDialog (null, "Shapefile contains " + fsSize + 
-				" items. \nThe geometry type is " + GEOMETRY_TYPE +
-				". \nThe reference system is " + shpPrintout + 
-				".\n\nContinue parsing?","Valid Shapefile Detected",dialogButton);
-		if (dialogResult == JOptionPane.NO_OPTION){
+		String geom;
+		try {
+			geom = featureSource.getFeatures().features().next().getDefaultGeometryProperty().getType().getName().toString();
+		} catch (NoSuchElementException | IOException e) {
+			Log.Exception(e, 0);
 			return null;
 		}
 
-		Log.Out("Size of the Feature Collection : " + fsSize, 2, true);
-		Log.Out(" Feature Class Boundaries" + fsShape.getBounds(), 2, false); // latitude min max , longitude min max
+		switch (geom) {
+		case "Point" : shapefileContainer.setGeometryType("Point"); break;
+		case "MultiLineString" :  shapefileContainer.setGeometryType("Polyline"); break;
+		case "MultiPolygon" :  shapefileContainer.setGeometryType("Polygon");break;
+		default :  shapefileContainer.setGeometryType(geom); break;
+		}
 
-		final FeatureIterator featureCollectionA = featureSource.getFeatures().features();
+		Log.Out("Size of the Feature Collection : " + fsSize, 2, true);
+		// latitude min max , longitude min max
+		Log.Out(" Feature Class Boundaries" + fsShape.getBounds(), 2, false); 
+
+		Log.Out("Waiting for user input...", 2, true);
+
+		boolean continueParsing = makeUserDialog(fsSize, shpPrintout);
+
+		if (!continueParsing) {
+			return null;
+		}
+
+		shapefileContainer.setGeometryCollection(secondStageParsing(featureSource, shpReferenceSystem));
+
+		shpDataStore.dispose();
+
+		Log.Out("Data Parsing Complete", 0, true);
+		return shapefileContainer;
+	}
+
+	@SuppressWarnings("rawtypes")
+	private static Collection<ErgoPolyline> secondStageParsing(FeatureSource featureSource, 
+			String shpReferenceSystem) {
+
+		Collection<ErgoPolyline> geometryCollection = new ArrayList<ErgoPolyline>(); 
+
+		FeatureIterator featureCollectionA;
+		try {
+			featureCollectionA = featureSource.getFeatures().features();
+		} catch (IOException e) {
+			Log.Exception(e, 0);
+			return null;
+		}
 
 		while (featureCollectionA.hasNext()) {
 			Feature featureA = featureCollectionA.next();
 			Log.Out("Now Parsing Feature with ID : " + featureA.getIdentifier().toString().substring(featureA.getIdentifier().toString().indexOf('.')+1) , 2, true);
-			MainLayout.getSTATUS_LIST().ergoList.redraw();
+
 			String geomType = featureA.getDefaultGeometryProperty().getType().getName().toString();
 			String geomValue = featureA.getDefaultGeometryProperty().getValue().toString();
 
@@ -115,18 +179,21 @@ public class ParseShapefile {
 
 			String[] splitGeomString = FeatureOperations.SplitGeometryString(geomType, geomValue);
 
-			List<ErgoVertex> pointCollection = new ArrayList<ErgoVertex>(); // Collection of Vertices (MyVertex)
+			// Collection of Vertices (MyVertex)
+			List<ErgoVertex> pointCollection = new ArrayList<ErgoVertex>(); 
 
 			for (String coordinateSet : splitGeomString) {
 
-				String[] coordinateSetSplit = coordinateSet.split(" "); // Split Coordinates by Space Character
-				List<Double> doubleCoordinateList = new ArrayList<Double>(); // Initialise ArrayList to store Coordinates - Should expand for height
+				// Split Coordinates by Space Character
+				String[] coordinateSetSplit = coordinateSet.split(" "); 
+				// Initialise ArrayList to store Coordinates - Should expand for height
+				List<Double> doubleCoordinateList = new ArrayList<Double>(); 
 
 				for (String singleCoordinate : coordinateSetSplit) {
 					if (!singleCoordinate.isEmpty()) { // check because parsing may have failed
 						doubleCoordinateList.add(Double.parseDouble(singleCoordinate));
 					} else {
-						//    				   System.err.println("Warning: Empty Coordinate Detected.");
+						Log.Err("Warning: Empty Coordinate Detected.", 1, false);
 					}
 				}
 
@@ -157,11 +224,8 @@ public class ParseShapefile {
 				String propertyValue = singleProperty.getValue().toString();
 				String propertyType = singleProperty.getType().getBinding().getSimpleName().toString();
 
-				/**
-				 *  MAJOR OVERRIDE
-				 */
+				// TODO handle this properly
 				propertyType = "String"; // OVERRIDE
-				// TAKE CARE!
 
 				// add exception for DATES and convert them to String
 				if (!propertyType.equalsIgnoreCase("String") && !propertyType.equalsIgnoreCase("Double") && !propertyType.equalsIgnoreCase("Integer")  ) {
@@ -182,33 +246,14 @@ public class ParseShapefile {
 				}
 			} // end iterate property list
 
-			GEOMETRY_COLLECTION.add(featurePolyline); // add the new feature to the collection
+			geometryCollection.add(featurePolyline); // add the new feature to the collection
 		} // end while feature has next
-		
-		
+
+
 		featureCollectionA.close(); // close the iterator to lift lock
 
 		Log.Out("Exiting Shapefile Parser." , 1 , true);
-		return GEOMETRY_COLLECTION;
-
-	}
-
-	public static int getEPSG_CODE() {
-		return EPSG_CODE;
-	}
-
-	public static String getGEOMETRY_TYPE() {
-		return GEOMETRY_TYPE;
-	}
-
-	public static String getVerboseCRS() {
-		if (VERBOSE_CRS.toString() != null) {
-			
-			return VERBOSE_CRS.toString();
-			
-		} else {
-			return "";
-		}
+		return geometryCollection;
 	}
 
 }

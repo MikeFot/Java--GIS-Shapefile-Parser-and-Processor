@@ -9,7 +9,7 @@ import org.opengis.referencing.operation.TransformException;
 
 import com.vividsolutions.jts.geom.Coordinate;
 
-import containers.reference.CoordinateSystems;
+import containers.reference.CoordinateSystemsContainer;
 
 /**
  * 
@@ -114,7 +114,7 @@ public class ErgoVertex {
 	}
 
 	public ErgoCoordinateSet getWGSCoordinates(ErgoReferenceSystem sourceCRS) {
-		CoordinateSystems coordSystems = new CoordinateSystems();
+		CoordinateSystemsContainer coordSystems = new CoordinateSystemsContainer();
 		ErgoReferenceSystem targetCRS = new ErgoReferenceSystem(coordSystems.getWGS_84_2D_LAT_LON(), "geographic 2D");
 
 		ErgoCoordinateSet targetCoordinateSet = transformCoordinateSet(sourceCRS, targetCRS);
