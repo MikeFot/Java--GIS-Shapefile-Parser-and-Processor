@@ -1,0 +1,2141 @@
+2013-10-14 19:55:18 - OUT:       EPSG Directory externaldata/ is not empty.
+2013-10-14 19:55:18 - OUT: Using EPSG file : EPSG_v8_2.csv
+2013-10-14 19:55:18 - OUT: Parsing EPSG file.
+2013-10-14 19:55:18 - OUT:    The EPSG file contains 4533 rows.
+2013-10-14 19:55:19 - OUT:       Populating combo boxes with 4534 items.
+2013-10-14 19:55:19 - OUT: Initialising UI...
+2013-10-14 19:55:20 - OUT:    Detected click on Browse Button 1029004533
+2013-10-14 19:55:20 - OUT: Browsing for file...
+2013-10-14 19:55:30 - OUT:       Feature Source Hashcode = 926148053
+2013-10-14 19:55:30 - OUT:    Geometry Type : the_geom
+2013-10-14 19:55:30 - OUT:       Waiting for user input...
+2013-10-14 19:55:31 - OUT:       Size of the Feature Collection : 5
+2013-10-14 19:55:31 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2013-10-14 19:55:31 - OUT:       Now Parsing Feature with ID : 1
+2013-10-14 19:55:31 - OUT:          GEOMETRY TYPE Point
+2013-10-14 19:55:31 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2013-10-14 19:55:31 - OUT:          529408.0
+2013-10-14 19:55:31 - OUT:          155354.0
+2013-10-14 19:55:31 - OUT:       Now Parsing Feature with ID : 2
+2013-10-14 19:55:31 - OUT:          GEOMETRY TYPE Point
+2013-10-14 19:55:31 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2013-10-14 19:55:31 - OUT:          543522.0
+2013-10-14 19:55:31 - OUT:          140347.0
+2013-10-14 19:55:31 - OUT:       Now Parsing Feature with ID : 3
+2013-10-14 19:55:31 - OUT:          GEOMETRY TYPE Point
+2013-10-14 19:55:31 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2013-10-14 19:55:31 - OUT:          543471.0
+2013-10-14 19:55:31 - OUT:          140446.0
+2013-10-14 19:55:31 - OUT:       Now Parsing Feature with ID : 4
+2013-10-14 19:55:31 - OUT:          GEOMETRY TYPE Point
+2013-10-14 19:55:31 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2013-10-14 19:55:31 - OUT:          543465.0
+2013-10-14 19:55:31 - OUT:          153566.0
+2013-10-14 19:55:31 - OUT:       Now Parsing Feature with ID : 5
+2013-10-14 19:55:31 - OUT:          GEOMETRY TYPE Point
+2013-10-14 19:55:31 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2013-10-14 19:55:31 - OUT:          543454.0
+2013-10-14 19:55:31 - OUT:          140379.0
+2013-10-14 19:55:31 - OUT:    Exiting Shapefile Parser.
+2013-10-14 19:55:31 - OUT:    Reference System is : British National Grid
+2013-10-14 19:55:31 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2013-10-14 19:55:35 - OUT:    Detected click on View CRS Button 271477288
+2013-10-14 19:55:35 - OUT: Opening Info Shell...
+2013-10-14 19:55:37 - OUT:    Detected click on Info Button 1463513188
+2013-10-14 19:55:39 - OUT:    Displaying contents of file.
+2013-10-14 19:55:45 - OUT:    Detected click on Search Button 427414779
+2013-10-14 19:55:45 - OUT: Creating Search Shell...
+2013-10-14 19:55:45 - OUT: Opening Search Shell...
+2013-10-14 19:55:47 - OUT: Exiting...
+2013-10-15 17:04:46 - OUT: Using EPSG file : EPSG_v8_2.csv
+2013-10-15 17:04:46 - OUT:       Populating combo boxes with 4534 items.
+2013-10-15 17:04:47 - OUT: Initialising UI...
+2013-10-15 17:04:48 - OUT:    Detected click on Browse Button 1256304859
+2013-10-15 17:04:48 - OUT: Browsing for file...
+2013-10-15 17:04:53 - OUT:       Feature Source Hashcode = 703973899
+2013-10-15 17:04:53 - OUT:    Geometry Type : the_geom
+2013-10-15 17:04:53 - OUT:       Waiting for user input...
+2013-10-15 17:04:54 - OUT:       Size of the Feature Collection : 5
+2013-10-15 17:04:54 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2013-10-15 17:04:54 - OUT:       Now Parsing Feature with ID : 1
+2013-10-15 17:04:54 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:04:54 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2013-10-15 17:04:54 - OUT:          529408.0
+2013-10-15 17:04:54 - OUT:          155354.0
+2013-10-15 17:04:54 - OUT:       Now Parsing Feature with ID : 2
+2013-10-15 17:04:54 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:04:54 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2013-10-15 17:04:54 - OUT:          543522.0
+2013-10-15 17:04:54 - OUT:          140347.0
+2013-10-15 17:04:54 - OUT:       Now Parsing Feature with ID : 3
+2013-10-15 17:04:54 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:04:54 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2013-10-15 17:04:54 - OUT:          543471.0
+2013-10-15 17:04:54 - OUT:          140446.0
+2013-10-15 17:04:54 - OUT:       Now Parsing Feature with ID : 4
+2013-10-15 17:04:54 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:04:54 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2013-10-15 17:04:54 - OUT:          543465.0
+2013-10-15 17:04:54 - OUT:          153566.0
+2013-10-15 17:04:54 - OUT:       Now Parsing Feature with ID : 5
+2013-10-15 17:04:55 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:04:55 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2013-10-15 17:04:55 - OUT:          543454.0
+2013-10-15 17:04:55 - OUT:          140379.0
+2013-10-15 17:04:55 - OUT:    Exiting Shapefile Parser.
+2013-10-15 17:04:55 - OUT:    Reference System is : British National Grid
+2013-10-15 17:04:55 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2013-10-15 17:04:57 - OUT:    Detected click on myKML_Button 1436532771
+2013-10-15 17:04:57 - OUT: Starting KML export...
+2013-10-15 17:04:57 - OUT:    Created the KML document in memory.
+2013-10-15 17:04:57 - OUT:    Created the KML styles.
+2013-10-15 17:04:58 - OUT:        From : 529408.0 155354.0 To : -0.14585524539516262 51.2826356100346
+2013-10-15 17:04:58 - OUT:        From : 543522.0 140347.0 To : 0.05038728479539054 51.144402809990765
+2013-10-15 17:04:58 - OUT:        From : 543471.0 140446.0 To : 0.04969810927334914 51.14530522233094
+2013-10-15 17:04:58 - OUT:        From : 543465.0 153566.0 To : 0.05485309408196138 51.263204991658746
+2013-10-15 17:04:58 - OUT:        From : 543454.0 140379.0 To : 0.049428572043433185 51.1447074000427
+2013-10-15 17:04:58 - OUT:    Preparing to export...
+2013-10-15 17:04:59 - OUT: KML exported successfully at : Point_Export.kml
+2013-10-15 17:05:08 - OUT: Exiting...
+2013-10-15 17:05:52 - OUT: Using EPSG file : EPSG_v8_2.csv
+2013-10-15 17:05:52 - OUT:       Populating combo boxes with 4534 items.
+2013-10-15 17:05:53 - OUT: Initialising UI...
+2013-10-15 17:05:56 - OUT:    Detected click on Browse Button 943447228
+2013-10-15 17:05:56 - OUT: Browsing for file...
+2013-10-15 17:06:00 - OUT:       Feature Source Hashcode = 348514037
+2013-10-15 17:06:00 - OUT:    Geometry Type : the_geom
+2013-10-15 17:06:00 - OUT:       Waiting for user input...
+2013-10-15 17:06:01 - OUT:       Size of the Feature Collection : 5
+2013-10-15 17:06:01 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2013-10-15 17:06:01 - OUT:       Now Parsing Feature with ID : 1
+2013-10-15 17:06:01 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:06:01 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2013-10-15 17:06:01 - OUT:          529408.0
+2013-10-15 17:06:01 - OUT:          155354.0
+2013-10-15 17:06:01 - OUT:       Now Parsing Feature with ID : 2
+2013-10-15 17:06:01 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:06:01 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2013-10-15 17:06:01 - OUT:          543522.0
+2013-10-15 17:06:01 - OUT:          140347.0
+2013-10-15 17:06:01 - OUT:       Now Parsing Feature with ID : 3
+2013-10-15 17:06:01 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:06:01 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2013-10-15 17:06:01 - OUT:          543471.0
+2013-10-15 17:06:01 - OUT:          140446.0
+2013-10-15 17:06:01 - OUT:       Now Parsing Feature with ID : 4
+2013-10-15 17:06:01 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:06:01 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2013-10-15 17:06:01 - OUT:          543465.0
+2013-10-15 17:06:01 - OUT:          153566.0
+2013-10-15 17:06:01 - OUT:       Now Parsing Feature with ID : 5
+2013-10-15 17:06:01 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:06:01 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2013-10-15 17:06:01 - OUT:          543454.0
+2013-10-15 17:06:01 - OUT:          140379.0
+2013-10-15 17:06:01 - OUT:    Exiting Shapefile Parser.
+2013-10-15 17:06:01 - OUT:    Reference System is : British National Grid
+2013-10-15 17:06:01 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2013-10-15 17:06:05 - OUT: Exiting...
+2013-10-15 17:07:22 - OUT: Using EPSG file : EPSG_v8_2.csv
+2013-10-15 17:07:22 - OUT:       Populating combo boxes with 4534 items.
+2013-10-15 17:07:23 - OUT: Initialising UI...
+2013-10-15 17:07:24 - OUT:    Detected click on Browse Button 1661719537
+2013-10-15 17:07:24 - OUT: Browsing for file...
+2013-10-15 17:07:29 - OUT:       Feature Source Hashcode = 113043185
+2013-10-15 17:07:29 - OUT:    Geometry Type : the_geom
+2013-10-15 17:07:29 - OUT:       Waiting for user input...
+2013-10-15 17:07:29 - OUT:       Size of the Feature Collection : 5
+2013-10-15 17:07:29 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2013-10-15 17:07:29 - OUT:       Now Parsing Feature with ID : 1
+2013-10-15 17:07:29 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:07:29 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2013-10-15 17:07:29 - OUT:          529408.0
+2013-10-15 17:07:29 - OUT:          155354.0
+2013-10-15 17:07:29 - OUT:       Now Parsing Feature with ID : 2
+2013-10-15 17:07:29 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:07:29 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2013-10-15 17:07:29 - OUT:          543522.0
+2013-10-15 17:07:29 - OUT:          140347.0
+2013-10-15 17:07:29 - OUT:       Now Parsing Feature with ID : 3
+2013-10-15 17:07:29 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:07:29 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2013-10-15 17:07:29 - OUT:          543471.0
+2013-10-15 17:07:29 - OUT:          140446.0
+2013-10-15 17:07:29 - OUT:       Now Parsing Feature with ID : 4
+2013-10-15 17:07:29 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:07:29 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2013-10-15 17:07:29 - OUT:          543465.0
+2013-10-15 17:07:29 - OUT:          153566.0
+2013-10-15 17:07:29 - OUT:       Now Parsing Feature with ID : 5
+2013-10-15 17:07:29 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:07:29 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2013-10-15 17:07:29 - OUT:          543454.0
+2013-10-15 17:07:29 - OUT:          140379.0
+2013-10-15 17:07:29 - OUT:    Exiting Shapefile Parser.
+2013-10-15 17:07:29 - OUT:    Reference System is : British National Grid
+2013-10-15 17:07:30 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2013-10-15 17:07:34 - OUT:    Detected click on Detect CRS Button 308647186
+2013-10-15 17:07:34 - OUT: Detecting Coordinate Reference System. Please wait...
+2013-10-15 17:07:34 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2013-10-15 17:07:39 - OUT:    Detected click on myKML_Button 1331998104
+2013-10-15 17:07:39 - OUT: Starting KML export...
+2013-10-15 17:07:39 - OUT:    Created the KML document in memory.
+2013-10-15 17:07:39 - OUT:    Created the KML styles.
+2013-10-15 17:07:40 - OUT:        From : 529408.0 155354.0 To : -0.14585524539516262 51.2826356100346
+2013-10-15 17:07:40 - OUT:        From : 543522.0 140347.0 To : 0.05038728479539054 51.144402809990765
+2013-10-15 17:07:40 - OUT:        From : 543471.0 140446.0 To : 0.04969810927334914 51.14530522233094
+2013-10-15 17:07:40 - OUT:        From : 543465.0 153566.0 To : 0.05485309408196138 51.263204991658746
+2013-10-15 17:07:40 - OUT:        From : 543454.0 140379.0 To : 0.049428572043433185 51.1447074000427
+2013-10-15 17:07:40 - OUT:    Preparing to export...
+2013-10-15 17:07:40 - OUT: KML exported successfully at : Point_Export.kml
+2013-10-15 17:07:45 - OUT: Exiting...
+2013-10-15 17:08:06 - OUT: Using EPSG file : EPSG_v8_2.csv
+2013-10-15 17:08:06 - OUT:       Populating combo boxes with 4534 items.
+2013-10-15 17:08:06 - OUT: Initialising UI...
+2013-10-15 17:08:08 - OUT:    Detected click on Browse Button 1094363092
+2013-10-15 17:08:08 - OUT: Browsing for file...
+2013-10-15 17:08:12 - OUT:       Feature Source Hashcode = 1382896687
+2013-10-15 17:08:12 - OUT:    Geometry Type : the_geom
+2013-10-15 17:08:12 - OUT:       Waiting for user input...
+2013-10-15 17:08:13 - OUT:       Size of the Feature Collection : 5
+2013-10-15 17:08:13 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2013-10-15 17:08:13 - OUT:       Now Parsing Feature with ID : 1
+2013-10-15 17:08:13 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:08:13 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2013-10-15 17:08:13 - OUT:          529408.0
+2013-10-15 17:08:13 - OUT:          155354.0
+2013-10-15 17:08:13 - OUT:       Now Parsing Feature with ID : 2
+2013-10-15 17:08:13 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:08:13 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2013-10-15 17:08:13 - OUT:          543522.0
+2013-10-15 17:08:13 - OUT:          140347.0
+2013-10-15 17:08:13 - OUT:       Now Parsing Feature with ID : 3
+2013-10-15 17:08:13 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:08:13 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2013-10-15 17:08:13 - OUT:          543471.0
+2013-10-15 17:08:13 - OUT:          140446.0
+2013-10-15 17:08:13 - OUT:       Now Parsing Feature with ID : 4
+2013-10-15 17:08:13 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:08:13 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2013-10-15 17:08:13 - OUT:          543465.0
+2013-10-15 17:08:13 - OUT:          153566.0
+2013-10-15 17:08:13 - OUT:       Now Parsing Feature with ID : 5
+2013-10-15 17:08:13 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:08:13 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2013-10-15 17:08:13 - OUT:          543454.0
+2013-10-15 17:08:13 - OUT:          140379.0
+2013-10-15 17:08:13 - OUT:    Exiting Shapefile Parser.
+2013-10-15 17:08:13 - OUT:    Reference System is : British National Grid
+2013-10-15 17:08:13 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2013-10-15 17:08:16 - OUT:    Detected click on myKML_Button 808963300
+2013-10-15 17:08:16 - OUT: Starting KML export...
+2013-10-15 17:08:16 - OUT:    Created the KML document in memory.
+2013-10-15 17:08:16 - OUT:    Created the KML styles.
+2013-10-15 17:08:17 - OUT:        From : 529408.0 155354.0 To : -0.14585524539516262 51.2826356100346
+2013-10-15 17:08:17 - OUT:        From : 543522.0 140347.0 To : 0.05038728479539054 51.144402809990765
+2013-10-15 17:08:17 - OUT:        From : 543471.0 140446.0 To : 0.04969810927334914 51.14530522233094
+2013-10-15 17:08:17 - OUT:        From : 543465.0 153566.0 To : 0.05485309408196138 51.263204991658746
+2013-10-15 17:08:17 - OUT:        From : 543454.0 140379.0 To : 0.049428572043433185 51.1447074000427
+2013-10-15 17:08:17 - OUT:    Preparing to export...
+2013-10-15 17:08:17 - OUT: KML exported successfully at : Point_Export.kml
+2013-10-15 17:08:22 - OUT: Exiting...
+2013-10-15 17:09:16 - OUT: Using EPSG file : EPSG_v8_2.csv
+2013-10-15 17:09:16 - OUT:       Populating combo boxes with 4534 items.
+2013-10-15 17:09:16 - OUT: Initialising UI...
+2013-10-15 17:09:17 - OUT:    Detected click on Browse Button 1439064209
+2013-10-15 17:09:17 - OUT: Browsing for file...
+2013-10-15 17:09:21 - OUT:       Feature Source Hashcode = 664419852
+2013-10-15 17:09:21 - OUT:    Geometry Type : the_geom
+2013-10-15 17:09:21 - OUT:       Waiting for user input...
+2013-10-15 17:09:22 - OUT:       Size of the Feature Collection : 5
+2013-10-15 17:09:22 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2013-10-15 17:09:22 - OUT:       Now Parsing Feature with ID : 1
+2013-10-15 17:09:22 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:09:22 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2013-10-15 17:09:22 - OUT:          529408.0
+2013-10-15 17:09:22 - OUT:          155354.0
+2013-10-15 17:09:22 - OUT:       Now Parsing Feature with ID : 2
+2013-10-15 17:09:22 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:09:22 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2013-10-15 17:09:22 - OUT:          543522.0
+2013-10-15 17:09:22 - OUT:          140347.0
+2013-10-15 17:09:22 - OUT:       Now Parsing Feature with ID : 3
+2013-10-15 17:09:22 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:09:22 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2013-10-15 17:09:22 - OUT:          543471.0
+2013-10-15 17:09:22 - OUT:          140446.0
+2013-10-15 17:09:22 - OUT:       Now Parsing Feature with ID : 4
+2013-10-15 17:09:22 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:09:22 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2013-10-15 17:09:22 - OUT:          543465.0
+2013-10-15 17:09:22 - OUT:          153566.0
+2013-10-15 17:09:22 - OUT:       Now Parsing Feature with ID : 5
+2013-10-15 17:09:22 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:09:22 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2013-10-15 17:09:22 - OUT:          543454.0
+2013-10-15 17:09:22 - OUT:          140379.0
+2013-10-15 17:09:22 - OUT:    Exiting Shapefile Parser.
+2013-10-15 17:09:22 - OUT:    Reference System is : British National Grid
+2013-10-15 17:09:22 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2013-10-15 17:09:25 - OUT:    Detected click on myKML_Button 457854930
+2013-10-15 17:09:25 - OUT: Starting KML export...
+2013-10-15 17:09:25 - OUT:    Created the KML document in memory.
+2013-10-15 17:09:25 - OUT:    Created the KML styles.
+2013-10-15 17:09:25 - OUT:        From : 529408.0 155354.0 To : -0.14585524539516262 51.2826356100346
+2013-10-15 17:09:25 - OUT:        From : 543522.0 140347.0 To : 0.05038728479539054 51.144402809990765
+2013-10-15 17:09:25 - OUT:        From : 543471.0 140446.0 To : 0.04969810927334914 51.14530522233094
+2013-10-15 17:09:25 - OUT:        From : 543465.0 153566.0 To : 0.05485309408196138 51.263204991658746
+2013-10-15 17:09:25 - OUT:        From : 543454.0 140379.0 To : 0.049428572043433185 51.1447074000427
+2013-10-15 17:09:25 - OUT:    Preparing to export...
+2013-10-15 17:09:26 - OUT: KML exported successfully at : Point_Export.kml
+2013-10-15 17:09:31 - OUT: Exiting...
+2013-10-15 17:09:51 - OUT: Using EPSG file : EPSG_v8_2.csv
+2013-10-15 17:09:52 - OUT:       Populating combo boxes with 4534 items.
+2013-10-15 17:09:52 - OUT: Initialising UI...
+2013-10-15 17:09:53 - OUT:    Detected click on Browse Button 593815632
+2013-10-15 17:09:53 - OUT: Browsing for file...
+2013-10-15 17:09:57 - OUT:       Feature Source Hashcode = 1524005538
+2013-10-15 17:09:57 - OUT:    Geometry Type : the_geom
+2013-10-15 17:09:57 - OUT:       Waiting for user input...
+2013-10-15 17:09:58 - OUT:       Size of the Feature Collection : 5
+2013-10-15 17:09:58 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2013-10-15 17:09:58 - OUT:       Now Parsing Feature with ID : 1
+2013-10-15 17:09:58 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:09:58 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2013-10-15 17:09:58 - OUT:          529408.0
+2013-10-15 17:09:58 - OUT:          155354.0
+2013-10-15 17:09:58 - OUT:       Now Parsing Feature with ID : 2
+2013-10-15 17:09:58 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:09:58 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2013-10-15 17:09:58 - OUT:          543522.0
+2013-10-15 17:09:58 - OUT:          140347.0
+2013-10-15 17:09:58 - OUT:       Now Parsing Feature with ID : 3
+2013-10-15 17:09:58 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:09:58 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2013-10-15 17:09:58 - OUT:          543471.0
+2013-10-15 17:09:58 - OUT:          140446.0
+2013-10-15 17:09:58 - OUT:       Now Parsing Feature with ID : 4
+2013-10-15 17:09:58 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:09:58 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2013-10-15 17:09:58 - OUT:          543465.0
+2013-10-15 17:09:58 - OUT:          153566.0
+2013-10-15 17:09:58 - OUT:       Now Parsing Feature with ID : 5
+2013-10-15 17:09:58 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:09:58 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2013-10-15 17:09:58 - OUT:          543454.0
+2013-10-15 17:09:58 - OUT:          140379.0
+2013-10-15 17:09:58 - OUT:    Exiting Shapefile Parser.
+2013-10-15 17:09:58 - OUT:    Reference System is : British National Grid
+2013-10-15 17:09:58 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2013-10-15 17:10:00 - OUT:    Detected click on myKML_Button 1995237286
+2013-10-15 17:10:00 - OUT: Starting KML export...
+2013-10-15 17:10:00 - OUT:    Created the KML document in memory.
+2013-10-15 17:10:00 - OUT:    Created the KML styles.
+2013-10-15 17:10:01 - OUT:        From : 529408.0 155354.0 To : -0.14585524539516262 51.2826356100346
+2013-10-15 17:10:01 - OUT:        From : 543522.0 140347.0 To : 0.05038728479539054 51.144402809990765
+2013-10-15 17:10:01 - OUT:        From : 543471.0 140446.0 To : 0.04969810927334914 51.14530522233094
+2013-10-15 17:10:01 - OUT:        From : 543465.0 153566.0 To : 0.05485309408196138 51.263204991658746
+2013-10-15 17:10:01 - OUT:        From : 543454.0 140379.0 To : 0.049428572043433185 51.1447074000427
+2013-10-15 17:10:01 - OUT:    Preparing to export...
+2013-10-15 17:10:02 - OUT: KML exported successfully at : Point_Export.kml
+2013-10-15 17:10:09 - OUT: Exiting...
+2013-10-15 17:10:23 - OUT: Using EPSG file : EPSG_v8_2.csv
+2013-10-15 17:10:23 - OUT:       Populating combo boxes with 4534 items.
+2013-10-15 17:10:23 - OUT: Initialising UI...
+2013-10-15 17:10:24 - OUT:    Detected click on Browse Button 1766236951
+2013-10-15 17:10:24 - OUT: Browsing for file...
+2013-10-15 17:10:28 - OUT:       Feature Source Hashcode = 1133115053
+2013-10-15 17:10:28 - OUT:    Geometry Type : the_geom
+2013-10-15 17:10:28 - OUT:       Waiting for user input...
+2013-10-15 17:10:29 - OUT:       Size of the Feature Collection : 5
+2013-10-15 17:10:29 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2013-10-15 17:10:29 - OUT:       Now Parsing Feature with ID : 1
+2013-10-15 17:10:29 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:10:29 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2013-10-15 17:10:29 - OUT:          529408.0
+2013-10-15 17:10:29 - OUT:          155354.0
+2013-10-15 17:10:29 - OUT:       Now Parsing Feature with ID : 2
+2013-10-15 17:10:29 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:10:29 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2013-10-15 17:10:29 - OUT:          543522.0
+2013-10-15 17:10:29 - OUT:          140347.0
+2013-10-15 17:10:29 - OUT:       Now Parsing Feature with ID : 3
+2013-10-15 17:10:29 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:10:29 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2013-10-15 17:10:29 - OUT:          543471.0
+2013-10-15 17:10:29 - OUT:          140446.0
+2013-10-15 17:10:29 - OUT:       Now Parsing Feature with ID : 4
+2013-10-15 17:10:29 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:10:29 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2013-10-15 17:10:29 - OUT:          543465.0
+2013-10-15 17:10:29 - OUT:          153566.0
+2013-10-15 17:10:29 - OUT:       Now Parsing Feature with ID : 5
+2013-10-15 17:10:29 - OUT:          GEOMETRY TYPE Point
+2013-10-15 17:10:29 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2013-10-15 17:10:29 - OUT:          543454.0
+2013-10-15 17:10:29 - OUT:          140379.0
+2013-10-15 17:10:29 - OUT:    Exiting Shapefile Parser.
+2013-10-15 17:10:29 - OUT:    Reference System is : British National Grid
+2013-10-15 17:10:29 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2013-10-15 17:10:31 - OUT:    Detected click on myKML_Button 1273614469
+2013-10-15 17:10:31 - OUT: Starting KML export...
+2013-10-15 17:10:31 - OUT:    Created the KML document in memory.
+2013-10-15 17:10:31 - OUT:    Created the KML styles.
+2013-10-15 17:10:32 - OUT:        From : 529408.0 155354.0 To : -0.14585524539516262 51.2826356100346
+2013-10-15 17:10:32 - OUT:        From : 543522.0 140347.0 To : 0.05038728479539054 51.144402809990765
+2013-10-15 17:10:32 - OUT:        From : 543471.0 140446.0 To : 0.04969810927334914 51.14530522233094
+2013-10-15 17:10:32 - OUT:        From : 543465.0 153566.0 To : 0.05485309408196138 51.263204991658746
+2013-10-15 17:10:32 - OUT:        From : 543454.0 140379.0 To : 0.049428572043433185 51.1447074000427
+2013-10-15 17:10:32 - OUT:    Preparing to export...
+2013-10-15 17:10:32 - OUT: KML exported successfully at : Point_Export.kml
+2013-10-15 17:35:42 - OUT: Exiting...
+2013-10-16 14:56:26 - OUT: Using EPSG file : EPSG_v8_2.csv
+2013-10-16 14:56:26 - OUT:       Populating combo boxes with 4534 items.
+2013-10-16 14:56:26 - OUT: Initialising UI...
+2013-10-16 14:56:28 - OUT:    Detected click on Browse Button 597984090
+2013-10-16 14:56:28 - OUT: Browsing for file...
+2013-10-16 14:56:33 - OUT:       Feature Source Hashcode = 769951612
+2013-10-16 14:56:33 - OUT:    Geometry Type : the_geom
+2013-10-16 14:56:33 - OUT:       Waiting for user input...
+2013-10-16 14:56:34 - OUT:       Size of the Feature Collection : 5
+2013-10-16 14:56:34 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2013-10-16 14:56:34 - OUT:       Now Parsing Feature with ID : 1
+2013-10-16 14:56:34 - OUT:          GEOMETRY TYPE Point
+2013-10-16 14:56:34 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2013-10-16 14:56:34 - OUT:          529408.0
+2013-10-16 14:56:34 - OUT:          155354.0
+2013-10-16 14:56:34 - OUT:       Now Parsing Feature with ID : 2
+2013-10-16 14:56:34 - OUT:          GEOMETRY TYPE Point
+2013-10-16 14:56:34 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2013-10-16 14:56:34 - OUT:          543522.0
+2013-10-16 14:56:34 - OUT:          140347.0
+2013-10-16 14:56:34 - OUT:       Now Parsing Feature with ID : 3
+2013-10-16 14:56:34 - OUT:          GEOMETRY TYPE Point
+2013-10-16 14:56:34 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2013-10-16 14:56:34 - OUT:          543471.0
+2013-10-16 14:56:34 - OUT:          140446.0
+2013-10-16 14:56:34 - OUT:       Now Parsing Feature with ID : 4
+2013-10-16 14:56:34 - OUT:          GEOMETRY TYPE Point
+2013-10-16 14:56:34 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2013-10-16 14:56:34 - OUT:          543465.0
+2013-10-16 14:56:34 - OUT:          153566.0
+2013-10-16 14:56:34 - OUT:       Now Parsing Feature with ID : 5
+2013-10-16 14:56:34 - OUT:          GEOMETRY TYPE Point
+2013-10-16 14:56:34 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2013-10-16 14:56:34 - OUT:          543454.0
+2013-10-16 14:56:34 - OUT:          140379.0
+2013-10-16 14:56:34 - OUT:    Exiting Shapefile Parser.
+2013-10-16 14:56:34 - OUT:    Reference System is : British National Grid
+2013-10-16 14:56:34 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2013-10-16 14:56:37 - OUT:    Detected click on myKML_Button 792789900
+2013-10-16 14:56:37 - OUT: Starting KML export...
+2013-10-16 14:56:37 - OUT:    Created the KML document in memory.
+2013-10-16 14:56:37 - OUT:    Created the KML styles.
+2013-10-16 14:56:37 - OUT:        From : 529408.0 155354.0 To : -0.14585524539516262 51.2826356100346
+2013-10-16 14:56:37 - OUT:        From : 543522.0 140347.0 To : 0.05038728479539054 51.144402809990765
+2013-10-16 14:56:37 - OUT:        From : 543471.0 140446.0 To : 0.04969810927334914 51.14530522233094
+2013-10-16 14:56:37 - OUT:        From : 543465.0 153566.0 To : 0.05485309408196138 51.263204991658746
+2013-10-16 14:56:37 - OUT:        From : 543454.0 140379.0 To : 0.049428572043433185 51.1447074000427
+2013-10-16 14:56:37 - OUT:    Preparing to export...
+2013-10-16 14:56:38 - OUT: KML exported successfully at : Point_Export.kml
+2013-10-16 14:56:47 - OUT: Exiting...
+2013-10-16 15:04:27 - OUT: Using EPSG file : EPSG_v8_2.csv
+2013-10-16 15:04:27 - OUT:       Populating combo boxes with 4534 items.
+2013-10-16 15:04:28 - OUT: Initialising UI...
+2013-10-16 15:04:30 - OUT:    Detected click on Browse Button 597984090
+2013-10-16 15:04:30 - OUT: Browsing for file...
+2013-10-16 15:04:34 - OUT:       Feature Source Hashcode = 1966975432
+2013-10-16 15:04:34 - OUT:    Geometry Type : the_geom
+2013-10-16 15:04:34 - OUT:       Waiting for user input...
+2013-10-16 15:04:35 - OUT:       Size of the Feature Collection : 5
+2013-10-16 15:04:35 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2013-10-16 15:04:35 - OUT:       Now Parsing Feature with ID : 1
+2013-10-16 15:04:35 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:04:35 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2013-10-16 15:04:35 - OUT:          529408.0
+2013-10-16 15:04:35 - OUT:          155354.0
+2013-10-16 15:04:35 - OUT:       Now Parsing Feature with ID : 2
+2013-10-16 15:04:35 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:04:35 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2013-10-16 15:04:35 - OUT:          543522.0
+2013-10-16 15:04:35 - OUT:          140347.0
+2013-10-16 15:04:35 - OUT:       Now Parsing Feature with ID : 3
+2013-10-16 15:04:35 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:04:35 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2013-10-16 15:04:35 - OUT:          543471.0
+2013-10-16 15:04:35 - OUT:          140446.0
+2013-10-16 15:04:35 - OUT:       Now Parsing Feature with ID : 4
+2013-10-16 15:04:35 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:04:35 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2013-10-16 15:04:35 - OUT:          543465.0
+2013-10-16 15:04:35 - OUT:          153566.0
+2013-10-16 15:04:35 - OUT:       Now Parsing Feature with ID : 5
+2013-10-16 15:04:35 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:04:35 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2013-10-16 15:04:35 - OUT:          543454.0
+2013-10-16 15:04:35 - OUT:          140379.0
+2013-10-16 15:04:35 - OUT:    Exiting Shapefile Parser.
+2013-10-16 15:04:35 - OUT:    Reference System is : British National Grid
+2013-10-16 15:04:35 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2013-10-16 15:04:49 - OUT: Using EPSG file : EPSG_v8_2.csv
+2013-10-16 15:04:49 - OUT:       Populating combo boxes with 4534 items.
+2013-10-16 15:04:49 - OUT: Initialising UI...
+2013-10-16 15:04:50 - OUT:    Detected click on Browse Button 1166951322
+2013-10-16 15:04:50 - OUT: Browsing for file...
+2013-10-16 15:04:55 - OUT:       Feature Source Hashcode = 291033969
+2013-10-16 15:04:55 - OUT:    Geometry Type : the_geom
+2013-10-16 15:04:55 - OUT:       Waiting for user input...
+2013-10-16 15:04:55 - OUT:       Size of the Feature Collection : 5
+2013-10-16 15:04:55 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2013-10-16 15:04:55 - OUT:       Now Parsing Feature with ID : 1
+2013-10-16 15:04:55 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:04:55 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2013-10-16 15:04:56 - OUT:          529408.0
+2013-10-16 15:04:56 - OUT:          155354.0
+2013-10-16 15:04:56 - OUT:       Now Parsing Feature with ID : 2
+2013-10-16 15:04:56 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:04:56 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2013-10-16 15:04:56 - OUT:          543522.0
+2013-10-16 15:04:56 - OUT:          140347.0
+2013-10-16 15:04:56 - OUT:       Now Parsing Feature with ID : 3
+2013-10-16 15:04:56 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:04:56 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2013-10-16 15:04:56 - OUT:          543471.0
+2013-10-16 15:04:56 - OUT:          140446.0
+2013-10-16 15:04:56 - OUT:       Now Parsing Feature with ID : 4
+2013-10-16 15:04:56 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:04:56 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2013-10-16 15:04:56 - OUT:          543465.0
+2013-10-16 15:04:56 - OUT:          153566.0
+2013-10-16 15:04:56 - OUT:       Now Parsing Feature with ID : 5
+2013-10-16 15:04:56 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:04:56 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2013-10-16 15:04:56 - OUT:          543454.0
+2013-10-16 15:04:56 - OUT:          140379.0
+2013-10-16 15:04:56 - OUT:    Exiting Shapefile Parser.
+2013-10-16 15:04:56 - OUT:    Reference System is : British National Grid
+2013-10-16 15:04:56 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2013-10-16 15:04:59 - OUT: Exiting...
+2013-10-16 15:12:24 - OUT: Using EPSG file : EPSG_v8_2.csv
+2013-10-16 15:12:24 - OUT:       Populating combo boxes with 4534 items.
+2013-10-16 15:12:24 - OUT: Initialising UI...
+2013-10-16 15:12:25 - OUT:    Detected click on Browse Button 1166951322
+2013-10-16 15:12:25 - OUT: Browsing for file...
+2013-10-16 15:12:32 - OUT:       Feature Source Hashcode = 1372738487
+2013-10-16 15:12:32 - OUT:    Geometry Type : the_geom
+2013-10-16 15:12:32 - OUT:       Waiting for user input...
+2013-10-16 15:12:32 - OUT:       Size of the Feature Collection : 5
+2013-10-16 15:12:32 - OUT:        Feature Class BoundariesReferencedEnvelope[-0.7378966190735732 : -0.7363975586399001, 51.52079427141697 : 51.521805542344445]
+2013-10-16 15:12:32 - OUT:       Now Parsing Feature with ID : 1
+2013-10-16 15:12:32 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:12:32 - OUT:          GEOMETRY VALUE POINT (-0.7374207268724071 51.52079427141697)
+2013-10-16 15:12:32 - OUT:          -0.7374207268724071
+2013-10-16 15:12:32 - OUT:          51.52079427141697
+2013-10-16 15:12:32 - OUT:       Now Parsing Feature with ID : 2
+2013-10-16 15:12:32 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:12:32 - OUT:          GEOMETRY VALUE POINT (-0.7378966190735732 51.52136534205837)
+2013-10-16 15:12:32 - OUT:          -0.7378966190735732
+2013-10-16 15:12:32 - OUT:          51.52136534205837
+2013-10-16 15:12:32 - OUT:       Now Parsing Feature with ID : 3
+2013-10-16 15:12:33 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:12:33 - OUT:          GEOMETRY VALUE POINT (-0.7370638077215326 51.521805542344445)
+2013-10-16 15:12:33 - OUT:          -0.7370638077215326
+2013-10-16 15:12:33 - OUT:          51.521805542344445
+2013-10-16 15:12:33 - OUT:       Now Parsing Feature with ID : 4
+2013-10-16 15:12:33 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:12:33 - OUT:          GEOMETRY VALUE POINT (-0.7364808397751041 51.52155569893883)
+2013-10-16 15:12:33 - OUT:          -0.7364808397751041
+2013-10-16 15:12:33 - OUT:          51.52155569893883
+2013-10-16 15:12:33 - OUT:       Now Parsing Feature with ID : 5
+2013-10-16 15:12:33 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:12:33 - OUT:          GEOMETRY VALUE POINT (-0.7363975586399001 51.52100842290749)
+2013-10-16 15:12:33 - OUT:          -0.7363975586399001
+2013-10-16 15:12:33 - OUT:          51.52100842290749
+2013-10-16 15:12:33 - OUT:    Exiting Shapefile Parser.
+2013-10-16 15:12:33 - OUT:    Reference System is : GCS WGS 1984
+2013-10-16 15:12:33 - OUT:    Selected WGS 84 (EPSG: 4326 , geographic 2D)
+2013-10-16 15:12:53 - OUT: Using EPSG file : EPSG_v8_2.csv
+2013-10-16 15:12:53 - OUT:       Populating combo boxes with 4534 items.
+2013-10-16 15:12:53 - OUT: Initialising UI...
+2013-10-16 15:12:54 - OUT:    Detected click on Browse Button 95132670
+2013-10-16 15:12:54 - OUT: Browsing for file...
+2013-10-16 15:13:00 - OUT:       Feature Source Hashcode = 2114094444
+2013-10-16 15:13:00 - OUT:    Geometry Type : the_geom
+2013-10-16 15:13:00 - OUT:       Waiting for user input...
+2013-10-16 15:13:01 - OUT:       Size of the Feature Collection : 5
+2013-10-16 15:13:01 - OUT:        Feature Class BoundariesReferencedEnvelope[-0.7378966190735732 : -0.7363975586399001, 51.52079427141697 : 51.521805542344445]
+2013-10-16 15:13:01 - OUT:       Now Parsing Feature with ID : 1
+2013-10-16 15:13:01 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:13:01 - OUT:          GEOMETRY VALUE POINT (-0.7374207268724071 51.52079427141697)
+2013-10-16 15:13:01 - OUT:          -0.7374207268724071
+2013-10-16 15:13:01 - OUT:          51.52079427141697
+2013-10-16 15:13:01 - OUT:       Now Parsing Feature with ID : 2
+2013-10-16 15:13:01 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:13:01 - OUT:          GEOMETRY VALUE POINT (-0.7378966190735732 51.52136534205837)
+2013-10-16 15:13:01 - OUT:          -0.7378966190735732
+2013-10-16 15:13:01 - OUT:          51.52136534205837
+2013-10-16 15:13:01 - OUT:       Now Parsing Feature with ID : 3
+2013-10-16 15:13:01 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:13:01 - OUT:          GEOMETRY VALUE POINT (-0.7370638077215326 51.521805542344445)
+2013-10-16 15:13:01 - OUT:          -0.7370638077215326
+2013-10-16 15:13:01 - OUT:          51.521805542344445
+2013-10-16 15:13:01 - OUT:       Now Parsing Feature with ID : 4
+2013-10-16 15:13:01 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:13:01 - OUT:          GEOMETRY VALUE POINT (-0.7364808397751041 51.52155569893883)
+2013-10-16 15:13:01 - OUT:          -0.7364808397751041
+2013-10-16 15:13:01 - OUT:          51.52155569893883
+2013-10-16 15:13:01 - OUT:       Now Parsing Feature with ID : 5
+2013-10-16 15:13:01 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:13:01 - OUT:          GEOMETRY VALUE POINT (-0.7363975586399001 51.52100842290749)
+2013-10-16 15:13:01 - OUT:          -0.7363975586399001
+2013-10-16 15:13:01 - OUT:          51.52100842290749
+2013-10-16 15:13:01 - OUT:    Exiting Shapefile Parser.
+2013-10-16 15:13:01 - OUT:    Reference System is : GCS WGS 1984
+2013-10-16 15:13:02 - OUT:    Selected WGS 84 (EPSG: 4326 , geographic 2D)
+2013-10-16 15:13:05 - OUT: Exiting...
+2013-10-16 15:16:58 - OUT: Using EPSG file : EPSG_v8_2.csv
+2013-10-16 15:16:58 - OUT:       Populating combo boxes with 4534 items.
+2013-10-16 15:16:58 - OUT: Initialising UI...
+2013-10-16 15:16:59 - OUT:    Detected click on Browse Button 95132670
+2013-10-16 15:16:59 - OUT: Browsing for file...
+2013-10-16 15:17:06 - OUT:       Feature Source Hashcode = 2094028387
+2013-10-16 15:17:06 - OUT:    Geometry Type : the_geom
+2013-10-16 15:17:06 - OUT:       Waiting for user input...
+2013-10-16 15:17:07 - OUT:       Size of the Feature Collection : 4
+2013-10-16 15:17:07 - OUT:        Feature Class BoundariesReferencedEnvelope[543337.6609838356 : 543652.1850503837, 140299.78029960464 : 140481.35097524602]
+2013-10-16 15:17:07 - OUT:       Now Parsing Feature with ID : 1
+2013-10-16 15:17:07 - OUT:          GEOMETRY TYPE MultiLineString
+2013-10-16 15:17:07 - OUT:          GEOMETRY VALUE MULTILINESTRING ((543520.5545787894 140343.1059070892, 543432.2497146797 140386.10078474562, 543377.6792930388 140436.37171862082, 543361.8042612887 140470.10616108973, 543361.8042612887 140481.35097524602))
+2013-10-16 15:17:07 - OUT:          543520.5545787894
+2013-10-16 15:17:07 - OUT:          140343.1059070892
+2013-10-16 15:17:07 - OUT:          543432.2497146797
+2013-10-16 15:17:07 - OUT:          140386.10078474562
+2013-10-16 15:17:07 - OUT:          543377.6792930388
+2013-10-16 15:17:07 - OUT:          140436.37171862082
+2013-10-16 15:17:07 - OUT:          543361.8042612887
+2013-10-16 15:17:07 - OUT:          140470.10616108973
+2013-10-16 15:17:07 - OUT:          543361.8042612887
+2013-10-16 15:17:07 - OUT:          140481.35097524602
+2013-10-16 15:17:07 - OUT:       Now Parsing Feature with ID : 2
+2013-10-16 15:17:07 - OUT:          GEOMETRY TYPE MultiLineString
+2013-10-16 15:17:07 - OUT:          GEOMETRY VALUE MULTILINESTRING ((543502.3644382425 140299.78029960464, 543403.4762196327 140353.02780193297, 543345.2677698825 140411.89771133946, 543337.6609838356 140459.52280658967))
+2013-10-16 15:17:07 - OUT:          543502.3644382425
+2013-10-16 15:17:07 - OUT:          140299.78029960464
+2013-10-16 15:17:07 - OUT:          543403.4762196327
+2013-10-16 15:17:07 - OUT:          140353.02780193297
+2013-10-16 15:17:07 - OUT:          543345.2677698825
+2013-10-16 15:17:07 - OUT:          140411.89771133946
+2013-10-16 15:17:07 - OUT:          543337.6609838356
+2013-10-16 15:17:07 - OUT:          140459.52280658967
+2013-10-16 15:17:07 - OUT:       Now Parsing Feature with ID : 3
+2013-10-16 15:17:07 - OUT:          GEOMETRY TYPE MultiLineString
+2013-10-16 15:17:07 - OUT:          GEOMETRY VALUE MULTILINESTRING ((543570.8255126646 140416.52792893324, 543582.020202953 140433.7345825247, 543652.1850503837 140388.08516371436, 543640.9903600953 140370.87851012292, 543570.8255126646 140416.52792893324))
+2013-10-16 15:17:07 - OUT:          543570.8255126646
+2013-10-16 15:17:07 - OUT:          140416.52792893324
+2013-10-16 15:17:07 - OUT:          543582.020202953
+2013-10-16 15:17:07 - OUT:          140433.7345825247
+2013-10-16 15:17:07 - OUT:          543652.1850503837
+2013-10-16 15:17:07 - OUT:          140388.08516371436
+2013-10-16 15:17:07 - OUT:          543640.9903600953
+2013-10-16 15:17:07 - OUT:          140370.87851012292
+2013-10-16 15:17:07 - OUT:          543570.8255126646
+2013-10-16 15:17:07 - OUT:          140416.52792893324
+2013-10-16 15:17:07 - OUT:       Now Parsing Feature with ID : 4
+2013-10-16 15:17:07 - OUT:          GEOMETRY TYPE MultiLineString
+2013-10-16 15:17:07 - OUT:          GEOMETRY VALUE MULTILINESTRING ((543573.4713512897 140348.73348055984, 543575.3100286468 140348.5726171352, 543577.092838723 140348.09491461507, 543578.7656117359 140347.31488774874, 543580.2775213243 140346.25623725788, 543581.5826288803 140344.95112970192, 543582.6412793711 140343.43922011356, 543583.4213062375 140341.76644710056, 543583.8990087576 140339.98363702447, 543584.0598721822 140338.1449596673, 543583.8990087576 140336.3062823101, 543583.4213062375 140334.52347223402, 543582.6412793711 140332.85069922102, 543581.5826288803 140331.33878963266, 543580.2775213243 140330.0336820767, 543578.7656117359 140328.97503158584, 543577.092838723 140328.1950047195, 543575.3100286468 140327.71730219937, 543573.4713512897 140327.55643877474, 543571.6326739325 140327.71730219937, 543569.8498638563 140328.1950047195, 543568.1770908434 140328.97503158584, 543566.665181255 140330.0336820767, 543565.360073699 140331.33878963266, 543564.3014232082 140332.85069922102, 543563.5213963419 140334.52347223402, 543563.0436938218 140336.3062823101, 543562.8828303971 140338.1449596673, 543563.0436938218 140339.98363702447, 543563.5213963419 140341.76644710056, 543564.3014232082 140343.43922011356, 543565.360073699 140344.95112970192, 543566.665181255 140346.25623725788, 543568.1770908433 140347.31488774874, 543569.8498638563 140348.09491461507, 543571.6326739325 140348.5726171352, 543573.4713512897 140348.73348055984))
+2013-10-16 15:17:07 - OUT:          543573.4713512897
+2013-10-16 15:17:07 - OUT:          140348.73348055984
+2013-10-16 15:17:07 - OUT:          543575.3100286468
+2013-10-16 15:17:07 - OUT:          140348.5726171352
+2013-10-16 15:17:07 - OUT:          543577.092838723
+2013-10-16 15:17:07 - OUT:          140348.09491461507
+2013-10-16 15:17:07 - OUT:          543578.7656117359
+2013-10-16 15:17:07 - OUT:          140347.31488774874
+2013-10-16 15:17:07 - OUT:          543580.2775213243
+2013-10-16 15:17:07 - OUT:          140346.25623725788
+2013-10-16 15:17:07 - OUT:          543581.5826288803
+2013-10-16 15:17:07 - OUT:          140344.95112970192
+2013-10-16 15:17:07 - OUT:          543582.6412793711
+2013-10-16 15:17:07 - OUT:          140343.43922011356
+2013-10-16 15:17:07 - OUT:          543583.4213062375
+2013-10-16 15:17:07 - OUT:          140341.76644710056
+2013-10-16 15:17:07 - OUT:          543583.8990087576
+2013-10-16 15:17:07 - OUT:          140339.98363702447
+2013-10-16 15:17:07 - OUT:          543584.0598721822
+2013-10-16 15:17:07 - OUT:          140338.1449596673
+2013-10-16 15:17:07 - OUT:          543583.8990087576
+2013-10-16 15:17:07 - OUT:          140336.3062823101
+2013-10-16 15:17:07 - OUT:          543583.4213062375
+2013-10-16 15:17:07 - OUT:          140334.52347223402
+2013-10-16 15:17:07 - OUT:          543582.6412793711
+2013-10-16 15:17:07 - OUT:          140332.85069922102
+2013-10-16 15:17:07 - OUT:          543581.5826288803
+2013-10-16 15:17:07 - OUT:          140331.33878963266
+2013-10-16 15:17:07 - OUT:          543580.2775213243
+2013-10-16 15:17:07 - OUT:          140330.0336820767
+2013-10-16 15:17:07 - OUT:          543578.7656117359
+2013-10-16 15:17:07 - OUT:          140328.97503158584
+2013-10-16 15:17:07 - OUT:          543577.092838723
+2013-10-16 15:17:07 - OUT:          140328.1950047195
+2013-10-16 15:17:07 - OUT:          543575.3100286468
+2013-10-16 15:17:07 - OUT:          140327.71730219937
+2013-10-16 15:17:07 - OUT:          543573.4713512897
+2013-10-16 15:17:07 - OUT:          140327.55643877474
+2013-10-16 15:17:07 - OUT:          543571.6326739325
+2013-10-16 15:17:07 - OUT:          140327.71730219937
+2013-10-16 15:17:07 - OUT:          543569.8498638563
+2013-10-16 15:17:07 - OUT:          140328.1950047195
+2013-10-16 15:17:07 - OUT:          543568.1770908434
+2013-10-16 15:17:07 - OUT:          140328.97503158584
+2013-10-16 15:17:07 - OUT:          543566.665181255
+2013-10-16 15:17:07 - OUT:          140330.0336820767
+2013-10-16 15:17:07 - OUT:          543565.360073699
+2013-10-16 15:17:07 - OUT:          140331.33878963266
+2013-10-16 15:17:07 - OUT:          543564.3014232082
+2013-10-16 15:17:07 - OUT:          140332.85069922102
+2013-10-16 15:17:07 - OUT:          543563.5213963419
+2013-10-16 15:17:07 - OUT:          140334.52347223402
+2013-10-16 15:17:07 - OUT:          543563.0436938218
+2013-10-16 15:17:07 - OUT:          140336.3062823101
+2013-10-16 15:17:07 - OUT:          543562.8828303971
+2013-10-16 15:17:07 - OUT:          140338.1449596673
+2013-10-16 15:17:07 - OUT:          543563.0436938218
+2013-10-16 15:17:07 - OUT:          140339.98363702447
+2013-10-16 15:17:07 - OUT:          543563.5213963419
+2013-10-16 15:17:07 - OUT:          140341.76644710056
+2013-10-16 15:17:07 - OUT:          543564.3014232082
+2013-10-16 15:17:07 - OUT:          140343.43922011356
+2013-10-16 15:17:07 - OUT:          543565.360073699
+2013-10-16 15:17:07 - OUT:          140344.95112970192
+2013-10-16 15:17:07 - OUT:          543566.665181255
+2013-10-16 15:17:07 - OUT:          140346.25623725788
+2013-10-16 15:17:07 - OUT:          543568.1770908433
+2013-10-16 15:17:07 - OUT:          140347.31488774874
+2013-10-16 15:17:07 - OUT:          543569.8498638563
+2013-10-16 15:17:07 - OUT:          140348.09491461507
+2013-10-16 15:17:07 - OUT:          543571.6326739325
+2013-10-16 15:17:07 - OUT:          140348.5726171352
+2013-10-16 15:17:07 - OUT:          543573.4713512897
+2013-10-16 15:17:07 - OUT:          140348.73348055984
+2013-10-16 15:17:07 - OUT:    Exiting Shapefile Parser.
+2013-10-16 15:17:07 - OUT:    Reference System is : British National Grid
+2013-10-16 15:17:07 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2013-10-16 15:19:49 - OUT: Using EPSG file : EPSG_v8_2.csv
+2013-10-16 15:19:49 - OUT:       Populating combo boxes with 4534 items.
+2013-10-16 15:19:49 - OUT: Initialising UI...
+2013-10-16 15:19:50 - OUT:    Detected click on Browse Button 597984090
+2013-10-16 15:19:50 - OUT: Browsing for file...
+2013-10-16 15:19:54 - OUT:       Feature Source Hashcode = 1262231424
+2013-10-16 15:19:54 - OUT:    Geometry Type : the_geom
+2013-10-16 15:19:54 - OUT:       Waiting for user input...
+2013-10-16 15:19:55 - OUT:       Size of the Feature Collection : 5
+2013-10-16 15:19:55 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2013-10-16 15:19:55 - OUT:       Now Parsing Feature with ID : 1
+2013-10-16 15:19:55 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:19:55 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2013-10-16 15:19:55 - OUT:          529408.0
+2013-10-16 15:19:55 - OUT:          155354.0
+2013-10-16 15:19:55 - OUT:       Now Parsing Feature with ID : 2
+2013-10-16 15:19:55 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:19:55 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2013-10-16 15:19:55 - OUT:          543522.0
+2013-10-16 15:19:55 - OUT:          140347.0
+2013-10-16 15:19:55 - OUT:       Now Parsing Feature with ID : 3
+2013-10-16 15:19:55 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:19:55 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2013-10-16 15:19:55 - OUT:          543471.0
+2013-10-16 15:19:55 - OUT:          140446.0
+2013-10-16 15:19:55 - OUT:       Now Parsing Feature with ID : 4
+2013-10-16 15:19:55 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:19:55 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2013-10-16 15:19:55 - OUT:          543465.0
+2013-10-16 15:19:55 - OUT:          153566.0
+2013-10-16 15:19:55 - OUT:       Now Parsing Feature with ID : 5
+2013-10-16 15:19:55 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:19:55 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2013-10-16 15:19:55 - OUT:          543454.0
+2013-10-16 15:19:55 - OUT:          140379.0
+2013-10-16 15:19:55 - OUT:    Exiting Shapefile Parser.
+2013-10-16 15:19:55 - OUT:    Reference System is : British National Grid
+2013-10-16 15:19:55 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2013-10-16 15:20:00 - OUT:    Detected click on myKML_Button 792789900
+2013-10-16 15:20:00 - OUT: Starting KML export...
+2013-10-16 15:20:00 - OUT:    Created the KML document in memory.
+2013-10-16 15:20:00 - OUT:    Created the KML styles.
+2013-10-16 15:20:00 - OUT:        From : 529408.0 155354.0 To : -0.14585524539516262 51.2826356100346
+2013-10-16 15:20:00 - OUT:        From : 543522.0 140347.0 To : 0.05038728479539054 51.144402809990765
+2013-10-16 15:20:00 - OUT:        From : 543471.0 140446.0 To : 0.04969810927334914 51.14530522233094
+2013-10-16 15:20:00 - OUT:        From : 543465.0 153566.0 To : 0.05485309408196138 51.263204991658746
+2013-10-16 15:20:00 - OUT:        From : 543454.0 140379.0 To : 0.049428572043433185 51.1447074000427
+2013-10-16 15:20:00 - OUT:    Preparing to export...
+2013-10-16 15:20:01 - OUT: KML exported successfully at : Point_Export.kml
+2013-10-16 15:20:58 - OUT: Exiting...
+2013-10-16 15:24:24 - OUT: Using EPSG file : EPSG_v8_2.csv
+2013-10-16 15:24:24 - OUT:       Populating combo boxes with 4534 items.
+2013-10-16 15:24:25 - OUT: Initialising UI...
+2013-10-16 15:24:25 - OUT:    Detected click on Browse Button 341189940
+2013-10-16 15:24:25 - OUT: Browsing for file...
+2013-10-16 15:24:40 - OUT:       Feature Source Hashcode = 1643777367
+2013-10-16 15:24:40 - OUT:    Geometry Type : the_geom
+2013-10-16 15:24:40 - OUT:       Waiting for user input...
+2013-10-16 15:24:42 - OUT:       Size of the Feature Collection : 4
+2013-10-16 15:24:42 - OUT:        Feature Class BoundariesReferencedEnvelope[543337.6609838356 : 543652.1850503837, 140299.78029960464 : 140481.35097524602]
+2013-10-16 15:24:42 - OUT:       Now Parsing Feature with ID : 1
+2013-10-16 15:24:42 - OUT:          GEOMETRY TYPE MultiLineString
+2013-10-16 15:24:42 - OUT:          GEOMETRY VALUE MULTILINESTRING ((543520.5545787894 140343.1059070892, 543432.2497146797 140386.10078474562, 543377.6792930388 140436.37171862082, 543361.8042612887 140470.10616108973, 543361.8042612887 140481.35097524602))
+2013-10-16 15:24:42 - OUT:          543520.5545787894
+2013-10-16 15:24:42 - OUT:          140343.1059070892
+2013-10-16 15:24:42 - OUT:          543432.2497146797
+2013-10-16 15:24:42 - OUT:          140386.10078474562
+2013-10-16 15:24:42 - OUT:          543377.6792930388
+2013-10-16 15:24:42 - OUT:          140436.37171862082
+2013-10-16 15:24:42 - OUT:          543361.8042612887
+2013-10-16 15:24:42 - OUT:          140470.10616108973
+2013-10-16 15:24:42 - OUT:          543361.8042612887
+2013-10-16 15:24:42 - OUT:          140481.35097524602
+2013-10-16 15:24:42 - OUT:       Now Parsing Feature with ID : 2
+2013-10-16 15:24:42 - OUT:          GEOMETRY TYPE MultiLineString
+2013-10-16 15:24:42 - OUT:          GEOMETRY VALUE MULTILINESTRING ((543502.3644382425 140299.78029960464, 543403.4762196327 140353.02780193297, 543345.2677698825 140411.89771133946, 543337.6609838356 140459.52280658967))
+2013-10-16 15:24:42 - OUT:          543502.3644382425
+2013-10-16 15:24:42 - OUT:          140299.78029960464
+2013-10-16 15:24:42 - OUT:          543403.4762196327
+2013-10-16 15:24:42 - OUT:          140353.02780193297
+2013-10-16 15:24:42 - OUT:          543345.2677698825
+2013-10-16 15:24:42 - OUT:          140411.89771133946
+2013-10-16 15:24:42 - OUT:          543337.6609838356
+2013-10-16 15:24:42 - OUT:          140459.52280658967
+2013-10-16 15:24:42 - OUT:       Now Parsing Feature with ID : 3
+2013-10-16 15:24:42 - OUT:          GEOMETRY TYPE MultiLineString
+2013-10-16 15:24:42 - OUT:          GEOMETRY VALUE MULTILINESTRING ((543570.8255126646 140416.52792893324, 543582.020202953 140433.7345825247, 543652.1850503837 140388.08516371436, 543640.9903600953 140370.87851012292, 543570.8255126646 140416.52792893324))
+2013-10-16 15:24:42 - OUT:          543570.8255126646
+2013-10-16 15:24:42 - OUT:          140416.52792893324
+2013-10-16 15:24:42 - OUT:          543582.020202953
+2013-10-16 15:24:42 - OUT:          140433.7345825247
+2013-10-16 15:24:42 - OUT:          543652.1850503837
+2013-10-16 15:24:42 - OUT:          140388.08516371436
+2013-10-16 15:24:42 - OUT:          543640.9903600953
+2013-10-16 15:24:42 - OUT:          140370.87851012292
+2013-10-16 15:24:42 - OUT:          543570.8255126646
+2013-10-16 15:24:42 - OUT:          140416.52792893324
+2013-10-16 15:24:42 - OUT:       Now Parsing Feature with ID : 4
+2013-10-16 15:24:42 - OUT:          GEOMETRY TYPE MultiLineString
+2013-10-16 15:24:42 - OUT:          GEOMETRY VALUE MULTILINESTRING ((543573.4713512897 140348.73348055984, 543575.3100286468 140348.5726171352, 543577.092838723 140348.09491461507, 543578.7656117359 140347.31488774874, 543580.2775213243 140346.25623725788, 543581.5826288803 140344.95112970192, 543582.6412793711 140343.43922011356, 543583.4213062375 140341.76644710056, 543583.8990087576 140339.98363702447, 543584.0598721822 140338.1449596673, 543583.8990087576 140336.3062823101, 543583.4213062375 140334.52347223402, 543582.6412793711 140332.85069922102, 543581.5826288803 140331.33878963266, 543580.2775213243 140330.0336820767, 543578.7656117359 140328.97503158584, 543577.092838723 140328.1950047195, 543575.3100286468 140327.71730219937, 543573.4713512897 140327.55643877474, 543571.6326739325 140327.71730219937, 543569.8498638563 140328.1950047195, 543568.1770908434 140328.97503158584, 543566.665181255 140330.0336820767, 543565.360073699 140331.33878963266, 543564.3014232082 140332.85069922102, 543563.5213963419 140334.52347223402, 543563.0436938218 140336.3062823101, 543562.8828303971 140338.1449596673, 543563.0436938218 140339.98363702447, 543563.5213963419 140341.76644710056, 543564.3014232082 140343.43922011356, 543565.360073699 140344.95112970192, 543566.665181255 140346.25623725788, 543568.1770908433 140347.31488774874, 543569.8498638563 140348.09491461507, 543571.6326739325 140348.5726171352, 543573.4713512897 140348.73348055984))
+2013-10-16 15:24:42 - OUT:          543573.4713512897
+2013-10-16 15:24:42 - OUT:          140348.73348055984
+2013-10-16 15:24:42 - OUT:          543575.3100286468
+2013-10-16 15:24:42 - OUT:          140348.5726171352
+2013-10-16 15:24:42 - OUT:          543577.092838723
+2013-10-16 15:24:42 - OUT:          140348.09491461507
+2013-10-16 15:24:42 - OUT:          543578.7656117359
+2013-10-16 15:24:42 - OUT:          140347.31488774874
+2013-10-16 15:24:42 - OUT:          543580.2775213243
+2013-10-16 15:24:42 - OUT:          140346.25623725788
+2013-10-16 15:24:42 - OUT:          543581.5826288803
+2013-10-16 15:24:42 - OUT:          140344.95112970192
+2013-10-16 15:24:42 - OUT:          543582.6412793711
+2013-10-16 15:24:42 - OUT:          140343.43922011356
+2013-10-16 15:24:42 - OUT:          543583.4213062375
+2013-10-16 15:24:42 - OUT:          140341.76644710056
+2013-10-16 15:24:42 - OUT:          543583.8990087576
+2013-10-16 15:24:42 - OUT:          140339.98363702447
+2013-10-16 15:24:42 - OUT:          543584.0598721822
+2013-10-16 15:24:42 - OUT:          140338.1449596673
+2013-10-16 15:24:42 - OUT:          543583.8990087576
+2013-10-16 15:24:42 - OUT:          140336.3062823101
+2013-10-16 15:24:42 - OUT:          543583.4213062375
+2013-10-16 15:24:42 - OUT:          140334.52347223402
+2013-10-16 15:24:42 - OUT:          543582.6412793711
+2013-10-16 15:24:42 - OUT:          140332.85069922102
+2013-10-16 15:24:42 - OUT:          543581.5826288803
+2013-10-16 15:24:42 - OUT:          140331.33878963266
+2013-10-16 15:24:42 - OUT:          543580.2775213243
+2013-10-16 15:24:42 - OUT:          140330.0336820767
+2013-10-16 15:24:42 - OUT:          543578.7656117359
+2013-10-16 15:24:42 - OUT:          140328.97503158584
+2013-10-16 15:24:42 - OUT:          543577.092838723
+2013-10-16 15:24:42 - OUT:          140328.1950047195
+2013-10-16 15:24:42 - OUT:          543575.3100286468
+2013-10-16 15:24:42 - OUT:          140327.71730219937
+2013-10-16 15:24:42 - OUT:          543573.4713512897
+2013-10-16 15:24:42 - OUT:          140327.55643877474
+2013-10-16 15:24:42 - OUT:          543571.6326739325
+2013-10-16 15:24:42 - OUT:          140327.71730219937
+2013-10-16 15:24:42 - OUT:          543569.8498638563
+2013-10-16 15:24:42 - OUT:          140328.1950047195
+2013-10-16 15:24:42 - OUT:          543568.1770908434
+2013-10-16 15:24:42 - OUT:          140328.97503158584
+2013-10-16 15:24:42 - OUT:          543566.665181255
+2013-10-16 15:24:42 - OUT:          140330.0336820767
+2013-10-16 15:24:42 - OUT:          543565.360073699
+2013-10-16 15:24:42 - OUT:          140331.33878963266
+2013-10-16 15:24:42 - OUT:          543564.3014232082
+2013-10-16 15:24:42 - OUT:          140332.85069922102
+2013-10-16 15:24:42 - OUT:          543563.5213963419
+2013-10-16 15:24:42 - OUT:          140334.52347223402
+2013-10-16 15:24:42 - OUT:          543563.0436938218
+2013-10-16 15:24:42 - OUT:          140336.3062823101
+2013-10-16 15:24:42 - OUT:          543562.8828303971
+2013-10-16 15:24:42 - OUT:          140338.1449596673
+2013-10-16 15:24:42 - OUT:          543563.0436938218
+2013-10-16 15:24:42 - OUT:          140339.98363702447
+2013-10-16 15:24:42 - OUT:          543563.5213963419
+2013-10-16 15:24:42 - OUT:          140341.76644710056
+2013-10-16 15:24:42 - OUT:          543564.3014232082
+2013-10-16 15:24:42 - OUT:          140343.43922011356
+2013-10-16 15:24:42 - OUT:          543565.360073699
+2013-10-16 15:24:42 - OUT:          140344.95112970192
+2013-10-16 15:24:42 - OUT:          543566.665181255
+2013-10-16 15:24:42 - OUT:          140346.25623725788
+2013-10-16 15:24:42 - OUT:          543568.1770908433
+2013-10-16 15:24:42 - OUT:          140347.31488774874
+2013-10-16 15:24:42 - OUT:          543569.8498638563
+2013-10-16 15:24:42 - OUT:          140348.09491461507
+2013-10-16 15:24:42 - OUT:          543571.6326739325
+2013-10-16 15:24:42 - OUT:          140348.5726171352
+2013-10-16 15:24:42 - OUT:          543573.4713512897
+2013-10-16 15:24:42 - OUT:          140348.73348055984
+2013-10-16 15:24:42 - OUT:    Exiting Shapefile Parser.
+2013-10-16 15:24:42 - OUT:    Reference System is : British National Grid
+2013-10-16 15:24:42 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2013-10-16 15:24:45 - OUT:    Detected click on myKML_Button 1948971313
+2013-10-16 15:24:45 - OUT: Starting KML export...
+2013-10-16 15:24:45 - OUT:    Created the KML document in memory.
+2013-10-16 15:24:45 - OUT:    Created the KML styles.
+2013-10-16 15:24:45 - OUT:        From : 543520.5545787894 140343.1059070892 To : 0.05036508472897014 51.14436817876643
+2013-10-16 15:24:45 - OUT:        From : 543432.2497146797 140386.10078474562 To : 0.04912067066063761 51.14477665499657
+2013-10-16 15:24:45 - OUT:        From : 543377.6792930388 140436.37171862082 To : 0.048361069057318545 51.145242061592036
+2013-10-16 15:24:45 - OUT:        From : 543361.8042612887 140470.10616108973 To : 0.048147693442766905 51.14554918070708
+2013-10-16 15:24:45 - OUT:        From : 543361.8042612887 140481.35097524602 To : 0.04815216680768164 51.14565022955304
+2013-10-16 15:24:45 - OUT:        From : 543502.3644382425 140299.78029960464 To : 0.05008796893770788 51.14398340014289
+2013-10-16 15:24:45 - OUT:        From : 543403.4762196327 140353.02780193297 To : 0.048696447955148416 51.14448665513484
+2013-10-16 15:24:45 - OUT:        From : 543345.2677698825 140411.89771133946 To : 0.04788829331242052 51.14503024188398
+2013-10-16 15:24:45 - OUT:        From : 543337.6609838356 140459.52280658967 To : 0.04779856335487271 51.145460116720145
+2013-10-16 15:24:45 - OUT:        From : 543570.8255126646 140416.52792893324 To : 0.051112505364100176 51.145015372338065
+2013-10-16 15:24:45 - OUT:        From : 543582.020202953 140433.7345825247 To : 0.05127929043865247 51.14516719017198
+2013-10-16 15:24:45 - OUT:        From : 543652.1850503837 140388.08516371436 To : 0.05226348663867705 51.14473938525453
+2013-10-16 15:24:45 - OUT:        From : 543640.9903600953 140370.87851012292 To : 0.052096699957411965 51.1445875688335
+2013-10-16 15:24:45 - OUT:        From : 543570.8255126646 140416.52792893324 To : 0.051112505364100176 51.145015372338065
+2013-10-16 15:24:45 - OUT:        From : 543573.4713512897 140348.73348055984 To : 0.05112329620219342 51.14440549168437
+2013-10-16 15:24:45 - OUT:        From : 543575.3100286468 140348.5726171352 To : 0.051149499500204317 51.14440358537229
+2013-10-16 15:24:45 - OUT:        From : 543577.092838723 140348.09491461507 To : 0.05117477845052812 51.14439884586007
+2013-10-16 15:24:45 - OUT:        From : 543578.7656117359 140347.31488774874 To : 0.05119836496101488 51.14439141715625
+2013-10-16 15:24:45 - OUT:        From : 543580.2775213243 140346.25623725788 To : 0.051219542364630825 51.144381524979515
+2013-10-16 15:24:45 - OUT:        From : 543581.5826288803 140344.95112970192 To : 0.05123766719535395 51.14436946990013
+2013-10-16 15:24:45 - OUT:        From : 543582.6412793711 140343.43922011356 To : 0.051252188739735006 51.1443556182071
+2013-10-16 15:24:45 - OUT:        From : 543583.4213062375 140341.76644710056 To : 0.05126266577000039 51.14434039077843
+2013-10-16 15:24:45 - OUT:        From : 543583.8990087576 140339.98363702447 To : 0.05126877995028894 51.144324250292975
+2013-10-16 15:24:45 - OUT:        From : 543584.0598721822 140338.1449596673 To : 0.05127034550872486 51.144307687171846
+2013-10-16 15:24:45 - OUT:        From : 543583.8990087576 140336.3062823101 To : 0.05126731488145943 51.144291204677174
+2013-10-16 15:24:45 - OUT:        From : 543583.4213062375 140334.52347223402 To : 0.05125978015730033 51.14427530362089
+2013-10-16 15:24:45 - OUT:        From : 543582.6412793711 140332.85069922102 To : 0.05124797027905999 51.144260467147596
+2013-10-16 15:24:45 - OUT:        From : 543581.5826288803 140331.33878963266 To : 0.05123224408676806 51.144247146054795
+2013-10-16 15:24:45 - OUT:        From : 543580.2775213243 140330.0336820767 To : 0.051213079414144706 51.14423574509569
+2013-10-16 15:24:45 - OUT:        From : 543578.7656117359 140328.97503158584 To : 0.05119105856970624 51.144226610681166
+2013-10-16 15:24:45 - OUT:        From : 543577.092838723 140328.1950047195 To : 0.05116685064367044 51.1442200203543
+2013-10-16 15:24:45 - OUT:        From : 543575.3100286468 140327.71730219937 To : 0.05114119117821181 51.14421617435788
+2013-10-16 15:24:45 - OUT:        From : 543573.4713512897 140327.55643877474 To : 0.051114859818810775 51.144215189549875
+2013-10-16 15:24:45 - OUT:        From : 543571.6326739325 140327.71730219937 To : 0.05108865662564346 51.14421709585305
+2013-10-16 15:24:45 - OUT:        From : 543569.8498638563 140328.1950047195 To : 0.05106337776474445 51.14422183534576
+2013-10-16 15:24:45 - OUT:        From : 543568.1770908434 140328.97503158584 To : 0.05103979131747843 51.14422926402181
+2013-10-16 15:24:45 - OUT:        From : 543566.665181255 140330.0336820767 To : 0.051018613943252876 51.14423915616585
+2013-10-16 15:24:45 - OUT:        From : 543565.360073699 140331.33878963266 To : 0.05100048910454584 51.1442512112116
+2013-10-16 15:24:45 - OUT:        From : 543564.3014232082 140332.85069922102 To : 0.0509859675157696 51.144265062874105
+2013-10-16 15:24:45 - OUT:        From : 543563.5213963419 140334.52347223402 To : 0.05097549041005101 51.144280290279
+2013-10-16 15:24:45 - OUT:        From : 543563.0436938218 140336.3062823101 To : 0.05096937613235337 51.14429643075032
+2013-10-16 15:24:45 - OUT:        From : 543562.8828303971 140338.1449596673 To : 0.05096781046630148 51.144312993868674
+2013-10-16 15:24:45 - OUT:        From : 543563.0436938218 140339.98363702447 To : 0.050970840988723724 51.14432947637224
+2013-10-16 15:24:45 - OUT:        From : 543563.5213963419 140341.76644710056 To : 0.050978375623457646 51.14434537744804
+2013-10-16 15:24:45 - OUT:        From : 543564.3014232082 140343.43922011356 To : 0.05099018543847803 51.144360213949135
+2013-10-16 15:24:45 - OUT:        From : 543565.360073699 140344.95112970192 To : 0.05100591160137877 51.14437353507459
+2013-10-16 15:24:45 - OUT:        From : 543566.665181255 140346.25623725788 To : 0.05102507628198647 51.144384936067325
+2013-10-16 15:24:45 - OUT:        From : 543568.1770908433 140347.31488774874 To : 0.05104709717081971 51.14439407051244
+2013-10-16 15:24:45 - OUT:        From : 543569.8498638563 140348.09491461507 To : 0.05107130517230869 51.14440066086302
+2013-10-16 15:24:45 - OUT:        From : 543571.6326739325 140348.5726171352 To : 0.051096964735176456 51.14440450687357
+2013-10-16 15:24:45 - OUT:        From : 543573.4713512897 140348.73348055984 To : 0.05112329620219342 51.14440549168437
+2013-10-16 15:24:45 - OUT:    Preparing to export...
+2013-10-16 15:24:46 - OUT: KML exported successfully at : Polyline_Export.kml
+2013-10-16 15:25:46 - OUT: Using EPSG file : EPSG_v8_2.csv
+2013-10-16 15:25:46 - OUT:       Populating combo boxes with 4534 items.
+2013-10-16 15:25:46 - OUT: Initialising UI...
+2013-10-16 15:25:47 - OUT:    Detected click on Browse Button 269238367
+2013-10-16 15:25:47 - OUT: Browsing for file...
+2013-10-16 15:25:55 - OUT:       Feature Source Hashcode = 1468380693
+2013-10-16 15:25:55 - OUT:    Geometry Type : the_geom
+2013-10-16 15:25:55 - OUT:       Waiting for user input...
+2013-10-16 15:25:56 - OUT:       Size of the Feature Collection : 5
+2013-10-16 15:25:56 - OUT:        Feature Class BoundariesReferencedEnvelope[-0.7378966190735732 : -0.7363975586399001, 51.52079427141697 : 51.521805542344445]
+2013-10-16 15:25:56 - OUT:       Now Parsing Feature with ID : 1
+2013-10-16 15:25:56 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:25:56 - OUT:          GEOMETRY VALUE POINT (-0.7374207268724071 51.52079427141697)
+2013-10-16 15:25:56 - OUT:          -0.7374207268724071
+2013-10-16 15:25:56 - OUT:          51.52079427141697
+2013-10-16 15:25:56 - OUT:       Now Parsing Feature with ID : 2
+2013-10-16 15:25:56 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:25:56 - OUT:          GEOMETRY VALUE POINT (-0.7378966190735732 51.52136534205837)
+2013-10-16 15:25:56 - OUT:          -0.7378966190735732
+2013-10-16 15:25:56 - OUT:          51.52136534205837
+2013-10-16 15:25:56 - OUT:       Now Parsing Feature with ID : 3
+2013-10-16 15:25:56 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:25:56 - OUT:          GEOMETRY VALUE POINT (-0.7370638077215326 51.521805542344445)
+2013-10-16 15:25:56 - OUT:          -0.7370638077215326
+2013-10-16 15:25:56 - OUT:          51.521805542344445
+2013-10-16 15:25:56 - OUT:       Now Parsing Feature with ID : 4
+2013-10-16 15:25:56 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:25:56 - OUT:          GEOMETRY VALUE POINT (-0.7364808397751041 51.52155569893883)
+2013-10-16 15:25:56 - OUT:          -0.7364808397751041
+2013-10-16 15:25:56 - OUT:          51.52155569893883
+2013-10-16 15:25:56 - OUT:       Now Parsing Feature with ID : 5
+2013-10-16 15:25:56 - OUT:          GEOMETRY TYPE Point
+2013-10-16 15:25:56 - OUT:          GEOMETRY VALUE POINT (-0.7363975586399001 51.52100842290749)
+2013-10-16 15:25:56 - OUT:          -0.7363975586399001
+2013-10-16 15:25:56 - OUT:          51.52100842290749
+2013-10-16 15:25:56 - OUT:    Exiting Shapefile Parser.
+2013-10-16 15:25:56 - OUT:    Reference System is : GCS WGS 1984
+2013-10-16 15:25:56 - OUT:    Selected WGS 84 (EPSG: 4326 , geographic 2D)
+2013-10-16 15:25:58 - OUT:    Detected click on myKML_Button 500731237
+2013-10-16 15:25:58 - OUT: Starting KML export...
+2013-10-16 15:25:58 - OUT:    Created the KML document in memory.
+2013-10-16 15:25:58 - OUT:    Created the KML styles.
+2013-10-16 15:25:58 - OUT:        From : -0.7374207268724071 51.52079427141697 To : -0.7374207268724071 51.52079427141697
+2013-10-16 15:25:58 - OUT:        From : -0.7378966190735732 51.52136534205837 To : -0.7378966190735732 51.52136534205837
+2013-10-16 15:25:58 - OUT:        From : -0.7370638077215326 51.521805542344445 To : -0.7370638077215326 51.521805542344445
+2013-10-16 15:25:58 - OUT:        From : -0.7364808397751041 51.52155569893883 To : -0.7364808397751041 51.52155569893883
+2013-10-16 15:25:58 - OUT:        From : -0.7363975586399001 51.52100842290749 To : -0.7363975586399001 51.52100842290749
+2013-10-16 15:25:58 - OUT:    Preparing to export...
+2013-10-16 15:25:59 - OUT: KML exported successfully at : Point_Export.kml
+2013-10-16 15:32:46 - OUT: Using EPSG file : EPSG_v8_2.csv
+2013-10-16 15:32:46 - OUT:       Populating combo boxes with 4534 items.
+2013-10-16 15:32:47 - OUT: Initialising UI...
+2013-10-16 15:32:48 - OUT:    Detected click on Browse Button 269238367
+2013-10-16 15:32:48 - OUT: Browsing for file...
+2013-10-16 15:32:52 - OUT:       Feature Source Hashcode = 1181268555
+2013-10-16 15:32:52 - OUT:    Geometry Type : the_geom
+2013-10-16 15:32:52 - OUT:       Waiting for user input...
+2013-10-16 15:32:59 - OUT: Exiting...
+2013-10-16 15:33:52 - OUT: Using EPSG file : EPSG_v8_2.csv
+2013-10-16 15:33:52 - OUT:       Populating combo boxes with 4534 items.
+2013-10-16 15:33:53 - OUT: Initialising UI...
+2013-10-16 15:33:54 - OUT:    Detected click on Browse Button 341189940
+2013-10-16 15:33:54 - OUT: Browsing for file...
+2013-10-16 15:34:01 - OUT:       Feature Source Hashcode = 634625661
+2013-10-16 15:34:01 - OUT:    Geometry Type : the_geom
+2013-10-16 15:34:01 - OUT:       Waiting for user input...
+2013-10-16 15:34:03 - OUT:    Detected click on Browse Button 341189940
+2013-10-16 15:34:03 - OUT: Browsing for file...
+2013-10-16 15:34:05 - ERR: No file selected.
+2013-10-16 15:34:06 - OUT: Exiting...
+2013-10-16 15:39:17 - OUT: Exiting...
+2013-10-22 14:51:51 - OUT: Using EPSG file : EPSG_v8_2.csv
+2013-10-22 14:51:51 - OUT:       Populating combo boxes with 4534 items.
+2013-10-22 14:51:52 - OUT: Initialising UI...
+2013-10-22 14:51:53 - OUT:    Detected click on Browse Button 597984090
+2013-10-22 14:51:53 - OUT: Browsing for file...
+2013-10-22 14:52:19 - OUT:       Feature Source Hashcode = 1046825788
+2013-10-22 14:52:19 - OUT:    Geometry Type : the_geom
+2013-10-22 14:52:19 - OUT:       Waiting for user input...
+2013-10-22 14:52:22 - OUT:       Size of the Feature Collection : 59
+2013-10-22 14:52:22 - OUT:        Feature Class BoundariesReferencedEnvelope[152.899475098 : 1049.91448975, 188.000305176 : 881.119018555]
+2013-10-22 14:52:22 - OUT:       Now Parsing Feature with ID : 1
+2013-10-22 14:52:22 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:22 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((182.899475098 557.721801758, 182.899475098 512.721801758, 152.899475098 512.721801758, 152.899475098 557.721801758, 182.899475098 557.721801758)))
+2013-10-22 14:52:22 - OUT:          182.899475098
+2013-10-22 14:52:22 - OUT:          557.721801758
+2013-10-22 14:52:22 - OUT:          182.899475098
+2013-10-22 14:52:22 - OUT:          512.721801758
+2013-10-22 14:52:22 - OUT:          152.899475098
+2013-10-22 14:52:22 - OUT:          512.721801758
+2013-10-22 14:52:22 - OUT:          152.899475098
+2013-10-22 14:52:22 - OUT:          557.721801758
+2013-10-22 14:52:22 - OUT:          182.899475098
+2013-10-22 14:52:22 - OUT:          557.721801758
+2013-10-22 14:52:22 - OUT:       Now Parsing Feature with ID : 2
+2013-10-22 14:52:22 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:22 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((321.53692627 448.31060791, 321.53692627 508.31060791, 389.03692627 508.31060791, 389.03692627 448.31060791, 321.53692627 448.31060791, 321.53692627 448.31060791, 321.53692627 508.31060791, 389.03692627 508.31060791, 389.03692627 448.31060791, 321.53692627 448.31060791)))
+2013-10-22 14:52:22 - OUT:          321.53692627
+2013-10-22 14:52:22 - OUT:          448.31060791
+2013-10-22 14:52:22 - OUT:          321.53692627
+2013-10-22 14:52:22 - OUT:          508.31060791
+2013-10-22 14:52:22 - OUT:          389.03692627
+2013-10-22 14:52:22 - OUT:          508.31060791
+2013-10-22 14:52:22 - OUT:          389.03692627
+2013-10-22 14:52:22 - OUT:          448.31060791
+2013-10-22 14:52:22 - OUT:          321.53692627
+2013-10-22 14:52:22 - OUT:          448.31060791
+2013-10-22 14:52:22 - OUT:          321.53692627
+2013-10-22 14:52:22 - OUT:          448.31060791
+2013-10-22 14:52:22 - OUT:          321.53692627
+2013-10-22 14:52:22 - OUT:          508.31060791
+2013-10-22 14:52:22 - OUT:          389.03692627
+2013-10-22 14:52:22 - OUT:          508.31060791
+2013-10-22 14:52:22 - OUT:          389.03692627
+2013-10-22 14:52:22 - OUT:          448.31060791
+2013-10-22 14:52:22 - OUT:          321.53692627
+2013-10-22 14:52:22 - OUT:          448.31060791
+2013-10-22 14:52:22 - OUT:       Now Parsing Feature with ID : 3
+2013-10-22 14:52:22 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:22 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((152.899475098 422.721801758, 152.899475098 512.721801758, 182.899475098 512.721801758, 182.899475098 422.721801758, 152.899475098 422.721801758)))
+2013-10-22 14:52:22 - OUT:          152.899475098
+2013-10-22 14:52:22 - OUT:          422.721801758
+2013-10-22 14:52:22 - OUT:          152.899475098
+2013-10-22 14:52:22 - OUT:          512.721801758
+2013-10-22 14:52:22 - OUT:          182.899475098
+2013-10-22 14:52:22 - OUT:          512.721801758
+2013-10-22 14:52:22 - OUT:          182.899475098
+2013-10-22 14:52:22 - OUT:          422.721801758
+2013-10-22 14:52:22 - OUT:          152.899475098
+2013-10-22 14:52:22 - OUT:          422.721801758
+2013-10-22 14:52:22 - OUT:       Now Parsing Feature with ID : 4
+2013-10-22 14:52:22 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:22 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((341.375488281 859.930725098, 309.593078613 828.073486328, 288.354919434 849.261779785, 320.137329102 881.119018555, 341.375488281 859.930725098)))
+2013-10-22 14:52:22 - OUT:          341.375488281
+2013-10-22 14:52:22 - OUT:          859.930725098
+2013-10-22 14:52:22 - OUT:          309.593078613
+2013-10-22 14:52:22 - OUT:          828.073486328
+2013-10-22 14:52:22 - OUT:          288.354919434
+2013-10-22 14:52:22 - OUT:          849.261779785
+2013-10-22 14:52:22 - OUT:          320.137329102
+2013-10-22 14:52:22 - OUT:          881.119018555
+2013-10-22 14:52:22 - OUT:          341.375488281
+2013-10-22 14:52:22 - OUT:          859.930725098
+2013-10-22 14:52:22 - OUT:       Now Parsing Feature with ID : 5
+2013-10-22 14:52:22 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((309.593078613 828.073486328, 277.81072998 796.216308594, 256.572509766 817.404602051, 288.354919434 849.261779785, 309.593078613 828.073486328)))
+2013-10-22 14:52:23 - OUT:          309.593078613
+2013-10-22 14:52:23 - OUT:          828.073486328
+2013-10-22 14:52:23 - OUT:          277.81072998
+2013-10-22 14:52:23 - OUT:          796.216308594
+2013-10-22 14:52:23 - OUT:          256.572509766
+2013-10-22 14:52:23 - OUT:          817.404602051
+2013-10-22 14:52:23 - OUT:          288.354919434
+2013-10-22 14:52:23 - OUT:          849.261779785
+2013-10-22 14:52:23 - OUT:          309.593078613
+2013-10-22 14:52:23 - OUT:          828.073486328
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 6
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((214.245910645 732.502075195, 193.00769043 753.690307617, 256.572509766 817.404602051, 277.81072998 796.216308594, 214.245910645 732.502075195)))
+2013-10-22 14:52:23 - OUT:          214.245910645
+2013-10-22 14:52:23 - OUT:          732.502075195
+2013-10-22 14:52:23 - OUT:          193.00769043
+2013-10-22 14:52:23 - OUT:          753.690307617
+2013-10-22 14:52:23 - OUT:          256.572509766
+2013-10-22 14:52:23 - OUT:          817.404602051
+2013-10-22 14:52:23 - OUT:          277.81072998
+2013-10-22 14:52:23 - OUT:          796.216308594
+2013-10-22 14:52:23 - OUT:          214.245910645
+2013-10-22 14:52:23 - OUT:          732.502075195
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 7
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((182.899475098 647.721801758, 182.899475098 602.721801758, 152.899475098 602.721801758, 152.899475098 647.721801758, 182.899475098 647.721801758)))
+2013-10-22 14:52:23 - OUT:          182.899475098
+2013-10-22 14:52:23 - OUT:          647.721801758
+2013-10-22 14:52:23 - OUT:          182.899475098
+2013-10-22 14:52:23 - OUT:          602.721801758
+2013-10-22 14:52:23 - OUT:          152.899475098
+2013-10-22 14:52:23 - OUT:          602.721801758
+2013-10-22 14:52:23 - OUT:          152.899475098
+2013-10-22 14:52:23 - OUT:          647.721801758
+2013-10-22 14:52:23 - OUT:          182.899475098
+2013-10-22 14:52:23 - OUT:          647.721801758
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 8
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((182.899475098 602.721801758, 182.899475098 557.721801758, 152.899475098 557.721801758, 152.899475098 602.721801758, 182.899475098 602.721801758)))
+2013-10-22 14:52:23 - OUT:          182.899475098
+2013-10-22 14:52:23 - OUT:          602.721801758
+2013-10-22 14:52:23 - OUT:          182.899475098
+2013-10-22 14:52:23 - OUT:          557.721801758
+2013-10-22 14:52:23 - OUT:          152.899475098
+2013-10-22 14:52:23 - OUT:          557.721801758
+2013-10-22 14:52:23 - OUT:          152.899475098
+2013-10-22 14:52:23 - OUT:          602.721801758
+2013-10-22 14:52:23 - OUT:          182.899475098
+2013-10-22 14:52:23 - OUT:          602.721801758
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 9
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((268.531494141 602.721801758, 268.531494141 557.721801758, 238.531494141 557.721801758, 238.531494141 602.721801758, 268.531494141 602.721801758)))
+2013-10-22 14:52:23 - OUT:          268.531494141
+2013-10-22 14:52:23 - OUT:          602.721801758
+2013-10-22 14:52:23 - OUT:          268.531494141
+2013-10-22 14:52:23 - OUT:          557.721801758
+2013-10-22 14:52:23 - OUT:          238.531494141
+2013-10-22 14:52:23 - OUT:          557.721801758
+2013-10-22 14:52:23 - OUT:          238.531494141
+2013-10-22 14:52:23 - OUT:          602.721801758
+2013-10-22 14:52:23 - OUT:          268.531494141
+2013-10-22 14:52:23 - OUT:          602.721801758
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 10
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((363.53692627 268.31060791, 363.53692627 343.31060791, 453.53692627 343.31060791, 453.53692627 268.31060791, 363.53692627 268.31060791)))
+2013-10-22 14:52:23 - OUT:          363.53692627
+2013-10-22 14:52:23 - OUT:          268.31060791
+2013-10-22 14:52:23 - OUT:          363.53692627
+2013-10-22 14:52:23 - OUT:          343.31060791
+2013-10-22 14:52:23 - OUT:          453.53692627
+2013-10-22 14:52:23 - OUT:          343.31060791
+2013-10-22 14:52:23 - OUT:          453.53692627
+2013-10-22 14:52:23 - OUT:          268.31060791
+2013-10-22 14:52:23 - OUT:          363.53692627
+2013-10-22 14:52:23 - OUT:          268.31060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 11
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((268.531494141 647.721801758, 268.531494141 602.721801758, 238.531494141 602.721801758, 238.531494141 647.721801758, 268.531494141 647.721801758)))
+2013-10-22 14:52:23 - OUT:          268.531494141
+2013-10-22 14:52:23 - OUT:          647.721801758
+2013-10-22 14:52:23 - OUT:          268.531494141
+2013-10-22 14:52:23 - OUT:          602.721801758
+2013-10-22 14:52:23 - OUT:          238.531494141
+2013-10-22 14:52:23 - OUT:          602.721801758
+2013-10-22 14:52:23 - OUT:          238.531494141
+2013-10-22 14:52:23 - OUT:          647.721801758
+2013-10-22 14:52:23 - OUT:          268.531494141
+2013-10-22 14:52:23 - OUT:          647.721801758
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 12
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((321.53692627 388.31060791, 321.53692627 448.31060791, 389.03692627 448.31060791, 389.03692627 388.31060791, 321.53692627 388.31060791)))
+2013-10-22 14:52:23 - OUT:          321.53692627
+2013-10-22 14:52:23 - OUT:          388.31060791
+2013-10-22 14:52:23 - OUT:          321.53692627
+2013-10-22 14:52:23 - OUT:          448.31060791
+2013-10-22 14:52:23 - OUT:          389.03692627
+2013-10-22 14:52:23 - OUT:          448.31060791
+2013-10-22 14:52:23 - OUT:          389.03692627
+2013-10-22 14:52:23 - OUT:          388.31060791
+2013-10-22 14:52:23 - OUT:          321.53692627
+2013-10-22 14:52:23 - OUT:          388.31060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 13
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((238.531494141 467.721801758, 238.531494141 557.721801758, 268.531494141 557.721801758, 268.531494141 467.721801758, 238.531494141 467.721801758)))
+2013-10-22 14:52:23 - OUT:          238.531494141
+2013-10-22 14:52:23 - OUT:          467.721801758
+2013-10-22 14:52:23 - OUT:          238.531494141
+2013-10-22 14:52:23 - OUT:          557.721801758
+2013-10-22 14:52:23 - OUT:          268.531494141
+2013-10-22 14:52:23 - OUT:          557.721801758
+2013-10-22 14:52:23 - OUT:          268.531494141
+2013-10-22 14:52:23 - OUT:          467.721801758
+2013-10-22 14:52:23 - OUT:          238.531494141
+2013-10-22 14:52:23 - OUT:          467.721801758
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 14
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((219.678710938 338.438781738, 251.408325195 306.528991699, 230.135070801 285.375976562, 198.405517578 317.285583496, 219.678710938 338.438781738)))
+2013-10-22 14:52:23 - OUT:          219.678710938
+2013-10-22 14:52:23 - OUT:          338.438781738
+2013-10-22 14:52:23 - OUT:          251.408325195
+2013-10-22 14:52:23 - OUT:          306.528991699
+2013-10-22 14:52:23 - OUT:          230.135070801
+2013-10-22 14:52:23 - OUT:          285.375976562
+2013-10-22 14:52:23 - OUT:          198.405517578
+2013-10-22 14:52:23 - OUT:          317.285583496
+2013-10-22 14:52:23 - OUT:          219.678710938
+2013-10-22 14:52:23 - OUT:          338.438781738
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 15
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((268.531494141 467.721801758, 268.531494141 422.721801758, 238.531494141 422.721801758, 238.531494141 467.721801758, 268.531494141 467.721801758)))
+2013-10-22 14:52:23 - OUT:          268.531494141
+2013-10-22 14:52:23 - OUT:          467.721801758
+2013-10-22 14:52:23 - OUT:          268.531494141
+2013-10-22 14:52:23 - OUT:          422.721801758
+2013-10-22 14:52:23 - OUT:          238.531494141
+2013-10-22 14:52:23 - OUT:          422.721801758
+2013-10-22 14:52:23 - OUT:          238.531494141
+2013-10-22 14:52:23 - OUT:          467.721801758
+2013-10-22 14:52:23 - OUT:          268.531494141
+2013-10-22 14:52:23 - OUT:          467.721801758
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 16
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((554.480102539 188.000305176, 509.480102539 188.000305176, 509.480102539 218.000305176, 554.480102539 218.000305176, 554.480102539 188.000305176)))
+2013-10-22 14:52:23 - OUT:          554.480102539
+2013-10-22 14:52:23 - OUT:          188.000305176
+2013-10-22 14:52:23 - OUT:          509.480102539
+2013-10-22 14:52:23 - OUT:          188.000305176
+2013-10-22 14:52:23 - OUT:          509.480102539
+2013-10-22 14:52:23 - OUT:          218.000305176
+2013-10-22 14:52:23 - OUT:          554.480102539
+2013-10-22 14:52:23 - OUT:          218.000305176
+2013-10-22 14:52:23 - OUT:          554.480102539
+2013-10-22 14:52:23 - OUT:          188.000305176
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 17
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((599.480102539 188.000305176, 554.480102539 188.000305176, 554.480102539 218.000305176, 599.480102539 218.000305176, 599.480102539 188.000305176)))
+2013-10-22 14:52:23 - OUT:          599.480102539
+2013-10-22 14:52:23 - OUT:          188.000305176
+2013-10-22 14:52:23 - OUT:          554.480102539
+2013-10-22 14:52:23 - OUT:          188.000305176
+2013-10-22 14:52:23 - OUT:          554.480102539
+2013-10-22 14:52:23 - OUT:          218.000305176
+2013-10-22 14:52:23 - OUT:          599.480102539
+2013-10-22 14:52:23 - OUT:          218.000305176
+2013-10-22 14:52:23 - OUT:          599.480102539
+2013-10-22 14:52:23 - OUT:          188.000305176
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 18
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((251.408325195 306.528991699, 283.137878418 274.61932373, 261.864685059 253.466186523, 230.135070801 285.375976562, 251.408325195 306.528991699)))
+2013-10-22 14:52:23 - OUT:          251.408325195
+2013-10-22 14:52:23 - OUT:          306.528991699
+2013-10-22 14:52:23 - OUT:          283.137878418
+2013-10-22 14:52:23 - OUT:          274.61932373
+2013-10-22 14:52:23 - OUT:          261.864685059
+2013-10-22 14:52:23 - OUT:          253.466186523
+2013-10-22 14:52:23 - OUT:          230.135070801
+2013-10-22 14:52:23 - OUT:          285.375976562
+2013-10-22 14:52:23 - OUT:          251.408325195
+2013-10-22 14:52:23 - OUT:          306.528991699
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 19
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((314.867675781 242.709594727, 346.597290039 210.799926758, 325.32409668 189.646789551, 293.594482422 221.556518555, 314.867675781 242.709594727)))
+2013-10-22 14:52:23 - OUT:          314.867675781
+2013-10-22 14:52:23 - OUT:          242.709594727
+2013-10-22 14:52:23 - OUT:          346.597290039
+2013-10-22 14:52:23 - OUT:          210.799926758
+2013-10-22 14:52:23 - OUT:          325.32409668
+2013-10-22 14:52:23 - OUT:          189.646789551
+2013-10-22 14:52:23 - OUT:          293.594482422
+2013-10-22 14:52:23 - OUT:          221.556518555
+2013-10-22 14:52:23 - OUT:          314.867675781
+2013-10-22 14:52:23 - OUT:          242.709594727
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 20
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((464.480102539 188.000305176, 419.480102539 188.000305176, 419.480102539 218.000305176, 464.480102539 218.000305176, 464.480102539 188.000305176)))
+2013-10-22 14:52:23 - OUT:          464.480102539
+2013-10-22 14:52:23 - OUT:          188.000305176
+2013-10-22 14:52:23 - OUT:          419.480102539
+2013-10-22 14:52:23 - OUT:          188.000305176
+2013-10-22 14:52:23 - OUT:          419.480102539
+2013-10-22 14:52:23 - OUT:          218.000305176
+2013-10-22 14:52:23 - OUT:          464.480102539
+2013-10-22 14:52:23 - OUT:          218.000305176
+2013-10-22 14:52:23 - OUT:          464.480102539
+2013-10-22 14:52:23 - OUT:          188.000305176
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 21
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((509.480102539 188.000305176, 464.480102539 188.000305176, 464.480102539 218.000305176, 509.480102539 218.000305176, 509.480102539 188.000305176)))
+2013-10-22 14:52:23 - OUT:          509.480102539
+2013-10-22 14:52:23 - OUT:          188.000305176
+2013-10-22 14:52:23 - OUT:          464.480102539
+2013-10-22 14:52:23 - OUT:          188.000305176
+2013-10-22 14:52:23 - OUT:          464.480102539
+2013-10-22 14:52:23 - OUT:          218.000305176
+2013-10-22 14:52:23 - OUT:          509.480102539
+2013-10-22 14:52:23 - OUT:          218.000305176
+2013-10-22 14:52:23 - OUT:          509.480102539
+2013-10-22 14:52:23 - OUT:          188.000305176
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 22
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((1049.91448975 503.46081543, 1049.91448975 443.46081543, 1016.16448975 443.46081543, 1016.16448975 503.46081543, 1049.91448975 503.46081543)))
+2013-10-22 14:52:23 - OUT:          1049.91448975
+2013-10-22 14:52:23 - OUT:          503.46081543
+2013-10-22 14:52:23 - OUT:          1049.91448975
+2013-10-22 14:52:23 - OUT:          443.46081543
+2013-10-22 14:52:23 - OUT:          1016.16448975
+2013-10-22 14:52:23 - OUT:          443.46081543
+2013-10-22 14:52:23 - OUT:          1016.16448975
+2013-10-22 14:52:23 - OUT:          503.46081543
+2013-10-22 14:52:23 - OUT:          1049.91448975
+2013-10-22 14:52:23 - OUT:          503.46081543
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 23
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((880.908325195 770.915100098, 849.066894531 802.713378906, 870.265686035 823.940979004, 902.107116699 792.142700195, 880.908325195 770.915100098)))
+2013-10-22 14:52:23 - OUT:          880.908325195
+2013-10-22 14:52:23 - OUT:          770.915100098
+2013-10-22 14:52:23 - OUT:          849.066894531
+2013-10-22 14:52:23 - OUT:          802.713378906
+2013-10-22 14:52:23 - OUT:          870.265686035
+2013-10-22 14:52:23 - OUT:          823.940979004
+2013-10-22 14:52:23 - OUT:          902.107116699
+2013-10-22 14:52:23 - OUT:          792.142700195
+2013-10-22 14:52:23 - OUT:          880.908325195
+2013-10-22 14:52:23 - OUT:          770.915100098
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 24
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((912.749694824 739.116882324, 880.908325195 770.915100098, 902.107116699 792.142700195, 933.948486328 760.344482422, 912.749694824 739.116882324)))
+2013-10-22 14:52:23 - OUT:          912.749694824
+2013-10-22 14:52:23 - OUT:          739.116882324
+2013-10-22 14:52:23 - OUT:          880.908325195
+2013-10-22 14:52:23 - OUT:          770.915100098
+2013-10-22 14:52:23 - OUT:          902.107116699
+2013-10-22 14:52:23 - OUT:          792.142700195
+2013-10-22 14:52:23 - OUT:          933.948486328
+2013-10-22 14:52:23 - OUT:          760.344482422
+2013-10-22 14:52:23 - OUT:          912.749694824
+2013-10-22 14:52:23 - OUT:          739.116882324
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 25
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((1049.91448975 623.46081543, 1049.91448975 563.46081543, 1016.16448975 563.46081543, 1016.16448975 623.46081543, 1049.91448975 623.46081543)))
+2013-10-22 14:52:23 - OUT:          1049.91448975
+2013-10-22 14:52:23 - OUT:          623.46081543
+2013-10-22 14:52:23 - OUT:          1049.91448975
+2013-10-22 14:52:23 - OUT:          563.46081543
+2013-10-22 14:52:23 - OUT:          1016.16448975
+2013-10-22 14:52:23 - OUT:          563.46081543
+2013-10-22 14:52:23 - OUT:          1016.16448975
+2013-10-22 14:52:23 - OUT:          623.46081543
+2013-10-22 14:52:23 - OUT:          1049.91448975
+2013-10-22 14:52:23 - OUT:          623.46081543
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 26
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((1049.91448975 563.46081543, 1049.91448975 503.46081543, 1016.16448975 503.46081543, 1016.16448975 563.46081543, 1049.91448975 563.46081543)))
+2013-10-22 14:52:23 - OUT:          1049.91448975
+2013-10-22 14:52:23 - OUT:          563.46081543
+2013-10-22 14:52:23 - OUT:          1049.91448975
+2013-10-22 14:52:23 - OUT:          503.46081543
+2013-10-22 14:52:23 - OUT:          1016.16448975
+2013-10-22 14:52:23 - OUT:          503.46081543
+2013-10-22 14:52:23 - OUT:          1016.16448975
+2013-10-22 14:52:23 - OUT:          563.46081543
+2013-10-22 14:52:23 - OUT:          1049.91448975
+2013-10-22 14:52:23 - OUT:          563.46081543
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 27
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((914.03692627 673.31060791, 914.03692627 613.31060791, 880.28692627 613.31060791, 880.28692627 673.31060791, 914.03692627 673.31060791)))
+2013-10-22 14:52:23 - OUT:          914.03692627
+2013-10-22 14:52:23 - OUT:          673.31060791
+2013-10-22 14:52:23 - OUT:          914.03692627
+2013-10-22 14:52:23 - OUT:          613.31060791
+2013-10-22 14:52:23 - OUT:          880.28692627
+2013-10-22 14:52:23 - OUT:          613.31060791
+2013-10-22 14:52:23 - OUT:          880.28692627
+2013-10-22 14:52:23 - OUT:          673.31060791
+2013-10-22 14:52:23 - OUT:          914.03692627
+2013-10-22 14:52:23 - OUT:          673.31060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 28
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((283.137878418 274.61932373, 314.867675781 242.709594727, 293.594482422 221.556518555, 261.864685059 253.466186523, 283.137878418 274.61932373)))
+2013-10-22 14:52:23 - OUT:          283.137878418
+2013-10-22 14:52:23 - OUT:          274.61932373
+2013-10-22 14:52:23 - OUT:          314.867675781
+2013-10-22 14:52:23 - OUT:          242.709594727
+2013-10-22 14:52:23 - OUT:          293.594482422
+2013-10-22 14:52:23 - OUT:          221.556518555
+2013-10-22 14:52:23 - OUT:          261.864685059
+2013-10-22 14:52:23 - OUT:          253.466186523
+2013-10-22 14:52:23 - OUT:          283.137878418
+2013-10-22 14:52:23 - OUT:          274.61932373
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 29
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((511.01550293 878.81060791, 601.01550293 878.81060791, 601.01550293 848.81060791, 511.01550293 848.81060791, 511.01550293 878.81060791)))
+2013-10-22 14:52:23 - OUT:          511.01550293
+2013-10-22 14:52:23 - OUT:          878.81060791
+2013-10-22 14:52:23 - OUT:          601.01550293
+2013-10-22 14:52:23 - OUT:          878.81060791
+2013-10-22 14:52:23 - OUT:          601.01550293
+2013-10-22 14:52:23 - OUT:          848.81060791
+2013-10-22 14:52:23 - OUT:          511.01550293
+2013-10-22 14:52:23 - OUT:          848.81060791
+2013-10-22 14:52:23 - OUT:          511.01550293
+2013-10-22 14:52:23 - OUT:          878.81060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 30
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((846.53692627 553.31060791, 846.53692627 673.31060791, 880.28692627 673.31060791, 880.28692627 553.31060791, 846.53692627 553.31060791)))
+2013-10-22 14:52:23 - OUT:          846.53692627
+2013-10-22 14:52:23 - OUT:          553.31060791
+2013-10-22 14:52:23 - OUT:          846.53692627
+2013-10-22 14:52:23 - OUT:          673.31060791
+2013-10-22 14:52:23 - OUT:          880.28692627
+2013-10-22 14:52:23 - OUT:          673.31060791
+2013-10-22 14:52:23 - OUT:          880.28692627
+2013-10-22 14:52:23 - OUT:          553.31060791
+2013-10-22 14:52:23 - OUT:          846.53692627
+2013-10-22 14:52:23 - OUT:          553.31060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 31
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((511.01550293 848.81060791, 466.01550293 848.81060791, 466.01550293 878.81060791, 511.01550293 878.81060791, 511.01550293 848.81060791)))
+2013-10-22 14:52:23 - OUT:          511.01550293
+2013-10-22 14:52:23 - OUT:          848.81060791
+2013-10-22 14:52:23 - OUT:          466.01550293
+2013-10-22 14:52:23 - OUT:          848.81060791
+2013-10-22 14:52:23 - OUT:          466.01550293
+2013-10-22 14:52:23 - OUT:          878.81060791
+2013-10-22 14:52:23 - OUT:          511.01550293
+2013-10-22 14:52:23 - OUT:          878.81060791
+2013-10-22 14:52:23 - OUT:          511.01550293
+2013-10-22 14:52:23 - OUT:          848.81060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 32
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((914.03692627 613.31060791, 914.03692627 553.31060791, 880.28692627 553.31060791, 880.28692627 613.31060791, 914.03692627 613.31060791)))
+2013-10-22 14:52:23 - OUT:          914.03692627
+2013-10-22 14:52:23 - OUT:          613.31060791
+2013-10-22 14:52:23 - OUT:          914.03692627
+2013-10-22 14:52:23 - OUT:          553.31060791
+2013-10-22 14:52:23 - OUT:          880.28692627
+2013-10-22 14:52:23 - OUT:          553.31060791
+2013-10-22 14:52:23 - OUT:          880.28692627
+2013-10-22 14:52:23 - OUT:          613.31060791
+2013-10-22 14:52:23 - OUT:          914.03692627
+2013-10-22 14:52:23 - OUT:          613.31060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 33
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((849.066894531 802.713378906, 817.225524902 834.51159668, 838.424316406 855.739196777, 870.265686035 823.940979004, 849.066894531 802.713378906)))
+2013-10-22 14:52:23 - OUT:          849.066894531
+2013-10-22 14:52:23 - OUT:          802.713378906
+2013-10-22 14:52:23 - OUT:          817.225524902
+2013-10-22 14:52:23 - OUT:          834.51159668
+2013-10-22 14:52:23 - OUT:          838.424316406
+2013-10-22 14:52:23 - OUT:          855.739196777
+2013-10-22 14:52:23 - OUT:          870.265686035
+2013-10-22 14:52:23 - OUT:          823.940979004
+2013-10-22 14:52:23 - OUT:          849.066894531
+2013-10-22 14:52:23 - OUT:          802.713378906
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 34
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((466.01550293 848.81060791, 421.01550293 848.81060791, 421.01550293 878.81060791, 466.01550293 878.81060791, 466.01550293 848.81060791)))
+2013-10-22 14:52:23 - OUT:          466.01550293
+2013-10-22 14:52:23 - OUT:          848.81060791
+2013-10-22 14:52:23 - OUT:          421.01550293
+2013-10-22 14:52:23 - OUT:          848.81060791
+2013-10-22 14:52:23 - OUT:          421.01550293
+2013-10-22 14:52:23 - OUT:          878.81060791
+2013-10-22 14:52:23 - OUT:          466.01550293
+2013-10-22 14:52:23 - OUT:          878.81060791
+2013-10-22 14:52:23 - OUT:          466.01550293
+2013-10-22 14:52:23 - OUT:          848.81060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 35
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((846.53692627 448.31060791, 846.53692627 508.31060791, 914.03692627 508.31060791, 914.03692627 448.31060791, 846.53692627 448.31060791)))
+2013-10-22 14:52:23 - OUT:          846.53692627
+2013-10-22 14:52:23 - OUT:          448.31060791
+2013-10-22 14:52:23 - OUT:          846.53692627
+2013-10-22 14:52:23 - OUT:          508.31060791
+2013-10-22 14:52:23 - OUT:          914.03692627
+2013-10-22 14:52:23 - OUT:          508.31060791
+2013-10-22 14:52:23 - OUT:          914.03692627
+2013-10-22 14:52:23 - OUT:          448.31060791
+2013-10-22 14:52:23 - OUT:          846.53692627
+2013-10-22 14:52:23 - OUT:          448.31060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 36
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((846.53692627 388.31060791, 846.53692627 448.31060791, 914.03692627 448.31060791, 914.03692627 388.31060791, 846.53692627 388.31060791)))
+2013-10-22 14:52:23 - OUT:          846.53692627
+2013-10-22 14:52:23 - OUT:          388.31060791
+2013-10-22 14:52:23 - OUT:          846.53692627
+2013-10-22 14:52:23 - OUT:          448.31060791
+2013-10-22 14:52:23 - OUT:          914.03692627
+2013-10-22 14:52:23 - OUT:          448.31060791
+2013-10-22 14:52:23 - OUT:          914.03692627
+2013-10-22 14:52:23 - OUT:          388.31060791
+2013-10-22 14:52:23 - OUT:          846.53692627
+2013-10-22 14:52:23 - OUT:          388.31060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 37
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((723.53692627 755.81060791, 723.53692627 793.31060791, 813.53692627 793.31060791, 813.53692627 755.81060791, 723.53692627 755.81060791)))
+2013-10-22 14:52:23 - OUT:          723.53692627
+2013-10-22 14:52:23 - OUT:          755.81060791
+2013-10-22 14:52:23 - OUT:          723.53692627
+2013-10-22 14:52:23 - OUT:          793.31060791
+2013-10-22 14:52:23 - OUT:          813.53692627
+2013-10-22 14:52:23 - OUT:          793.31060791
+2013-10-22 14:52:23 - OUT:          813.53692627
+2013-10-22 14:52:23 - OUT:          755.81060791
+2013-10-22 14:52:23 - OUT:          723.53692627
+2013-10-22 14:52:23 - OUT:          755.81060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 38
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((813.53692627 755.81060791, 813.53692627 718.31060791, 723.53692627 718.31060791, 723.53692627 755.81060791, 813.53692627 755.81060791)))
+2013-10-22 14:52:23 - OUT:          813.53692627
+2013-10-22 14:52:23 - OUT:          755.81060791
+2013-10-22 14:52:23 - OUT:          813.53692627
+2013-10-22 14:52:23 - OUT:          718.31060791
+2013-10-22 14:52:23 - OUT:          723.53692627
+2013-10-22 14:52:23 - OUT:          718.31060791
+2013-10-22 14:52:23 - OUT:          723.53692627
+2013-10-22 14:52:23 - OUT:          755.81060791
+2013-10-22 14:52:23 - OUT:          813.53692627
+2013-10-22 14:52:23 - OUT:          755.81060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 39
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((816.53692627 530.81060791, 756.53692627 530.81060791, 756.53692627 564.56060791, 816.53692627 564.56060791, 816.53692627 530.81060791)))
+2013-10-22 14:52:23 - OUT:          816.53692627
+2013-10-22 14:52:23 - OUT:          530.81060791
+2013-10-22 14:52:23 - OUT:          756.53692627
+2013-10-22 14:52:23 - OUT:          530.81060791
+2013-10-22 14:52:23 - OUT:          756.53692627
+2013-10-22 14:52:23 - OUT:          564.56060791
+2013-10-22 14:52:23 - OUT:          816.53692627
+2013-10-22 14:52:23 - OUT:          564.56060791
+2013-10-22 14:52:23 - OUT:          816.53692627
+2013-10-22 14:52:23 - OUT:          530.81060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 40
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((696.53692627 497.06060791, 696.53692627 564.56060791, 756.53692627 564.56060791, 756.53692627 497.06060791, 696.53692627 497.06060791)))
+2013-10-22 14:52:23 - OUT:          696.53692627
+2013-10-22 14:52:23 - OUT:          497.06060791
+2013-10-22 14:52:23 - OUT:          696.53692627
+2013-10-22 14:52:23 - OUT:          564.56060791
+2013-10-22 14:52:23 - OUT:          756.53692627
+2013-10-22 14:52:23 - OUT:          564.56060791
+2013-10-22 14:52:23 - OUT:          756.53692627
+2013-10-22 14:52:23 - OUT:          497.06060791
+2013-10-22 14:52:23 - OUT:          696.53692627
+2013-10-22 14:52:23 - OUT:          497.06060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 41
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((816.53692627 497.06060791, 756.53692627 497.06060791, 756.53692627 530.81060791, 816.53692627 530.81060791, 816.53692627 497.06060791)))
+2013-10-22 14:52:23 - OUT:          816.53692627
+2013-10-22 14:52:23 - OUT:          497.06060791
+2013-10-22 14:52:23 - OUT:          756.53692627
+2013-10-22 14:52:23 - OUT:          497.06060791
+2013-10-22 14:52:23 - OUT:          756.53692627
+2013-10-22 14:52:23 - OUT:          530.81060791
+2013-10-22 14:52:23 - OUT:          816.53692627
+2013-10-22 14:52:23 - OUT:          530.81060791
+2013-10-22 14:52:23 - OUT:          816.53692627
+2013-10-22 14:52:23 - OUT:          497.06060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 42
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((723.53692627 268.31060791, 723.53692627 305.81060791, 768.53692627 305.81060791, 768.53692627 268.31060791, 723.53692627 268.31060791)))
+2013-10-22 14:52:23 - OUT:          723.53692627
+2013-10-22 14:52:23 - OUT:          268.31060791
+2013-10-22 14:52:23 - OUT:          723.53692627
+2013-10-22 14:52:23 - OUT:          305.81060791
+2013-10-22 14:52:23 - OUT:          768.53692627
+2013-10-22 14:52:23 - OUT:          305.81060791
+2013-10-22 14:52:23 - OUT:          768.53692627
+2013-10-22 14:52:23 - OUT:          268.31060791
+2013-10-22 14:52:23 - OUT:          723.53692627
+2013-10-22 14:52:23 - OUT:          268.31060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 43
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((768.53692627 268.31060791, 768.53692627 305.81060791, 813.53692627 305.81060791, 813.53692627 268.31060791, 768.53692627 268.31060791)))
+2013-10-22 14:52:23 - OUT:          768.53692627
+2013-10-22 14:52:23 - OUT:          268.31060791
+2013-10-22 14:52:23 - OUT:          768.53692627
+2013-10-22 14:52:23 - OUT:          305.81060791
+2013-10-22 14:52:23 - OUT:          813.53692627
+2013-10-22 14:52:23 - OUT:          305.81060791
+2013-10-22 14:52:23 - OUT:          813.53692627
+2013-10-22 14:52:23 - OUT:          268.31060791
+2013-10-22 14:52:23 - OUT:          768.53692627
+2013-10-22 14:52:23 - OUT:          268.31060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 44
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((813.53692627 343.31060791, 813.53692627 305.81060791, 723.53692627 305.81060791, 723.53692627 343.31060791, 813.53692627 343.31060791)))
+2013-10-22 14:52:23 - OUT:          813.53692627
+2013-10-22 14:52:23 - OUT:          343.31060791
+2013-10-22 14:52:23 - OUT:          813.53692627
+2013-10-22 14:52:23 - OUT:          305.81060791
+2013-10-22 14:52:23 - OUT:          723.53692627
+2013-10-22 14:52:23 - OUT:          305.81060791
+2013-10-22 14:52:23 - OUT:          723.53692627
+2013-10-22 14:52:23 - OUT:          343.31060791
+2013-10-22 14:52:23 - OUT:          813.53692627
+2013-10-22 14:52:23 - OUT:          343.31060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 45
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((584.03692627 613.31060791, 584.03692627 673.31060791, 651.53692627 673.31060791, 651.53692627 613.31060791, 584.03692627 613.31060791)))
+2013-10-22 14:52:23 - OUT:          584.03692627
+2013-10-22 14:52:23 - OUT:          613.31060791
+2013-10-22 14:52:23 - OUT:          584.03692627
+2013-10-22 14:52:23 - OUT:          673.31060791
+2013-10-22 14:52:23 - OUT:          651.53692627
+2013-10-22 14:52:23 - OUT:          673.31060791
+2013-10-22 14:52:23 - OUT:          651.53692627
+2013-10-22 14:52:23 - OUT:          613.31060791
+2013-10-22 14:52:23 - OUT:          584.03692627
+2013-10-22 14:52:23 - OUT:          613.31060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 46
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((603.53692627 718.31060791, 603.53692627 793.31060791, 693.53692627 793.31060791, 693.53692627 718.31060791, 603.53692627 718.31060791)))
+2013-10-22 14:52:23 - OUT:          603.53692627
+2013-10-22 14:52:23 - OUT:          718.31060791
+2013-10-22 14:52:23 - OUT:          603.53692627
+2013-10-22 14:52:23 - OUT:          793.31060791
+2013-10-22 14:52:23 - OUT:          693.53692627
+2013-10-22 14:52:23 - OUT:          793.31060791
+2013-10-22 14:52:23 - OUT:          693.53692627
+2013-10-22 14:52:23 - OUT:          718.31060791
+2013-10-22 14:52:23 - OUT:          603.53692627
+2013-10-22 14:52:23 - OUT:          718.31060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 47
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((584.03692627 388.31060791, 584.03692627 448.31060791, 651.53692627 448.31060791, 651.53692627 388.31060791, 584.03692627 388.31060791)))
+2013-10-22 14:52:23 - OUT:          584.03692627
+2013-10-22 14:52:23 - OUT:          388.31060791
+2013-10-22 14:52:23 - OUT:          584.03692627
+2013-10-22 14:52:23 - OUT:          448.31060791
+2013-10-22 14:52:23 - OUT:          651.53692627
+2013-10-22 14:52:23 - OUT:          448.31060791
+2013-10-22 14:52:23 - OUT:          651.53692627
+2013-10-22 14:52:23 - OUT:          388.31060791
+2013-10-22 14:52:23 - OUT:          584.03692627
+2013-10-22 14:52:23 - OUT:          388.31060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 48
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((603.53692627 305.81060791, 603.53692627 343.31060791, 693.53692627 343.31060791, 693.53692627 305.81060791, 603.53692627 305.81060791)))
+2013-10-22 14:52:23 - OUT:          603.53692627
+2013-10-22 14:52:23 - OUT:          305.81060791
+2013-10-22 14:52:23 - OUT:          603.53692627
+2013-10-22 14:52:23 - OUT:          343.31060791
+2013-10-22 14:52:23 - OUT:          693.53692627
+2013-10-22 14:52:23 - OUT:          343.31060791
+2013-10-22 14:52:23 - OUT:          693.53692627
+2013-10-22 14:52:23 - OUT:          305.81060791
+2013-10-22 14:52:23 - OUT:          603.53692627
+2013-10-22 14:52:23 - OUT:          305.81060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 49
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((584.03692627 553.31060791, 584.03692627 613.31060791, 651.53692627 613.31060791, 651.53692627 553.31060791, 584.03692627 553.31060791)))
+2013-10-22 14:52:23 - OUT:          584.03692627
+2013-10-22 14:52:23 - OUT:          553.31060791
+2013-10-22 14:52:23 - OUT:          584.03692627
+2013-10-22 14:52:23 - OUT:          613.31060791
+2013-10-22 14:52:23 - OUT:          651.53692627
+2013-10-22 14:52:23 - OUT:          613.31060791
+2013-10-22 14:52:23 - OUT:          651.53692627
+2013-10-22 14:52:23 - OUT:          553.31060791
+2013-10-22 14:52:23 - OUT:          584.03692627
+2013-10-22 14:52:23 - OUT:          553.31060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 50
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((584.03692627 448.31060791, 584.03692627 508.31060791, 651.53692627 508.31060791, 651.53692627 448.31060791, 584.03692627 448.31060791)))
+2013-10-22 14:52:23 - OUT:          584.03692627
+2013-10-22 14:52:23 - OUT:          448.31060791
+2013-10-22 14:52:23 - OUT:          584.03692627
+2013-10-22 14:52:23 - OUT:          508.31060791
+2013-10-22 14:52:23 - OUT:          651.53692627
+2013-10-22 14:52:23 - OUT:          508.31060791
+2013-10-22 14:52:23 - OUT:          651.53692627
+2013-10-22 14:52:23 - OUT:          448.31060791
+2013-10-22 14:52:23 - OUT:          584.03692627
+2013-10-22 14:52:23 - OUT:          448.31060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 51
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((603.53692627 268.31060791, 603.53692627 305.81060791, 648.53692627 305.81060791, 648.53692627 268.31060791, 603.53692627 268.31060791)))
+2013-10-22 14:52:23 - OUT:          603.53692627
+2013-10-22 14:52:23 - OUT:          268.31060791
+2013-10-22 14:52:23 - OUT:          603.53692627
+2013-10-22 14:52:23 - OUT:          305.81060791
+2013-10-22 14:52:23 - OUT:          648.53692627
+2013-10-22 14:52:23 - OUT:          305.81060791
+2013-10-22 14:52:23 - OUT:          648.53692627
+2013-10-22 14:52:23 - OUT:          268.31060791
+2013-10-22 14:52:23 - OUT:          603.53692627
+2013-10-22 14:52:23 - OUT:          268.31060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 52
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((648.53692627 268.31060791, 648.53692627 305.81060791, 693.53692627 305.81060791, 693.53692627 268.31060791, 648.53692627 268.31060791)))
+2013-10-22 14:52:23 - OUT:          648.53692627
+2013-10-22 14:52:23 - OUT:          268.31060791
+2013-10-22 14:52:23 - OUT:          648.53692627
+2013-10-22 14:52:23 - OUT:          305.81060791
+2013-10-22 14:52:23 - OUT:          693.53692627
+2013-10-22 14:52:23 - OUT:          305.81060791
+2013-10-22 14:52:23 - OUT:          693.53692627
+2013-10-22 14:52:23 - OUT:          268.31060791
+2013-10-22 14:52:23 - OUT:          648.53692627
+2013-10-22 14:52:23 - OUT:          268.31060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 53
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((483.53692627 718.31060791, 483.53692627 793.31060791, 573.53692627 793.31060791, 573.53692627 718.31060791, 483.53692627 718.31060791)))
+2013-10-22 14:52:23 - OUT:          483.53692627
+2013-10-22 14:52:23 - OUT:          718.31060791
+2013-10-22 14:52:23 - OUT:          483.53692627
+2013-10-22 14:52:23 - OUT:          793.31060791
+2013-10-22 14:52:23 - OUT:          573.53692627
+2013-10-22 14:52:23 - OUT:          793.31060791
+2013-10-22 14:52:23 - OUT:          573.53692627
+2013-10-22 14:52:23 - OUT:          718.31060791
+2013-10-22 14:52:23 - OUT:          483.53692627
+2013-10-22 14:52:23 - OUT:          718.31060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 54
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((419.03692627 497.06060791, 419.03692627 530.81060791, 539.03692627 530.81060791, 539.03692627 497.06060791, 419.03692627 497.06060791)))
+2013-10-22 14:52:23 - OUT:          419.03692627
+2013-10-22 14:52:23 - OUT:          497.06060791
+2013-10-22 14:52:23 - OUT:          419.03692627
+2013-10-22 14:52:23 - OUT:          530.81060791
+2013-10-22 14:52:23 - OUT:          539.03692627
+2013-10-22 14:52:23 - OUT:          530.81060791
+2013-10-22 14:52:23 - OUT:          539.03692627
+2013-10-22 14:52:23 - OUT:          497.06060791
+2013-10-22 14:52:23 - OUT:          419.03692627
+2013-10-22 14:52:23 - OUT:          497.06060791
+2013-10-22 14:52:23 - OUT:       Now Parsing Feature with ID : 55
+2013-10-22 14:52:23 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:23 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((419.03692627 530.81060791, 419.03692627 564.56060791, 539.03692627 564.56060791, 539.03692627 530.81060791, 419.03692627 530.81060791)))
+2013-10-22 14:52:23 - OUT:          419.03692627
+2013-10-22 14:52:24 - OUT:          530.81060791
+2013-10-22 14:52:24 - OUT:          419.03692627
+2013-10-22 14:52:24 - OUT:          564.56060791
+2013-10-22 14:52:24 - OUT:          539.03692627
+2013-10-22 14:52:24 - OUT:          564.56060791
+2013-10-22 14:52:24 - OUT:          539.03692627
+2013-10-22 14:52:24 - OUT:          530.81060791
+2013-10-22 14:52:24 - OUT:          419.03692627
+2013-10-22 14:52:24 - OUT:          530.81060791
+2013-10-22 14:52:24 - OUT:       Now Parsing Feature with ID : 56
+2013-10-22 14:52:24 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:24 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((483.53692627 268.31060791, 483.53692627 343.31060791, 573.53692627 343.31060791, 573.53692627 268.31060791, 483.53692627 268.31060791)))
+2013-10-22 14:52:24 - OUT:          483.53692627
+2013-10-22 14:52:24 - OUT:          268.31060791
+2013-10-22 14:52:24 - OUT:          483.53692627
+2013-10-22 14:52:24 - OUT:          343.31060791
+2013-10-22 14:52:24 - OUT:          573.53692627
+2013-10-22 14:52:24 - OUT:          343.31060791
+2013-10-22 14:52:24 - OUT:          573.53692627
+2013-10-22 14:52:24 - OUT:          268.31060791
+2013-10-22 14:52:24 - OUT:          483.53692627
+2013-10-22 14:52:24 - OUT:          268.31060791
+2013-10-22 14:52:24 - OUT:       Now Parsing Feature with ID : 57
+2013-10-22 14:52:24 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:24 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((363.53692627 718.31060791, 363.53692627 793.31060791, 453.53692627 793.31060791, 453.53692627 718.31060791, 363.53692627 718.31060791)))
+2013-10-22 14:52:24 - OUT:          363.53692627
+2013-10-22 14:52:24 - OUT:          718.31060791
+2013-10-22 14:52:24 - OUT:          363.53692627
+2013-10-22 14:52:24 - OUT:          793.31060791
+2013-10-22 14:52:24 - OUT:          453.53692627
+2013-10-22 14:52:24 - OUT:          793.31060791
+2013-10-22 14:52:24 - OUT:          453.53692627
+2013-10-22 14:52:24 - OUT:          718.31060791
+2013-10-22 14:52:24 - OUT:          363.53692627
+2013-10-22 14:52:24 - OUT:          718.31060791
+2013-10-22 14:52:24 - OUT:       Now Parsing Feature with ID : 58
+2013-10-22 14:52:24 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:24 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((321.53692627 613.31060791, 321.53692627 673.31060791, 389.03692627 673.31060791, 389.03692627 613.31060791, 321.53692627 613.31060791)))
+2013-10-22 14:52:24 - OUT:          321.53692627
+2013-10-22 14:52:24 - OUT:          613.31060791
+2013-10-22 14:52:24 - OUT:          321.53692627
+2013-10-22 14:52:24 - OUT:          673.31060791
+2013-10-22 14:52:24 - OUT:          389.03692627
+2013-10-22 14:52:24 - OUT:          673.31060791
+2013-10-22 14:52:24 - OUT:          389.03692627
+2013-10-22 14:52:24 - OUT:          613.31060791
+2013-10-22 14:52:24 - OUT:          321.53692627
+2013-10-22 14:52:24 - OUT:          613.31060791
+2013-10-22 14:52:24 - OUT:       Now Parsing Feature with ID : 59
+2013-10-22 14:52:24 - OUT:          GEOMETRY TYPE MultiPolygon
+2013-10-22 14:52:24 - OUT:          GEOMETRY VALUE MULTIPOLYGON (((321.53692627 553.31060791, 321.53692627 613.31060791, 389.03692627 613.31060791, 389.03692627 553.31060791, 321.53692627 553.31060791)))
+2013-10-22 14:52:24 - OUT:          321.53692627
+2013-10-22 14:52:24 - OUT:          553.31060791
+2013-10-22 14:52:24 - OUT:          321.53692627
+2013-10-22 14:52:24 - OUT:          613.31060791
+2013-10-22 14:52:24 - OUT:          389.03692627
+2013-10-22 14:52:24 - OUT:          613.31060791
+2013-10-22 14:52:24 - OUT:          389.03692627
+2013-10-22 14:52:24 - OUT:          553.31060791
+2013-10-22 14:52:24 - OUT:          321.53692627
+2013-10-22 14:52:24 - OUT:          553.31060791
+2013-10-22 14:52:24 - OUT:    Exiting Shapefile Parser.
+2013-10-22 14:52:24 - OUT:    Reference System is : WGS84(DD)
+2013-10-22 14:52:24 - OUT:    Selected WGS 84 (EPSG: 4326 , geographic 2D)
+2013-10-22 14:52:27 - OUT:    Detected click on Info Button 424502001
+2013-10-22 14:52:28 - OUT:    Displaying contents of file.
+2013-10-22 15:10:30 - OUT: Exiting...
+2014-09-11 10:20:17 - OUT: Using EPSG file : EPSG_v8_2.csv
+2014-09-11 10:20:17 - OUT:       Populating combo boxes with 4534 items.
+2014-09-11 10:20:18 - OUT: Initialising UI...
+2014-09-11 10:20:22 - OUT: Using EPSG file : EPSG_v8_2.csv
+2014-09-11 10:20:22 - OUT:       Populating combo boxes with 4534 items.
+2014-09-11 10:20:22 - OUT: Initialising UI...
+2014-09-11 10:20:23 - OUT:    Detected click on Browse Button 1645995473
+2014-09-11 10:20:23 - OUT: Browsing for file...
+2014-09-11 10:20:26 - ERR: No file selected.
+2014-09-11 10:20:30 - OUT:    Detected click on Browse Button 1645995473
+2014-09-11 10:20:30 - OUT: Browsing for file...
+2014-09-11 10:20:36 - OUT:       Feature Source Hashcode = 1704237553
+2014-09-11 10:20:36 - OUT:    Geometry Type : the_geom
+2014-09-11 10:20:36 - OUT:       Waiting for user input...
+2014-09-11 10:20:37 - OUT:       Size of the Feature Collection : 5
+2014-09-11 10:20:37 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2014-09-11 10:20:37 - OUT:       Now Parsing Feature with ID : 1
+2014-09-11 10:20:37 - OUT:          GEOMETRY TYPE Point
+2014-09-11 10:20:37 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2014-09-11 10:20:37 - OUT:          529408.0
+2014-09-11 10:20:37 - OUT:          155354.0
+2014-09-11 10:20:37 - OUT:       Now Parsing Feature with ID : 2
+2014-09-11 10:20:37 - OUT:          GEOMETRY TYPE Point
+2014-09-11 10:20:37 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2014-09-11 10:20:37 - OUT:          543522.0
+2014-09-11 10:20:37 - OUT:          140347.0
+2014-09-11 10:20:37 - OUT:       Now Parsing Feature with ID : 3
+2014-09-11 10:20:37 - OUT:          GEOMETRY TYPE Point
+2014-09-11 10:20:37 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2014-09-11 10:20:37 - OUT:          543471.0
+2014-09-11 10:20:37 - OUT:          140446.0
+2014-09-11 10:20:37 - OUT:       Now Parsing Feature with ID : 4
+2014-09-11 10:20:37 - OUT:          GEOMETRY TYPE Point
+2014-09-11 10:20:37 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2014-09-11 10:20:37 - OUT:          543465.0
+2014-09-11 10:20:37 - OUT:          153566.0
+2014-09-11 10:20:37 - OUT:       Now Parsing Feature with ID : 5
+2014-09-11 10:20:37 - OUT:          GEOMETRY TYPE Point
+2014-09-11 10:20:37 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2014-09-11 10:20:37 - OUT:          543454.0
+2014-09-11 10:20:37 - OUT:          140379.0
+2014-09-11 10:20:37 - OUT:    Exiting Shapefile Parser.
+2014-09-11 10:20:37 - OUT:    Reference System is : British National Grid
+2014-09-11 10:20:37 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2014-09-11 10:20:40 - OUT:    Detected click on View CRS Button 1915503092
+2014-09-11 10:20:40 - OUT: Opening Info Shell...
+2014-09-11 10:20:42 - OUT:    Detected click on Info Button 1535128843
+2014-09-11 10:20:43 - OUT:    Displaying contents of file.
+2014-09-11 10:20:53 - OUT:    Detected action on Combo Target 2027961269
+2014-09-11 10:20:53 - OUT:    Selected St. Lucia 1955 / British West Indies Grid (EPSG: 2006 , projected)
+2014-09-11 10:20:58 - OUT:    Detected click on Search Button 1586270964
+2014-09-11 10:20:58 - OUT: Creating Search Shell...
+2014-09-11 10:20:58 - OUT: Opening Search Shell...
+2014-09-11 10:21:07 - OUT: Exiting...
+2014-09-11 11:54:27 - OUT: Using EPSG file : EPSG_v8_2.csv
+2014-09-11 11:54:27 - OUT:       Populating combo boxes with 4534 items.
+2014-09-11 11:54:28 - OUT: Initialising UI...
+2014-09-11 11:54:29 - OUT:    Detected click on Browse Button 379110473
+2014-09-11 11:54:29 - OUT: Browsing for file...
+2014-09-11 11:54:35 - OUT:       Feature Source Hashcode = 829149076
+2014-09-11 11:54:35 - OUT:    Geometry Type : the_geom
+2014-09-11 11:54:35 - OUT:       Waiting for user input...
+2014-09-11 11:54:37 - OUT:       Size of the Feature Collection : 5
+2014-09-11 11:54:37 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2014-09-11 11:54:37 - OUT:       Now Parsing Feature with ID : 1
+2014-09-11 11:54:37 - OUT:          GEOMETRY TYPE Point
+2014-09-11 11:54:37 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2014-09-11 11:54:37 - OUT:          529408.0
+2014-09-11 11:54:37 - OUT:          155354.0
+2014-09-11 11:54:37 - OUT:       Now Parsing Feature with ID : 2
+2014-09-11 11:54:37 - OUT:          GEOMETRY TYPE Point
+2014-09-11 11:54:37 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2014-09-11 11:54:37 - OUT:          543522.0
+2014-09-11 11:54:37 - OUT:          140347.0
+2014-09-11 11:54:37 - OUT:       Now Parsing Feature with ID : 3
+2014-09-11 11:54:37 - OUT:          GEOMETRY TYPE Point
+2014-09-11 11:54:37 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2014-09-11 11:54:37 - OUT:          543471.0
+2014-09-11 11:54:37 - OUT:          140446.0
+2014-09-11 11:54:37 - OUT:       Now Parsing Feature with ID : 4
+2014-09-11 11:54:37 - OUT:          GEOMETRY TYPE Point
+2014-09-11 11:54:37 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2014-09-11 11:54:37 - OUT:          543465.0
+2014-09-11 11:54:37 - OUT:          153566.0
+2014-09-11 11:54:37 - OUT:       Now Parsing Feature with ID : 5
+2014-09-11 11:54:37 - OUT:          GEOMETRY TYPE Point
+2014-09-11 11:54:37 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2014-09-11 11:54:37 - OUT:          543454.0
+2014-09-11 11:54:37 - OUT:          140379.0
+2014-09-11 11:54:37 - OUT:    Exiting Shapefile Parser.
+2014-09-11 11:54:37 - OUT:    Reference System is : British National Grid
+2014-09-11 11:54:37 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2014-09-11 11:54:38 - OUT:    Detected click on ID List 1768305536
+2014-09-11 11:54:38 - OUT:    Selected Items: 3 
+2014-09-11 11:54:38 - OUT:    HashMapSize : 18
+2014-09-11 11:54:38 - OUT:          Status RESOLVED
+2014-09-11 11:54:38 - OUT:          Descriptio CW PH (dia > 150 mm) - >40 mm deep
+2014-09-11 11:54:38 - OUT:          POC Inspector
+2014-09-11 11:54:38 - OUT:          Assetnum 39500941
+2014-09-11 11:54:38 - OUT:          NEAR_FID -1
+2014-09-11 11:54:38 - OUT:          OBJECTID 3
+2014-09-11 11:54:38 - OUT:          Affectedpe MBARBER
+2014-09-11 11:54:38 - OUT:          Pluspcity EDENBRIDGE
+2014-09-11 11:54:38 - OUT:          Ticketid 333860
+2014-09-11 11:54:38 - OUT:          SR_Priorit 2
+2014-09-11 11:54:38 - OUT:          Reportdate Wed Nov 14 00:00:00 GMT 2012
+2014-09-11 11:54:38 - OUT:          NEAR_DIST -1.0
+2014-09-11 11:54:38 - OUT:          X 543471.0
+2014-09-11 11:54:38 - OUT:          Y 140446.0
+2014-09-11 11:54:38 - OUT:          Pluspstadd SMITHERS LANE
+2014-09-11 11:54:38 - OUT:          Srdefect CW-POTHOLE
+2014-09-11 11:54:38 - OUT:          USRN 39500941
+2014-09-11 11:54:38 - OUT:          SR_Prior_1 2.0
+2014-09-11 11:54:39 - OUT:    Detected click on ID List 1768305536
+2014-09-11 11:54:39 - OUT:    Selected Items: 2 
+2014-09-11 11:54:39 - OUT:    HashMapSize : 18
+2014-09-11 11:54:39 - OUT:          Status RESOLVED
+2014-09-11 11:54:39 - OUT:          Descriptio CW PH (dia > 150 mm) - >40 mm deep
+2014-09-11 11:54:39 - OUT:          POC Inspector
+2014-09-11 11:54:39 - OUT:          Assetnum 39500941
+2014-09-11 11:54:39 - OUT:          NEAR_FID -1
+2014-09-11 11:54:39 - OUT:          OBJECTID 2
+2014-09-11 11:54:39 - OUT:          Affectedpe MBARBER
+2014-09-11 11:54:39 - OUT:          Pluspcity EDENBRIDGE
+2014-09-11 11:54:39 - OUT:          Ticketid 266778
+2014-09-11 11:54:39 - OUT:          SR_Priorit 2
+2014-09-11 11:54:39 - OUT:          Reportdate Mon May 21 00:00:00 BST 2012
+2014-09-11 11:54:39 - OUT:          NEAR_DIST -1.0
+2014-09-11 11:54:39 - OUT:          X 543522.0
+2014-09-11 11:54:39 - OUT:          Y 140347.0
+2014-09-11 11:54:39 - OUT:          Pluspstadd SMITHERS LANE
+2014-09-11 11:54:39 - OUT:          Srdefect CW-POTHOLE
+2014-09-11 11:54:39 - OUT:          USRN 39500941
+2014-09-11 11:54:39 - OUT:          SR_Prior_1 2.0
+2014-09-11 11:54:40 - OUT:    Detected click on ID List 1768305536
+2014-09-11 11:54:40 - OUT:    Selected Items: 3 
+2014-09-11 11:54:40 - OUT:    HashMapSize : 18
+2014-09-11 11:54:40 - OUT:          Status RESOLVED
+2014-09-11 11:54:40 - OUT:          Descriptio CW PH (dia > 150 mm) - >40 mm deep
+2014-09-11 11:54:40 - OUT:          POC Inspector
+2014-09-11 11:54:40 - OUT:          Assetnum 39500941
+2014-09-11 11:54:40 - OUT:          NEAR_FID -1
+2014-09-11 11:54:40 - OUT:          OBJECTID 3
+2014-09-11 11:54:40 - OUT:          Affectedpe MBARBER
+2014-09-11 11:54:40 - OUT:          Pluspcity EDENBRIDGE
+2014-09-11 11:54:40 - OUT:          Ticketid 333860
+2014-09-11 11:54:40 - OUT:          SR_Priorit 2
+2014-09-11 11:54:40 - OUT:          Reportdate Wed Nov 14 00:00:00 GMT 2012
+2014-09-11 11:54:40 - OUT:          NEAR_DIST -1.0
+2014-09-11 11:54:40 - OUT:          X 543471.0
+2014-09-11 11:54:40 - OUT:          Y 140446.0
+2014-09-11 11:54:40 - OUT:          Pluspstadd SMITHERS LANE
+2014-09-11 11:54:40 - OUT:          Srdefect CW-POTHOLE
+2014-09-11 11:54:40 - OUT:          USRN 39500941
+2014-09-11 11:54:40 - OUT:          SR_Prior_1 2.0
+2014-09-11 11:54:40 - OUT:    Detected click on ID List 1768305536
+2014-09-11 11:54:40 - OUT:    Selected Items: 4 
+2014-09-11 11:54:40 - OUT:    HashMapSize : 18
+2014-09-11 11:54:40 - OUT:          Status RESOLVED
+2014-09-11 11:54:40 - OUT:          Descriptio Ironwork - CW Broken Sunken > 40mm
+2014-09-11 11:54:40 - OUT:          POC Inspector
+2014-09-11 11:54:40 - OUT:          Assetnum 39501167
+2014-09-11 11:54:40 - OUT:          NEAR_FID -1
+2014-09-11 11:54:40 - OUT:          OBJECTID 4
+2014-09-11 11:54:40 - OUT:          Affectedpe MBARBER
+2014-09-11 11:54:40 - OUT:          Pluspcity LIMPSFIELD
+2014-09-11 11:54:40 - OUT:          Ticketid 292684
+2014-09-11 11:54:40 - OUT:          SR_Priorit 2
+2014-09-11 11:54:40 - OUT:          Reportdate Mon Jul 16 00:00:00 BST 2012
+2014-09-11 11:54:40 - OUT:          NEAR_DIST -1.0
+2014-09-11 11:54:40 - OUT:          X 543465.0
+2014-09-11 11:54:40 - OUT:          Y 153566.0
+2014-09-11 11:54:40 - OUT:          Pluspstadd WESTERHAM ROAD
+2014-09-11 11:54:40 - OUT:          Srdefect CW-IRWKBRK
+2014-09-11 11:54:40 - OUT:          USRN 39501167
+2014-09-11 11:54:40 - OUT:          SR_Prior_1 2.0
+2014-09-11 11:54:43 - OUT:    Detected click on ID List 1768305536
+2014-09-11 11:54:43 - OUT:    Selected Items: 4 
+2014-09-11 11:54:43 - OUT:    HashMapSize : 18
+2014-09-11 11:54:43 - OUT:          Status RESOLVED
+2014-09-11 11:54:43 - OUT:          Descriptio Ironwork - CW Broken Sunken > 40mm
+2014-09-11 11:54:43 - OUT:          POC Inspector
+2014-09-11 11:54:43 - OUT:          Assetnum 39501167
+2014-09-11 11:54:43 - OUT:          NEAR_FID -1
+2014-09-11 11:54:43 - OUT:          OBJECTID 4
+2014-09-11 11:54:43 - OUT:          Affectedpe MBARBER
+2014-09-11 11:54:43 - OUT:          Pluspcity LIMPSFIELD
+2014-09-11 11:54:43 - OUT:          Ticketid 292684
+2014-09-11 11:54:43 - OUT:          SR_Priorit 2
+2014-09-11 11:54:43 - OUT:          Reportdate Mon Jul 16 00:00:00 BST 2012
+2014-09-11 11:54:43 - OUT:          NEAR_DIST -1.0
+2014-09-11 11:54:43 - OUT:          X 543465.0
+2014-09-11 11:54:43 - OUT:          Y 153566.0
+2014-09-11 11:54:43 - OUT:          Pluspstadd WESTERHAM ROAD
+2014-09-11 11:54:43 - OUT:          Srdefect CW-IRWKBRK
+2014-09-11 11:54:43 - OUT:          USRN 39501167
+2014-09-11 11:54:43 - OUT:          SR_Prior_1 2.0
+2014-09-11 11:54:43 - OUT:    Detected click on ID List 1768305536
+2014-09-11 11:54:43 - OUT:    Selected Items: 5 
+2014-09-11 11:54:43 - OUT:    HashMapSize : 18
+2014-09-11 11:54:43 - OUT:          Status RESOLVED
+2014-09-11 11:54:43 - OUT:          Descriptio CW PH (dia > 150 mm) - >40 mm deep
+2014-09-11 11:54:43 - OUT:          POC Inspector
+2014-09-11 11:54:43 - OUT:          Assetnum 39500941
+2014-09-11 11:54:43 - OUT:          NEAR_FID -1
+2014-09-11 11:54:43 - OUT:          OBJECTID 5
+2014-09-11 11:54:43 - OUT:          Affectedpe MBARBER
+2014-09-11 11:54:43 - OUT:          Pluspcity EDENBRIDGE
+2014-09-11 11:54:43 - OUT:          Ticketid 266769
+2014-09-11 11:54:43 - OUT:          SR_Priorit 2
+2014-09-11 11:54:43 - OUT:          Reportdate Mon May 21 00:00:00 BST 2012
+2014-09-11 11:54:43 - OUT:          NEAR_DIST -1.0
+2014-09-11 11:54:43 - OUT:          X 543454.0
+2014-09-11 11:54:43 - OUT:          Y 140379.0
+2014-09-11 11:54:43 - OUT:          Pluspstadd SMITHERS LANE
+2014-09-11 11:54:43 - OUT:          Srdefect CW-POTHOLE
+2014-09-11 11:54:43 - OUT:          USRN 39500941
+2014-09-11 11:54:43 - OUT:          SR_Prior_1 2.0
+2014-09-11 11:54:44 - OUT:    Detected click on ID List 1768305536
+2014-09-11 11:54:44 - OUT:    Selected Items: 1 
+2014-09-11 11:54:44 - OUT:    HashMapSize : 18
+2014-09-11 11:54:44 - OUT:          Status RESOLVED
+2014-09-11 11:54:44 - OUT:          Descriptio Ironwork - CW Broken Sunken > 40mm
+2014-09-11 11:54:44 - OUT:          POC Inspector
+2014-09-11 11:54:44 - OUT:          Assetnum 31200419
+2014-09-11 11:54:44 - OUT:          NEAR_FID -1
+2014-09-11 11:54:44 - OUT:          OBJECTID 1
+2014-09-11 11:54:44 - OUT:          Affectedpe JMCSPORRAN
+2014-09-11 11:54:44 - OUT:          Pluspcity MERSTHAM
+2014-09-11 11:54:44 - OUT:          Ticketid 307332
+2014-09-11 11:54:44 - OUT:          SR_Priorit 4
+2014-09-11 11:54:44 - OUT:          Reportdate Thu Aug 23 00:00:00 BST 2012
+2014-09-11 11:54:44 - OUT:          NEAR_DIST -1.0
+2014-09-11 11:54:44 - OUT:          X 529408.0
+2014-09-11 11:54:44 - OUT:          Y 155354.0
+2014-09-11 11:54:44 - OUT:          Pluspstadd DEAN LANE
+2014-09-11 11:54:44 - OUT:          Srdefect CW-IRWKBRK
+2014-09-11 11:54:44 - OUT:          USRN 31200419
+2014-09-11 11:54:44 - OUT:          SR_Prior_1 4.0
+2014-09-11 11:54:45 - OUT:    Detected click on ID List 1768305536
+2014-09-11 11:54:45 - OUT:    Selected Items: 2 
+2014-09-11 11:54:45 - OUT:    HashMapSize : 18
+2014-09-11 11:54:45 - OUT:          Status RESOLVED
+2014-09-11 11:54:45 - OUT:          Descriptio CW PH (dia > 150 mm) - >40 mm deep
+2014-09-11 11:54:45 - OUT:          POC Inspector
+2014-09-11 11:54:45 - OUT:          Assetnum 39500941
+2014-09-11 11:54:45 - OUT:          NEAR_FID -1
+2014-09-11 11:54:45 - OUT:          OBJECTID 2
+2014-09-11 11:54:45 - OUT:          Affectedpe MBARBER
+2014-09-11 11:54:45 - OUT:          Pluspcity EDENBRIDGE
+2014-09-11 11:54:45 - OUT:          Ticketid 266778
+2014-09-11 11:54:45 - OUT:          SR_Priorit 2
+2014-09-11 11:54:45 - OUT:          Reportdate Mon May 21 00:00:00 BST 2012
+2014-09-11 11:54:45 - OUT:          NEAR_DIST -1.0
+2014-09-11 11:54:45 - OUT:          X 543522.0
+2014-09-11 11:54:45 - OUT:          Y 140347.0
+2014-09-11 11:54:45 - OUT:          Pluspstadd SMITHERS LANE
+2014-09-11 11:54:45 - OUT:          Srdefect CW-POTHOLE
+2014-09-11 11:54:45 - OUT:          USRN 39500941
+2014-09-11 11:54:45 - OUT:          SR_Prior_1 2.0
+2014-09-11 11:54:45 - OUT:    Detected click on ID List 1768305536
+2014-09-11 11:54:45 - OUT:    Selected Items: 4 
+2014-09-11 11:54:45 - OUT:    HashMapSize : 18
+2014-09-11 11:54:45 - OUT:          Status RESOLVED
+2014-09-11 11:54:45 - OUT:          Descriptio Ironwork - CW Broken Sunken > 40mm
+2014-09-11 11:54:45 - OUT:          POC Inspector
+2014-09-11 11:54:45 - OUT:          Assetnum 39501167
+2014-09-11 11:54:45 - OUT:          NEAR_FID -1
+2014-09-11 11:54:45 - OUT:          OBJECTID 4
+2014-09-11 11:54:45 - OUT:          Affectedpe MBARBER
+2014-09-11 11:54:45 - OUT:          Pluspcity LIMPSFIELD
+2014-09-11 11:54:45 - OUT:          Ticketid 292684
+2014-09-11 11:54:45 - OUT:          SR_Priorit 2
+2014-09-11 11:54:45 - OUT:          Reportdate Mon Jul 16 00:00:00 BST 2012
+2014-09-11 11:54:45 - OUT:          NEAR_DIST -1.0
+2014-09-11 11:54:45 - OUT:          X 543465.0
+2014-09-11 11:54:45 - OUT:          Y 153566.0
+2014-09-11 11:54:45 - OUT:          Pluspstadd WESTERHAM ROAD
+2014-09-11 11:54:45 - OUT:          Srdefect CW-IRWKBRK
+2014-09-11 11:54:45 - OUT:          USRN 39501167
+2014-09-11 11:54:45 - OUT:          SR_Prior_1 2.0
+2014-09-11 11:54:46 - OUT:    Detected click on ID List 1768305536
+2014-09-11 11:54:46 - OUT:    Selected Items: 3 
+2014-09-11 11:54:46 - OUT:    HashMapSize : 18
+2014-09-11 11:54:46 - OUT:          Status RESOLVED
+2014-09-11 11:54:46 - OUT:          Descriptio CW PH (dia > 150 mm) - >40 mm deep
+2014-09-11 11:54:46 - OUT:          POC Inspector
+2014-09-11 11:54:46 - OUT:          Assetnum 39500941
+2014-09-11 11:54:46 - OUT:          NEAR_FID -1
+2014-09-11 11:54:46 - OUT:          OBJECTID 3
+2014-09-11 11:54:46 - OUT:          Affectedpe MBARBER
+2014-09-11 11:54:46 - OUT:          Pluspcity EDENBRIDGE
+2014-09-11 11:54:46 - OUT:          Ticketid 333860
+2014-09-11 11:54:46 - OUT:          SR_Priorit 2
+2014-09-11 11:54:46 - OUT:          Reportdate Wed Nov 14 00:00:00 GMT 2012
+2014-09-11 11:54:46 - OUT:          NEAR_DIST -1.0
+2014-09-11 11:54:46 - OUT:          X 543471.0
+2014-09-11 11:54:46 - OUT:          Y 140446.0
+2014-09-11 11:54:46 - OUT:          Pluspstadd SMITHERS LANE
+2014-09-11 11:54:46 - OUT:          Srdefect CW-POTHOLE
+2014-09-11 11:54:46 - OUT:          USRN 39500941
+2014-09-11 11:54:46 - OUT:          SR_Prior_1 2.0
+2014-09-11 11:54:49 - OUT:       Populating combo boxes with 6 items.
+2014-09-11 11:54:53 - OUT:       Populating combo boxes with 4534 items.
+2014-09-11 11:54:55 - OUT:    Detected click on View CRS Button 1512981843
+2014-09-11 11:54:55 - OUT: Opening Info Shell...
+2014-09-11 11:55:01 - OUT:    Detected click on myKML_Button 1830908236
+2014-09-11 11:55:01 - OUT: Starting KML export...
+2014-09-11 11:55:01 - OUT:    Created the KML document in memory.
+2014-09-11 11:55:01 - OUT:    Created the KML styles.
+2014-09-11 11:55:02 - OUT:        From : 529408.0 155354.0 To : -0.14585524539516262 51.2826356100346
+2014-09-11 11:55:02 - OUT:        From : 543522.0 140347.0 To : 0.05038728479539054 51.144402809990765
+2014-09-11 11:55:02 - OUT:        From : 543471.0 140446.0 To : 0.04969810927334914 51.14530522233094
+2014-09-11 11:55:02 - OUT:        From : 543465.0 153566.0 To : 0.05485309408196138 51.263204991658746
+2014-09-11 11:55:02 - OUT:        From : 543454.0 140379.0 To : 0.049428572043433185 51.1447074000427
+2014-09-11 11:55:02 - OUT:    Preparing to export...
+2014-09-11 11:55:03 - OUT: KML exported successfully at : Point_Export.kml
+2014-09-11 12:02:54 - OUT: Using EPSG file : EPSG_v8_2.csv
+2014-09-11 12:02:54 - OUT:       Populating combo boxes with 4534 items.
+2014-09-11 12:02:55 - OUT: Initialising UI...
+2014-09-11 12:02:57 - OUT: Exiting...

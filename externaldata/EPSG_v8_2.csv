@@ -1,0 +1,4534 @@
+2000,Anguilla 1957 / British West Indies Grid,projected
+2001,Antigua 1943 / British West Indies Grid,projected
+2002,Dominica 1945 / British West Indies Grid,projected
+2003,Grenada 1953 / British West Indies Grid,projected
+2004,Montserrat 1958 / British West Indies Grid,projected
+2005,St. Kitts 1955 / British West Indies Grid,projected
+2006,St. Lucia 1955 / British West Indies Grid,projected
+2007,St. Vincent 45 / British West Indies Grid,projected
+2009,NAD27(CGQ77) / SCoPQ zone 3,projected
+2010,NAD27(CGQ77) / SCoPQ zone 4,projected
+2011,NAD27(CGQ77) / SCoPQ zone 5,projected
+2012,NAD27(CGQ77) / SCoPQ zone 6,projected
+2013,NAD27(CGQ77) / SCoPQ zone 7,projected
+2014,NAD27(CGQ77) / SCoPQ zone 8,projected
+2015,NAD27(CGQ77) / SCoPQ zone 9,projected
+2016,NAD27(CGQ77) / SCoPQ zone 10,projected
+2017,NAD27(76) / MTM zone 8,projected
+2018,NAD27(76) / MTM zone 9,projected
+2019,NAD27(76) / MTM zone 10,projected
+2020,NAD27(76) / MTM zone 11,projected
+2021,NAD27(76) / MTM zone 12,projected
+2022,NAD27(76) / MTM zone 13,projected
+2023,NAD27(76) / MTM zone 14,projected
+2024,NAD27(76) / MTM zone 15,projected
+2025,NAD27(76) / MTM zone 16,projected
+2026,NAD27(76) / MTM zone 17,projected
+2027,NAD27(76) / UTM zone 15N,projected
+2028,NAD27(76) / UTM zone 16N,projected
+2029,NAD27(76) / UTM zone 17N,projected
+2030,NAD27(76) / UTM zone 18N,projected
+2031,NAD27(CGQ77) / UTM zone 17N,projected
+2032,NAD27(CGQ77) / UTM zone 18N,projected
+2033,NAD27(CGQ77) / UTM zone 19N,projected
+2034,NAD27(CGQ77) / UTM zone 20N,projected
+2035,NAD27(CGQ77) / UTM zone 21N,projected
+2039,Israel / Israeli TM Grid,projected
+2040,Locodjo 1965 / UTM zone 30N,projected
+2041,Abidjan 1987 / UTM zone 30N,projected
+2042,Locodjo 1965 / UTM zone 29N,projected
+2043,Abidjan 1987 / UTM zone 29N,projected
+2044,Hanoi 1972 / Gauss-Kruger zone 18,projected
+2045,Hanoi 1972 / Gauss-Kruger zone 19,projected
+2046,Hartebeesthoek94 / Lo15,projected
+2047,Hartebeesthoek94 / Lo17,projected
+2048,Hartebeesthoek94 / Lo19,projected
+2049,Hartebeesthoek94 / Lo21,projected
+2050,Hartebeesthoek94 / Lo23,projected
+2051,Hartebeesthoek94 / Lo25,projected
+2052,Hartebeesthoek94 / Lo27,projected
+2053,Hartebeesthoek94 / Lo29,projected
+2054,Hartebeesthoek94 / Lo31,projected
+2055,Hartebeesthoek94 / Lo33,projected
+2056,CH1903+ / LV95,projected
+2057,Rassadiran / Nakhl e Taqi,projected
+2058,ED50(ED77) / UTM zone 38N,projected
+2059,ED50(ED77) / UTM zone 39N,projected
+2060,ED50(ED77) / UTM zone 40N,projected
+2061,ED50(ED77) / UTM zone 41N,projected
+2062,Madrid 1870 (Madrid) / Spain,projected
+2065,S-JTSK (Ferro) / Krovak,projected
+2066,Mount Dillon / Tobago Grid,projected
+2067,Naparima 1955 / UTM zone 20N,projected
+2068,ELD79 / Libya zone 5,projected
+2069,ELD79 / Libya zone 6,projected
+2070,ELD79 / Libya zone 7,projected
+2071,ELD79 / Libya zone 8,projected
+2072,ELD79 / Libya zone 9,projected
+2073,ELD79 / Libya zone 10,projected
+2074,ELD79 / Libya zone 11,projected
+2075,ELD79 / Libya zone 12,projected
+2076,ELD79 / Libya zone 13,projected
+2077,ELD79 / UTM zone 32N,projected
+2078,ELD79 / UTM zone 33N,projected
+2079,ELD79 / UTM zone 34N,projected
+2080,ELD79 / UTM zone 35N,projected
+2081,Chos Malal 1914 / Argentina 2,projected
+2082,Pampa del Castillo / Argentina 2,projected
+2083,Hito XVIII 1963 / Argentina 2,projected
+2084,Hito XVIII 1963 / UTM zone 19S,projected
+2087,ELD79 / TM 12 NE,projected
+2088,Carthage / TM 11 NE,projected
+2089,Yemen NGN96 / UTM zone 38N,projected
+2090,Yemen NGN96 / UTM zone 39N,projected
+2093,Hanoi 1972 / GK 106 NE,projected
+2094,WGS 72BE / TM 106 NE,projected
+2095,Bissau / UTM zone 28N,projected
+2096,Korean 1985 / East Belt,projected
+2097,Korean 1985 / Central Belt,projected
+2098,Korean 1985 / West Belt,projected
+2099,Qatar 1948 / Qatar Grid,projected
+2100,GGRS87 / Greek Grid,projected
+2101,Lake / Maracaibo Grid M1,projected
+2102,Lake / Maracaibo Grid,projected
+2103,Lake / Maracaibo Grid M3,projected
+2104,Lake / Maracaibo La Rosa Grid,projected
+2105,NZGD2000 / Mount Eden 2000,projected
+2106,NZGD2000 / Bay of Plenty 2000,projected
+2107,NZGD2000 / Poverty Bay 2000,projected
+2108,NZGD2000 / Hawkes Bay 2000,projected
+2109,NZGD2000 / Taranaki 2000,projected
+2110,NZGD2000 / Tuhirangi 2000,projected
+2111,NZGD2000 / Wanganui 2000,projected
+2112,NZGD2000 / Wairarapa 2000,projected
+2113,NZGD2000 / Wellington 2000,projected
+2114,NZGD2000 / Collingwood 2000,projected
+2115,NZGD2000 / Nelson 2000,projected
+2116,NZGD2000 / Karamea 2000,projected
+2117,NZGD2000 / Buller 2000,projected
+2118,NZGD2000 / Grey 2000,projected
+2119,NZGD2000 / Amuri 2000,projected
+2120,NZGD2000 / Marlborough 2000,projected
+2121,NZGD2000 / Hokitika 2000,projected
+2122,NZGD2000 / Okarito 2000,projected
+2123,NZGD2000 / Jacksons Bay 2000,projected
+2124,NZGD2000 / Mount Pleasant 2000,projected
+2125,NZGD2000 / Gawler 2000,projected
+2126,NZGD2000 / Timaru 2000,projected
+2127,NZGD2000 / Lindis Peak 2000,projected
+2128,NZGD2000 / Mount Nicholas 2000,projected
+2129,NZGD2000 / Mount York 2000,projected
+2130,NZGD2000 / Observation Point 2000,projected
+2131,NZGD2000 / North Taieri 2000,projected
+2132,NZGD2000 / Bluff 2000,projected
+2133,NZGD2000 / UTM zone 58S,projected
+2134,NZGD2000 / UTM zone 59S,projected
+2135,NZGD2000 / UTM zone 60S,projected
+2136,Accra / Ghana National Grid,projected
+2137,Accra / TM 1 NW,projected
+2138,NAD27(CGQ77) / Quebec Lambert,projected
+2154,RGF93 / Lambert-93,projected
+2157,IRENET95 / Irish Transverse Mercator,projected
+2158,IRENET95 / UTM zone 29N,projected
+2159,Sierra Leone 1924 / New Colony Grid,projected
+2160,Sierra Leone 1924 / New War Office Grid,projected
+2161,Sierra Leone 1968 / UTM zone 28N,projected
+2162,Sierra Leone 1968 / UTM zone 29N,projected
+2163,US National Atlas Equal Area,projected
+2164,Locodjo 1965 / TM 5 NW,projected
+2165,Abidjan 1987 / TM 5 NW,projected
+2169,Luxembourg 1930 / Gauss,projected
+2172,Pulkovo 1942(58) / Poland zone II,projected
+2173,Pulkovo 1942(58) / Poland zone III,projected
+2174,Pulkovo 1942(58) / Poland zone IV,projected
+2175,Pulkovo 1942(58) / Poland zone V,projected
+2176,ETRS89 / Poland CS2000 zone 5,projected
+2177,ETRS89 / Poland CS2000 zone 6,projected
+2178,ETRS89 / Poland CS2000 zone 7,projected
+2179,ETRS89 / Poland CS2000 zone 8,projected
+2180,ETRS89 / Poland CS92,projected
+2188,Azores Occidental 1939 / UTM zone 25N,projected
+2189,Azores Central 1948 / UTM zone 26N,projected
+2190,Azores Oriental 1940 / UTM zone 26N,projected
+2193,NZGD2000 / New Zealand Transverse Mercator 2000,projected
+2195,NAD83(HARN) / UTM zone 2S,projected
+2196,ETRS89 / Kp2000 Jutland,projected
+2197,ETRS89 / Kp2000 Zealand,projected
+2198,ETRS89 / Kp2000 Bornholm,projected
+2200,ATS77 / New Brunswick Stereographic (ATS77),projected
+2201,REGVEN / UTM zone 18N,projected
+2202,REGVEN / UTM zone 19N,projected
+2203,REGVEN / UTM zone 20N,projected
+2204,NAD27 / Tennessee,projected
+2205,NAD83 / Kentucky North,projected
+2206,ED50 / 3-degree Gauss-Kruger zone 9,projected
+2207,ED50 / 3-degree Gauss-Kruger zone 10,projected
+2208,ED50 / 3-degree Gauss-Kruger zone 11,projected
+2209,ED50 / 3-degree Gauss-Kruger zone 12,projected
+2210,ED50 / 3-degree Gauss-Kruger zone 13,projected
+2211,ED50 / 3-degree Gauss-Kruger zone 14,projected
+2212,ED50 / 3-degree Gauss-Kruger zone 15,projected
+2213,ETRS89 / TM 30 NE,projected
+2215,Manoca 1962 / UTM zone 32N,projected
+2216,Qornoq 1927 / UTM zone 22N,projected
+2217,Qornoq 1927 / UTM zone 23N,projected
+2218,Scoresbysund 1952 / Greenland zone 5 east,projected
+2219,ATS77 / UTM zone 19N,projected
+2220,ATS77 / UTM zone 20N,projected
+2221,Scoresbysund 1952 / Greenland zone 6 east,projected
+2222,NAD83 / Arizona East (ft),projected
+2223,NAD83 / Arizona Central (ft),projected
+2224,NAD83 / Arizona West (ft),projected
+2225,NAD83 / California zone 1 (ftUS),projected
+2226,NAD83 / California zone 2 (ftUS),projected
+2227,NAD83 / California zone 3 (ftUS),projected
+2228,NAD83 / California zone 4 (ftUS),projected
+2229,NAD83 / California zone 5 (ftUS),projected
+2230,NAD83 / California zone 6 (ftUS),projected
+2231,NAD83 / Colorado North (ftUS),projected
+2232,NAD83 / Colorado Central (ftUS),projected
+2233,NAD83 / Colorado South (ftUS),projected
+2234,NAD83 / Connecticut (ftUS),projected
+2235,NAD83 / Delaware (ftUS),projected
+2236,NAD83 / Florida East (ftUS),projected
+2237,NAD83 / Florida West (ftUS),projected
+2238,NAD83 / Florida North (ftUS),projected
+2239,NAD83 / Georgia East (ftUS),projected
+2240,NAD83 / Georgia West (ftUS),projected
+2241,NAD83 / Idaho East (ftUS),projected
+2242,NAD83 / Idaho Central (ftUS),projected
+2243,NAD83 / Idaho West (ftUS),projected
+2246,NAD83 / Kentucky North (ftUS),projected
+2247,NAD83 / Kentucky South (ftUS),projected
+2248,NAD83 / Maryland (ftUS),projected
+2249,NAD83 / Massachusetts Mainland (ftUS),projected
+2250,NAD83 / Massachusetts Island (ftUS),projected
+2251,NAD83 / Michigan North (ft),projected
+2252,NAD83 / Michigan Central (ft),projected
+2253,NAD83 / Michigan South (ft),projected
+2254,NAD83 / Mississippi East (ftUS),projected
+2255,NAD83 / Mississippi West (ftUS),projected
+2256,NAD83 / Montana (ft),projected
+2257,NAD83 / New Mexico East (ftUS),projected
+2258,NAD83 / New Mexico Central (ftUS),projected
+2259,NAD83 / New Mexico West (ftUS),projected
+2260,NAD83 / New York East (ftUS),projected
+2261,NAD83 / New York Central (ftUS),projected
+2262,NAD83 / New York West (ftUS),projected
+2263,NAD83 / New York Long Island (ftUS),projected
+2264,NAD83 / North Carolina (ftUS),projected
+2265,NAD83 / North Dakota North (ft),projected
+2266,NAD83 / North Dakota South (ft),projected
+2267,NAD83 / Oklahoma North (ftUS),projected
+2268,NAD83 / Oklahoma South (ftUS),projected
+2269,NAD83 / Oregon North (ft),projected
+2270,NAD83 / Oregon South (ft),projected
+2271,NAD83 / Pennsylvania North (ftUS),projected
+2272,NAD83 / Pennsylvania South (ftUS),projected
+2273,NAD83 / South Carolina (ft),projected
+2274,NAD83 / Tennessee (ftUS),projected
+2275,NAD83 / Texas North (ftUS),projected
+2276,NAD83 / Texas North Central (ftUS),projected
+2277,NAD83 / Texas Central (ftUS),projected
+2278,NAD83 / Texas South Central (ftUS),projected
+2279,NAD83 / Texas South (ftUS),projected
+2280,NAD83 / Utah North (ft),projected
+2281,NAD83 / Utah Central (ft),projected
+2282,NAD83 / Utah South (ft),projected
+2283,NAD83 / Virginia North (ftUS),projected
+2284,NAD83 / Virginia South (ftUS),projected
+2285,NAD83 / Washington North (ftUS),projected
+2286,NAD83 / Washington South (ftUS),projected
+2287,NAD83 / Wisconsin North (ftUS),projected
+2288,NAD83 / Wisconsin Central (ftUS),projected
+2289,NAD83 / Wisconsin South (ftUS),projected
+2290,ATS77 / Prince Edward Isl. Stereographic (ATS77),projected
+2294,ATS77 / MTM Nova Scotia zone 4,projected
+2295,ATS77 / MTM Nova Scotia zone 5,projected
+2296,Ammassalik 1958 / Greenland zone 7 east,projected
+2299,Qornoq 1927 / Greenland zone 2 west,projected
+2301,Qornoq 1927 / Greenland zone 3 west,projected
+2303,Qornoq 1927 / Greenland zone 4 west,projected
+2304,Qornoq 1927 / Greenland zone 5 west,projected
+2305,Qornoq 1927 / Greenland zone 6 west,projected
+2306,Qornoq 1927 / Greenland zone 7 west,projected
+2307,Qornoq 1927 / Greenland zone 8 east,projected
+2308,Batavia / TM 109 SE,projected
+2309,WGS 84 / TM 116 SE,projected
+2310,WGS 84 / TM 132 SE,projected
+2311,WGS 84 / TM 6 NE,projected
+2312,Garoua / UTM zone 33N,projected
+2313,Kousseri / UTM zone 33N,projected
+2314,Trinidad 1903 / Trinidad Grid (ftCla),projected
+2315,Campo Inchauspe / UTM zone 19S,projected
+2316,Campo Inchauspe / UTM zone 20S,projected
+2317,PSAD56 / ICN Regional,projected
+2318,Ain el Abd / Aramco Lambert,projected
+2319,ED50 / TM27,projected
+2320,ED50 / TM30,projected
+2321,ED50 / TM33,projected
+2322,ED50 / TM36,projected
+2323,ED50 / TM39,projected
+2324,ED50 / TM42,projected
+2325,ED50 / TM45,projected
+2326,Hong Kong 1980 Grid System,projected
+2327,Xian 1980 / Gauss-Kruger zone 13,projected
+2328,Xian 1980 / Gauss-Kruger zone 14,projected
+2329,Xian 1980 / Gauss-Kruger zone 15,projected
+2330,Xian 1980 / Gauss-Kruger zone 16,projected
+2331,Xian 1980 / Gauss-Kruger zone 17,projected
+2332,Xian 1980 / Gauss-Kruger zone 18,projected
+2333,Xian 1980 / Gauss-Kruger zone 19,projected
+2334,Xian 1980 / Gauss-Kruger zone 20,projected
+2335,Xian 1980 / Gauss-Kruger zone 21,projected
+2336,Xian 1980 / Gauss-Kruger zone 22,projected
+2337,Xian 1980 / Gauss-Kruger zone 23,projected
+2338,Xian 1980 / Gauss-Kruger CM 75E,projected
+2339,Xian 1980 / Gauss-Kruger CM 81E,projected
+2340,Xian 1980 / Gauss-Kruger CM 87E,projected
+2341,Xian 1980 / Gauss-Kruger CM 93E,projected
+2342,Xian 1980 / Gauss-Kruger CM 99E,projected
+2343,Xian 1980 / Gauss-Kruger CM 105E,projected
+2344,Xian 1980 / Gauss-Kruger CM 111E,projected
+2345,Xian 1980 / Gauss-Kruger CM 117E,projected
+2346,Xian 1980 / Gauss-Kruger CM 123E,projected
+2347,Xian 1980 / Gauss-Kruger CM 129E,projected
+2348,Xian 1980 / Gauss-Kruger CM 135E,projected
+2349,Xian 1980 / 3-degree Gauss-Kruger zone 25,projected
+2350,Xian 1980 / 3-degree Gauss-Kruger zone 26,projected
+2351,Xian 1980 / 3-degree Gauss-Kruger zone 27,projected
+2352,Xian 1980 / 3-degree Gauss-Kruger zone 28,projected
+2353,Xian 1980 / 3-degree Gauss-Kruger zone 29,projected
+2354,Xian 1980 / 3-degree Gauss-Kruger zone 30,projected
+2355,Xian 1980 / 3-degree Gauss-Kruger zone 31,projected
+2356,Xian 1980 / 3-degree Gauss-Kruger zone 32,projected
+2357,Xian 1980 / 3-degree Gauss-Kruger zone 33,projected
+2358,Xian 1980 / 3-degree Gauss-Kruger zone 34,projected
+2359,Xian 1980 / 3-degree Gauss-Kruger zone 35,projected
+2360,Xian 1980 / 3-degree Gauss-Kruger zone 36,projected
+2361,Xian 1980 / 3-degree Gauss-Kruger zone 37,projected
+2362,Xian 1980 / 3-degree Gauss-Kruger zone 38,projected
+2363,Xian 1980 / 3-degree Gauss-Kruger zone 39,projected
+2364,Xian 1980 / 3-degree Gauss-Kruger zone 40,projected
+2365,Xian 1980 / 3-degree Gauss-Kruger zone 41,projected
+2366,Xian 1980 / 3-degree Gauss-Kruger zone 42,projected
+2367,Xian 1980 / 3-degree Gauss-Kruger zone 43,projected
+2368,Xian 1980 / 3-degree Gauss-Kruger zone 44,projected
+2369,Xian 1980 / 3-degree Gauss-Kruger zone 45,projected
+2370,Xian 1980 / 3-degree Gauss-Kruger CM 75E,projected
+2371,Xian 1980 / 3-degree Gauss-Kruger CM 78E,projected
+2372,Xian 1980 / 3-degree Gauss-Kruger CM 81E,projected
+2373,Xian 1980 / 3-degree Gauss-Kruger CM 84E,projected
+2374,Xian 1980 / 3-degree Gauss-Kruger CM 87E,projected
+2375,Xian 1980 / 3-degree Gauss-Kruger CM 90E,projected
+2376,Xian 1980 / 3-degree Gauss-Kruger CM 93E,projected
+2377,Xian 1980 / 3-degree Gauss-Kruger CM 96E,projected
+2378,Xian 1980 / 3-degree Gauss-Kruger CM 99E,projected
+2379,Xian 1980 / 3-degree Gauss-Kruger CM 102E,projected
+2380,Xian 1980 / 3-degree Gauss-Kruger CM 105E,projected
+2381,Xian 1980 / 3-degree Gauss-Kruger CM 108E,projected
+2382,Xian 1980 / 3-degree Gauss-Kruger CM 111E,projected
+2383,Xian 1980 / 3-degree Gauss-Kruger CM 114E,projected
+2384,Xian 1980 / 3-degree Gauss-Kruger CM 117E,projected
+2385,Xian 1980 / 3-degree Gauss-Kruger CM 120E,projected
+2386,Xian 1980 / 3-degree Gauss-Kruger CM 123E,projected
+2387,Xian 1980 / 3-degree Gauss-Kruger CM 126E,projected
+2388,Xian 1980 / 3-degree Gauss-Kruger CM 129E,projected
+2389,Xian 1980 / 3-degree Gauss-Kruger CM 132E,projected
+2390,Xian 1980 / 3-degree Gauss-Kruger CM 135E,projected
+2391,KKJ / Finland zone 1,projected
+2392,KKJ / Finland zone 2,projected
+2393,KKJ / Finland Uniform Coordinate System,projected
+2394,KKJ / Finland zone 4,projected
+2395,South Yemen / Gauss-Kruger zone 8,projected
+2396,South Yemen / Gauss-Kruger zone 9,projected
+2397,Pulkovo 1942(83) / 3-degree Gauss-Kruger zone 3,projected
+2398,Pulkovo 1942(83) / 3-degree Gauss-Kruger zone 4,projected
+2399,Pulkovo 1942(83) / 3-degree Gauss-Kruger zone 5,projected
+2401,Beijing 1954 / 3-degree Gauss-Kruger zone 25,projected
+2402,Beijing 1954 / 3-degree Gauss-Kruger zone 26,projected
+2403,Beijing 1954 / 3-degree Gauss-Kruger zone 27,projected
+2404,Beijing 1954 / 3-degree Gauss-Kruger zone 28,projected
+2405,Beijing 1954 / 3-degree Gauss-Kruger zone 29,projected
+2406,Beijing 1954 / 3-degree Gauss-Kruger zone 30,projected
+2407,Beijing 1954 / 3-degree Gauss-Kruger zone 31,projected
+2408,Beijing 1954 / 3-degree Gauss-Kruger zone 32,projected
+2409,Beijing 1954 / 3-degree Gauss-Kruger zone 33,projected
+2410,Beijing 1954 / 3-degree Gauss-Kruger zone 34,projected
+2411,Beijing 1954 / 3-degree Gauss-Kruger zone 35,projected
+2412,Beijing 1954 / 3-degree Gauss-Kruger zone 36,projected
+2413,Beijing 1954 / 3-degree Gauss-Kruger zone 37,projected
+2414,Beijing 1954 / 3-degree Gauss-Kruger zone 38,projected
+2415,Beijing 1954 / 3-degree Gauss-Kruger zone 39,projected
+2416,Beijing 1954 / 3-degree Gauss-Kruger zone 40,projected
+2417,Beijing 1954 / 3-degree Gauss-Kruger zone 41,projected
+2418,Beijing 1954 / 3-degree Gauss-Kruger zone 42,projected
+2419,Beijing 1954 / 3-degree Gauss-Kruger zone 43,projected
+2420,Beijing 1954 / 3-degree Gauss-Kruger zone 44,projected
+2421,Beijing 1954 / 3-degree Gauss-Kruger zone 45,projected
+2422,Beijing 1954 / 3-degree Gauss-Kruger CM 75E,projected
+2423,Beijing 1954 / 3-degree Gauss-Kruger CM 78E,projected
+2424,Beijing 1954 / 3-degree Gauss-Kruger CM 81E,projected
+2425,Beijing 1954 / 3-degree Gauss-Kruger CM 84E,projected
+2426,Beijing 1954 / 3-degree Gauss-Kruger CM 87E,projected
+2427,Beijing 1954 / 3-degree Gauss-Kruger CM 90E,projected
+2428,Beijing 1954 / 3-degree Gauss-Kruger CM 93E,projected
+2429,Beijing 1954 / 3-degree Gauss-Kruger CM 96E,projected
+2430,Beijing 1954 / 3-degree Gauss-Kruger CM 99E,projected
+2431,Beijing 1954 / 3-degree Gauss-Kruger CM 102E,projected
+2432,Beijing 1954 / 3-degree Gauss-Kruger CM 105E,projected
+2433,Beijing 1954 / 3-degree Gauss-Kruger CM 108E,projected
+2434,Beijing 1954 / 3-degree Gauss-Kruger CM 111E,projected
+2435,Beijing 1954 / 3-degree Gauss-Kruger CM 114E,projected
+2436,Beijing 1954 / 3-degree Gauss-Kruger CM 117E,projected
+2437,Beijing 1954 / 3-degree Gauss-Kruger CM 120E,projected
+2438,Beijing 1954 / 3-degree Gauss-Kruger CM 123E,projected
+2439,Beijing 1954 / 3-degree Gauss-Kruger CM 126E,projected
+2440,Beijing 1954 / 3-degree Gauss-Kruger CM 129E,projected
+2441,Beijing 1954 / 3-degree Gauss-Kruger CM 132E,projected
+2442,Beijing 1954 / 3-degree Gauss-Kruger CM 135E,projected
+2443,JGD2000 / Japan Plane Rectangular CS I,projected
+2444,JGD2000 / Japan Plane Rectangular CS II,projected
+2445,JGD2000 / Japan Plane Rectangular CS III,projected
+2446,JGD2000 / Japan Plane Rectangular CS IV,projected
+2447,JGD2000 / Japan Plane Rectangular CS V,projected
+2448,JGD2000 / Japan Plane Rectangular CS VI,projected
+2449,JGD2000 / Japan Plane Rectangular CS VII,projected
+2450,JGD2000 / Japan Plane Rectangular CS VIII,projected
+2451,JGD2000 / Japan Plane Rectangular CS IX,projected
+2452,JGD2000 / Japan Plane Rectangular CS X,projected
+2453,JGD2000 / Japan Plane Rectangular CS XI,projected
+2454,JGD2000 / Japan Plane Rectangular CS XII,projected
+2455,JGD2000 / Japan Plane Rectangular CS XIII,projected
+2456,JGD2000 / Japan Plane Rectangular CS XIV,projected
+2457,JGD2000 / Japan Plane Rectangular CS XV,projected
+2458,JGD2000 / Japan Plane Rectangular CS XVI,projected
+2459,JGD2000 / Japan Plane Rectangular CS XVII,projected
+2460,JGD2000 / Japan Plane Rectangular CS XVIII,projected
+2461,JGD2000 / Japan Plane Rectangular CS XIX,projected
+2462,Albanian 1987 / Gauss-Kruger zone 4,projected
+2463,Pulkovo 1995 / Gauss-Kruger CM 21E,projected
+2464,Pulkovo 1995 / Gauss-Kruger CM 27E,projected
+2465,Pulkovo 1995 / Gauss-Kruger CM 33E,projected
+2466,Pulkovo 1995 / Gauss-Kruger CM 39E,projected
+2467,Pulkovo 1995 / Gauss-Kruger CM 45E,projected
+2468,Pulkovo 1995 / Gauss-Kruger CM 51E,projected
+2469,Pulkovo 1995 / Gauss-Kruger CM 57E,projected
+2470,Pulkovo 1995 / Gauss-Kruger CM 63E,projected
+2471,Pulkovo 1995 / Gauss-Kruger CM 69E,projected
+2472,Pulkovo 1995 / Gauss-Kruger CM 75E,projected
+2473,Pulkovo 1995 / Gauss-Kruger CM 81E,projected
+2474,Pulkovo 1995 / Gauss-Kruger CM 87E,projected
+2475,Pulkovo 1995 / Gauss-Kruger CM 93E,projected
+2476,Pulkovo 1995 / Gauss-Kruger CM 99E,projected
+2477,Pulkovo 1995 / Gauss-Kruger CM 105E,projected
+2478,Pulkovo 1995 / Gauss-Kruger CM 111E,projected
+2479,Pulkovo 1995 / Gauss-Kruger CM 117E,projected
+2480,Pulkovo 1995 / Gauss-Kruger CM 123E,projected
+2481,Pulkovo 1995 / Gauss-Kruger CM 129E,projected
+2482,Pulkovo 1995 / Gauss-Kruger CM 135E,projected
+2483,Pulkovo 1995 / Gauss-Kruger CM 141E,projected
+2484,Pulkovo 1995 / Gauss-Kruger CM 147E,projected
+2485,Pulkovo 1995 / Gauss-Kruger CM 153E,projected
+2486,Pulkovo 1995 / Gauss-Kruger CM 159E,projected
+2487,Pulkovo 1995 / Gauss-Kruger CM 165E,projected
+2488,Pulkovo 1995 / Gauss-Kruger CM 171E,projected
+2489,Pulkovo 1995 / Gauss-Kruger CM 177E,projected
+2490,Pulkovo 1995 / Gauss-Kruger CM 177W,projected
+2491,Pulkovo 1995 / Gauss-Kruger CM 171W,projected
+2494,Pulkovo 1942 / Gauss-Kruger CM 21E,projected
+2495,Pulkovo 1942 / Gauss-Kruger CM 27E,projected
+2496,Pulkovo 1942 / Gauss-Kruger CM 33E,projected
+2497,Pulkovo 1942 / Gauss-Kruger CM 39E,projected
+2498,Pulkovo 1942 / Gauss-Kruger CM 45E,projected
+2499,Pulkovo 1942 / Gauss-Kruger CM 51E,projected
+2500,Pulkovo 1942 / Gauss-Kruger CM 57E,projected
+2501,Pulkovo 1942 / Gauss-Kruger CM 63E,projected
+2502,Pulkovo 1942 / Gauss-Kruger CM 69E,projected
+2503,Pulkovo 1942 / Gauss-Kruger CM 75E,projected
+2504,Pulkovo 1942 / Gauss-Kruger CM 81E,projected
+2505,Pulkovo 1942 / Gauss-Kruger CM 87E,projected
+2506,Pulkovo 1942 / Gauss-Kruger CM 93E,projected
+2507,Pulkovo 1942 / Gauss-Kruger CM 99E,projected
+2508,Pulkovo 1942 / Gauss-Kruger CM 105E,projected
+2509,Pulkovo 1942 / Gauss-Kruger CM 111E,projected
+2510,Pulkovo 1942 / Gauss-Kruger CM 117E,projected
+2511,Pulkovo 1942 / Gauss-Kruger CM 123E,projected
+2512,Pulkovo 1942 / Gauss-Kruger CM 129E,projected
+2513,Pulkovo 1942 / Gauss-Kruger CM 135E,projected
+2514,Pulkovo 1942 / Gauss-Kruger CM 141E,projected
+2515,Pulkovo 1942 / Gauss-Kruger CM 147E,projected
+2516,Pulkovo 1942 / Gauss-Kruger CM 153E,projected
+2517,Pulkovo 1942 / Gauss-Kruger CM 159E,projected
+2518,Pulkovo 1942 / Gauss-Kruger CM 165E,projected
+2519,Pulkovo 1942 / Gauss-Kruger CM 171E,projected
+2520,Pulkovo 1942 / Gauss-Kruger CM 177E,projected
+2521,Pulkovo 1942 / Gauss-Kruger CM 177W,projected
+2522,Pulkovo 1942 / Gauss-Kruger CM 171W,projected
+2523,Pulkovo 1942 / 3-degree Gauss-Kruger zone 7,projected
+2524,Pulkovo 1942 / 3-degree Gauss-Kruger zone 8,projected
+2525,Pulkovo 1942 / 3-degree Gauss-Kruger zone 9,projected
+2526,Pulkovo 1942 / 3-degree Gauss-Kruger zone 10,projected
+2527,Pulkovo 1942 / 3-degree Gauss-Kruger zone 11,projected
+2528,Pulkovo 1942 / 3-degree Gauss-Kruger zone 12,projected
+2529,Pulkovo 1942 / 3-degree Gauss-Kruger zone 13,projected
+2530,Pulkovo 1942 / 3-degree Gauss-Kruger zone 14,projected
+2531,Pulkovo 1942 / 3-degree Gauss-Kruger zone 15,projected
+2532,Pulkovo 1942 / 3-degree Gauss-Kruger zone 16,projected
+2533,Pulkovo 1942 / 3-degree Gauss-Kruger zone 17,projected
+2534,Pulkovo 1942 / 3-degree Gauss-Kruger zone 18,projected
+2535,Pulkovo 1942 / 3-degree Gauss-Kruger zone 19,projected
+2536,Pulkovo 1942 / 3-degree Gauss-Kruger zone 20,projected
+2537,Pulkovo 1942 / 3-degree Gauss-Kruger zone 21,projected
+2538,Pulkovo 1942 / 3-degree Gauss-Kruger zone 22,projected
+2539,Pulkovo 1942 / 3-degree Gauss-Kruger zone 23,projected
+2540,Pulkovo 1942 / 3-degree Gauss-Kruger zone 24,projected
+2541,Pulkovo 1942 / 3-degree Gauss-Kruger zone 25,projected
+2542,Pulkovo 1942 / 3-degree Gauss-Kruger zone 26,projected
+2543,Pulkovo 1942 / 3-degree Gauss-Kruger zone 27,projected
+2544,Pulkovo 1942 / 3-degree Gauss-Kruger zone 28,projected
+2545,Pulkovo 1942 / 3-degree Gauss-Kruger zone 29,projected
+2546,Pulkovo 1942 / 3-degree Gauss-Kruger zone 30,projected
+2547,Pulkovo 1942 / 3-degree Gauss-Kruger zone 31,projected
+2548,Pulkovo 1942 / 3-degree Gauss-Kruger zone 32,projected
+2549,Pulkovo 1942 / 3-degree Gauss-Kruger zone 33,projected
+2551,Pulkovo 1942 / 3-degree Gauss-Kruger zone 34,projected
+2552,Pulkovo 1942 / 3-degree Gauss-Kruger zone 35,projected
+2553,Pulkovo 1942 / 3-degree Gauss-Kruger zone 36,projected
+2554,Pulkovo 1942 / 3-degree Gauss-Kruger zone 37,projected
+2555,Pulkovo 1942 / 3-degree Gauss-Kruger zone 38,projected
+2556,Pulkovo 1942 / 3-degree Gauss-Kruger zone 39,projected
+2557,Pulkovo 1942 / 3-degree Gauss-Kruger zone 40,projected
+2558,Pulkovo 1942 / 3-degree Gauss-Kruger zone 41,projected
+2559,Pulkovo 1942 / 3-degree Gauss-Kruger zone 42,projected
+2560,Pulkovo 1942 / 3-degree Gauss-Kruger zone 43,projected
+2561,Pulkovo 1942 / 3-degree Gauss-Kruger zone 44,projected
+2562,Pulkovo 1942 / 3-degree Gauss-Kruger zone 45,projected
+2563,Pulkovo 1942 / 3-degree Gauss-Kruger zone 46,projected
+2564,Pulkovo 1942 / 3-degree Gauss-Kruger zone 47,projected
+2565,Pulkovo 1942 / 3-degree Gauss-Kruger zone 48,projected
+2566,Pulkovo 1942 / 3-degree Gauss-Kruger zone 49,projected
+2567,Pulkovo 1942 / 3-degree Gauss-Kruger zone 50,projected
+2568,Pulkovo 1942 / 3-degree Gauss-Kruger zone 51,projected
+2569,Pulkovo 1942 / 3-degree Gauss-Kruger zone 52,projected
+2570,Pulkovo 1942 / 3-degree Gauss-Kruger zone 53,projected
+2571,Pulkovo 1942 / 3-degree Gauss-Kruger zone 54,projected
+2572,Pulkovo 1942 / 3-degree Gauss-Kruger zone 55,projected
+2573,Pulkovo 1942 / 3-degree Gauss-Kruger zone 56,projected
+2574,Pulkovo 1942 / 3-degree Gauss-Kruger zone 57,projected
+2575,Pulkovo 1942 / 3-degree Gauss-Kruger zone 58,projected
+2576,Pulkovo 1942 / 3-degree Gauss-Kruger zone 59,projected
+2578,Pulkovo 1942 / 3-degree Gauss-Kruger zone 61,projected
+2579,Pulkovo 1942 / 3-degree Gauss-Kruger zone 62,projected
+2580,Pulkovo 1942 / 3-degree Gauss-Kruger zone 63,projected
+2581,Pulkovo 1942 / 3-degree Gauss-Kruger zone 64,projected
+2582,Pulkovo 1942 / 3-degree Gauss-Kruger CM 21E,projected
+2583,Pulkovo 1942 / 3-degree Gauss-Kruger CM 24E,projected
+2584,Pulkovo 1942 / 3-degree Gauss-Kruger CM 27E,projected
+2585,Pulkovo 1942 / 3-degree Gauss-Kruger CM 30E,projected
+2586,Pulkovo 1942 / 3-degree Gauss-Kruger CM 33E,projected
+2587,Pulkovo 1942 / 3-degree Gauss-Kruger CM 36E,projected
+2588,Pulkovo 1942 / 3-degree Gauss-Kruger CM 39E,projected
+2589,Pulkovo 1942 / 3-degree Gauss-Kruger CM 42E,projected
+2590,Pulkovo 1942 / 3-degree Gauss-Kruger CM 45E,projected
+2591,Pulkovo 1942 / 3-degree Gauss-Kruger CM 48E,projected
+2592,Pulkovo 1942 / 3-degree Gauss-Kruger CM 51E,projected
+2593,Pulkovo 1942 / 3-degree Gauss-Kruger CM 54E,projected
+2594,Pulkovo 1942 / 3-degree Gauss-Kruger CM 57E,projected
+2595,Pulkovo 1942 / 3-degree Gauss-Kruger CM 60E,projected
+2596,Pulkovo 1942 / 3-degree Gauss-Kruger CM 63E,projected
+2597,Pulkovo 1942 / 3-degree Gauss-Kruger CM 66E,projected
+2598,Pulkovo 1942 / 3-degree Gauss-Kruger CM 69E,projected
+2599,Pulkovo 1942 / 3-degree Gauss-Kruger CM 72E,projected
+2601,Pulkovo 1942 / 3-degree Gauss-Kruger CM 75E,projected
+2602,Pulkovo 1942 / 3-degree Gauss-Kruger CM 78E,projected
+2603,Pulkovo 1942 / 3-degree Gauss-Kruger CM 81E,projected
+2604,Pulkovo 1942 / 3-degree Gauss-Kruger CM 84E,projected
+2605,Pulkovo 1942 / 3-degree Gauss-Kruger CM 87E,projected
+2606,Pulkovo 1942 / 3-degree Gauss-Kruger CM 90E,projected
+2607,Pulkovo 1942 / 3-degree Gauss-Kruger CM 93E,projected
+2608,Pulkovo 1942 / 3-degree Gauss-Kruger CM 96E,projected
+2609,Pulkovo 1942 / 3-degree Gauss-Kruger CM 99E,projected
+2610,Pulkovo 1942 / 3-degree Gauss-Kruger CM 102E,projected
+2611,Pulkovo 1942 / 3-degree Gauss-Kruger CM 105E,projected
+2612,Pulkovo 1942 / 3-degree Gauss-Kruger CM 108E,projected
+2613,Pulkovo 1942 / 3-degree Gauss-Kruger CM 111E,projected
+2614,Pulkovo 1942 / 3-degree Gauss-Kruger CM 114E,projected
+2615,Pulkovo 1942 / 3-degree Gauss-Kruger CM 117E,projected
+2616,Pulkovo 1942 / 3-degree Gauss-Kruger CM 120E,projected
+2617,Pulkovo 1942 / 3-degree Gauss-Kruger CM 123E,projected
+2618,Pulkovo 1942 / 3-degree Gauss-Kruger CM 126E,projected
+2619,Pulkovo 1942 / 3-degree Gauss-Kruger CM 129E,projected
+2620,Pulkovo 1942 / 3-degree Gauss-Kruger CM 132E,projected
+2621,Pulkovo 1942 / 3-degree Gauss-Kruger CM 135E,projected
+2622,Pulkovo 1942 / 3-degree Gauss-Kruger CM 138E,projected
+2623,Pulkovo 1942 / 3-degree Gauss-Kruger CM 141E,projected
+2624,Pulkovo 1942 / 3-degree Gauss-Kruger CM 144E,projected
+2625,Pulkovo 1942 / 3-degree Gauss-Kruger CM 147E,projected
+2626,Pulkovo 1942 / 3-degree Gauss-Kruger CM 150E,projected
+2627,Pulkovo 1942 / 3-degree Gauss-Kruger CM 153E,projected
+2628,Pulkovo 1942 / 3-degree Gauss-Kruger CM 156E,projected
+2629,Pulkovo 1942 / 3-degree Gauss-Kruger CM 159E,projected
+2630,Pulkovo 1942 / 3-degree Gauss-Kruger CM 162E,projected
+2631,Pulkovo 1942 / 3-degree Gauss-Kruger CM 165E,projected
+2632,Pulkovo 1942 / 3-degree Gauss-Kruger CM 168E,projected
+2633,Pulkovo 1942 / 3-degree Gauss-Kruger CM 171E,projected
+2634,Pulkovo 1942 / 3-degree Gauss-Kruger CM 174E,projected
+2635,Pulkovo 1942 / 3-degree Gauss-Kruger CM 177E,projected
+2636,Pulkovo 1942 / 3-degree Gauss-Kruger CM 180E,projected
+2637,Pulkovo 1942 / 3-degree Gauss-Kruger CM 177W,projected
+2638,Pulkovo 1942 / 3-degree Gauss-Kruger CM 174W,projected
+2639,Pulkovo 1942 / 3-degree Gauss-Kruger CM 171W,projected
+2640,Pulkovo 1942 / 3-degree Gauss-Kruger CM 168W,projected
+2641,Pulkovo 1995 / 3-degree Gauss-Kruger zone 7,projected
+2642,Pulkovo 1995 / 3-degree Gauss-Kruger zone 8,projected
+2643,Pulkovo 1995 / 3-degree Gauss-Kruger zone 9,projected
+2644,Pulkovo 1995 / 3-degree Gauss-Kruger zone 10,projected
+2645,Pulkovo 1995 / 3-degree Gauss-Kruger zone 11,projected
+2646,Pulkovo 1995 / 3-degree Gauss-Kruger zone 12,projected
+2647,Pulkovo 1995 / 3-degree Gauss-Kruger zone 13,projected
+2648,Pulkovo 1995 / 3-degree Gauss-Kruger zone 14,projected
+2649,Pulkovo 1995 / 3-degree Gauss-Kruger zone 15,projected
+2650,Pulkovo 1995 / 3-degree Gauss-Kruger zone 16,projected
+2651,Pulkovo 1995 / 3-degree Gauss-Kruger zone 17,projected
+2652,Pulkovo 1995 / 3-degree Gauss-Kruger zone 18,projected
+2653,Pulkovo 1995 / 3-degree Gauss-Kruger zone 19,projected
+2654,Pulkovo 1995 / 3-degree Gauss-Kruger zone 20,projected
+2655,Pulkovo 1995 / 3-degree Gauss-Kruger zone 21,projected
+2656,Pulkovo 1995 / 3-degree Gauss-Kruger zone 22,projected
+2657,Pulkovo 1995 / 3-degree Gauss-Kruger zone 23,projected
+2658,Pulkovo 1995 / 3-degree Gauss-Kruger zone 24,projected
+2659,Pulkovo 1995 / 3-degree Gauss-Kruger zone 25,projected
+2660,Pulkovo 1995 / 3-degree Gauss-Kruger zone 26,projected
+2661,Pulkovo 1995 / 3-degree Gauss-Kruger zone 27,projected
+2662,Pulkovo 1995 / 3-degree Gauss-Kruger zone 28,projected
+2663,Pulkovo 1995 / 3-degree Gauss-Kruger zone 29,projected
+2664,Pulkovo 1995 / 3-degree Gauss-Kruger zone 30,projected
+2665,Pulkovo 1995 / 3-degree Gauss-Kruger zone 31,projected
+2666,Pulkovo 1995 / 3-degree Gauss-Kruger zone 32,projected
+2667,Pulkovo 1995 / 3-degree Gauss-Kruger zone 33,projected
+2668,Pulkovo 1995 / 3-degree Gauss-Kruger zone 34,projected
+2669,Pulkovo 1995 / 3-degree Gauss-Kruger zone 35,projected
+2670,Pulkovo 1995 / 3-degree Gauss-Kruger zone 36,projected
+2671,Pulkovo 1995 / 3-degree Gauss-Kruger zone 37,projected
+2672,Pulkovo 1995 / 3-degree Gauss-Kruger zone 38,projected
+2673,Pulkovo 1995 / 3-degree Gauss-Kruger zone 39,projected
+2674,Pulkovo 1995 / 3-degree Gauss-Kruger zone 40,projected
+2675,Pulkovo 1995 / 3-degree Gauss-Kruger zone 41,projected
+2676,Pulkovo 1995 / 3-degree Gauss-Kruger zone 42,projected
+2677,Pulkovo 1995 / 3-degree Gauss-Kruger zone 43,projected
+2678,Pulkovo 1995 / 3-degree Gauss-Kruger zone 44,projected
+2679,Pulkovo 1995 / 3-degree Gauss-Kruger zone 45,projected
+2680,Pulkovo 1995 / 3-degree Gauss-Kruger zone 46,projected
+2681,Pulkovo 1995 / 3-degree Gauss-Kruger zone 47,projected
+2682,Pulkovo 1995 / 3-degree Gauss-Kruger zone 48,projected
+2683,Pulkovo 1995 / 3-degree Gauss-Kruger zone 49,projected
+2684,Pulkovo 1995 / 3-degree Gauss-Kruger zone 50,projected
+2685,Pulkovo 1995 / 3-degree Gauss-Kruger zone 51,projected
+2686,Pulkovo 1995 / 3-degree Gauss-Kruger zone 52,projected
+2687,Pulkovo 1995 / 3-degree Gauss-Kruger zone 53,projected
+2688,Pulkovo 1995 / 3-degree Gauss-Kruger zone 54,projected
+2689,Pulkovo 1995 / 3-degree Gauss-Kruger zone 55,projected
+2690,Pulkovo 1995 / 3-degree Gauss-Kruger zone 56,projected
+2691,Pulkovo 1995 / 3-degree Gauss-Kruger zone 57,projected
+2692,Pulkovo 1995 / 3-degree Gauss-Kruger zone 58,projected
+2693,Pulkovo 1995 / 3-degree Gauss-Kruger zone 59,projected
+2695,Pulkovo 1995 / 3-degree Gauss-Kruger zone 61,projected
+2696,Pulkovo 1995 / 3-degree Gauss-Kruger zone 62,projected
+2697,Pulkovo 1995 / 3-degree Gauss-Kruger zone 63,projected
+2698,Pulkovo 1995 / 3-degree Gauss-Kruger zone 64,projected
+2699,Pulkovo 1995 / 3-degree Gauss-Kruger CM 21E,projected
+2700,Pulkovo 1995 / 3-degree Gauss-Kruger CM 24E,projected
+2701,Pulkovo 1995 / 3-degree Gauss-Kruger CM 27E,projected
+2702,Pulkovo 1995 / 3-degree Gauss-Kruger CM 30E,projected
+2703,Pulkovo 1995 / 3-degree Gauss-Kruger CM 33E,projected
+2704,Pulkovo 1995 / 3-degree Gauss-Kruger CM 36E,projected
+2705,Pulkovo 1995 / 3-degree Gauss-Kruger CM 39E,projected
+2706,Pulkovo 1995 / 3-degree Gauss-Kruger CM 42E,projected
+2707,Pulkovo 1995 / 3-degree Gauss-Kruger CM 45E,projected
+2708,Pulkovo 1995 / 3-degree Gauss-Kruger CM 48E,projected
+2709,Pulkovo 1995 / 3-degree Gauss-Kruger CM 51E,projected
+2710,Pulkovo 1995 / 3-degree Gauss-Kruger CM 54E,projected
+2711,Pulkovo 1995 / 3-degree Gauss-Kruger CM 57E,projected
+2712,Pulkovo 1995 / 3-degree Gauss-Kruger CM 60E,projected
+2713,Pulkovo 1995 / 3-degree Gauss-Kruger CM 63E,projected
+2714,Pulkovo 1995 / 3-degree Gauss-Kruger CM 66E,projected
+2715,Pulkovo 1995 / 3-degree Gauss-Kruger CM 69E,projected
+2716,Pulkovo 1995 / 3-degree Gauss-Kruger CM 72E,projected
+2717,Pulkovo 1995 / 3-degree Gauss-Kruger CM 75E,projected
+2718,Pulkovo 1995 / 3-degree Gauss-Kruger CM 78E,projected
+2719,Pulkovo 1995 / 3-degree Gauss-Kruger CM 81E,projected
+2720,Pulkovo 1995 / 3-degree Gauss-Kruger CM 84E,projected
+2721,Pulkovo 1995 / 3-degree Gauss-Kruger CM 87E,projected
+2722,Pulkovo 1995 / 3-degree Gauss-Kruger CM 90E,projected
+2723,Pulkovo 1995 / 3-degree Gauss-Kruger CM 93E,projected
+2724,Pulkovo 1995 / 3-degree Gauss-Kruger CM 96E,projected
+2725,Pulkovo 1995 / 3-degree Gauss-Kruger CM 99E,projected
+2726,Pulkovo 1995 / 3-degree Gauss-Kruger CM 102E,projected
+2727,Pulkovo 1995 / 3-degree Gauss-Kruger CM 105E,projected
+2728,Pulkovo 1995 / 3-degree Gauss-Kruger CM 108E,projected
+2729,Pulkovo 1995 / 3-degree Gauss-Kruger CM 111E,projected
+2730,Pulkovo 1995 / 3-degree Gauss-Kruger CM 114E,projected
+2731,Pulkovo 1995 / 3-degree Gauss-Kruger CM 117E,projected
+2732,Pulkovo 1995 / 3-degree Gauss-Kruger CM 120E,projected
+2733,Pulkovo 1995 / 3-degree Gauss-Kruger CM 123E,projected
+2734,Pulkovo 1995 / 3-degree Gauss-Kruger CM 126E,projected
+2735,Pulkovo 1995 / 3-degree Gauss-Kruger CM 129E,projected
+2736,Tete / UTM zone 36S,projected
+2737,Tete / UTM zone 37S,projected
+2738,Pulkovo 1995 / 3-degree Gauss-Kruger CM 132E,projected
+2739,Pulkovo 1995 / 3-degree Gauss-Kruger CM 135E,projected
+2740,Pulkovo 1995 / 3-degree Gauss-Kruger CM 138E,projected
+2741,Pulkovo 1995 / 3-degree Gauss-Kruger CM 141E,projected
+2742,Pulkovo 1995 / 3-degree Gauss-Kruger CM 144E,projected
+2743,Pulkovo 1995 / 3-degree Gauss-Kruger CM 147E,projected
+2744,Pulkovo 1995 / 3-degree Gauss-Kruger CM 150E,projected
+2745,Pulkovo 1995 / 3-degree Gauss-Kruger CM 153E,projected
+2746,Pulkovo 1995 / 3-degree Gauss-Kruger CM 156E,projected
+2747,Pulkovo 1995 / 3-degree Gauss-Kruger CM 159E,projected
+2748,Pulkovo 1995 / 3-degree Gauss-Kruger CM 162E,projected
+2749,Pulkovo 1995 / 3-degree Gauss-Kruger CM 165E,projected
+2750,Pulkovo 1995 / 3-degree Gauss-Kruger CM 168E,projected
+2751,Pulkovo 1995 / 3-degree Gauss-Kruger CM 171E,projected
+2752,Pulkovo 1995 / 3-degree Gauss-Kruger CM 174E,projected
+2753,Pulkovo 1995 / 3-degree Gauss-Kruger CM 177E,projected
+2754,Pulkovo 1995 / 3-degree Gauss-Kruger CM 180E,projected
+2755,Pulkovo 1995 / 3-degree Gauss-Kruger CM 177W,projected
+2756,Pulkovo 1995 / 3-degree Gauss-Kruger CM 174W,projected
+2757,Pulkovo 1995 / 3-degree Gauss-Kruger CM 171W,projected
+2758,Pulkovo 1995 / 3-degree Gauss-Kruger CM 168W,projected
+2759,NAD83(HARN) / Alabama East,projected
+2760,NAD83(HARN) / Alabama West,projected
+2761,NAD83(HARN) / Arizona East,projected
+2762,NAD83(HARN) / Arizona Central,projected
+2763,NAD83(HARN) / Arizona West,projected
+2764,NAD83(HARN) / Arkansas North,projected
+2765,NAD83(HARN) / Arkansas South,projected
+2766,NAD83(HARN) / California zone 1,projected
+2767,NAD83(HARN) / California zone 2,projected
+2768,NAD83(HARN) / California zone 3,projected
+2769,NAD83(HARN) / California zone 4,projected
+2770,NAD83(HARN) / California zone 5,projected
+2771,NAD83(HARN) / California zone 6,projected
+2772,NAD83(HARN) / Colorado North,projected
+2773,NAD83(HARN) / Colorado Central,projected
+2774,NAD83(HARN) / Colorado South,projected
+2775,NAD83(HARN) / Connecticut,projected
+2776,NAD83(HARN) / Delaware,projected
+2777,NAD83(HARN) / Florida East,projected
+2778,NAD83(HARN) / Florida West,projected
+2779,NAD83(HARN) / Florida North,projected
+2780,NAD83(HARN) / Georgia East,projected
+2781,NAD83(HARN) / Georgia West,projected
+2782,NAD83(HARN) / Hawaii zone 1,projected
+2783,NAD83(HARN) / Hawaii zone 2,projected
+2784,NAD83(HARN) / Hawaii zone 3,projected
+2785,NAD83(HARN) / Hawaii zone 4,projected
+2786,NAD83(HARN) / Hawaii zone 5,projected
+2787,NAD83(HARN) / Idaho East,projected
+2788,NAD83(HARN) / Idaho Central,projected
+2789,NAD83(HARN) / Idaho West,projected
+2790,NAD83(HARN) / Illinois East,projected
+2791,NAD83(HARN) / Illinois West,projected
+2792,NAD83(HARN) / Indiana East,projected
+2793,NAD83(HARN) / Indiana West,projected
+2794,NAD83(HARN) / Iowa North,projected
+2795,NAD83(HARN) / Iowa South,projected
+2796,NAD83(HARN) / Kansas North,projected
+2797,NAD83(HARN) / Kansas South,projected
+2798,NAD83(HARN) / Kentucky North,projected
+2799,NAD83(HARN) / Kentucky South,projected
+2800,NAD83(HARN) / Louisiana North,projected
+2801,NAD83(HARN) / Louisiana South,projected
+2802,NAD83(HARN) / Maine East,projected
+2803,NAD83(HARN) / Maine West,projected
+2804,NAD83(HARN) / Maryland,projected
+2805,NAD83(HARN) / Massachusetts Mainland,projected
+2806,NAD83(HARN) / Massachusetts Island,projected
+2807,NAD83(HARN) / Michigan North,projected
+2808,NAD83(HARN) / Michigan Central,projected
+2809,NAD83(HARN) / Michigan South,projected
+2810,NAD83(HARN) / Minnesota North,projected
+2811,NAD83(HARN) / Minnesota Central,projected
+2812,NAD83(HARN) / Minnesota South,projected
+2813,NAD83(HARN) / Mississippi East,projected
+2814,NAD83(HARN) / Mississippi West,projected
+2815,NAD83(HARN) / Missouri East,projected
+2816,NAD83(HARN) / Missouri Central,projected
+2817,NAD83(HARN) / Missouri West,projected
+2818,NAD83(HARN) / Montana,projected
+2819,NAD83(HARN) / Nebraska,projected
+2820,NAD83(HARN) / Nevada East,projected
+2821,NAD83(HARN) / Nevada Central,projected
+2822,NAD83(HARN) / Nevada West,projected
+2823,NAD83(HARN) / New Hampshire,projected
+2824,NAD83(HARN) / New Jersey,projected
+2825,NAD83(HARN) / New Mexico East,projected
+2826,NAD83(HARN) / New Mexico Central,projected
+2827,NAD83(HARN) / New Mexico West,projected
+2828,NAD83(HARN) / New York East,projected
+2829,NAD83(HARN) / New York Central,projected
+2830,NAD83(HARN) / New York West,projected
+2831,NAD83(HARN) / New York Long Island,projected
+2832,NAD83(HARN) / North Dakota North,projected
+2833,NAD83(HARN) / North Dakota South,projected
+2834,NAD83(HARN) / Ohio North,projected
+2835,NAD83(HARN) / Ohio South,projected
+2836,NAD83(HARN) / Oklahoma North,projected
+2837,NAD83(HARN) / Oklahoma South,projected
+2838,NAD83(HARN) / Oregon North,projected
+2839,NAD83(HARN) / Oregon South,projected
+2840,NAD83(HARN) / Rhode Island,projected
+2841,NAD83(HARN) / South Dakota North,projected
+2842,NAD83(HARN) / South Dakota South,projected
+2843,NAD83(HARN) / Tennessee,projected
+2844,NAD83(HARN) / Texas North,projected
+2845,NAD83(HARN) / Texas North Central,projected
+2846,NAD83(HARN) / Texas Central,projected
+2847,NAD83(HARN) / Texas South Central,projected
+2848,NAD83(HARN) / Texas South,projected
+2849,NAD83(HARN) / Utah North,projected
+2850,NAD83(HARN) / Utah Central,projected
+2851,NAD83(HARN) / Utah South,projected
+2852,NAD83(HARN) / Vermont,projected
+2853,NAD83(HARN) / Virginia North,projected
+2854,NAD83(HARN) / Virginia South,projected
+2855,NAD83(HARN) / Washington North,projected
+2856,NAD83(HARN) / Washington South,projected
+2857,NAD83(HARN) / West Virginia North,projected
+2858,NAD83(HARN) / West Virginia South,projected
+2859,NAD83(HARN) / Wisconsin North,projected
+2860,NAD83(HARN) / Wisconsin Central,projected
+2861,NAD83(HARN) / Wisconsin South,projected
+2862,NAD83(HARN) / Wyoming East,projected
+2863,NAD83(HARN) / Wyoming East Central,projected
+2864,NAD83(HARN) / Wyoming West Central,projected
+2865,NAD83(HARN) / Wyoming West,projected
+2866,NAD83(HARN) / Puerto Rico and Virgin Is.,projected
+2867,NAD83(HARN) / Arizona East (ft),projected
+2868,NAD83(HARN) / Arizona Central (ft),projected
+2869,NAD83(HARN) / Arizona West (ft),projected
+2870,NAD83(HARN) / California zone 1 (ftUS),projected
+2871,NAD83(HARN) / California zone 2 (ftUS),projected
+2872,NAD83(HARN) / California zone 3 (ftUS),projected
+2873,NAD83(HARN) / California zone 4 (ftUS),projected
+2874,NAD83(HARN) / California zone 5 (ftUS),projected
+2875,NAD83(HARN) / California zone 6 (ftUS),projected
+2876,NAD83(HARN) / Colorado North (ftUS),projected
+2877,NAD83(HARN) / Colorado Central (ftUS),projected
+2878,NAD83(HARN) / Colorado South (ftUS),projected
+2879,NAD83(HARN) / Connecticut (ftUS),projected
+2880,NAD83(HARN) / Delaware (ftUS),projected
+2881,NAD83(HARN) / Florida East (ftUS),projected
+2882,NAD83(HARN) / Florida West (ftUS),projected
+2883,NAD83(HARN) / Florida North (ftUS),projected
+2884,NAD83(HARN) / Georgia East (ftUS),projected
+2885,NAD83(HARN) / Georgia West (ftUS),projected
+2886,NAD83(HARN) / Idaho East (ftUS),projected
+2887,NAD83(HARN) / Idaho Central (ftUS),projected
+2888,NAD83(HARN) / Idaho West (ftUS),projected
+2891,NAD83(HARN) / Kentucky North (ftUS),projected
+2892,NAD83(HARN) / Kentucky South (ftUS),projected
+2893,NAD83(HARN) / Maryland (ftUS),projected
+2894,NAD83(HARN) / Massachusetts Mainland (ftUS),projected
+2895,NAD83(HARN) / Massachusetts Island (ftUS),projected
+2896,NAD83(HARN) / Michigan North (ft),projected
+2897,NAD83(HARN) / Michigan Central (ft),projected
+2898,NAD83(HARN) / Michigan South (ft),projected
+2899,NAD83(HARN) / Mississippi East (ftUS),projected
+2900,NAD83(HARN) / Mississippi West (ftUS),projected
+2901,NAD83(HARN) / Montana (ft),projected
+2902,NAD83(HARN) / New Mexico East (ftUS),projected
+2903,NAD83(HARN) / New Mexico Central (ftUS),projected
+2904,NAD83(HARN) / New Mexico West (ftUS),projected
+2905,NAD83(HARN) / New York East (ftUS),projected
+2906,NAD83(HARN) / New York Central (ftUS),projected
+2907,NAD83(HARN) / New York West (ftUS),projected
+2908,NAD83(HARN) / New York Long Island (ftUS),projected
+2909,NAD83(HARN) / North Dakota North (ft),projected
+2910,NAD83(HARN) / North Dakota South (ft),projected
+2911,NAD83(HARN) / Oklahoma North (ftUS),projected
+2912,NAD83(HARN) / Oklahoma South (ftUS),projected
+2913,NAD83(HARN) / Oregon North (ft),projected
+2914,NAD83(HARN) / Oregon South (ft),projected
+2915,NAD83(HARN) / Tennessee (ftUS),projected
+2916,NAD83(HARN) / Texas North (ftUS),projected
+2917,NAD83(HARN) / Texas North Central (ftUS),projected
+2918,NAD83(HARN) / Texas Central (ftUS),projected
+2919,NAD83(HARN) / Texas South Central (ftUS),projected
+2920,NAD83(HARN) / Texas South (ftUS),projected
+2921,NAD83(HARN) / Utah North (ft),projected
+2922,NAD83(HARN) / Utah Central (ft),projected
+2923,NAD83(HARN) / Utah South (ft),projected
+2924,NAD83(HARN) / Virginia North (ftUS),projected
+2925,NAD83(HARN) / Virginia South (ftUS),projected
+2926,NAD83(HARN) / Washington North (ftUS),projected
+2927,NAD83(HARN) / Washington South (ftUS),projected
+2928,NAD83(HARN) / Wisconsin North (ftUS),projected
+2929,NAD83(HARN) / Wisconsin Central (ftUS),projected
+2930,NAD83(HARN) / Wisconsin South (ftUS),projected
+2931,Beduaram / TM 13 NE,projected
+2932,QND95 / Qatar National Grid,projected
+2933,Segara / UTM zone 50S,projected
+2935,Pulkovo 1942 / CS63 zone A1,projected
+2936,Pulkovo 1942 / CS63 zone A2,projected
+2937,Pulkovo 1942 / CS63 zone A3,projected
+2938,Pulkovo 1942 / CS63 zone A4,projected
+2939,Pulkovo 1942 / CS63 zone K2,projected
+2940,Pulkovo 1942 / CS63 zone K3,projected
+2941,Pulkovo 1942 / CS63 zone K4,projected
+2942,Porto Santo / UTM zone 28N,projected
+2943,Selvagem Grande / UTM zone 28N,projected
+2945,NAD83(CSRS) / MTM zone 3,projected
+2946,NAD83(CSRS) / MTM zone 4,projected
+2947,NAD83(CSRS) / MTM zone 5,projected
+2948,NAD83(CSRS) / MTM zone 6,projected
+2949,NAD83(CSRS) / MTM zone 7,projected
+2950,NAD83(CSRS) / MTM zone 8,projected
+2951,NAD83(CSRS) / MTM zone 9,projected
+2952,NAD83(CSRS) / MTM zone 10,projected
+2953,NAD83(CSRS) / New Brunswick Stereographic,projected
+2954,NAD83(CSRS) / Prince Edward Isl. Stereographic (NAD83),projected
+2955,NAD83(CSRS) / UTM zone 11N,projected
+2956,NAD83(CSRS) / UTM zone 12N,projected
+2957,NAD83(CSRS) / UTM zone 13N,projected
+2958,NAD83(CSRS) / UTM zone 17N,projected
+2959,NAD83(CSRS) / UTM zone 18N,projected
+2960,NAD83(CSRS) / UTM zone 19N,projected
+2961,NAD83(CSRS) / UTM zone 20N,projected
+2962,NAD83(CSRS) / UTM zone 21N,projected
+2963,Lisbon 1890 (Lisbon) / Portugal Bonne,projected
+2964,NAD27 / Alaska Albers,projected
+2965,NAD83 / Indiana East (ftUS),projected
+2966,NAD83 / Indiana West (ftUS),projected
+2967,NAD83(HARN) / Indiana East (ftUS),projected
+2968,NAD83(HARN) / Indiana West (ftUS),projected
+2969,Fort Marigot / UTM zone 20N,projected
+2970,Guadeloupe 1948 / UTM zone 20N,projected
+2971,CSG67 / UTM zone 22N,projected
+2972,RGFG95 / UTM zone 22N,projected
+2973,Martinique 1938 / UTM zone 20N,projected
+2975,RGR92 / UTM zone 40S,projected
+2976,Tahiti 52 / UTM zone 6S,projected
+2977,Tahaa 54 / UTM zone 5S,projected
+2978,IGN72 Nuku Hiva / UTM zone 7S,projected
+2980,Combani 1950 / UTM zone 38S,projected
+2981,IGN56 Lifou / UTM zone 58S,projected
+2985,Petrels 1972 / Terre Adelie Polar Stereographic,projected
+2986,Perroud 1950 / Terre Adelie Polar Stereographic,projected
+2987,Saint Pierre et Miquelon 1950 / UTM zone 21N,projected
+2988,MOP78 / UTM zone 1S,projected
+2991,NAD83 / Oregon Lambert,projected
+2992,NAD83 / Oregon Lambert (ft),projected
+2993,NAD83(HARN) / Oregon Lambert,projected
+2994,NAD83(HARN) / Oregon Lambert (ft),projected
+2995,IGN53 Mare / UTM zone 58S,projected
+2996,ST84 Ile des Pins / UTM zone 58S,projected
+2997,ST71 Belep / UTM zone 58S,projected
+2998,NEA74 Noumea / UTM zone 58S,projected
+2999,Grand Comoros / UTM zone 38S,projected
+3000,Segara / NEIEZ,projected
+3001,Batavia / NEIEZ,projected
+3002,Makassar / NEIEZ,projected
+3003,Monte Mario / Italy zone 1,projected
+3004,Monte Mario / Italy zone 2,projected
+3005,NAD83 / BC Albers,projected
+3006,SWEREF99 TM,projected
+3007,SWEREF99 12 00,projected
+3008,SWEREF99 13 30,projected
+3009,SWEREF99 15 00,projected
+3010,SWEREF99 16 30,projected
+3011,SWEREF99 18 00,projected
+3012,SWEREF99 14 15,projected
+3013,SWEREF99 15 45,projected
+3014,SWEREF99 17 15,projected
+3015,SWEREF99 18 45,projected
+3016,SWEREF99 20 15,projected
+3017,SWEREF99 21 45,projected
+3018,SWEREF99 23 15,projected
+3019,RT90 7.5 gon V,projected
+3020,RT90 5 gon V,projected
+3021,RT90 2.5 gon V,projected
+3022,RT90 0 gon,projected
+3023,RT90 2.5 gon O,projected
+3024,RT90 5 gon O,projected
+3025,RT38 7.5 gon V,projected
+3026,RT38 5 gon V,projected
+3027,RT38 2.5 gon V,projected
+3028,RT38 0 gon,projected
+3029,RT38 2.5 gon O,projected
+3030,RT38 5 gon O,projected
+3031,WGS 84 / Antarctic Polar Stereographic,projected
+3032,WGS 84 / Australian Antarctic Polar Stereographic,projected
+3033,WGS 84 / Australian Antarctic Lambert,projected
+3034,ETRS89 / LCC Europe,projected
+3035,ETRS89 / LAEA Europe,projected
+3036,Moznet / UTM zone 36S,projected
+3037,Moznet / UTM zone 37S,projected
+3040,ETRS89 / UTM zone 28N (N-E),projected
+3041,ETRS89 / UTM zone 29N (N-E),projected
+3042,ETRS89 / UTM zone 30N (N-E),projected
+3043,ETRS89 / UTM zone 31N (N-E),projected
+3044,ETRS89 / UTM zone 32N (N-E),projected
+3045,ETRS89 / UTM zone 33N (N-E),projected
+3046,ETRS89 / UTM zone 34N (N-E),projected
+3047,ETRS89 / UTM zone 35N (N-E),projected
+3048,ETRS89 / UTM zone 36N (N-E),projected
+3049,ETRS89 / UTM zone 37N (N-E),projected
+3052,Reykjavik 1900 / Lambert 1900,projected
+3053,Hjorsey 1955 / Lambert 1955,projected
+3054,Hjorsey 1955 / UTM zone 26N,projected
+3055,Hjorsey 1955 / UTM zone 27N,projected
+3056,Hjorsey 1955 / UTM zone 28N,projected
+3057,ISN93 / Lambert 1993,projected
+3058,Helle 1954 / Jan Mayen Grid,projected
+3059,LKS92 / Latvia TM,projected
+3060,IGN72 Grande Terre / UTM zone 58S,projected
+3061,Porto Santo 1995 / UTM zone 28N,projected
+3062,Azores Oriental 1995 / UTM zone 26N,projected
+3063,Azores Central 1995 / UTM zone 26N,projected
+3064,IGM95 / UTM zone 32N,projected
+3065,IGM95 / UTM zone 33N,projected
+3066,ED50 / Jordan TM,projected
+3067,"ETRS89 / TM35FIN(E,N)",projected
+3068,DHDN / Soldner Berlin,projected
+3069,NAD27 / Wisconsin Transverse Mercator,projected
+3070,NAD83 / Wisconsin Transverse Mercator,projected
+3071,NAD83(HARN) / Wisconsin Transverse Mercator,projected
+3072,NAD83 / Maine CS2000 East,projected
+3074,NAD83 / Maine CS2000 West,projected
+3075,NAD83(HARN) / Maine CS2000 East,projected
+3077,NAD83(HARN) / Maine CS2000 West,projected
+3078,NAD83 / Michigan Oblique Mercator,projected
+3079,NAD83(HARN) / Michigan Oblique Mercator,projected
+3080,NAD27 / Shackleford,projected
+3081,NAD83 / Texas State Mapping System,projected
+3082,NAD83 / Texas Centric Lambert Conformal,projected
+3083,NAD83 / Texas Centric Albers Equal Area,projected
+3084,NAD83(HARN) / Texas Centric Lambert Conformal,projected
+3085,NAD83(HARN) / Texas Centric Albers Equal Area,projected
+3086,NAD83 / Florida GDL Albers,projected
+3087,NAD83(HARN) / Florida GDL Albers,projected
+3088,NAD83 / Kentucky Single Zone,projected
+3089,NAD83 / Kentucky Single Zone (ftUS),projected
+3090,NAD83(HARN) / Kentucky Single Zone,projected
+3091,NAD83(HARN) / Kentucky Single Zone (ftUS),projected
+3092,Tokyo / UTM zone 51N,projected
+3093,Tokyo / UTM zone 52N,projected
+3094,Tokyo / UTM zone 53N,projected
+3095,Tokyo / UTM zone 54N,projected
+3096,Tokyo / UTM zone 55N,projected
+3097,JGD2000 / UTM zone 51N,projected
+3098,JGD2000 / UTM zone 52N,projected
+3099,JGD2000 / UTM zone 53N,projected
+3100,JGD2000 / UTM zone 54N,projected
+3101,JGD2000 / UTM zone 55N,projected
+3102,American Samoa 1962 / American Samoa Lambert,projected
+3106,Gulshan 303 / Bangladesh Transverse Mercator,projected
+3107,GDA94 / SA Lambert,projected
+3108,ETRS89 / Guernsey Grid,projected
+3109,ETRS89 / Jersey Transverse Mercator,projected
+3110,AGD66 / Vicgrid66,projected
+3111,GDA94 / Vicgrid94,projected
+3112,GDA94 / Geoscience Australia Lambert,projected
+3113,GDA94 / BCSG02,projected
+3114,MAGNA-SIRGAS / Colombia Far West zone,projected
+3115,MAGNA-SIRGAS / Colombia West zone,projected
+3116,MAGNA-SIRGAS / Colombia Bogota zone,projected
+3117,MAGNA-SIRGAS / Colombia East Central zone,projected
+3118,MAGNA-SIRGAS / Colombia East zone,projected
+3119,Douala 1948 / AEF west,projected
+3120,Pulkovo 1942(58) / Poland zone I,projected
+3121,PRS92 / Philippines zone 1,projected
+3122,PRS92 / Philippines zone 2,projected
+3123,PRS92 / Philippines zone 3,projected
+3124,PRS92 / Philippines zone 4,projected
+3125,PRS92 / Philippines zone 5,projected
+3126,ETRS89 / ETRS-GK19FIN,projected
+3127,ETRS89 / ETRS-GK20FIN,projected
+3128,ETRS89 / ETRS-GK21FIN,projected
+3129,ETRS89 / ETRS-GK22FIN,projected
+3130,ETRS89 / ETRS-GK23FIN,projected
+3131,ETRS89 / ETRS-GK24FIN,projected
+3132,ETRS89 / ETRS-GK25FIN,projected
+3133,ETRS89 / ETRS-GK26FIN,projected
+3134,ETRS89 / ETRS-GK27FIN,projected
+3135,ETRS89 / ETRS-GK28FIN,projected
+3136,ETRS89 / ETRS-GK29FIN,projected
+3137,ETRS89 / ETRS-GK30FIN,projected
+3138,ETRS89 / ETRS-GK31FIN,projected
+3139,Vanua Levu 1915 / Vanua Levu Grid,projected
+3140,Viti Levu 1912 / Viti Levu Grid,projected
+3141,Fiji 1956 / UTM zone 60S,projected
+3142,Fiji 1956 / UTM zone 1S,projected
+3144,FD54 / Faroe Lambert,projected
+3145,ETRS89 / Faroe Lambert,projected
+3148,Indian 1960 / UTM zone 48N,projected
+3149,Indian 1960 / UTM zone 49N,projected
+3152,ST74,projected
+3153,NAD83(CSRS) / BC Albers,projected
+3154,NAD83(CSRS) / UTM zone 7N,projected
+3155,NAD83(CSRS) / UTM zone 8N,projected
+3156,NAD83(CSRS) / UTM zone 9N,projected
+3157,NAD83(CSRS) / UTM zone 10N,projected
+3158,NAD83(CSRS) / UTM zone 14N,projected
+3159,NAD83(CSRS) / UTM zone 15N,projected
+3160,NAD83(CSRS) / UTM zone 16N,projected
+3161,NAD83 / Ontario MNR Lambert,projected
+3162,NAD83(CSRS) / Ontario MNR Lambert,projected
+3163,RGNC91-93 / Lambert New Caledonia,projected
+3164,ST87 Ouvea / UTM zone 58S,projected
+3165,NEA74 Noumea / Noumea Lambert,projected
+3166,NEA74 Noumea / Noumea Lambert 2,projected
+3167,Kertau (RSO) / RSO Malaya (ch),projected
+3168,Kertau (RSO) / RSO Malaya (m),projected
+3169,RGNC91-93 / UTM zone 57S,projected
+3170,RGNC91-93 / UTM zone 58S,projected
+3171,RGNC91-93 / UTM zone 59S,projected
+3172,IGN53 Mare / UTM zone 59S,projected
+3173,fk89 / Faroe Lambert FK89,projected
+3174,NAD83 / Great Lakes Albers,projected
+3175,NAD83 / Great Lakes and St Lawrence Albers,projected
+3176,Indian 1960 / TM 106 NE,projected
+3177,LGD2006 / Libya TM,projected
+3178,GR96 / UTM zone 18N,projected
+3179,GR96 / UTM zone 19N,projected
+3180,GR96 / UTM zone 20N,projected
+3181,GR96 / UTM zone 21N,projected
+3182,GR96 / UTM zone 22N,projected
+3183,GR96 / UTM zone 23N,projected
+3184,GR96 / UTM zone 24N,projected
+3185,GR96 / UTM zone 25N,projected
+3186,GR96 / UTM zone 26N,projected
+3187,GR96 / UTM zone 27N,projected
+3188,GR96 / UTM zone 28N,projected
+3189,GR96 / UTM zone 29N,projected
+3190,LGD2006 / Libya TM zone 5,projected
+3191,LGD2006 / Libya TM zone 6,projected
+3192,LGD2006 / Libya TM zone 7,projected
+3193,LGD2006 / Libya TM zone 8,projected
+3194,LGD2006 / Libya TM zone 9,projected
+3195,LGD2006 / Libya TM zone 10,projected
+3196,LGD2006 / Libya TM zone 11,projected
+3197,LGD2006 / Libya TM zone 12,projected
+3198,LGD2006 / Libya TM zone 13,projected
+3199,LGD2006 / UTM zone 32N,projected
+3200,FD58 / Iraq zone,projected
+3201,LGD2006 / UTM zone 33N,projected
+3202,LGD2006 / UTM zone 34N,projected
+3203,LGD2006 / UTM zone 35N,projected
+3204,WGS 84 / SCAR IMW SP19-20,projected
+3205,WGS 84 / SCAR IMW SP21-22,projected
+3206,WGS 84 / SCAR IMW SP23-24,projected
+3207,WGS 84 / SCAR IMW SQ01-02,projected
+3208,WGS 84 / SCAR IMW SQ19-20,projected
+3209,WGS 84 / SCAR IMW SQ21-22,projected
+3210,WGS 84 / SCAR IMW SQ37-38,projected
+3211,WGS 84 / SCAR IMW SQ39-40,projected
+3212,WGS 84 / SCAR IMW SQ41-42,projected
+3213,WGS 84 / SCAR IMW SQ43-44,projected
+3214,WGS 84 / SCAR IMW SQ45-46,projected
+3215,WGS 84 / SCAR IMW SQ47-48,projected
+3216,WGS 84 / SCAR IMW SQ49-50,projected
+3217,WGS 84 / SCAR IMW SQ51-52,projected
+3218,WGS 84 / SCAR IMW SQ53-54,projected
+3219,WGS 84 / SCAR IMW SQ55-56,projected
+3220,WGS 84 / SCAR IMW SQ57-58,projected
+3221,WGS 84 / SCAR IMW SR13-14,projected
+3222,WGS 84 / SCAR IMW SR15-16,projected
+3223,WGS 84 / SCAR IMW SR17-18,projected
+3224,WGS 84 / SCAR IMW SR19-20,projected
+3225,WGS 84 / SCAR IMW SR27-28,projected
+3226,WGS 84 / SCAR IMW SR29-30,projected
+3227,WGS 84 / SCAR IMW SR31-32,projected
+3228,WGS 84 / SCAR IMW SR33-34,projected
+3229,WGS 84 / SCAR IMW SR35-36,projected
+3230,WGS 84 / SCAR IMW SR37-38,projected
+3231,WGS 84 / SCAR IMW SR39-40,projected
+3232,WGS 84 / SCAR IMW SR41-42,projected
+3233,WGS 84 / SCAR IMW SR43-44,projected
+3234,WGS 84 / SCAR IMW SR45-46,projected
+3235,WGS 84 / SCAR IMW SR47-48,projected
+3236,WGS 84 / SCAR IMW SR49-50,projected
+3237,WGS 84 / SCAR IMW SR51-52,projected
+3238,WGS 84 / SCAR IMW SR53-54,projected
+3239,WGS 84 / SCAR IMW SR55-56,projected
+3240,WGS 84 / SCAR IMW SR57-58,projected
+3241,WGS 84 / SCAR IMW SR59-60,projected
+3242,WGS 84 / SCAR IMW SS04-06,projected
+3243,WGS 84 / SCAR IMW SS07-09,projected
+3244,WGS 84 / SCAR IMW SS10-12,projected
+3245,WGS 84 / SCAR IMW SS13-15,projected
+3246,WGS 84 / SCAR IMW SS16-18,projected
+3247,WGS 84 / SCAR IMW SS19-21,projected
+3248,WGS 84 / SCAR IMW SS25-27,projected
+3249,WGS 84 / SCAR IMW SS28-30,projected
+3250,WGS 84 / SCAR IMW SS31-33,projected
+3251,WGS 84 / SCAR IMW SS34-36,projected
+3252,WGS 84 / SCAR IMW SS37-39,projected
+3253,WGS 84 / SCAR IMW SS40-42,projected
+3254,WGS 84 / SCAR IMW SS43-45,projected
+3255,WGS 84 / SCAR IMW SS46-48,projected
+3256,WGS 84 / SCAR IMW SS49-51,projected
+3257,WGS 84 / SCAR IMW SS52-54,projected
+3258,WGS 84 / SCAR IMW SS55-57,projected
+3259,WGS 84 / SCAR IMW SS58-60,projected
+3260,WGS 84 / SCAR IMW ST01-04,projected
+3261,WGS 84 / SCAR IMW ST05-08,projected
+3262,WGS 84 / SCAR IMW ST09-12,projected
+3263,WGS 84 / SCAR IMW ST13-16,projected
+3264,WGS 84 / SCAR IMW ST17-20,projected
+3265,WGS 84 / SCAR IMW ST21-24,projected
+3266,WGS 84 / SCAR IMW ST25-28,projected
+3267,WGS 84 / SCAR IMW ST29-32,projected
+3268,WGS 84 / SCAR IMW ST33-36,projected
+3269,WGS 84 / SCAR IMW ST37-40,projected
+3270,WGS 84 / SCAR IMW ST41-44,projected
+3271,WGS 84 / SCAR IMW ST45-48,projected
+3272,WGS 84 / SCAR IMW ST49-52,projected
+3273,WGS 84 / SCAR IMW ST53-56,projected
+3274,WGS 84 / SCAR IMW ST57-60,projected
+3275,WGS 84 / SCAR IMW SU01-05,projected
+3276,WGS 84 / SCAR IMW SU06-10,projected
+3277,WGS 84 / SCAR IMW SU11-15,projected
+3278,WGS 84 / SCAR IMW SU16-20,projected
+3279,WGS 84 / SCAR IMW SU21-25,projected
+3280,WGS 84 / SCAR IMW SU26-30,projected
+3281,WGS 84 / SCAR IMW SU31-35,projected
+3282,WGS 84 / SCAR IMW SU36-40,projected
+3283,WGS 84 / SCAR IMW SU41-45,projected
+3284,WGS 84 / SCAR IMW SU46-50,projected
+3285,WGS 84 / SCAR IMW SU51-55,projected
+3286,WGS 84 / SCAR IMW SU56-60,projected
+3287,WGS 84 / SCAR IMW SV01-10,projected
+3288,WGS 84 / SCAR IMW SV11-20,projected
+3289,WGS 84 / SCAR IMW SV21-30,projected
+3290,WGS 84 / SCAR IMW SV31-40,projected
+3291,WGS 84 / SCAR IMW SV41-50,projected
+3292,WGS 84 / SCAR IMW SV51-60,projected
+3293,WGS 84 / SCAR IMW SW01-60,projected
+3294,WGS 84 / USGS Transantarctic Mountains,projected
+3295,Guam 1963 / Yap Islands,projected
+3296,RGPF / UTM zone 5S,projected
+3297,RGPF / UTM zone 6S,projected
+3298,RGPF / UTM zone 7S,projected
+3299,RGPF / UTM zone 8S,projected
+3300,Estonian Coordinate System of 1992,projected
+3301,Estonian Coordinate System of 1997,projected
+3302,IGN63 Hiva Oa / UTM zone 7S,projected
+3303,Fatu Iva 72 / UTM zone 7S,projected
+3304,Tahiti 79 / UTM zone 6S,projected
+3305,Moorea 87 / UTM zone 6S,projected
+3306,Maupiti 83 / UTM zone 5S,projected
+3307,Nakhl-e Ghanem / UTM zone 39N,projected
+3308,GDA94 / NSW Lambert,projected
+3309,NAD27 / California Albers,projected
+3310,NAD83 / California Albers,projected
+3311,NAD83(HARN) / California Albers,projected
+3312,CSG67 / UTM zone 21N,projected
+3313,RGFG95 / UTM zone 21N,projected
+3316,Kasai 1953 / Congo TM zone 22,projected
+3317,Kasai 1953 / Congo TM zone 24,projected
+3318,IGC 1962 / Congo TM zone 12,projected
+3319,IGC 1962 / Congo TM zone 14,projected
+3320,IGC 1962 / Congo TM zone 16,projected
+3321,IGC 1962 / Congo TM zone 18,projected
+3322,IGC 1962 / Congo TM zone 20,projected
+3323,IGC 1962 / Congo TM zone 22,projected
+3324,IGC 1962 / Congo TM zone 24,projected
+3325,IGC 1962 / Congo TM zone 26,projected
+3326,IGC 1962 / Congo TM zone 28,projected
+3327,IGC 1962 / Congo TM zone 30,projected
+3328,Pulkovo 1942(58) / GUGiK-80,projected
+3329,Pulkovo 1942(58) / 3-degree Gauss-Kruger zone 5,projected
+3330,Pulkovo 1942(58) / 3-degree Gauss-Kruger zone 6,projected
+3331,Pulkovo 1942(58) / 3-degree Gauss-Kruger zone 7,projected
+3332,Pulkovo 1942(58) / 3-degree Gauss-Kruger zone 8,projected
+3333,Pulkovo 1942(58) / Gauss-Kruger zone 3,projected
+3334,Pulkovo 1942(58) / Gauss-Kruger zone 4,projected
+3335,Pulkovo 1942(58) / Gauss-Kruger zone 5,projected
+3336,IGN 1962 Kerguelen / UTM zone 42S,projected
+3337,Le Pouce 1934 / Mauritius Grid,projected
+3338,NAD83 / Alaska Albers,projected
+3339,IGCB 1955 / Congo TM zone 12,projected
+3340,IGCB 1955 / Congo TM zone 14,projected
+3341,IGCB 1955 / Congo TM zone 16,projected
+3342,IGCB 1955 / UTM zone 33S,projected
+3343,Mauritania 1999 / UTM zone 28N,projected
+3344,Mauritania 1999 / UTM zone 29N,projected
+3345,Mauritania 1999 / UTM zone 30N,projected
+3346,LKS94 / Lithuania TM,projected
+3347,NAD83 / Statistics Canada Lambert,projected
+3348,NAD83(CSRS) / Statistics Canada Lambert,projected
+3350,Pulkovo 1942 / CS63 zone C0,projected
+3351,Pulkovo 1942 / CS63 zone C1,projected
+3352,Pulkovo 1942 / CS63 zone C2,projected
+3353,Mhast (onshore) / UTM zone 32S,projected
+3354,Mhast (offshore) / UTM zone 32S,projected
+3355,Egypt Gulf of Suez S-650 TL / Red Belt,projected
+3358,NAD83(HARN) / North Carolina,projected
+3360,NAD83(HARN) / South Carolina,projected
+3361,NAD83(HARN) / South Carolina (ft),projected
+3362,NAD83(HARN) / Pennsylvania North,projected
+3363,NAD83(HARN) / Pennsylvania North (ftUS),projected
+3364,NAD83(HARN) / Pennsylvania South,projected
+3365,NAD83(HARN) / Pennsylvania South (ftUS),projected
+3367,IGN Astro 1960 / UTM zone 28N,projected
+3368,IGN Astro 1960 / UTM zone 29N,projected
+3369,IGN Astro 1960 / UTM zone 30N,projected
+3370,NAD27 / UTM zone 59N,projected
+3371,NAD27 / UTM zone 60N,projected
+3372,NAD83 / UTM zone 59N,projected
+3373,NAD83 / UTM zone 60N,projected
+3374,FD54 / UTM zone 29N,projected
+3375,GDM2000 / Peninsula RSO,projected
+3376,GDM2000 / East Malaysia BRSO,projected
+3377,GDM2000 / Johor Grid,projected
+3378,GDM2000 / Sembilan and Melaka Grid,projected
+3379,GDM2000 / PahangGrid,projected
+3380,GDM2000 / Selangor Grid,projected
+3381,GDM2000 / Terengganu Grid,projected
+3382,GDM2000 / Pinang Grid,projected
+3383,GDM2000 / Kedah and Perlis Grid,projected
+3384,GDM2000 / Perak Grid,projected
+3385,GDM2000 / Kelantan Grid,projected
+3386,KKJ / Finland zone 0,projected
+3387,KKJ / Finland zone 5,projected
+3388,Pulkovo 1942 / Caspian Sea Mercator,projected
+3389,Pulkovo 1942 / 3-degree Gauss-Kruger zone 60,projected
+3390,Pulkovo 1995 / 3-degree Gauss-Kruger zone 60,projected
+3391,Karbala 1979 / UTM zone 37N,projected
+3392,Karbala 1979 / UTM zone 38N,projected
+3393,Karbala 1979 / UTM zone 39N,projected
+3394,Nahrwan 1934 / Iraq zone,projected
+3395,WGS 84 / World Mercator,projected
+3396,PD/83 / 3-degree Gauss-Kruger zone 3,projected
+3397,PD/83 / 3-degree Gauss-Kruger zone 4,projected
+3398,RD/83 / 3-degree Gauss-Kruger zone 4,projected
+3399,RD/83 / 3-degree Gauss-Kruger zone 5,projected
+3400,NAD83 / Alberta 10-TM (Forest),projected
+3401,NAD83 / Alberta 10-TM (Resource),projected
+3402,NAD83(CSRS) / Alberta 10-TM (Forest),projected
+3403,NAD83(CSRS) / Alberta 10-TM (Resource),projected
+3404,NAD83(HARN) / North Carolina (ftUS),projected
+3405,VN-2000 / UTM zone 48N,projected
+3406,VN-2000 / UTM zone 49N,projected
+3407,Hong Kong 1963 Grid System,projected
+3408,NSIDC EASE-Grid North,projected
+3409,NSIDC EASE-Grid South,projected
+3410,NSIDC EASE-Grid Global,projected
+3411,NSIDC Sea Ice Polar Stereographic North,projected
+3412,NSIDC Sea Ice Polar Stereographic South,projected
+3413,WGS 84 / NSIDC Sea Ice Polar Stereographic North,projected
+3414,SVY21 / Singapore TM,projected
+3415,WGS 72BE / South China Sea Lambert,projected
+3416,ETRS89 / Austria Lambert,projected
+3417,NAD83 / Iowa North (ft US),projected
+3418,NAD83 / Iowa South (ft US),projected
+3419,NAD83 / Kansas North (ft US),projected
+3420,NAD83 / Kansas South (ft US),projected
+3421,NAD83 / Nevada East (ft US),projected
+3422,NAD83 / Nevada Central (ft US),projected
+3423,NAD83 / Nevada West (ft US),projected
+3424,NAD83 / New Jersey (ft US),projected
+3425,NAD83(HARN) / Iowa North (ft US),projected
+3426,NAD83(HARN) / Iowa South (ft US),projected
+3427,NAD83(HARN) / Kansas North (ft US),projected
+3428,NAD83(HARN) / Kansas South (ft US),projected
+3429,NAD83(HARN) / Nevada East (ft US),projected
+3430,NAD83(HARN) / Nevada Central (ft US),projected
+3431,NAD83(HARN) / Nevada West (ft US),projected
+3432,NAD83(HARN) / New Jersey (ft US),projected
+3433,NAD83 / Arkansas North (ftUS),projected
+3434,NAD83 / Arkansas South (ftUS),projected
+3435,NAD83 / Illinois East (ftUS),projected
+3436,NAD83 / Illinois West (ftUS),projected
+3437,NAD83 / New Hampshire (ftUS),projected
+3438,NAD83 / Rhode Island (ftUS),projected
+3439,PSD93 / UTM zone 39N,projected
+3440,PSD93 / UTM zone 40N,projected
+3441,NAD83(HARN) / Arkansas North (ftUS),projected
+3442,NAD83(HARN) / Arkansas South (ftUS),projected
+3443,NAD83(HARN) / Illinois East (ftUS),projected
+3444,NAD83(HARN) / Illinois West (ftUS),projected
+3445,NAD83(HARN) / New Hampshire (ftUS),projected
+3446,NAD83(HARN) / Rhode Island (ftUS),projected
+3447,ETRS89 / Belgian Lambert 2005,projected
+3448,JAD2001 / Jamaica Metric Grid,projected
+3449,JAD2001 / UTM zone 17N,projected
+3450,JAD2001 / UTM zone 18N,projected
+3451,NAD83 / Louisiana North (ftUS),projected
+3452,NAD83 / Louisiana South (ftUS),projected
+3453,NAD83 / Louisiana Offshore (ftUS),projected
+3455,NAD83 / South Dakota South (ftUS),projected
+3456,NAD83(HARN) / Louisiana North (ftUS),projected
+3457,NAD83(HARN) / Louisiana South (ftUS),projected
+3458,NAD83(HARN) / South Dakota North (ftUS),projected
+3459,NAD83(HARN) / South Dakota South (ftUS),projected
+3460,Fiji 1986 / Fiji Map Grid,projected
+3461,Dabola 1981 / UTM zone 28N,projected
+3462,Dabola 1981 / UTM zone 29N,projected
+3463,NAD83 / Maine CS2000 Central,projected
+3464,NAD83(HARN) / Maine CS2000 Central,projected
+3465,NAD83(NSRS2007) / Alabama East,projected
+3466,NAD83(NSRS2007) / Alabama West,projected
+3467,NAD83(NSRS2007) / Alaska Albers,projected
+3468,NAD83(NSRS2007) / Alaska zone 1,projected
+3469,NAD83(NSRS2007) / Alaska zone 2,projected
+3470,NAD83(NSRS2007) / Alaska zone 3,projected
+3471,NAD83(NSRS2007) / Alaska zone 4,projected
+3472,NAD83(NSRS2007) / Alaska zone 5,projected
+3473,NAD83(NSRS2007) / Alaska zone 6,projected
+3474,NAD83(NSRS2007) / Alaska zone 7,projected
+3475,NAD83(NSRS2007) / Alaska zone 8,projected
+3476,NAD83(NSRS2007) / Alaska zone 9,projected
+3477,NAD83(NSRS2007) / Alaska zone 10,projected
+3478,NAD83(NSRS2007) / Arizona Central,projected
+3479,NAD83(NSRS2007) / Arizona Central (ft),projected
+3480,NAD83(NSRS2007) / Arizona East,projected
+3481,NAD83(NSRS2007) / Arizona East (ft),projected
+3482,NAD83(NSRS2007) / Arizona West,projected
+3483,NAD83(NSRS2007) / Arizona West (ft),projected
+3484,NAD83(NSRS2007) / Arkansas North,projected
+3485,NAD83(NSRS2007) / Arkansas North (ftUS),projected
+3486,NAD83(NSRS2007) / Arkansas South,projected
+3487,NAD83(NSRS2007) / Arkansas South (ftUS),projected
+3488,NAD83(NSRS2007) / California Albers,projected
+3489,NAD83(NSRS2007) / California zone 1,projected
+3490,NAD83(NSRS2007) / California zone 1 (ftUS),projected
+3491,NAD83(NSRS2007) / California zone 2,projected
+3492,NAD83(NSRS2007) / California zone 2 (ftUS),projected
+3493,NAD83(NSRS2007) / California zone 3,projected
+3494,NAD83(NSRS2007) / California zone 3 (ftUS),projected
+3495,NAD83(NSRS2007) / California zone 4,projected
+3496,NAD83(NSRS2007) / California zone 4 (ftUS),projected
+3497,NAD83(NSRS2007) / California zone 5,projected
+3498,NAD83(NSRS2007) / California zone 5 (ftUS),projected
+3499,NAD83(NSRS2007) / California zone 6,projected
+3500,NAD83(NSRS2007) / California zone 6 (ftUS),projected
+3501,NAD83(NSRS2007) / Colorado Central,projected
+3502,NAD83(NSRS2007) / Colorado Central (ftUS),projected
+3503,NAD83(NSRS2007) / Colorado North,projected
+3504,NAD83(NSRS2007) / Colorado North (ftUS),projected
+3505,NAD83(NSRS2007) / Colorado South,projected
+3506,NAD83(NSRS2007) / Colorado South (ftUS),projected
+3507,NAD83(NSRS2007) / Connecticut,projected
+3508,NAD83(NSRS2007) / Connecticut (ftUS),projected
+3509,NAD83(NSRS2007) / Delaware,projected
+3510,NAD83(NSRS2007) / Delaware (ftUS),projected
+3511,NAD83(NSRS2007) / Florida East,projected
+3512,NAD83(NSRS2007) / Florida East (ftUS),projected
+3513,NAD83(NSRS2007) / Florida GDL Albers,projected
+3514,NAD83(NSRS2007) / Florida North,projected
+3515,NAD83(NSRS2007) / Florida North (ftUS),projected
+3516,NAD83(NSRS2007) / Florida West,projected
+3517,NAD83(NSRS2007) / Florida West (ftUS),projected
+3518,NAD83(NSRS2007) / Georgia East,projected
+3519,NAD83(NSRS2007) / Georgia East (ftUS),projected
+3520,NAD83(NSRS2007) / Georgia West,projected
+3521,NAD83(NSRS2007) / Georgia West (ftUS),projected
+3522,NAD83(NSRS2007) / Idaho Central,projected
+3523,NAD83(NSRS2007) / Idaho Central (ftUS),projected
+3524,NAD83(NSRS2007) / Idaho East,projected
+3525,NAD83(NSRS2007) / Idaho East (ftUS),projected
+3526,NAD83(NSRS2007) / Idaho West,projected
+3527,NAD83(NSRS2007) / Idaho West (ftUS),projected
+3528,NAD83(NSRS2007) / Illinois East,projected
+3529,NAD83(NSRS2007) / Illinois East (ftUS),projected
+3530,NAD83(NSRS2007) / Illinois West,projected
+3531,NAD83(NSRS2007) / Illinois West (ftUS),projected
+3532,NAD83(NSRS2007) / Indiana East,projected
+3533,NAD83(NSRS2007) / Indiana East (ftUS),projected
+3534,NAD83(NSRS2007) / Indiana West,projected
+3535,NAD83(NSRS2007) / Indiana West (ftUS),projected
+3536,NAD83(NSRS2007) / Iowa North,projected
+3537,NAD83(NSRS2007) / Iowa North (ft US),projected
+3538,NAD83(NSRS2007) / Iowa South,projected
+3539,NAD83(NSRS2007) / Iowa South (ft US),projected
+3540,NAD83(NSRS2007) / Kansas North,projected
+3541,NAD83(NSRS2007) / Kansas North (ft US),projected
+3542,NAD83(NSRS2007) / Kansas South,projected
+3543,NAD83(NSRS2007) / Kansas South (ft US),projected
+3544,NAD83(NSRS2007) / Kentucky North,projected
+3545,NAD83(NSRS2007) / Kentucky North (ftUS),projected
+3546,NAD83(NSRS2007) / Kentucky Single Zone,projected
+3547,NAD83(NSRS2007) / Kentucky Single Zone (ftUS),projected
+3548,NAD83(NSRS2007) / Kentucky South,projected
+3549,NAD83(NSRS2007) / Kentucky South (ftUS),projected
+3550,NAD83(NSRS2007) / Louisiana North,projected
+3551,NAD83(NSRS2007) / Louisiana North (ftUS),projected
+3552,NAD83(NSRS2007) / Louisiana South,projected
+3553,NAD83(NSRS2007) / Louisiana South (ftUS),projected
+3554,NAD83(NSRS2007) / Maine CS2000 Central,projected
+3555,NAD83(NSRS2007) / Maine CS2000 East,projected
+3556,NAD83(NSRS2007) / Maine CS2000 West,projected
+3557,NAD83(NSRS2007) / Maine East,projected
+3558,NAD83(NSRS2007) / Maine West,projected
+3559,NAD83(NSRS2007) / Maryland,projected
+3560,NAD83 / Utah North (ftUS),projected
+3561,Old Hawaiian / Hawaii zone 1,projected
+3562,Old Hawaiian / Hawaii zone 2,projected
+3563,Old Hawaiian / Hawaii zone 3,projected
+3564,Old Hawaiian / Hawaii zone 4,projected
+3565,Old Hawaiian / Hawaii zone 5,projected
+3566,NAD83 / Utah Central (ftUS),projected
+3567,NAD83 / Utah South (ftUS),projected
+3568,NAD83(HARN) / Utah North (ftUS),projected
+3569,NAD83(HARN) / Utah Central (ftUS),projected
+3570,NAD83(HARN) / Utah South (ftUS),projected
+3571,WGS 84 / North Pole LAEA Bering Sea,projected
+3572,WGS 84 / North Pole LAEA Alaska,projected
+3573,WGS 84 / North Pole LAEA Canada,projected
+3574,WGS 84 / North Pole LAEA Atlantic,projected
+3575,WGS 84 / North Pole LAEA Europe,projected
+3576,WGS 84 / North Pole LAEA Russia,projected
+3577,GDA94 / Australian Albers,projected
+3578,NAD83 / Yukon Albers,projected
+3579,NAD83(CSRS) / Yukon Albers,projected
+3580,NAD83 / NWT Lambert,projected
+3581,NAD83(CSRS) / NWT Lambert,projected
+3582,NAD83(NSRS2007) / Maryland (ftUS),projected
+3583,NAD83(NSRS2007) / Massachusetts Island,projected
+3584,NAD83(NSRS2007) / Massachusetts Island (ftUS),projected
+3585,NAD83(NSRS2007) / Massachusetts Mainland,projected
+3586,NAD83(NSRS2007) / Massachusetts Mainland (ftUS),projected
+3587,NAD83(NSRS2007) / Michigan Central,projected
+3588,NAD83(NSRS2007) / Michigan Central (ft),projected
+3589,NAD83(NSRS2007) / Michigan North,projected
+3590,NAD83(NSRS2007) / Michigan North (ft),projected
+3591,NAD83(NSRS2007) / Michigan Oblique Mercator,projected
+3592,NAD83(NSRS2007) / Michigan South,projected
+3593,NAD83(NSRS2007) / Michigan South (ft),projected
+3594,NAD83(NSRS2007) / Minnesota Central,projected
+3595,NAD83(NSRS2007) / Minnesota North,projected
+3596,NAD83(NSRS2007) / Minnesota South,projected
+3597,NAD83(NSRS2007) / Mississippi East,projected
+3598,NAD83(NSRS2007) / Mississippi East (ftUS),projected
+3599,NAD83(NSRS2007) / Mississippi West,projected
+3600,NAD83(NSRS2007) / Mississippi West (ftUS),projected
+3601,NAD83(NSRS2007) / Missouri Central,projected
+3602,NAD83(NSRS2007) / Missouri East,projected
+3603,NAD83(NSRS2007) / Missouri West,projected
+3604,NAD83(NSRS2007) / Montana,projected
+3605,NAD83(NSRS2007) / Montana (ft),projected
+3606,NAD83(NSRS2007) / Nebraska,projected
+3607,NAD83(NSRS2007) / Nevada Central,projected
+3608,NAD83(NSRS2007) / Nevada Central (ft US),projected
+3609,NAD83(NSRS2007) / Nevada East,projected
+3610,NAD83(NSRS2007) / Nevada East (ft US),projected
+3611,NAD83(NSRS2007) / Nevada West,projected
+3612,NAD83(NSRS2007) / Nevada West (ft US),projected
+3613,NAD83(NSRS2007) / New Hampshire,projected
+3614,NAD83(NSRS2007) / New Hampshire (ftUS),projected
+3615,NAD83(NSRS2007) / New Jersey,projected
+3616,NAD83(NSRS2007) / New Jersey (ft US),projected
+3617,NAD83(NSRS2007) / New Mexico Central,projected
+3618,NAD83(NSRS2007) / New Mexico Central (ftUS),projected
+3619,NAD83(NSRS2007) / New Mexico East,projected
+3620,NAD83(NSRS2007) / New Mexico East (ftUS),projected
+3621,NAD83(NSRS2007) / New Mexico West,projected
+3622,NAD83(NSRS2007) / New Mexico West (ftUS),projected
+3623,NAD83(NSRS2007) / New York Central,projected
+3624,NAD83(NSRS2007) / New York Central (ftUS),projected
+3625,NAD83(NSRS2007) / New York East,projected
+3626,NAD83(NSRS2007) / New York East (ftUS),projected
+3627,NAD83(NSRS2007) / New York Long Island,projected
+3628,NAD83(NSRS2007) / New York Long Island (ftUS),projected
+3629,NAD83(NSRS2007) / New York West,projected
+3630,NAD83(NSRS2007) / New York West (ftUS),projected
+3631,NAD83(NSRS2007) / North Carolina,projected
+3632,NAD83(NSRS2007) / North Carolina (ftUS),projected
+3633,NAD83(NSRS2007) / North Dakota North,projected
+3634,NAD83(NSRS2007) / North Dakota North (ft),projected
+3635,NAD83(NSRS2007) / North Dakota South,projected
+3636,NAD83(NSRS2007) / North Dakota South (ft),projected
+3637,NAD83(NSRS2007) / Ohio North,projected
+3638,NAD83(NSRS2007) / Ohio South,projected
+3639,NAD83(NSRS2007) / Oklahoma North,projected
+3640,NAD83(NSRS2007) / Oklahoma North (ftUS),projected
+3641,NAD83(NSRS2007) / Oklahoma South,projected
+3642,NAD83(NSRS2007) / Oklahoma South (ftUS),projected
+3643,NAD83(NSRS2007) / Oregon Lambert,projected
+3644,NAD83(NSRS2007) / Oregon Lambert (ft),projected
+3645,NAD83(NSRS2007) / Oregon North,projected
+3646,NAD83(NSRS2007) / Oregon North (ft),projected
+3647,NAD83(NSRS2007) / Oregon South,projected
+3648,NAD83(NSRS2007) / Oregon South (ft),projected
+3649,NAD83(NSRS2007) / Pennsylvania North,projected
+3650,NAD83(NSRS2007) / Pennsylvania North (ftUS),projected
+3651,NAD83(NSRS2007) / Pennsylvania South,projected
+3652,NAD83(NSRS2007) / Pennsylvania South (ftUS),projected
+3653,NAD83(NSRS2007) / Rhode Island,projected
+3654,NAD83(NSRS2007) / Rhode Island (ftUS),projected
+3655,NAD83(NSRS2007) / South Carolina,projected
+3656,NAD83(NSRS2007) / South Carolina (ft),projected
+3657,NAD83(NSRS2007) / South Dakota North,projected
+3658,NAD83(NSRS2007) / South Dakota North (ftUS),projected
+3659,NAD83(NSRS2007) / South Dakota South,projected
+3660,NAD83(NSRS2007) / South Dakota South (ftUS),projected
+3661,NAD83(NSRS2007) / Tennessee,projected
+3662,NAD83(NSRS2007) / Tennessee (ftUS),projected
+3663,NAD83(NSRS2007) / Texas Central,projected
+3664,NAD83(NSRS2007) / Texas Central (ftUS),projected
+3665,NAD83(NSRS2007) / Texas Centric Albers Equal Area,projected
+3666,NAD83(NSRS2007) / Texas Centric Lambert Conformal,projected
+3667,NAD83(NSRS2007) / Texas North,projected
+3668,NAD83(NSRS2007) / Texas North (ftUS),projected
+3669,NAD83(NSRS2007) / Texas North Central,projected
+3670,NAD83(NSRS2007) / Texas North Central (ftUS),projected
+3671,NAD83(NSRS2007) / Texas South,projected
+3672,NAD83(NSRS2007) / Texas South (ftUS),projected
+3673,NAD83(NSRS2007) / Texas South Central,projected
+3674,NAD83(NSRS2007) / Texas South Central (ftUS),projected
+3675,NAD83(NSRS2007) / Utah Central,projected
+3676,NAD83(NSRS2007) / Utah Central (ft),projected
+3677,NAD83(NSRS2007) / Utah Central (ftUS),projected
+3678,NAD83(NSRS2007) / Utah North,projected
+3679,NAD83(NSRS2007) / Utah North (ft),projected
+3680,NAD83(NSRS2007) / Utah North (ftUS),projected
+3681,NAD83(NSRS2007) / Utah South,projected
+3682,NAD83(NSRS2007) / Utah South (ft),projected
+3683,NAD83(NSRS2007) / Utah South (ftUS),projected
+3684,NAD83(NSRS2007) / Vermont,projected
+3685,NAD83(NSRS2007) / Virginia North,projected
+3686,NAD83(NSRS2007) / Virginia North (ftUS),projected
+3687,NAD83(NSRS2007) / Virginia South,projected
+3688,NAD83(NSRS2007) / Virginia South (ftUS),projected
+3689,NAD83(NSRS2007) / Washington North,projected
+3690,NAD83(NSRS2007) / Washington North (ftUS),projected
+3691,NAD83(NSRS2007) / Washington South,projected
+3692,NAD83(NSRS2007) / Washington South (ftUS),projected
+3693,NAD83(NSRS2007) / West Virginia North,projected
+3694,NAD83(NSRS2007) / West Virginia South,projected
+3695,NAD83(NSRS2007) / Wisconsin Central,projected
+3696,NAD83(NSRS2007) / Wisconsin Central (ftUS),projected
+3697,NAD83(NSRS2007) / Wisconsin North,projected
+3698,NAD83(NSRS2007) / Wisconsin North (ftUS),projected
+3699,NAD83(NSRS2007) / Wisconsin South,projected
+3700,NAD83(NSRS2007) / Wisconsin South (ftUS),projected
+3701,NAD83(NSRS2007) / Wisconsin Transverse Mercator,projected
+3702,NAD83(NSRS2007) / Wyoming East,projected
+3703,NAD83(NSRS2007) / Wyoming East Central,projected
+3704,NAD83(NSRS2007) / Wyoming West Central,projected
+3705,NAD83(NSRS2007) / Wyoming West,projected
+3706,NAD83(NSRS2007) / UTM zone 59N,projected
+3707,NAD83(NSRS2007) / UTM zone 60N,projected
+3708,NAD83(NSRS2007) / UTM zone 1N,projected
+3709,NAD83(NSRS2007) / UTM zone 2N,projected
+3710,NAD83(NSRS2007) / UTM zone 3N,projected
+3711,NAD83(NSRS2007) / UTM zone 4N,projected
+3712,NAD83(NSRS2007) / UTM zone 5N,projected
+3713,NAD83(NSRS2007) / UTM zone 6N,projected
+3714,NAD83(NSRS2007) / UTM zone 7N,projected
+3715,NAD83(NSRS2007) / UTM zone 8N,projected
+3716,NAD83(NSRS2007) / UTM zone 9N,projected
+3717,NAD83(NSRS2007) / UTM zone 10N,projected
+3718,NAD83(NSRS2007) / UTM zone 11N,projected
+3719,NAD83(NSRS2007) / UTM zone 12N,projected
+3720,NAD83(NSRS2007) / UTM zone 13N,projected
+3721,NAD83(NSRS2007) / UTM zone 14N,projected
+3722,NAD83(NSRS2007) / UTM zone 15N,projected
+3723,NAD83(NSRS2007) / UTM zone 16N,projected
+3724,NAD83(NSRS2007) / UTM zone 17N,projected
+3725,NAD83(NSRS2007) / UTM zone 18N,projected
+3726,NAD83(NSRS2007) / UTM zone 19N,projected
+3727,Reunion 1947 / TM Reunion,projected
+3728,NAD83(NSRS2007) / Ohio North (ftUS),projected
+3729,NAD83(NSRS2007) / Ohio South (ftUS),projected
+3730,NAD83(NSRS2007) / Wyoming East (ftUS),projected
+3731,NAD83(NSRS2007) / Wyoming East Central (ftUS),projected
+3732,NAD83(NSRS2007) / Wyoming West Central (ftUS),projected
+3733,NAD83(NSRS2007) / Wyoming West (ftUS),projected
+3734,NAD83 / Ohio North (ftUS),projected
+3735,NAD83 / Ohio South (ftUS),projected
+3736,NAD83 / Wyoming East (ftUS),projected
+3737,NAD83 / Wyoming East Central (ftUS),projected
+3738,NAD83 / Wyoming West Central (ftUS),projected
+3739,NAD83 / Wyoming West (ftUS),projected
+3740,NAD83(HARN) / UTM zone 10N,projected
+3741,NAD83(HARN) / UTM zone 11N,projected
+3742,NAD83(HARN) / UTM zone 12N,projected
+3743,NAD83(HARN) / UTM zone 13N,projected
+3744,NAD83(HARN) / UTM zone 14N,projected
+3745,NAD83(HARN) / UTM zone 15N,projected
+3746,NAD83(HARN) / UTM zone 16N,projected
+3747,NAD83(HARN) / UTM zone 17N,projected
+3748,NAD83(HARN) / UTM zone 18N,projected
+3749,NAD83(HARN) / UTM zone 19N,projected
+3750,NAD83(HARN) / UTM zone 4N,projected
+3751,NAD83(HARN) / UTM zone 5N,projected
+3753,NAD83(HARN) / Ohio North (ftUS),projected
+3754,NAD83(HARN) / Ohio South (ftUS),projected
+3755,NAD83(HARN) / Wyoming East (ftUS),projected
+3756,NAD83(HARN) / Wyoming East Central (ftUS),projected
+3757,NAD83(HARN) / Wyoming West Central (ftUS),projected
+3758,NAD83(HARN) / Wyoming West (ftUS),projected
+3759,NAD83 / Hawaii zone 3 (ftUS),projected
+3760,NAD83(HARN) / Hawaii zone 3 (ftUS),projected
+3761,NAD83(CSRS) / UTM zone 22N,projected
+3762,WGS 84 / South Georgia Lambert,projected
+3763,ETRS89 / Portugal TM06,projected
+3764,NZGD2000 / Chatham Island Circuit 2000,projected
+3765,HTRS96 / Croatia TM,projected
+3766,HTRS96 / Croatia LCC,projected
+3767,HTRS96 / UTM zone 33N,projected
+3768,HTRS96 / UTM zone 34N,projected
+3769,Bermuda 1957 / UTM zone 20N,projected
+3770,BDA2000 / Bermuda 2000 National Grid,projected
+3771,NAD27 / Alberta 3TM ref merid 111 W,projected
+3772,NAD27 / Alberta 3TM ref merid 114 W,projected
+3773,NAD27 / Alberta 3TM ref merid 117 W,projected
+3775,NAD83 / Alberta 3TM ref merid 111 W,projected
+3776,NAD83 / Alberta 3TM ref merid 114 W,projected
+3777,NAD83 / Alberta 3TM ref merid 117 W,projected
+3779,NAD83(CSRS) / Alberta 3TM ref merid 111 W,projected
+3780,NAD83(CSRS) / Alberta 3TM ref merid 114 W,projected
+3781,NAD83(CSRS) / Alberta 3TM ref merid 117 W,projected
+3783,Pitcairn 2006 / Pitcairn TM 2006,projected
+3784,Pitcairn 1967 / UTM zone 9S,projected
+3788,NZGD2000 / Auckland Islands TM 2000,projected
+3789,NZGD2000 / Campbell Island TM 2000,projected
+3790,NZGD2000 / Antipodes Islands TM 2000,projected
+3791,NZGD2000 / Raoul Island TM 2000,projected
+3793,NZGD2000 / Chatham Islands TM 2000,projected
+3794,Slovenia 1996 / Slovene National Grid,projected
+3795,NAD27 / Cuba Norte,projected
+3796,NAD27 / Cuba Sur,projected
+3797,NAD27 / MTQ Lambert,projected
+3798,NAD83 / MTQ Lambert,projected
+3799,NAD83(CSRS) / MTQ Lambert,projected
+3800,NAD27 / Alberta 3TM ref merid 120 W,projected
+3801,NAD83 / Alberta 3TM ref merid 120 W,projected
+3802,NAD83(CSRS) / Alberta 3TM ref merid 120 W,projected
+3812,ETRS89 / Belgian Lambert 2008,projected
+3814,NAD83 / Mississippi TM,projected
+3815,NAD83(HARN) / Mississippi TM,projected
+3816,NAD83(NSRS2007) / Mississippi TM,projected
+3819,HD1909,geographic 2D
+3821,TWD67,geographic 2D
+3822,TWD97,geocentric
+3823,TWD97,geographic 3D
+3824,TWD97,geographic 2D
+3825,TWD97 / TM2 zone 119,projected
+3826,TWD97 / TM2 zone 121,projected
+3827,TWD67 / TM2 zone 119,projected
+3828,TWD67 / TM2 zone 121,projected
+3829,Hu Tzu Shan 1950 / UTM zone 51N,projected
+3832,WGS 84 / PDC Mercator,projected
+3833,Pulkovo 1942(58) / Gauss-Kruger zone 2,projected
+3834,Pulkovo 1942(83) / Gauss-Kruger zone 2,projected
+3835,Pulkovo 1942(83) / Gauss-Kruger zone 3,projected
+3836,Pulkovo 1942(83) / Gauss-Kruger zone 4,projected
+3837,Pulkovo 1942(58) / 3-degree Gauss-Kruger zone 3,projected
+3838,Pulkovo 1942(58) / 3-degree Gauss-Kruger zone 4,projected
+3839,Pulkovo 1942(58) / 3-degree Gauss-Kruger zone 9,projected
+3840,Pulkovo 1942(58) / 3-degree Gauss-Kruger zone 10,projected
+3841,Pulkovo 1942(83) / 3-degree Gauss-Kruger zone 6,projected
+3844,Pulkovo 1942(58) / Stereo70,projected
+3845,SWEREF99 / RT90 7.5 gon V emulation,projected
+3846,SWEREF99 / RT90 5 gon V emulation,projected
+3847,SWEREF99 / RT90 2.5 gon V emulation,projected
+3848,SWEREF99 / RT90 0 gon emulation,projected
+3849,SWEREF99 / RT90 2.5 gon O emulation,projected
+3850,SWEREF99 / RT90 5 gon O emulation,projected
+3851,NZGD2000 / NZCS2000,projected
+3852,RSRGD2000 / DGLC2000,projected
+3854,County ST74,projected
+3855,EGM2008 geoid height,vertical
+3857,WGS 84 / Pseudo-Mercator,projected
+3873,ETRS89 / GK19FIN,projected
+3874,ETRS89 / GK20FIN,projected
+3875,ETRS89 / GK21FIN,projected
+3876,ETRS89 / GK22FIN,projected
+3877,ETRS89 / GK23FIN,projected
+3878,ETRS89 / GK24FIN,projected
+3879,ETRS89 / GK25FIN,projected
+3880,ETRS89 / GK26FIN,projected
+3881,ETRS89 / GK27FIN,projected
+3882,ETRS89 / GK28FIN,projected
+3883,ETRS89 / GK29FIN,projected
+3884,ETRS89 / GK30FIN,projected
+3885,ETRS89 / GK31FIN,projected
+3886,Fao 1979 height,vertical
+3887,IGRS,geocentric
+3888,IGRS,geographic 3D
+3889,IGRS,geographic 2D
+3890,IGRS / UTM zone 37N,projected
+3891,IGRS / UTM zone 38N,projected
+3892,IGRS / UTM zone 39N,projected
+3893,ED50 / Iraq National Grid,projected
+3900,N2000 height,vertical
+3901,KKJ / Finland Uniform Coordinate System + N60 height,compound
+3902,"ETRS89 / TM35FIN(N,E) + N60 height",compound
+3903,"ETRS89 / TM35FIN(N,E) + N2000 height",compound
+3906,MGI 1901,geographic 2D
+3907,MGI 1901 / Balkans zone 5,projected
+3908,MGI 1901 / Balkans zone 6,projected
+3909,MGI 1901 / Balkans zone 7,projected
+3910,MGI 1901 / Balkans zone 8,projected
+3911,MGI 1901 / Slovenia Grid,projected
+3912,MGI 1901 / Slovene National Grid,projected
+3920,Puerto Rico / UTM zone 20N,projected
+3942,RGF93 / CC42,projected
+3943,RGF93 / CC43,projected
+3944,RGF93 / CC44,projected
+3945,RGF93 / CC45,projected
+3946,RGF93 / CC46,projected
+3947,RGF93 / CC47,projected
+3948,RGF93 / CC48,projected
+3949,RGF93 / CC49,projected
+3950,RGF93 / CC50,projected
+3968,NAD83 / Virginia Lambert,projected
+3969,NAD83(HARN) / Virginia Lambert,projected
+3970,NAD83(NSRS2007) / Virginia Lambert,projected
+3973,WGS 84 / NSIDC EASE-Grid North,projected
+3974,WGS 84 / NSIDC EASE-Grid South,projected
+3975,WGS 84 / NSIDC EASE-Grid Global,projected
+3976,WGS 84 / NSIDC Sea Ice Polar Stereographic South,projected
+3978,NAD83 / Canada Atlas Lambert,projected
+3979,NAD83(CSRS) / Canada Atlas Lambert,projected
+3986,Katanga 1955 / Katanga Gauss zone A,projected
+3987,Katanga 1955 / Katanga Gauss zone B,projected
+3988,Katanga 1955 / Katanga Gauss zone C,projected
+3989,Katanga 1955 / Katanga Gauss zone D,projected
+3991,Puerto Rico State Plane CS of 1927,projected
+3992,Puerto Rico / St. Croix,projected
+3993,Guam 1963 / Guam SPCS,projected
+3994,WGS 84 / Mercator 41,projected
+3995,WGS 84 / Arctic Polar Stereographic,projected
+3996,WGS 84 / IBCAO Polar Stereographic,projected
+3997,WGS 84 / Dubai Local TM,projected
+4000,MOLDREF99,geocentric
+4001,Unknown datum based upon the Airy 1830 ellipsoid,geographic 2D
+4002,Unknown datum based upon the Airy Modified 1849 ellipsoid,geographic 2D
+4003,Unknown datum based upon the Australian National Spheroid,geographic 2D
+4004,Unknown datum based upon the Bessel 1841 ellipsoid,geographic 2D
+4005,Unknown datum based upon the Bessel Modified ellipsoid,geographic 2D
+4006,Unknown datum based upon the Bessel Namibia ellipsoid,geographic 2D
+4007,Unknown datum based upon the Clarke 1858 ellipsoid,geographic 2D
+4008,Unknown datum based upon the Clarke 1866 ellipsoid,geographic 2D
+4009,Unknown datum based upon the Clarke 1866 Michigan ellipsoid,geographic 2D
+4010,Unknown datum based upon the Clarke 1880 (Benoit) ellipsoid,geographic 2D
+4011,Unknown datum based upon the Clarke 1880 (IGN) ellipsoid,geographic 2D
+4012,Unknown datum based upon the Clarke 1880 (RGS) ellipsoid,geographic 2D
+4013,Unknown datum based upon the Clarke 1880 (Arc) ellipsoid,geographic 2D
+4014,Unknown datum based upon the Clarke 1880 (SGA 1922) ellipsoid,geographic 2D
+4015,Unknown datum based upon the Everest 1830 (1937 Adjustment) ellipsoid,geographic 2D
+4016,Unknown datum based upon the Everest 1830 (1967 Definition) ellipsoid,geographic 2D
+4017,MOLDREF99,geographic 3D
+4018,Unknown datum based upon the Everest 1830 Modified ellipsoid,geographic 2D
+4019,Unknown datum based upon the GRS 1980 ellipsoid,geographic 2D
+4020,Unknown datum based upon the Helmert 1906 ellipsoid,geographic 2D
+4021,Unknown datum based upon the Indonesian National Spheroid,geographic 2D
+4022,Unknown datum based upon the International 1924 ellipsoid,geographic 2D
+4023,MOLDREF99,geographic 2D
+4024,Unknown datum based upon the Krassowsky 1940 ellipsoid,geographic 2D
+4025,Unknown datum based upon the NWL 9D ellipsoid,geographic 2D
+4026,MOLDREF99 / Moldova TM,projected
+4027,Unknown datum based upon the Plessis 1817 ellipsoid,geographic 2D
+4028,Unknown datum based upon the Struve 1860 ellipsoid,geographic 2D
+4029,Unknown datum based upon the War Office ellipsoid,geographic 2D
+4030,Unknown datum based upon the WGS 84 ellipsoid,geographic 2D
+4031,Unknown datum based upon the GEM 10C ellipsoid,geographic 2D
+4032,Unknown datum based upon the OSU86F ellipsoid,geographic 2D
+4033,Unknown datum based upon the OSU91A ellipsoid,geographic 2D
+4034,Unknown datum based upon the Clarke 1880 ellipsoid,geographic 2D
+4036,Unknown datum based upon the GRS 1967 ellipsoid,geographic 2D
+4037,WGS 84 / TMzn35N,projected
+4038,WGS 84 / TMzn36N,projected
+4039,RGRDC 2005,geocentric
+4040,RGRDC 2005,geographic 3D
+4041,Unknown datum based upon the Average Terrestrial System 1977 ellipsoid,geographic 2D
+4042,Unknown datum based upon the Everest (1830 Definition) ellipsoid,geographic 2D
+4043,Unknown datum based upon the WGS 72 ellipsoid,geographic 2D
+4044,Unknown datum based upon the Everest 1830 (1962 Definition) ellipsoid,geographic 2D
+4045,Unknown datum based upon the Everest 1830 (1975 Definition) ellipsoid,geographic 2D
+4046,RGRDC 2005,geographic 2D
+4047,Unspecified datum based upon the GRS 1980 Authalic Sphere,geographic 2D
+4048,RGRDC 2005 / Congo TM zone 12,projected
+4049,RGRDC 2005 / Congo TM zone 14,projected
+4050,RGRDC 2005 / Congo TM zone 16,projected
+4051,RGRDC 2005 / Congo TM zone 18,projected
+4052,Unspecified datum based upon the Clarke 1866 Authalic Sphere,geographic 2D
+4053,Unspecified datum based upon the International 1924 Authalic Sphere,geographic 2D
+4054,Unspecified datum based upon the Hughes 1980 ellipsoid,geographic 2D
+4056,RGRDC 2005 / Congo TM zone 20,projected
+4057,RGRDC 2005 / Congo TM zone 22,projected
+4058,RGRDC 2005 / Congo TM zone 24,projected
+4059,RGRDC 2005 / Congo TM zone 26,projected
+4060,RGRDC 2005 / Congo TM zone 28,projected
+4061,RGRDC 2005 / UTM zone 33S,projected
+4062,RGRDC 2005 / UTM zone 34S,projected
+4063,RGRDC 2005 / UTM zone 35S,projected
+4071,Chua / UTM zone 23S,projected
+4073,SREF98,geocentric
+4074,SREF98,geographic 3D
+4075,SREF98,geographic 2D
+4079,REGCAN95,geocentric
+4080,REGCAN95,geographic 3D
+4081,REGCAN95,geographic 2D
+4082,REGCAN95 / UTM zone 27N,projected
+4083,REGCAN95 / UTM zone 28N,projected
+4087,WGS 84 / World Equidistant Cylindrical,projected
+4088,World Equidistant Cylindrical (Sphere),projected
+4093,ETRS89 / DKTM1,projected
+4094,ETRS89 / DKTM2,projected
+4095,ETRS89 / DKTM3,projected
+4096,ETRS89 / DKTM4,projected
+4097,ETRS89 / DKTM1 + DVR90 height,compound
+4098,ETRS89 / DKTM2 + DVR90 height,compound
+4099,ETRS89 / DKTM3 + DVR90 height,compound
+4100,ETRS89 / DKTM4 + DVR90 height,compound
+4120,Greek,geographic 2D
+4121,GGRS87,geographic 2D
+4122,ATS77,geographic 2D
+4123,KKJ,geographic 2D
+4124,RT90,geographic 2D
+4127,Tete,geographic 2D
+4128,Madzansua,geographic 2D
+4129,Observatario,geographic 2D
+4130,Moznet,geographic 2D
+4131,Indian 1960,geographic 2D
+4132,FD58,geographic 2D
+4133,EST92,geographic 2D
+4134,PSD93,geographic 2D
+4135,Old Hawaiian,geographic 2D
+4136,St. Lawrence Island,geographic 2D
+4137,St. Paul Island,geographic 2D
+4138,St. George Island,geographic 2D
+4139,Puerto Rico,geographic 2D
+4141,Israel,geographic 2D
+4142,Locodjo 1965,geographic 2D
+4143,Abidjan 1987,geographic 2D
+4144,Kalianpur 1937,geographic 2D
+4145,Kalianpur 1962,geographic 2D
+4146,Kalianpur 1975,geographic 2D
+4147,Hanoi 1972,geographic 2D
+4148,Hartebeesthoek94,geographic 2D
+4149,CH1903,geographic 2D
+4150,CH1903+,geographic 2D
+4151,CHTRF95,geographic 2D
+4152,NAD83(HARN),geographic 2D
+4153,Rassadiran,geographic 2D
+4154,ED50(ED77),geographic 2D
+4155,Dabola 1981,geographic 2D
+4156,S-JTSK,geographic 2D
+4157,Mount Dillon,geographic 2D
+4158,Naparima 1955,geographic 2D
+4159,ELD79,geographic 2D
+4160,Chos Malal 1914,geographic 2D
+4161,Pampa del Castillo,geographic 2D
+4162,Korean 1985,geographic 2D
+4163,Yemen NGN96,geographic 2D
+4164,South Yemen,geographic 2D
+4165,Bissau,geographic 2D
+4166,Korean 1995,geographic 2D
+4167,NZGD2000,geographic 2D
+4168,Accra,geographic 2D
+4169,American Samoa 1962,geographic 2D
+4170,SIRGAS 1995,geographic 2D
+4171,RGF93,geographic 2D
+4173,IRENET95,geographic 2D
+4174,Sierra Leone 1924,geographic 2D
+4175,Sierra Leone 1968,geographic 2D
+4176,Australian Antarctic,geographic 2D
+4178,Pulkovo 1942(83),geographic 2D
+4179,Pulkovo 1942(58),geographic 2D
+4180,EST97,geographic 2D
+4181,Luxembourg 1930,geographic 2D
+4182,Azores Occidental 1939,geographic 2D
+4183,Azores Central 1948,geographic 2D
+4184,Azores Oriental 1940,geographic 2D
+4188,OSNI 1952,geographic 2D
+4189,REGVEN,geographic 2D
+4190,POSGAR 98,geographic 2D
+4191,Albanian 1987,geographic 2D
+4192,Douala 1948,geographic 2D
+4193,Manoca 1962,geographic 2D
+4194,Qornoq 1927,geographic 2D
+4195,Scoresbysund 1952,geographic 2D
+4196,Ammassalik 1958,geographic 2D
+4197,Garoua,geographic 2D
+4198,Kousseri,geographic 2D
+4199,Egypt 1930,geographic 2D
+4200,Pulkovo 1995,geographic 2D
+4201,Adindan,geographic 2D
+4202,AGD66,geographic 2D
+4203,AGD84,geographic 2D
+4204,Ain el Abd,geographic 2D
+4205,Afgooye,geographic 2D
+4206,Agadez,geographic 2D
+4207,Lisbon,geographic 2D
+4208,Aratu,geographic 2D
+4209,Arc 1950,geographic 2D
+4210,Arc 1960,geographic 2D
+4211,Batavia,geographic 2D
+4212,Barbados 1938,geographic 2D
+4213,Beduaram,geographic 2D
+4214,Beijing 1954,geographic 2D
+4215,Belge 1950,geographic 2D
+4216,Bermuda 1957,geographic 2D
+4217,NAD83 / BLM 59N (ftUS),projected
+4218,Bogota 1975,geographic 2D
+4219,Bukit Rimpah,geographic 2D
+4220,Camacupa,geographic 2D
+4221,Campo Inchauspe,geographic 2D
+4222,Cape,geographic 2D
+4223,Carthage,geographic 2D
+4224,Chua,geographic 2D
+4225,Corrego Alegre 1970-72,geographic 2D
+4227,Deir ez Zor,geographic 2D
+4229,Egypt 1907,geographic 2D
+4230,ED50,geographic 2D
+4231,ED87,geographic 2D
+4232,Fahud,geographic 2D
+4236,Hu Tzu Shan 1950,geographic 2D
+4237,HD72,geographic 2D
+4238,ID74,geographic 2D
+4239,Indian 1954,geographic 2D
+4240,Indian 1975,geographic 2D
+4241,Jamaica 1875,geographic 2D
+4242,JAD69,geographic 2D
+4243,Kalianpur 1880,geographic 2D
+4244,Kandawala,geographic 2D
+4245,Kertau 1968,geographic 2D
+4246,KOC,geographic 2D
+4247,La Canoa,geographic 2D
+4248,PSAD56,geographic 2D
+4249,Lake,geographic 2D
+4250,Leigon,geographic 2D
+4251,Liberia 1964,geographic 2D
+4252,Lome,geographic 2D
+4253,Luzon 1911,geographic 2D
+4254,Hito XVIII 1963,geographic 2D
+4255,Herat North,geographic 2D
+4256,Mahe 1971,geographic 2D
+4257,Makassar,geographic 2D
+4258,ETRS89,geographic 2D
+4259,Malongo 1987,geographic 2D
+4261,Merchich,geographic 2D
+4262,Massawa,geographic 2D
+4263,Minna,geographic 2D
+4265,Monte Mario,geographic 2D
+4266,M'poraloko,geographic 2D
+4267,NAD27,geographic 2D
+4268,NAD27 Michigan,geographic 2D
+4269,NAD83,geographic 2D
+4270,Nahrwan 1967,geographic 2D
+4271,Naparima 1972,geographic 2D
+4272,NZGD49,geographic 2D
+4273,NGO 1948,geographic 2D
+4274,Datum 73,geographic 2D
+4275,NTF,geographic 2D
+4276,NSWC 9Z-2,geographic 2D
+4277,OSGB 1936,geographic 2D
+4278,OSGB70,geographic 2D
+4279,OS(SN)80,geographic 2D
+4280,Padang,geographic 2D
+4281,Palestine 1923,geographic 2D
+4282,Pointe Noire,geographic 2D
+4283,GDA94,geographic 2D
+4284,Pulkovo 1942,geographic 2D
+4285,Qatar 1974,geographic 2D
+4286,Qatar 1948,geographic 2D
+4288,Loma Quintana,geographic 2D
+4289,Amersfoort,geographic 2D
+4292,Sapper Hill 1943,geographic 2D
+4293,Schwarzeck,geographic 2D
+4295,Serindung,geographic 2D
+4297,Tananarive,geographic 2D
+4298,Timbalai 1948,geographic 2D
+4299,TM65,geographic 2D
+4300,TM75,geographic 2D
+4301,Tokyo,geographic 2D
+4302,Trinidad 1903,geographic 2D
+4303,TC(1948),geographic 2D
+4304,Voirol 1875,geographic 2D
+4306,Bern 1938,geographic 2D
+4307,Nord Sahara 1959,geographic 2D
+4308,RT38,geographic 2D
+4309,Yacare,geographic 2D
+4310,Yoff,geographic 2D
+4311,Zanderij,geographic 2D
+4312,MGI,geographic 2D
+4313,Belge 1972,geographic 2D
+4314,DHDN,geographic 2D
+4315,Conakry 1905,geographic 2D
+4316,Dealul Piscului 1930,geographic 2D
+4318,NGN,geographic 2D
+4319,KUDAMS,geographic 2D
+4322,WGS 72,geographic 2D
+4324,WGS 72BE,geographic 2D
+4326,WGS 84,geographic 2D
+4399,NAD27 / BLM 59N (ftUS),projected
+4400,NAD27 / BLM 60N (ftUS),projected
+4401,NAD27 / BLM 1N (ftUS),projected
+4402,NAD27 / BLM 2N (ftUS),projected
+4403,NAD27 / BLM 3N (ftUS),projected
+4404,NAD27 / BLM 4N (ftUS),projected
+4405,NAD27 / BLM 5N (ftUS),projected
+4406,NAD27 / BLM 6N (ftUS),projected
+4407,NAD27 / BLM 7N (ftUS),projected
+4408,NAD27 / BLM 8N (ftUS),projected
+4409,NAD27 / BLM 9N (ftUS),projected
+4410,NAD27 / BLM 10N (ftUS),projected
+4411,NAD27 / BLM 11N (ftUS),projected
+4412,NAD27 / BLM 12N (ftUS),projected
+4413,NAD27 / BLM 13N (ftUS),projected
+4414,NAD83(HARN) / Guam Map Grid,projected
+4415,Katanga 1955 / Katanga Lambert,projected
+4417,Pulkovo 1942(83) / 3-degree Gauss-Kruger zone 7,projected
+4418,NAD27 / BLM 18N (ftUS),projected
+4419,NAD27 / BLM 19N (ftUS),projected
+4420,NAD83 / BLM 60N (ftUS),projected
+4421,NAD83 / BLM 1N (ftUS),projected
+4422,NAD83 / BLM 2N (ftUS),projected
+4423,NAD83 / BLM 3N (ftUS),projected
+4424,NAD83 / BLM 4N (ftUS),projected
+4425,NAD83 / BLM 5N (ftUS),projected
+4426,NAD83 / BLM 6N (ftUS),projected
+4427,NAD83 / BLM 7N (ftUS),projected
+4428,NAD83 / BLM 8N (ftUS),projected
+4429,NAD83 / BLM 9N (ftUS),projected
+4430,NAD83 / BLM 10N (ftUS),projected
+4431,NAD83 / BLM 11N (ftUS),projected
+4432,NAD83 / BLM 12N (ftUS),projected
+4433,NAD83 / BLM 13N (ftUS),projected
+4434,Pulkovo 1942(83) / 3-degree Gauss-Kruger zone 8,projected
+4437,NAD83(NSRS2007) / Puerto Rico and Virgin Is.,projected
+4438,NAD83 / BLM 18N (ftUS),projected
+4439,NAD83 / BLM 19N (ftUS),projected
+4440,NZVD2009 height,vertical
+4455,NAD27 / Pennsylvania South,projected
+4456,NAD27 / New York Long Island,projected
+4457,NAD83 / South Dakota North (ftUS),projected
+4458,Dunedin-Bluff 1960 height,vertical
+4462,WGS 84 / Australian Centre for Remote Sensing Lambert,projected
+4463,RGSPM06,geographic 2D
+4465,RGSPM06,geocentric
+4466,RGSPM06,geographic 3D
+4467,RGSPM06 / UTM zone 21N,projected
+4468,RGM04,geocentric
+4469,RGM04,geographic 3D
+4470,RGM04,geographic 2D
+4471,RGM04 / UTM zone 38S,projected
+4472,Cadastre 1997,geographic 3D
+4473,Cadastre 1997,geocentric
+4475,Cadastre 1997,geographic 2D
+4479,China Geodetic Coordinate System 2000,geocentric
+4480,China Geodetic Coordinate System 2000,geographic 3D
+4481,Mexican Datum of 1993,geocentric
+4482,Mexican Datum of 1993,geographic 3D
+4483,Mexican Datum of 1993,geographic 2D
+4484,Mexican Datum of 1993 / UTM zone 11N,projected
+4485,Mexican Datum of 1993 / UTM zone 12N,projected
+4486,Mexican Datum of 1993 / UTM zone 13N,projected
+4487,Mexican Datum of 1993 / UTM zone 14N,projected
+4488,Mexican Datum of 1993 / UTM zone 15N,projected
+4489,Mexican Datum of 1993 / UTM zone 16N,projected
+4490,China Geodetic Coordinate System 2000,geographic 2D
+4491,CGCS2000 / Gauss-Kruger zone 13,projected
+4492,CGCS2000 / Gauss-Kruger zone 14,projected
+4493,CGCS2000 / Gauss-Kruger zone 15,projected
+4494,CGCS2000 / Gauss-Kruger zone 16,projected
+4495,CGCS2000 / Gauss-Kruger zone 17,projected
+4496,CGCS2000 / Gauss-Kruger zone 18,projected
+4497,CGCS2000 / Gauss-Kruger zone 19,projected
+4498,CGCS2000 / Gauss-Kruger zone 20,projected
+4499,CGCS2000 / Gauss-Kruger zone 21,projected
+4500,CGCS2000 / Gauss-Kruger zone 22,projected
+4501,CGCS2000 / Gauss-Kruger zone 23,projected
+4502,CGCS2000 / Gauss-Kruger CM 75E,projected
+4503,CGCS2000 / Gauss-Kruger CM 81E,projected
+4504,CGCS2000 / Gauss-Kruger CM 87E,projected
+4505,CGCS2000 / Gauss-Kruger CM 93E,projected
+4506,CGCS2000 / Gauss-Kruger CM 99E,projected
+4507,CGCS2000 / Gauss-Kruger CM 105E,projected
+4508,CGCS2000 / Gauss-Kruger CM 111E,projected
+4509,CGCS2000 / Gauss-Kruger CM 117E,projected
+4510,CGCS2000 / Gauss-Kruger CM 123E,projected
+4511,CGCS2000 / Gauss-Kruger CM 129E,projected
+4512,CGCS2000 / Gauss-Kruger CM 135E,projected
+4513,CGCS2000 / 3-degree Gauss-Kruger zone 25,projected
+4514,CGCS2000 / 3-degree Gauss-Kruger zone 26,projected
+4515,CGCS2000 / 3-degree Gauss-Kruger zone 27,projected
+4516,CGCS2000 / 3-degree Gauss-Kruger zone 28,projected
+4517,CGCS2000 / 3-degree Gauss-Kruger zone 29,projected
+4518,CGCS2000 / 3-degree Gauss-Kruger zone 30,projected
+4519,CGCS2000 / 3-degree Gauss-Kruger zone 31,projected
+4520,CGCS2000 / 3-degree Gauss-Kruger zone 32,projected
+4521,CGCS2000 / 3-degree Gauss-Kruger zone 33,projected
+4522,CGCS2000 / 3-degree Gauss-Kruger zone 34,projected
+4523,CGCS2000 / 3-degree Gauss-Kruger zone 35,projected
+4524,CGCS2000 / 3-degree Gauss-Kruger zone 36,projected
+4525,CGCS2000 / 3-degree Gauss-Kruger zone 37,projected
+4526,CGCS2000 / 3-degree Gauss-Kruger zone 38,projected
+4527,CGCS2000 / 3-degree Gauss-Kruger zone 39,projected
+4528,CGCS2000 / 3-degree Gauss-Kruger zone 40,projected
+4529,CGCS2000 / 3-degree Gauss-Kruger zone 41,projected
+4530,CGCS2000 / 3-degree Gauss-Kruger zone 42,projected
+4531,CGCS2000 / 3-degree Gauss-Kruger zone 43,projected
+4532,CGCS2000 / 3-degree Gauss-Kruger zone 44,projected
+4533,CGCS2000 / 3-degree Gauss-Kruger zone 45,projected
+4534,CGCS2000 / 3-degree Gauss-Kruger CM 75E,projected
+4535,CGCS2000 / 3-degree Gauss-Kruger CM 78E,projected
+4536,CGCS2000 / 3-degree Gauss-Kruger CM 81E,projected
+4537,CGCS2000 / 3-degree Gauss-Kruger CM 84E,projected
+4538,CGCS2000 / 3-degree Gauss-Kruger CM 87E,projected
+4539,CGCS2000 / 3-degree Gauss-Kruger CM 90E,projected
+4540,CGCS2000 / 3-degree Gauss-Kruger CM 93E,projected
+4541,CGCS2000 / 3-degree Gauss-Kruger CM 96E,projected
+4542,CGCS2000 / 3-degree Gauss-Kruger CM 99E,projected
+4543,CGCS2000 / 3-degree Gauss-Kruger CM 102E,projected
+4544,CGCS2000 / 3-degree Gauss-Kruger CM 105E,projected
+4545,CGCS2000 / 3-degree Gauss-Kruger CM 108E,projected
+4546,CGCS2000 / 3-degree Gauss-Kruger CM 111E,projected
+4547,CGCS2000 / 3-degree Gauss-Kruger CM 114E,projected
+4548,CGCS2000 / 3-degree Gauss-Kruger CM 117E,projected
+4549,CGCS2000 / 3-degree Gauss-Kruger CM 120E,projected
+4550,CGCS2000 / 3-degree Gauss-Kruger CM 123E,projected
+4551,CGCS2000 / 3-degree Gauss-Kruger CM 126E,projected
+4552,CGCS2000 / 3-degree Gauss-Kruger CM 129E,projected
+4553,CGCS2000 / 3-degree Gauss-Kruger CM 132E,projected
+4554,CGCS2000 / 3-degree Gauss-Kruger CM 135E,projected
+4555,New Beijing,geographic 2D
+4556,RRAF 1991,geocentric
+4557,RRAF 1991,geographic 3D
+4558,RRAF 1991,geographic 2D
+4559,RRAF 1991 / UTM zone 20N,projected
+4568,New Beijing / Gauss-Kruger zone 13,projected
+4569,New Beijing / Gauss-Kruger zone 14,projected
+4570,New Beijing / Gauss-Kruger zone 15,projected
+4571,New Beijing / Gauss-Kruger zone 16,projected
+4572,New Beijing / Gauss-Kruger zone 17,projected
+4573,New Beijing / Gauss-Kruger zone 18,projected
+4574,New Beijing / Gauss-Kruger zone 19,projected
+4575,New Beijing / Gauss-Kruger zone 20,projected
+4576,New Beijing / Gauss-Kruger zone 21,projected
+4577,New Beijing / Gauss-Kruger zone 22,projected
+4578,New Beijing / Gauss-Kruger zone 23,projected
+4579,New Beijing / Gauss-Kruger CM 75E,projected
+4580,New Beijing / Gauss-Kruger CM 81E,projected
+4581,New Beijing / Gauss-Kruger CM 87E,projected
+4582,New Beijing / Gauss-Kruger CM 93E,projected
+4583,New Beijing / Gauss-Kruger CM 99E,projected
+4584,New Beijing / Gauss-Kruger CM 105E,projected
+4585,New Beijing / Gauss-Kruger CM 111E,projected
+4586,New Beijing / Gauss-Kruger CM 117E,projected
+4587,New Beijing / Gauss-Kruger CM 123E,projected
+4588,New Beijing / Gauss-Kruger CM 129E,projected
+4589,New Beijing / Gauss-Kruger CM 135E,projected
+4600,Anguilla 1957,geographic 2D
+4601,Antigua 1943,geographic 2D
+4602,Dominica 1945,geographic 2D
+4603,Grenada 1953,geographic 2D
+4604,Montserrat 1958,geographic 2D
+4605,St. Kitts 1955,geographic 2D
+4606,St. Lucia 1955,geographic 2D
+4607,St. Vincent 1945,geographic 2D
+4608,NAD27(76),geographic 2D
+4609,NAD27(CGQ77),geographic 2D
+4610,Xian 1980,geographic 2D
+4611,Hong Kong 1980,geographic 2D
+4612,JGD2000,geographic 2D
+4613,Segara,geographic 2D
+4614,QND95,geographic 2D
+4615,Porto Santo,geographic 2D
+4616,Selvagem Grande,geographic 2D
+4617,NAD83(CSRS),geographic 2D
+4618,SAD69,geographic 2D
+4619,SWEREF99,geographic 2D
+4620,Point 58,geographic 2D
+4621,Fort Marigot,geographic 2D
+4622,Guadeloupe 1948,geographic 2D
+4623,CSG67,geographic 2D
+4624,RGFG95,geographic 2D
+4625,Martinique 1938,geographic 2D
+4626,Reunion 1947,geographic 2D
+4627,RGR92,geographic 2D
+4628,Tahiti 52,geographic 2D
+4629,Tahaa 54,geographic 2D
+4630,IGN72 Nuku Hiva,geographic 2D
+4632,Combani 1950,geographic 2D
+4633,IGN56 Lifou,geographic 2D
+4636,Petrels 1972,geographic 2D
+4637,Perroud 1950,geographic 2D
+4638,Saint Pierre et Miquelon 1950,geographic 2D
+4639,MOP78,geographic 2D
+4641,IGN53 Mare,geographic 2D
+4642,ST84 Ile des Pins,geographic 2D
+4643,ST71 Belep,geographic 2D
+4644,NEA74 Noumea,geographic 2D
+4646,Grand Comoros,geographic 2D
+4647,ETRS89 / UTM zone 32N (zE-N),projected
+4652,New Beijing / 3-degree Gauss-Kruger zone 25,projected
+4653,New Beijing / 3-degree Gauss-Kruger zone 26,projected
+4654,New Beijing / 3-degree Gauss-Kruger zone 27,projected
+4655,New Beijing / 3-degree Gauss-Kruger zone 28,projected
+4656,New Beijing / 3-degree Gauss-Kruger zone 29,projected
+4657,Reykjavik 1900,geographic 2D
+4658,Hjorsey 1955,geographic 2D
+4659,ISN93,geographic 2D
+4660,Helle 1954,geographic 2D
+4661,LKS92,geographic 2D
+4662,IGN72 Grande Terre,geographic 2D
+4663,Porto Santo 1995,geographic 2D
+4664,Azores Oriental 1995,geographic 2D
+4665,Azores Central 1995,geographic 2D
+4666,Lisbon 1890,geographic 2D
+4667,IKBD-92,geographic 2D
+4668,ED79,geographic 2D
+4669,LKS94,geographic 2D
+4670,IGM95,geographic 2D
+4671,Voirol 1879,geographic 2D
+4672,Chatham Islands 1971,geographic 2D
+4673,Chatham Islands 1979,geographic 2D
+4674,SIRGAS 2000,geographic 2D
+4675,Guam 1963,geographic 2D
+4676,Vientiane 1982,geographic 2D
+4677,Lao 1993,geographic 2D
+4678,Lao 1997,geographic 2D
+4679,Jouik 1961,geographic 2D
+4680,Nouakchott 1965,geographic 2D
+4682,Gulshan 303,geographic 2D
+4683,PRS92,geographic 2D
+4684,Gan 1970,geographic 2D
+4686,MAGNA-SIRGAS,geographic 2D
+4687,RGPF,geographic 2D
+4688,Fatu Iva 72,geographic 2D
+4689,IGN63 Hiva Oa,geographic 2D
+4690,Tahiti 79,geographic 2D
+4691,Moorea 87,geographic 2D
+4692,Maupiti 83,geographic 2D
+4693,Nakhl-e Ghanem,geographic 2D
+4694,POSGAR 94,geographic 2D
+4695,Katanga 1955,geographic 2D
+4696,Kasai 1953,geographic 2D
+4697,IGC 1962 6th Parallel South,geographic 2D
+4698,IGN 1962 Kerguelen,geographic 2D
+4699,Le Pouce 1934,geographic 2D
+4700,IGN Astro 1960,geographic 2D
+4701,IGCB 1955,geographic 2D
+4702,Mauritania 1999,geographic 2D
+4703,Mhast 1951,geographic 2D
+4704,Mhast (onshore),geographic 2D
+4705,Mhast (offshore),geographic 2D
+4706,Egypt Gulf of Suez S-650 TL,geographic 2D
+4707,Tern Island 1961,geographic 2D
+4708,Cocos Islands 1965,geographic 2D
+4709,Iwo Jima 1945,geographic 2D
+4710,St. Helena 1971,geographic 2D
+4711,Marcus Island 1952,geographic 2D
+4712,Ascension Island 1958,geographic 2D
+4713,Ayabelle Lighthouse,geographic 2D
+4714,Bellevue,geographic 2D
+4715,Camp Area Astro,geographic 2D
+4716,Phoenix Islands 1966,geographic 2D
+4717,Cape Canaveral,geographic 2D
+4718,Solomon 1968,geographic 2D
+4719,Easter Island 1967,geographic 2D
+4720,Fiji 1986,geographic 2D
+4721,Fiji 1956,geographic 2D
+4722,South Georgia 1968,geographic 2D
+4723,GCGD59,geographic 2D
+4724,Diego Garcia 1969,geographic 2D
+4725,Johnston Island 1961,geographic 2D
+4726,SIGD61,geographic 2D
+4727,Midway 1961,geographic 2D
+4728,Pico de las Nieves 1984,geographic 2D
+4729,Pitcairn 1967,geographic 2D
+4730,Santo 1965,geographic 2D
+4732,Marshall Islands 1960,geographic 2D
+4733,Wake Island 1952,geographic 2D
+4734,Tristan 1968,geographic 2D
+4735,Kusaie 1951,geographic 2D
+4736,Deception Island,geographic 2D
+4737,Korea 2000,geographic 2D
+4738,Hong Kong 1963,geographic 2D
+4739,Hong Kong 1963(67),geographic 2D
+4740,PZ-90,geographic 2D
+4741,FD54,geographic 2D
+4742,GDM2000,geographic 2D
+4743,Karbala 1979,geographic 2D
+4744,Nahrwan 1934,geographic 2D
+4745,RD/83,geographic 2D
+4746,PD/83,geographic 2D
+4747,GR96,geographic 2D
+4748,Vanua Levu 1915,geographic 2D
+4749,RGNC91-93,geographic 2D
+4750,ST87 Ouvea,geographic 2D
+4751,Kertau (RSO),geographic 2D
+4752,Viti Levu 1912,geographic 2D
+4753,fk89,geographic 2D
+4754,LGD2006,geographic 2D
+4755,DGN95,geographic 2D
+4756,VN-2000,geographic 2D
+4757,SVY21,geographic 2D
+4758,JAD2001,geographic 2D
+4759,NAD83(NSRS2007),geographic 2D
+4760,WGS 66,geographic 2D
+4761,HTRS96,geographic 2D
+4762,BDA2000,geographic 2D
+4763,Pitcairn 2006,geographic 2D
+4764,RSRGD2000,geographic 2D
+4765,Slovenia 1996,geographic 2D
+4766,New Beijing / 3-degree Gauss-Kruger zone 30,projected
+4767,New Beijing / 3-degree Gauss-Kruger zone 31,projected
+4768,New Beijing / 3-degree Gauss-Kruger zone 32,projected
+4769,New Beijing / 3-degree Gauss-Kruger zone 33,projected
+4770,New Beijing / 3-degree Gauss-Kruger zone 34,projected
+4771,New Beijing / 3-degree Gauss-Kruger zone 35,projected
+4772,New Beijing / 3-degree Gauss-Kruger zone 36,projected
+4773,New Beijing / 3-degree Gauss-Kruger zone 37,projected
+4774,New Beijing / 3-degree Gauss-Kruger zone 38,projected
+4775,New Beijing / 3-degree Gauss-Kruger zone 39,projected
+4776,New Beijing / 3-degree Gauss-Kruger zone 40,projected
+4777,New Beijing / 3-degree Gauss-Kruger zone 41,projected
+4778,New Beijing / 3-degree Gauss-Kruger zone 42,projected
+4779,New Beijing / 3-degree Gauss-Kruger zone 43,projected
+4780,New Beijing / 3-degree Gauss-Kruger zone 44,projected
+4781,New Beijing / 3-degree Gauss-Kruger zone 45,projected
+4782,New Beijing / 3-degree Gauss-Kruger CM 75E,projected
+4783,New Beijing / 3-degree Gauss-Kruger CM 78E,projected
+4784,New Beijing / 3-degree Gauss-Kruger CM 81E,projected
+4785,New Beijing / 3-degree Gauss-Kruger CM 84E,projected
+4786,New Beijing / 3-degree Gauss-Kruger CM 87E,projected
+4787,New Beijing / 3-degree Gauss-Kruger CM 90E,projected
+4788,New Beijing / 3-degree Gauss-Kruger CM 93E,projected
+4789,New Beijing / 3-degree Gauss-Kruger CM 96E,projected
+4790,New Beijing / 3-degree Gauss-Kruger CM 99E,projected
+4791,New Beijing / 3-degree Gauss-Kruger CM 102E,projected
+4792,New Beijing / 3-degree Gauss-Kruger CM 105E,projected
+4793,New Beijing / 3-degree Gauss-Kruger CM 108E,projected
+4794,New Beijing / 3-degree Gauss-Kruger CM 111E,projected
+4795,New Beijing / 3-degree Gauss-Kruger CM 114E,projected
+4796,New Beijing / 3-degree Gauss-Kruger CM 117E,projected
+4797,New Beijing / 3-degree Gauss-Kruger CM 120E,projected
+4798,New Beijing / 3-degree Gauss-Kruger CM 123E,projected
+4799,New Beijing / 3-degree Gauss-Kruger CM 126E,projected
+4800,New Beijing / 3-degree Gauss-Kruger CM 129E,projected
+4801,Bern 1898 (Bern),geographic 2D
+4802,Bogota 1975 (Bogota),geographic 2D
+4803,Lisbon (Lisbon),geographic 2D
+4804,Makassar (Jakarta),geographic 2D
+4805,MGI (Ferro),geographic 2D
+4806,Monte Mario (Rome),geographic 2D
+4807,NTF (Paris),geographic 2D
+4808,Padang (Jakarta),geographic 2D
+4809,Belge 1950 (Brussels),geographic 2D
+4810,Tananarive (Paris),geographic 2D
+4811,Voirol 1875 (Paris),geographic 2D
+4812,New Beijing / 3-degree Gauss-Kruger CM 132E,projected
+4813,Batavia (Jakarta),geographic 2D
+4814,RT38 (Stockholm),geographic 2D
+4815,Greek (Athens),geographic 2D
+4816,Carthage (Paris),geographic 2D
+4817,NGO 1948 (Oslo),geographic 2D
+4818,S-JTSK (Ferro),geographic 2D
+4820,Segara (Jakarta),geographic 2D
+4821,Voirol 1879 (Paris),geographic 2D
+4822,New Beijing / 3-degree Gauss-Kruger CM 135E,projected
+4823,Sao Tome,geographic 2D
+4824,Principe,geographic 2D
+4826,WGS 84 / Cape Verde National,projected
+4839,ETRS89 / LCC Germany (N-E),projected
+4882,Slovenia 1996,geocentric
+4883,Slovenia 1996,geographic 3D
+4884,RSRGD2000,geocentric
+4885,RSRGD2000,geographic 3D
+4886,BDA2000,geocentric
+4887,BDA2000,geographic 3D
+4888,HTRS96,geocentric
+4889,HTRS96,geographic 3D
+4890,WGS 66,geocentric
+4891,WGS 66,geographic 3D
+4892,NAD83(NSRS2007),geocentric
+4893,NAD83(NSRS2007),geographic 3D
+4894,JAD2001,geocentric
+4895,JAD2001,geographic 3D
+4896,ITRF2005,geocentric
+4897,DGN95,geocentric
+4898,DGN95,geographic 3D
+4899,LGD2006,geocentric
+4900,LGD2006,geographic 3D
+4901,ATF (Paris),geographic 2D
+4903,Madrid 1870 (Madrid),geographic 2D
+4904,Lisbon 1890 (Lisbon),geographic 2D
+4906,RGNC91-93,geocentric
+4907,RGNC91-93,geographic 3D
+4908,GR96,geocentric
+4909,GR96,geographic 3D
+4910,ITRF88,geocentric
+4911,ITRF89,geocentric
+4912,ITRF90,geocentric
+4913,ITRF91,geocentric
+4914,ITRF92,geocentric
+4915,ITRF93,geocentric
+4916,ITRF94,geocentric
+4917,ITRF96,geocentric
+4918,ITRF97,geocentric
+4919,ITRF2000,geocentric
+4920,GDM2000,geocentric
+4921,GDM2000,geographic 3D
+4922,PZ-90,geocentric
+4923,PZ-90,geographic 3D
+4924,Mauritania 1999,geocentric
+4925,Mauritania 1999,geographic 3D
+4926,Korea 2000,geocentric
+4927,Korea 2000,geographic 3D
+4928,POSGAR 94,geocentric
+4929,POSGAR 94,geographic 3D
+4930,Australian Antarctic,geocentric
+4931,Australian Antarctic,geographic 3D
+4932,CHTRF95,geocentric
+4933,CHTRF95,geographic 3D
+4934,EST97,geocentric
+4935,EST97,geographic 3D
+4936,ETRS89,geocentric
+4937,ETRS89,geographic 3D
+4938,GDA94,geocentric
+4939,GDA94,geographic 3D
+4940,Hartebeesthoek94,geocentric
+4941,Hartebeesthoek94,geographic 3D
+4942,IRENET95,geocentric
+4943,IRENET95,geographic 3D
+4944,ISN93,geocentric
+4945,ISN93,geographic 3D
+4946,JGD2000,geocentric
+4947,JGD2000,geographic 3D
+4948,LKS92,geocentric
+4949,LKS92,geographic 3D
+4950,LKS94,geocentric
+4951,LKS94,geographic 3D
+4952,Moznet,geocentric
+4953,Moznet,geographic 3D
+4954,NAD83(CSRS),geocentric
+4955,NAD83(CSRS),geographic 3D
+4956,NAD83(HARN),geocentric
+4957,NAD83(HARN),geographic 3D
+4958,NZGD2000,geocentric
+4959,NZGD2000,geographic 3D
+4960,POSGAR 98,geocentric
+4961,POSGAR 98,geographic 3D
+4962,REGVEN,geocentric
+4963,REGVEN,geographic 3D
+4964,RGF93,geocentric
+4965,RGF93,geographic 3D
+4966,RGFG95,geocentric
+4967,RGFG95,geographic 3D
+4970,RGR92,geocentric
+4971,RGR92,geographic 3D
+4974,SIRGAS 1995,geocentric
+4975,SIRGAS 1995,geographic 3D
+4976,SWEREF99,geocentric
+4977,SWEREF99,geographic 3D
+4978,WGS 84,geocentric
+4979,WGS 84,geographic 3D
+4980,Yemen NGN96,geocentric
+4981,Yemen NGN96,geographic 3D
+4982,IGM95,geocentric
+4983,IGM95,geographic 3D
+4984,WGS 72,geocentric
+4985,WGS 72,geographic 3D
+4986,WGS 72BE,geocentric
+4987,WGS 72BE,geographic 3D
+4988,SIRGAS 2000,geocentric
+4989,SIRGAS 2000,geographic 3D
+4990,Lao 1993,geocentric
+4991,Lao 1993,geographic 3D
+4992,Lao 1997,geocentric
+4993,Lao 1997,geographic 3D
+4994,PRS92,geocentric
+4995,PRS92,geographic 3D
+4996,MAGNA-SIRGAS,geocentric
+4997,MAGNA-SIRGAS,geographic 3D
+4998,RGPF,geocentric
+4999,RGPF,geographic 3D
+5011,PTRA08,geocentric
+5012,PTRA08,geographic 3D
+5013,PTRA08,geographic 2D
+5014,PTRA08 / UTM zone 25N,projected
+5015,PTRA08 / UTM zone 26N,projected
+5016,PTRA08 / UTM zone 28N,projected
+5017,Lisbon 1890 / Portugal Bonne New,projected
+5018,Lisbon / Portuguese Grid New,projected
+5041,"WGS 84 / UPS North (E,N)",projected
+5042,"WGS 84 / UPS South (E,N)",projected
+5048,"ETRS89 / TM35FIN(N,E)",projected
+5069,NAD27 / Conus Albers,projected
+5070,NAD83 / Conus Albers,projected
+5071,NAD83(HARN) / Conus Albers,projected
+5072,NAD83(NSRS2007) / Conus Albers,projected
+5105,ETRS89 / NTM zone 5,projected
+5106,ETRS89 / NTM zone 6,projected
+5107,ETRS89 / NTM zone 7,projected
+5108,ETRS89 / NTM zone 8,projected
+5109,ETRS89 / NTM zone 9,projected
+5110,ETRS89 / NTM zone 10,projected
+5111,ETRS89 / NTM zone 11,projected
+5112,ETRS89 / NTM zone 12,projected
+5113,ETRS89 / NTM zone 13,projected
+5114,ETRS89 / NTM zone 14,projected
+5115,ETRS89 / NTM zone 15,projected
+5116,ETRS89 / NTM zone 16,projected
+5117,ETRS89 / NTM zone 17,projected
+5118,ETRS89 / NTM zone 18,projected
+5119,ETRS89 / NTM zone 19,projected
+5120,ETRS89 / NTM zone 20,projected
+5121,ETRS89 / NTM zone 21,projected
+5122,ETRS89 / NTM zone 22,projected
+5123,ETRS89 / NTM zone 23,projected
+5124,ETRS89 / NTM zone 24,projected
+5125,ETRS89 / NTM zone 25,projected
+5126,ETRS89 / NTM zone 26,projected
+5127,ETRS89 / NTM zone 27,projected
+5128,ETRS89 / NTM zone 28,projected
+5129,ETRS89 / NTM zone 29,projected
+5130,ETRS89 / NTM zone 30,projected
+5132,Tokyo 1892,geographic 2D
+5167,Korean 1985 / East Sea Belt,projected
+5168,Korean 1985 / Central Belt Jeju,projected
+5169,Tokyo 1892 / Korea West Belt,projected
+5170,Tokyo 1892 / Korea Central Belt,projected
+5171,Tokyo 1892 / Korea East Belt,projected
+5172,Tokyo 1892 / Korea East Sea Belt,projected
+5173,Korean 1985 / Modified West Belt,projected
+5174,Korean 1985 / Modified Central Belt,projected
+5175,Korean 1985 / Modified Central Belt Jeju,projected
+5176,Korean 1985 / Modified East Belt,projected
+5177,Korean 1985 / Modified East Sea Belt,projected
+5178,Korean 1985 / Unified CS,projected
+5179,Korea 2000 / Unified CS,projected
+5180,Korea 2000 / West Belt,projected
+5181,Korea 2000 / Central Belt,projected
+5182,Korea 2000 / Central Belt Jeju,projected
+5183,Korea 2000 / East Belt,projected
+5184,Korea 2000 / East Sea Belt,projected
+5185,Korea 2000 / West Belt 2010,projected
+5186,Korea 2000 / Central Belt 2010,projected
+5187,Korea 2000 / East Belt 2010,projected
+5188,Korea 2000 / East Sea Belt 2010,projected
+5193,Incheon height,vertical
+5195,Trieste height,vertical
+5214,Genoa height,vertical
+5221,S-JTSK (Ferro) / Krovak East North,projected
+5223,WGS 84 / Gabon TM,projected
+5224,S-JTSK/05 (Ferro) / Modified Krovak,projected
+5225,S-JTSK/05 (Ferro) / Modified Krovak East North,projected
+5228,S-JTSK/05,geographic 2D
+5229,S-JTSK/05 (Ferro),geographic 2D
+5233,SLD99,geographic 2D
+5234,Kandawala / Sri Lanka Grid,projected
+5235,SLD99 / Sri Lanka Grid 1999,projected
+5237,SLVD height,vertical
+5243,ETRS89 / LCC Germany (E-N),projected
+5244,GDBD2009,geocentric
+5245,GDBD2009,geographic 3D
+5246,GDBD2009,geographic 2D
+5247,GDBD2009 / Brunei BRSO,projected
+5250,TUREF,geocentric
+5251,TUREF,geographic 3D
+5252,TUREF,geographic 2D
+5253,TUREF / TM27,projected
+5254,TUREF / TM30,projected
+5255,TUREF / TM33,projected
+5256,TUREF / TM36,projected
+5257,TUREF / TM39,projected
+5258,TUREF / TM42,projected
+5259,TUREF / TM45,projected
+5262,DRUKREF 03,geocentric
+5263,DRUKREF 03,geographic 3D
+5264,DRUKREF 03,geographic 2D
+5266,DRUKREF 03 / Bhutan National Grid,projected
+5269,TUREF / 3-degree Gauss-Kruger zone 9,projected
+5270,TUREF / 3-degree Gauss-Kruger zone 10,projected
+5271,TUREF / 3-degree Gauss-Kruger zone 11,projected
+5272,TUREF / 3-degree Gauss-Kruger zone 12,projected
+5273,TUREF / 3-degree Gauss-Kruger zone 13,projected
+5274,TUREF / 3-degree Gauss-Kruger zone 14,projected
+5275,TUREF / 3-degree Gauss-Kruger zone 15,projected
+5292,DRUKREF 03 / Bumthang TM,projected
+5293,DRUKREF 03 / Chhukha TM,projected
+5294,DRUKREF 03 / Dagana TM,projected
+5295,DRUKREF 03 / Gasa TM,projected
+5296,DRUKREF 03 / Ha TM,projected
+5297,DRUKREF 03 / Lhuentse TM,projected
+5298,DRUKREF 03 / Mongar TM,projected
+5299,DRUKREF 03 / Paro TM,projected
+5300,DRUKREF 03 / Pemagatshel TM,projected
+5301,DRUKREF 03 / Punakha TM,projected
+5302,DRUKREF 03 / Samdrup Jongkhar TM,projected
+5303,DRUKREF 03 / Samtse TM,projected
+5304,DRUKREF 03 / Sarpang TM,projected
+5305,DRUKREF 03 / Thimphu TM,projected
+5306,DRUKREF 03 / Trashigang TM,projected
+5307,DRUKREF 03 / Trongsa TM,projected
+5308,DRUKREF 03 / Tsirang TM,projected
+5309,DRUKREF 03 / Wangdue Phodrang TM,projected
+5310,DRUKREF 03 / Yangtse TM,projected
+5311,DRUKREF 03 / Zhemgang TM,projected
+5316,ETRS89 / Faroe TM,projected
+5317,FVR09 height,vertical
+5318,ETRS89 / Faroe TM + FVR09 height,compound
+5320,NAD83 / Teranet Ontario Lambert,projected
+5321,NAD83(CSRS) / Teranet Ontario Lambert,projected
+5322,ISN2004,geocentric
+5323,ISN2004,geographic 3D
+5324,ISN2004,geographic 2D
+5325,ISN2004 / Lambert 2004,projected
+5329,Segara (Jakarta) / NEIEZ,projected
+5330,Batavia (Jakarta) / NEIEZ,projected
+5331,Makassar (Jakarta) / NEIEZ,projected
+5332,ITRF2008,geocentric
+5336,Black Sea depth,vertical
+5337,Aratu / UTM zone 25S,projected
+5340,POSGAR 2007,geographic 2D
+5341,POSGAR 2007,geocentric
+5342,POSGAR 2007,geographic 3D
+5343,POSGAR 2007 / Argentina 1,projected
+5344,POSGAR 2007 / Argentina 2,projected
+5345,POSGAR 2007 / Argentina 3,projected
+5346,POSGAR 2007 / Argentina 4,projected
+5347,POSGAR 2007 / Argentina 5,projected
+5348,POSGAR 2007 / Argentina 6,projected
+5349,POSGAR 2007 / Argentina 7,projected
+5352,MARGEN,geocentric
+5353,MARGEN,geographic 3D
+5354,MARGEN,geographic 2D
+5355,MARGEN / UTM zone 20S,projected
+5356,MARGEN / UTM zone 19S,projected
+5357,MARGEN / UTM zone 21S,projected
+5358,SIRGAS-Chile,geocentric
+5359,SIRGAS-Chile,geographic 3D
+5360,SIRGAS-Chile,geographic 2D
+5361,SIRGAS-Chile / UTM zone 19S,projected
+5362,SIRGAS-Chile / UTM zone 18S,projected
+5363,CR05,geocentric
+5364,CR05,geographic 3D
+5365,CR05,geographic 2D
+5367,CR05 / CRTM05,projected
+5368,MACARIO SOLIS,geocentric
+5369,Peru96,geocentric
+5370,MACARIO SOLIS,geographic 3D
+5371,MACARIO SOLIS,geographic 2D
+5372,Peru96,geographic 3D
+5373,Peru96,geographic 2D
+5379,SIRGAS-ROU98,geocentric
+5380,SIRGAS-ROU98,geographic 3D
+5381,SIRGAS-ROU98,geographic 2D
+5382,SIRGAS-ROU98 / UTM zone 21S,projected
+5383,SIRGAS-ROU98 / UTM zone 22S,projected
+5387,Peru96 / UTM zone 18S,projected
+5389,Peru96 / UTM zone 19S,projected
+5391,SIRGAS_ES2007.8,geocentric
+5392,SIRGAS_ES2007.8,geographic 3D
+5393,SIRGAS_ES2007.8,geographic 2D
+5396,SIRGAS 2000 / UTM zone 26S,projected
+5451,Ocotepeque 1935,geographic 2D
+5456,Ocotepeque 1935 / Costa Rica Norte,projected
+5457,Ocotepeque 1935 / Costa Rica Sur,projected
+5459,Ocotepeque 1935 / Guatemala Sur,projected
+5460,Ocotepeque 1935 / El Salvador Lambert,projected
+5461,Ocotepeque 1935 / Nicaragua Norte,projected
+5462,Ocotepeque 1935 / Nicaragua Sur,projected
+5463,SAD69 / UTM zone 17N,projected
+5464,Sibun Gorge 1922,geographic 2D
+5467,Panama-Colon 1911,geographic 2D
+5469,Panama-Colon 1911 / Panama Lambert,projected
+5472,Panama-Colon 1911 / Panama Polyconic,projected
+5479,RSRGD2000 / MSLC2000,projected
+5480,RSRGD2000 / BCLC2000,projected
+5481,RSRGD2000 / PCLC2000,projected
+5482,RSRGD2000 / RSPS2000,projected
+5487,RGAF09,geocentric
+5488,RGAF09,geographic 3D
+5489,RGAF09,geographic 2D
+5490,RGAF09 / UTM zone 20N,projected
+5498,NAD83 + NAVD88 height,compound
+5499,NAD83(HARN) + NAVD88 height,compound
+5500,NAD83(NSRS2007) + NAVD88 height,compound
+5513,S-JTSK / Krovak,projected
+5514,S-JTSK / Krovak East North,projected
+5515,S-JTSK/05 / Modified Krovak,projected
+5516,S-JTSK/05 / Modified Krovak East North,projected
+5518,CI1971 / Chatham Islands Map Grid,projected
+5519,CI1979 / Chatham Islands Map Grid,projected
+5520,DHDN / 3-degree Gauss-Kruger zone 1,projected
+5523,WGS 84 / Gabon TM 2011,projected
+5524,Corrego Alegre 1961,geographic 2D
+5527,SAD69(96),geographic 2D
+5530,SAD69(96) / Brazil Polyconic,projected
+5531,SAD69(96) / UTM zone 21S,projected
+5533,SAD69(96) / UTM zone 23S,projected
+5534,SAD69(96) / UTM zone 24S,projected
+5535,SAD69(96) / UTM zone 25S,projected
+5536,Corrego Alegre 1961 / UTM zone 21S,projected
+5537,Corrego Alegre 1961 / UTM zone 22S,projected
+5538,Corrego Alegre 1961 / UTM zone 23S,projected
+5539,Corrego Alegre 1961 / UTM zone 24S,projected
+5544,PNG94,geocentric
+5545,PNG94,geographic 3D
+5546,PNG94,geographic 2D
+5550,PNG94 / PNGMG94 zone 54,projected
+5551,PNG94 / PNGMG94 zone 55,projected
+5552,PNG94 / PNGMG94 zone 56,projected
+5554,ETRS89 / UTM zone 31N + DHHN92 height,compound
+5555,ETRS89 / UTM zone 32N + DHHN92 height,compound
+5556,ETRS89 / UTM zone 33N + DHHN92 height,compound
+5558,UCS-2000,geocentric
+5559,Ocotepeque 1935 / Guatemala Norte,projected
+5560,UCS-2000,geographic 3D
+5561,UCS-2000,geographic 2D
+5562,UCS-2000 / Gauss-Kruger zone 4,projected
+5563,UCS-2000 / Gauss-Kruger zone 5,projected
+5564,UCS-2000 / Gauss-Kruger zone 6,projected
+5565,UCS-2000 / Gauss-Kruger zone 7,projected
+5566,UCS-2000 / Gauss-Kruger CM 21E,projected
+5567,UCS-2000 / Gauss-Kruger CM 27E,projected
+5568,UCS-2000 / Gauss-Kruger CM 33E,projected
+5569,UCS-2000 / Gauss-Kruger CM 39E,projected
+5570,UCS-2000 / 3-degree Gauss-Kruger zone 7,projected
+5571,UCS-2000 / 3-degree Gauss-Kruger zone 8,projected
+5572,UCS-2000 / 3-degree Gauss-Kruger zone 9,projected
+5573,UCS-2000 / 3-degree Gauss-Kruger zone 10,projected
+5574,UCS-2000 / 3-degree Gauss-Kruger zone 11,projected
+5575,UCS-2000 / 3-degree Gauss-Kruger zone 12,projected
+5576,UCS-2000 / 3-degree Gauss-Kruger zone 13,projected
+5577,UCS-2000 / 3-degree Gauss-Kruger CM 21E,projected
+5578,UCS-2000 / 3-degree Gauss-Kruger CM 24E,projected
+5579,UCS-2000 / 3-degree Gauss-Kruger CM 27E,projected
+5580,UCS-2000 / 3-degree Gauss-Kruger CM 30E,projected
+5581,UCS-2000 / 3-degree Gauss-Kruger CM 33E,projected
+5582,UCS-2000 / 3-degree Gauss-Kruger CM 36E,projected
+5583,UCS-2000 / 3-degree Gauss-Kruger CM 39E,projected
+5588,NAD27 / New Brunswick Stereographic (NAD27),projected
+5589,Sibun Gorge 1922 / Colony Grid,projected
+5591,FEH2010,geocentric
+5592,FEH2010,geographic 3D
+5593,FEH2010,geographic 2D
+5596,FEH2010 / Fehmarnbelt TM,projected
+5597,FCSVR10 height,vertical
+5598,FEH2010 / Fehmarnbelt TM + FCSVR10 height,compound
+5600,NGPF height,vertical
+5601,IGN 1966 height,vertical
+5602,Moorea SAU 1981 height,vertical
+5603,Raiatea SAU 2001 height,vertical
+5604,Maupiti SAU 2001 height,vertical
+5605,Huahine SAU 2001 height,vertical
+5606,Tahaa SAU 2001 height,vertical
+5607,Bora Bora SAU 2001 height,vertical
+5608,IGLD 1955 height,vertical
+5609,IGLD 1985 height,vertical
+5610,HVRS71 height,vertical
+5611,Caspian height,vertical
+5612,Baltic depth,vertical
+5613,RH2000 height,vertical
+5614,KOC WD depth (ft),vertical
+5615,RH00 height,vertical
+5616,IGN 1988 LS height,vertical
+5617,IGN 1988 MG height,vertical
+5618,IGN 1992 LD height,vertical
+5619,IGN 1988 SB height,vertical
+5620,IGN 1988 SM height,vertical
+5621,EVRF2007 height,vertical
+5623,NAD27 / Michigan East,projected
+5624,NAD27 / Michigan Old Central,projected
+5625,NAD27 / Michigan West,projected
+5627,ED50 / TM 6 NE,projected
+5628,SWEREF99 + RH2000 height,compound
+5629,Moznet / UTM zone 38S,projected
+5631,Pulkovo 1942(58) / Gauss-Kruger zone 2 (E-N),projected
+5632,PTRA08 / LCC Europe,projected
+5633,PTRA08 / LAEA Europe,projected
+5634,REGCAN95 / LCC Europe,projected
+5635,REGCAN95 / LAEA Europe,projected
+5636,TUREF / LAEA Europe,projected
+5637,TUREF / LCC Europe,projected
+5638,ISN2004 / LAEA Europe,projected
+5639,ISN2004 / LCC Europe,projected
+5641,SIRGAS 2000 / Brazil Mercator,projected
+5643,ED50 / SPBA LCC,projected
+5644,RGR92 / UTM zone 39S,projected
+5646,NAD83 / Vermont (ftUS),projected
+5649,ETRS89 / UTM zone 31N (zE-N),projected
+5650,ETRS89 / UTM zone 33N (zE-N),projected
+5651,ETRS89 / UTM zone 31N (N-zE),projected
+5652,ETRS89 / UTM zone 32N (N-zE),projected
+5653,ETRS89 / UTM zone 33N (N-zE),projected
+5654,NAD83(HARN) / Vermont (ftUS),projected
+5655,NAD83(NSRS2007) / Vermont (ftUS),projected
+5659,Monte Mario / TM Emilia-Romagna,projected
+5663,Pulkovo 1942(58) / Gauss-Kruger zone 3 (E-N),projected
+5664,Pulkovo 1942(83) / Gauss-Kruger zone 2 (E-N),projected
+5665,Pulkovo 1942(83) / Gauss-Kruger zone 3 (E-N),projected
+5666,PD/83 / 3-degree Gauss-Kruger zone 3 (E-N),projected
+5667,PD/83 / 3-degree Gauss-Kruger zone 4 (E-N),projected
+5668,RD/83 / 3-degree Gauss-Kruger zone 4 (E-N),projected
+5669,RD/83 / 3-degree Gauss-Kruger zone 5 (E-N),projected
+5670,Pulkovo 1942(58) / 3-degree Gauss-Kruger zone 3 (E-N),projected
+5671,Pulkovo 1942(58) / 3-degree Gauss-Kruger zone 4 (E-N),projected
+5672,Pulkovo 1942(58) / 3-degree Gauss-Kruger zone 5 (E-N),projected
+5673,Pulkovo 1942(83) / 3-degree Gauss-Kruger zone 3 (E-N),projected
+5674,Pulkovo 1942(83) / 3-degree Gauss-Kruger zone 4 (E-N),projected
+5675,Pulkovo 1942(83) / 3-degree Gauss-Kruger zone 5 (E-N),projected
+5676,DHDN / 3-degree Gauss-Kruger zone 2 (E-N),projected
+5677,DHDN / 3-degree Gauss-Kruger zone 3 (E-N),projected
+5678,DHDN / 3-degree Gauss-Kruger zone 4 (E-N),projected
+5679,DHDN / 3-degree Gauss-Kruger zone 5 (E-N),projected
+5680,DHDN / 3-degree Gauss-Kruger zone 1 (E-N),projected
+5681,DB_REF,geographic 2D
+5682,DB_REF / 3-degree Gauss-Kruger zone 2 (E-N),projected
+5683,DB_REF / 3-degree Gauss-Kruger zone 3 (E-N),projected
+5684,DB_REF / 3-degree Gauss-Kruger zone 4 (E-N),projected
+5685,DB_REF / 3-degree Gauss-Kruger zone 5 (E-N),projected
+5698,RGF93 / Lambert-93 + NGF-IGN69 height,compound
+5699,RGF93 / Lambert-93 + NGF-IGN78 height,compound
+5700,NZGD2000 / UTM zone 1S,projected
+5701,ODN height,vertical
+5702,NGVD29 height,vertical
+5703,NAVD88 height,vertical
+5705,Baltic height,vertical
+5706,Caspian depth,vertical
+5707,NTF (Paris) / Lambert zone I + NGF-IGN69 height,compound
+5708,NTF (Paris) / Lambert zone IV + NGF-IGN78 height,compound
+5709,NAP height,vertical
+5710,Ostend height,vertical
+5711,AHD height,vertical
+5712,AHD (Tasmania) height,vertical
+5713,CGVD28 height,vertical
+5714,MSL height,vertical
+5715,MSL depth,vertical
+5716,Piraeus height,vertical
+5717,N60 height,vertical
+5718,RH70 height,vertical
+5719,NGF Lallemand height,vertical
+5720,NGF-IGN69 height,vertical
+5721,NGF-IGN78 height,vertical
+5722,Maputo height,vertical
+5723,JSLD height,vertical
+5724,PHD93 height,vertical
+5725,Fahud HD height,vertical
+5726,Ha Tien 1960 height,vertical
+5727,Hon Dau 1992 height,vertical
+5728,LN02 height,vertical
+5729,LHN95 height,vertical
+5730,EVRF2000 height,vertical
+5731,Malin Head height,vertical
+5732,Belfast height,vertical
+5733,DNN height,vertical
+5734,AIOC95 depth,vertical
+5735,Black Sea height,vertical
+5736,Yellow Sea 1956 height,vertical
+5737,Yellow Sea 1985 height,vertical
+5738,HKPD height,vertical
+5739,HKCD depth,vertical
+5740,ODN Orkney height,vertical
+5741,Fair Isle height,vertical
+5742,Lerwick height,vertical
+5743,Foula height,vertical
+5744,Sule Skerry height,vertical
+5745,North Rona height,vertical
+5746,Stornoway height,vertical
+5747,St Kilda height,vertical
+5748,Flannan Isles height,vertical
+5749,St Marys height,vertical
+5750,Douglas height,vertical
+5751,Fao height,vertical
+5752,Bandar Abbas height,vertical
+5753,NGNC height,vertical
+5754,Poolbeg height,vertical
+5755,NGG1977 height,vertical
+5756,Martinique 1987 height,vertical
+5757,Guadeloupe 1988 height,vertical
+5758,Reunion 1989 height,vertical
+5759,Auckland 1946 height,vertical
+5760,Bluff 1955 height,vertical
+5761,Dunedin 1958 height,vertical
+5762,Gisborne 1926 height,vertical
+5763,Lyttelton 1937 height,vertical
+5764,Moturiki 1953 height,vertical
+5765,Napier 1962 height,vertical
+5766,Nelson 1955 height,vertical
+5767,One Tree Point 1964 height,vertical
+5768,Tararu 1952 height,vertical
+5769,Taranaki 1970 height,vertical
+5770,Wellington 1953 height,vertical
+5771,Chatham Island 1959 height,vertical
+5772,Stewart Island 1977 height,vertical
+5773,EGM96 geoid height,vertical
+5774,NG-L height,vertical
+5775,Antalya height,vertical
+5776,NN54 height,vertical
+5777,Durres height,vertical
+5778,GHA height,vertical
+5779,NVN99 height,vertical
+5780,Cascais height,vertical
+5781,Constanta height,vertical
+5782,Alicante height,vertical
+5783,DHHN92 height,vertical
+5784,DHHN85 height,vertical
+5785,SNN76 height,vertical
+5786,Baltic 1982 height,vertical
+5787,EOMA 1980 height,vertical
+5788,Kuwait PWD height,vertical
+5789,KOC WD depth,vertical
+5790,KOC CD height,vertical
+5791,NGC 1948 height,vertical
+5792,Danger 1950 height,vertical
+5793,Mayotte 1950 height,vertical
+5794,Martinique 1955 height,vertical
+5795,Guadeloupe 1951 height,vertical
+5796,Lagos 1955 height,vertical
+5797,AIOC95 height,vertical
+5798,EGM84 geoid height,vertical
+5799,DVR90 height,vertical
+5800,Astra Minas Grid,engineering
+5801,Barcelona Grid B1,engineering
+5802,Barcelona Grid B2,engineering
+5803,Maturin Grid,engineering
+5806,EPSG local engineering grid example A,engineering
+5807,EPSG local engineering grid example B,engineering
+5808,Maracaibo Cross Grid M4,engineering
+5809,Maracaibo Cross Grid M5,engineering
+5810,La Rosa Grid,engineering
+5811,Mene Grande,engineering
+5812,El Cubo,engineering
+5813,Dabajuro,engineering
+5814,Tucupita,engineering
+5815,Santa Maria de Ipire,engineering
+5816,Barinas west base,engineering
+5817,Tombak LNG plant,engineering
+5818,[enter here name of (I = J+90ø) bin grid],engineering
+5819,EPSG topocentric example A,projected
+5820,EPSG topocentric example B,projected
+5821,EPSG vertical perspective example,projected
+5825,AGD66 / ACT Standard Grid,projected
+5828,DB_REF,geocentric
+5829,Instantaneous Water Level height,vertical
+5830,DB_REF,geographic 3D
+5831,Instantaneous Water Level depth,vertical
+5832,DB_REF / 3-degree Gauss-Kruger zone 2 (E-N) + DHHN92 height,compound
+5833,DB_REF / 3-degree Gauss-Kruger zone 3 (E-N) + DHHN92 height,compound
+5834,DB_REF / 3-degree Gauss-Kruger zone 4 (E-N) + DHHN92 height,compound
+5835,DB_REF / 3-degree Gauss-Kruger zone 5 (E-N) + DHHN92 height,compound
+5836,Yemen NGN96 / UTM zone 37N,projected
+5837,Yemen NGN96 / UTM zone 40N,projected
+5839,Peru96 / UTM zone 17S,projected
+5842,WGS 84 / TM 12 SE,projected
+5844,RGRDC 2005 / Congo TM zone 30,projected
+5845,SWEREF99 TM + RH2000 height,compound
+5846,SWEREF99 12 00 + RH2000 height,compound
+5847,SWEREF99 13 30 + RH2000 height,compound
+5848,SWEREF99 15 00 + RH2000 height,compound
+5849,SWEREF99 16 30 + RH2000 height,compound
+5850,SWEREF99 18 00 + RH2000 height,compound
+5851,SWEREF99 14 15 + RH2000 height,compound
+5852,SWEREF99 15 45 + RH2000 height,compound
+5853,SWEREF99 17 15 + RH2000 height,compound
+5854,SWEREF99 18 45 + RH2000 height,compound
+5855,SWEREF99 20 15 + RH2000 height,compound
+5856,SWEREF99 21 45 + RH2000 height,compound
+5857,SWEREF99 23 15 + RH2000 height,compound
+5858,SAD69(96) / UTM zone 22S,projected
+5859,[enter here name of (I = J-90ø) bin grid],engineering
+5861,LAT depth,vertical
+5862,LLWLT depth,vertical
+5863,ISLW depth,vertical
+5864,MLLWS depth,vertical
+5865,MLWS depth,vertical
+5866,MLLW depth,vertical
+5867,MLW depth,vertical
+5868,MHW height,vertical
+5869,MHHW height,vertical
+5870,MHWS height,vertical
+5871,HHWLT height,vertical
+5872,HAT height,vertical
+5873,Low Water depth,vertical
+5874,High Water height,vertical
+5875,SAD69(96) / UTM zone 18S,projected
+5876,SAD69(96) / UTM zone 19S,projected
+5877,SAD69(96) / UTM zone 20S,projected
+5879,Cadastre 1997 / UTM zone 38S,projected
+5880,SIRGAS 2000 / Brazil Polyconic,projected
+5884,TGD2005,geocentric
+5885,TGD2005,geographic 3D
+5886,TGD2005,geographic 2D
+5887,TGD2005 / Tonga Map Grid,projected
+5890,JAXA Snow Depth Polar Stereographic North,projected
+5921,WGS 84 / EPSG Arctic Regional zone A1,projected
+5922,WGS 84 / EPSG Arctic Regional zone A2,projected
+5923,WGS 84 / EPSG Arctic Regional zone A3,projected
+5924,WGS 84 / EPSG Arctic Regional zone A4,projected
+5925,WGS 84 / EPSG Arctic Regional zone A5,projected
+5926,WGS 84 / EPSG Arctic Regional zone B1,projected
+5927,WGS 84 / EPSG Arctic Regional zone B2,projected
+5928,WGS 84 / EPSG Arctic Regional zone B3,projected
+5929,WGS 84 / EPSG Arctic Regional zone B4,projected
+5930,WGS 84 / EPSG Arctic Regional zone B5,projected
+5931,WGS 84 / EPSG Arctic Regional zone C1,projected
+5932,WGS 84 / EPSG Arctic Regional zone C2,projected
+5933,WGS 84 / EPSG Arctic Regional zone C3,projected
+5934,WGS 84 / EPSG Arctic Regional zone C4,projected
+5935,WGS 84 / EPSG Arctic Regional zone C5,projected
+5936,WGS 84 / EPSG Alaska Polar Stereographic,projected
+5937,WGS 84 / EPSG Canada Polar Stereographic,projected
+5938,WGS 84 / EPSG Greenland Polar Stereographic,projected
+5939,WGS 84 / EPSG Norway Polar Stereographic,projected
+5940,WGS 84 / EPSG Russia Polar Stereographic,projected
+5941,NN2000 height,vertical
+5942,ETRS89 + NN2000 height,compound
+5945,ETRS89 / NTM zone 5 + NN2000 height,compound
+5946,ETRS89 / NTM zone 6 + NN2000 height,compound
+5947,ETRS89 / NTM zone 7 + NN2000 height,compound
+5948,ETRS89 / NTM zone 8 + NN2000 height,compound
+5949,ETRS89 / NTM zone 9 + NN2000 height,compound
+5950,ETRS89 / NTM zone 10 + NN2000 height,compound
+5951,ETRS89 / NTM zone 11 + NN2000 height,compound
+5952,ETRS89 / NTM zone 12 + NN2000 height,compound
+5953,ETRS89 / NTM zone 13 + NN2000 height,compound
+5954,ETRS89 / NTM zone 14 + NN2000 height,compound
+5955,ETRS89 / NTM zone 15 + NN2000 height,compound
+5956,ETRS89 / NTM zone 16 + NN2000 height,compound
+5957,ETRS89 / NTM zone 17 + NN2000 height,compound
+5958,ETRS89 / NTM zone 18 + NN2000 height,compound
+5959,ETRS89 / NTM zone 19 + NN2000 height,compound
+5960,ETRS89 / NTM zone 20 + NN2000 height,compound
+5961,ETRS89 / NTM zone 21 + NN2000 height,compound
+5962,ETRS89 / NTM zone 22 + NN2000 height,compound
+5963,ETRS89 / NTM zone 23 + NN2000 height,compound
+5964,ETRS89 / NTM zone 24 + NN2000 height,compound
+5965,ETRS89 / NTM zone 25 + NN2000 height,compound
+5966,ETRS89 / NTM zone 26 + NN2000 height,compound
+5967,ETRS89 / NTM zone 27 + NN2000 height,compound
+5968,ETRS89 / NTM zone 28 + NN2000 height,compound
+5969,ETRS89 / NTM zone 29 + NN2000 height,compound
+5970,ETRS89 / NTM zone 30 + NN2000 height,compound
+5971,ETRS89 / UTM zone 31 + NN2000 height,compound
+5972,ETRS89 / UTM zone 32 + NN2000 height,compound
+5973,ETRS89 / UTM zone 33 + NN2000 height,compound
+5974,ETRS89 / UTM zone 34 + NN2000 height,compound
+5975,ETRS89 / UTM zone 35 + NN2000 height,compound
+5976,ETRS89 / UTM zone 36 + NN2000 height,compound
+6050,GR96 / EPSG Arctic zone 1-25,projected
+6051,GR96 / EPSG Arctic zone 2-18,projected
+6052,GR96 / EPSG Arctic zone 2-20,projected
+6053,GR96 / EPSG Arctic zone 3-29,projected
+6054,GR96 / EPSG Arctic zone 3-31,projected
+6055,GR96 / EPSG Arctic zone 3-33,projected
+6056,GR96 / EPSG Arctic zone 4-20,projected
+6057,GR96 / EPSG Arctic zone 4-22,projected
+6058,GR96 / EPSG Arctic zone 4-24,projected
+6059,GR96 / EPSG Arctic zone 5-41,projected
+6060,GR96 / EPSG Arctic zone 5-43,projected
+6061,GR96 / EPSG Arctic zone 5-45,projected
+6062,GR96 / EPSG Arctic zone 6-26,projected
+6063,GR96 / EPSG Arctic zone 6-28,projected
+6064,GR96 / EPSG Arctic zone 6-30,projected
+6065,GR96 / EPSG Arctic zone 7-11,projected
+6066,GR96 / EPSG Arctic zone 7-13,projected
+6067,GR96 / EPSG Arctic zone 8-20,projected
+6068,GR96 / EPSG Arctic zone 8-22,projected
+6069,ETRS89 / EPSG Arctic zone 2-22,projected
+6070,ETRS89 / EPSG Arctic zone 3-11,projected
+6071,ETRS89 / EPSG Arctic zone 4-26,projected
+6072,ETRS89 / EPSG Arctic zone 4-28,projected
+6073,ETRS89 / EPSG Arctic zone 5-11,projected
+6074,ETRS89 / EPSG Arctic zone 5-13,projected
+6075,WGS 84 / EPSG Arctic zone 2-24,projected
+6076,WGS 84 / EPSG Arctic zone 2-26,projected
+6077,WGS 84 / EPSG Arctic zone 3-13,projected
+6078,WGS 84 / EPSG Arctic zone 3-15,projected
+6079,WGS 84 / EPSG Arctic zone 3-17,projected
+6080,WGS 84 / EPSG Arctic zone 3-19,projected
+6081,WGS 84 / EPSG Arctic zone 4-30,projected
+6082,WGS 84 / EPSG Arctic zone 4-32,projected
+6083,WGS 84 / EPSG Arctic zone 4-34,projected
+6084,WGS 84 / EPSG Arctic zone 4-36,projected
+6085,WGS 84 / EPSG Arctic zone 4-38,projected
+6086,WGS 84 / EPSG Arctic zone 4-40,projected
+6087,WGS 84 / EPSG Arctic zone 5-15,projected
+6088,WGS 84 / EPSG Arctic zone 5-17,projected
+6089,WGS 84 / EPSG Arctic zone 5-19,projected
+6090,WGS 84 / EPSG Arctic zone 5-21,projected
+6091,WGS 84 / EPSG Arctic zone 5-23,projected
+6092,WGS 84 / EPSG Arctic zone 5-25,projected
+6093,WGS 84 / EPSG Arctic zone 5-27,projected
+6094,NAD83(NSRS2007) / EPSG Arctic zone 5-29,projected
+6095,NAD83(NSRS2007) / EPSG Arctic zone 5-31,projected
+6096,NAD83(NSRS2007) / EPSG Arctic zone 6-14,projected
+6097,NAD83(NSRS2007) / EPSG Arctic zone 6-16,projected
+6098,NAD83(CSRS) / EPSG Arctic zone 1-23,projected
+6099,NAD83(CSRS) / EPSG Arctic zone 2-14,projected
+6100,NAD83(CSRS) / EPSG Arctic zone 2-16,projected
+6101,NAD83(CSRS) / EPSG Arctic zone 3-25,projected
+6102,NAD83(CSRS) / EPSG Arctic zone 3-27,projected
+6103,NAD83(CSRS) / EPSG Arctic zone 3-29,projected
+6104,NAD83(CSRS) / EPSG Arctic zone 4-14,projected
+6105,NAD83(CSRS) / EPSG Arctic zone 4-16,projected
+6106,NAD83(CSRS) / EPSG Arctic zone 4-18,projected
+6107,NAD83(CSRS) / EPSG Arctic zone 5-33,projected
+6108,NAD83(CSRS) / EPSG Arctic zone 5-35,projected
+6109,NAD83(CSRS) / EPSG Arctic zone 5-37,projected
+6110,NAD83(CSRS) / EPSG Arctic zone 5-39,projected
+6111,NAD83(CSRS) / EPSG Arctic zone 6-18,projected
+6112,NAD83(CSRS) / EPSG Arctic zone 6-20,projected
+6113,NAD83(CSRS) / EPSG Arctic zone 6-22,projected
+6114,NAD83(CSRS) / EPSG Arctic zone 6-24,projected
+6115,WGS 84 / EPSG Arctic zone 1-27,projected
+6116,WGS 84 / EPSG Arctic zone 1-29,projected
+6117,WGS 84 / EPSG Arctic zone 1-31,projected
+6118,WGS 84 / EPSG Arctic zone 1-21,projected
+6119,WGS 84 / EPSG Arctic zone 2-28,projected
+6120,WGS 84 / EPSG Arctic zone 2-10,projected
+6121,WGS 84 / EPSG Arctic zone 2-12,projected
+6122,WGS 84 / EPSG Arctic zone 3-21,projected
+6123,WGS 84 / EPSG Arctic zone 3-23,projected
+6124,WGS 84 / EPSG Arctic zone 4-12,projected
+6125,ETRS89 / EPSG Arctic zone 5-47,projected
+6128,Grand Cayman National Grid 1959,projected
+6129,Sister Islands National Grid 1961,projected
+6130,GCVD54 height,vertical
+6131,LCVD61 height,vertical
+6132,CBVD61 height,vertical
+6133,CIGD11,geocentric
+6134,CIGD11,geographic 3D
+6135,CIGD11,geographic 2D
+6141,Cayman Islands National Grid 2011,projected
+6144,ETRS89 + NN54 height,compound
+6145,ETRS89 / NTM zone 5 + NN54 height,compound
+6146,ETRS89 / NTM zone 6 + NN54 height,compound
+6147,ETRS89 / NTM zone 7 + NN54 height,compound
+6148,ETRS89 / NTM zone 8 + NN54 height,compound
+6149,ETRS89 / NTM zone 9 + NN54 height,compound
+6150,ETRS89 / NTM zone 10 + NN54 height,compound
+6151,ETRS89 / NTM zone 11 + NN54 height,compound
+6152,ETRS89 / NTM zone 12 + NN54 height,compound
+6153,ETRS89 / NTM zone 13 + NN54 height,compound
+6154,ETRS89 / NTM zone 14 + NN54 height,compound
+6155,ETRS89 / NTM zone 15 + NN54 height,compound
+6156,ETRS89 / NTM zone 16 + NN54 height,compound
+6157,ETRS89 / NTM zone 17 + NN54 height,compound
+6158,ETRS89 / NTM zone 18 + NN54 height,compound
+6159,ETRS89 / NTM zone 19 + NN54 height,compound
+6160,ETRS89 / NTM zone 20 + NN54 height,compound
+6161,ETRS89 / NTM zone 21 + NN54 height,compound
+6162,ETRS89 / NTM zone 22 + NN54 height,compound
+6163,ETRS89 / NTM zone 23 + NN54 height,compound
+6164,ETRS89 / NTM zone 24 + NN54 height,compound
+6165,ETRS89 / NTM zone 25 + NN54 height,compound
+6166,ETRS89 / NTM zone 26 + NN54 height,compound
+6167,ETRS89 / NTM zone 27 + NN54 height,compound
+6168,ETRS89 / NTM zone 28 + NN54 height,compound
+6169,ETRS89 / NTM zone 29 + NN54 height,compound
+6170,ETRS89 / NTM zone 30 + NN54 height,compound
+6171,ETRS89 / UTM zone 31 + NN54 height,compound
+6172,ETRS89 / UTM zone 32 + NN54 height,compound
+6173,ETRS89 / UTM zone 33 + NN54 height,compound
+6174,ETRS89 / UTM zone 34 + NN54 height,compound
+6175,ETRS89 / UTM zone 35 + NN54 height,compound
+6176,ETRS89 / UTM zone 36 + NN54 height,compound
+6178,Cais da Pontinha - Funchal height,vertical
+6179,Cais da Vila - Porto Santo height,vertical
+6180,Cais das Velas height,vertical
+6181,Horta height,vertical
+6182,Cais da Madalena height,vertical
+6183,Santa Cruz da Graciosa height,vertical
+6184,Cais da Figueirinha - Angra do Hero¡smo height,vertical
+6185,Santa Cruz das Flores height,vertical
+6186,Cais da Vila do Porto height,vertical
+6187,Ponta Delgada height,vertical
+6190,Belge 1972 / Belgian Lambert 72 + Ostend height,compound
+7400,NTF (Paris) + NGF IGN69 height,compound
+7404,RT90 + RH70 height,compound
+7405,OSGB 1936 / British National Grid + ODN height,compound
+7406,NAD27 + NGVD29 height,compound
+7407,NAD27 / Texas North + NGVD29 height,compound
+7409,ETRS89 + EVRF2000 height,compound
+7410,PSHD93,compound
+7411,NTF (Paris) / Lambert zone II + NGF Lallemand height,compound
+7414,Tokyo + JSLD height,compound
+7415,Amersfoort / RD New + NAP height,compound
+7416,ETRS89 / UTM zone 32N + DVR90 height,compound
+7417,ETRS89 / UTM zone 33N + DVR90 height,compound
+7418,ETRS89 / Kp2000 Jutland + DVR90 height,compound
+7419,ETRS89 / Kp2000 Zealand + DVR90 height,compound
+7420,ETRS89 / Kp2000 Bornholm + DVR90 height,compound
+7421,NTF (Paris) / Lambert zone II + NGF-IGN69 height,compound
+7422,NTF (Paris) / Lambert zone III + NGF-IGN69 height,compound
+7423,ETRS89 + EVRF2007 height,compound
+20004,Pulkovo 1995 / Gauss-Kruger zone 4,projected
+20005,Pulkovo 1995 / Gauss-Kruger zone 5,projected
+20006,Pulkovo 1995 / Gauss-Kruger zone 6,projected
+20007,Pulkovo 1995 / Gauss-Kruger zone 7,projected
+20008,Pulkovo 1995 / Gauss-Kruger zone 8,projected
+20009,Pulkovo 1995 / Gauss-Kruger zone 9,projected
+20010,Pulkovo 1995 / Gauss-Kruger zone 10,projected
+20011,Pulkovo 1995 / Gauss-Kruger zone 11,projected
+20012,Pulkovo 1995 / Gauss-Kruger zone 12,projected
+20013,Pulkovo 1995 / Gauss-Kruger zone 13,projected
+20014,Pulkovo 1995 / Gauss-Kruger zone 14,projected
+20015,Pulkovo 1995 / Gauss-Kruger zone 15,projected
+20016,Pulkovo 1995 / Gauss-Kruger zone 16,projected
+20017,Pulkovo 1995 / Gauss-Kruger zone 17,projected
+20018,Pulkovo 1995 / Gauss-Kruger zone 18,projected
+20019,Pulkovo 1995 / Gauss-Kruger zone 19,projected
+20020,Pulkovo 1995 / Gauss-Kruger zone 20,projected
+20021,Pulkovo 1995 / Gauss-Kruger zone 21,projected
+20022,Pulkovo 1995 / Gauss-Kruger zone 22,projected
+20023,Pulkovo 1995 / Gauss-Kruger zone 23,projected
+20024,Pulkovo 1995 / Gauss-Kruger zone 24,projected
+20025,Pulkovo 1995 / Gauss-Kruger zone 25,projected
+20026,Pulkovo 1995 / Gauss-Kruger zone 26,projected
+20027,Pulkovo 1995 / Gauss-Kruger zone 27,projected
+20028,Pulkovo 1995 / Gauss-Kruger zone 28,projected
+20029,Pulkovo 1995 / Gauss-Kruger zone 29,projected
+20030,Pulkovo 1995 / Gauss-Kruger zone 30,projected
+20031,Pulkovo 1995 / Gauss-Kruger zone 31,projected
+20032,Pulkovo 1995 / Gauss-Kruger zone 32,projected
+20135,Adindan / UTM zone 35N,projected
+20136,Adindan / UTM zone 36N,projected
+20137,Adindan / UTM zone 37N,projected
+20138,Adindan / UTM zone 38N,projected
+20249,AGD66 / AMG zone 49,projected
+20250,AGD66 / AMG zone 50,projected
+20251,AGD66 / AMG zone 51,projected
+20252,AGD66 / AMG zone 52,projected
+20253,AGD66 / AMG zone 53,projected
+20254,AGD66 / AMG zone 54,projected
+20255,AGD66 / AMG zone 55,projected
+20256,AGD66 / AMG zone 56,projected
+20257,AGD66 / AMG zone 57,projected
+20258,AGD66 / AMG zone 58,projected
+20349,AGD84 / AMG zone 49,projected
+20350,AGD84 / AMG zone 50,projected
+20351,AGD84 / AMG zone 51,projected
+20352,AGD84 / AMG zone 52,projected
+20353,AGD84 / AMG zone 53,projected
+20354,AGD84 / AMG zone 54,projected
+20355,AGD84 / AMG zone 55,projected
+20356,AGD84 / AMG zone 56,projected
+20436,Ain el Abd / UTM zone 36N,projected
+20437,Ain el Abd / UTM zone 37N,projected
+20438,Ain el Abd / UTM zone 38N,projected
+20439,Ain el Abd / UTM zone 39N,projected
+20440,Ain el Abd / UTM zone 40N,projected
+20499,Ain el Abd / Bahrain Grid,projected
+20538,Afgooye / UTM zone 38N,projected
+20539,Afgooye / UTM zone 39N,projected
+20790,Lisbon (Lisbon) / Portuguese National Grid,projected
+20791,Lisbon (Lisbon) / Portuguese Grid,projected
+20822,Aratu / UTM zone 22S,projected
+20823,Aratu / UTM zone 23S,projected
+20824,Aratu / UTM zone 24S,projected
+20934,Arc 1950 / UTM zone 34S,projected
+20935,Arc 1950 / UTM zone 35S,projected
+20936,Arc 1950 / UTM zone 36S,projected
+21035,Arc 1960 / UTM zone 35S,projected
+21036,Arc 1960 / UTM zone 36S,projected
+21037,Arc 1960 / UTM zone 37S,projected
+21095,Arc 1960 / UTM zone 35N,projected
+21096,Arc 1960 / UTM zone 36N,projected
+21097,Arc 1960 / UTM zone 37N,projected
+21148,Batavia / UTM zone 48S,projected
+21149,Batavia / UTM zone 49S,projected
+21150,Batavia / UTM zone 50S,projected
+21291,Barbados 1938 / British West Indies Grid,projected
+21292,Barbados 1938 / Barbados National Grid,projected
+21413,Beijing 1954 / Gauss-Kruger zone 13,projected
+21414,Beijing 1954 / Gauss-Kruger zone 14,projected
+21415,Beijing 1954 / Gauss-Kruger zone 15,projected
+21416,Beijing 1954 / Gauss-Kruger zone 16,projected
+21417,Beijing 1954 / Gauss-Kruger zone 17,projected
+21418,Beijing 1954 / Gauss-Kruger zone 18,projected
+21419,Beijing 1954 / Gauss-Kruger zone 19,projected
+21420,Beijing 1954 / Gauss-Kruger zone 20,projected
+21421,Beijing 1954 / Gauss-Kruger zone 21,projected
+21422,Beijing 1954 / Gauss-Kruger zone 22,projected
+21423,Beijing 1954 / Gauss-Kruger zone 23,projected
+21453,Beijing 1954 / Gauss-Kruger CM 75E,projected
+21454,Beijing 1954 / Gauss-Kruger CM 81E,projected
+21455,Beijing 1954 / Gauss-Kruger CM 87E,projected
+21456,Beijing 1954 / Gauss-Kruger CM 93E,projected
+21457,Beijing 1954 / Gauss-Kruger CM 99E,projected
+21458,Beijing 1954 / Gauss-Kruger CM 105E,projected
+21459,Beijing 1954 / Gauss-Kruger CM 111E,projected
+21460,Beijing 1954 / Gauss-Kruger CM 117E,projected
+21461,Beijing 1954 / Gauss-Kruger CM 123E,projected
+21462,Beijing 1954 / Gauss-Kruger CM 129E,projected
+21463,Beijing 1954 / Gauss-Kruger CM 135E,projected
+21500,Belge 1950 (Brussels) / Belge Lambert 50,projected
+21780,Bern 1898 (Bern) / LV03C,projected
+21781,CH1903 / LV03,projected
+21782,CH1903 / LV03C-G,projected
+21818,Bogota 1975 / UTM zone 18N,projected
+21896,Bogota 1975 / Colombia West zone,projected
+21897,Bogota 1975 / Colombia Bogota zone,projected
+21898,Bogota 1975 / Colombia East Central zone,projected
+21899,Bogota 1975 / Colombia East,projected
+22032,Camacupa / UTM zone 32S,projected
+22033,Camacupa / UTM zone 33S,projected
+22091,Camacupa / TM 11.30 SE,projected
+22092,Camacupa / TM 12 SE,projected
+22171,POSGAR 98 / Argentina 1,projected
+22172,POSGAR 98 / Argentina 2,projected
+22173,POSGAR 98 / Argentina 3,projected
+22174,POSGAR 98 / Argentina 4,projected
+22175,POSGAR 98 / Argentina 5,projected
+22176,POSGAR 98 / Argentina 6,projected
+22177,POSGAR 98 / Argentina 7,projected
+22181,POSGAR 94 / Argentina 1,projected
+22182,POSGAR 94 / Argentina 2,projected
+22183,POSGAR 94 / Argentina 3,projected
+22184,POSGAR 94 / Argentina 4,projected
+22185,POSGAR 94 / Argentina 5,projected
+22186,POSGAR 94 / Argentina 6,projected
+22187,POSGAR 94 / Argentina 7,projected
+22191,Campo Inchauspe / Argentina 1,projected
+22192,Campo Inchauspe / Argentina 2,projected
+22193,Campo Inchauspe / Argentina 3,projected
+22194,Campo Inchauspe / Argentina 4,projected
+22195,Campo Inchauspe / Argentina 5,projected
+22196,Campo Inchauspe / Argentina 6,projected
+22197,Campo Inchauspe / Argentina 7,projected
+22234,Cape / UTM zone 34S,projected
+22235,Cape / UTM zone 35S,projected
+22275,Cape / Lo15,projected
+22277,Cape / Lo17,projected
+22279,Cape / Lo19,projected
+22281,Cape / Lo21,projected
+22283,Cape / Lo23,projected
+22285,Cape / Lo25,projected
+22287,Cape / Lo27,projected
+22289,Cape / Lo29,projected
+22291,Cape / Lo31,projected
+22293,Cape / Lo33,projected
+22300,Carthage (Paris) / Tunisia Mining Grid,projected
+22332,Carthage / UTM zone 32N,projected
+22391,Carthage / Nord Tunisie,projected
+22392,Carthage / Sud Tunisie,projected
+22521,Corrego Alegre 1970-72 / UTM zone 21S,projected
+22522,Corrego Alegre 1970-72 / UTM zone 22S,projected
+22523,Corrego Alegre 1970-72 / UTM zone 23S,projected
+22524,Corrego Alegre 1970-72 / UTM zone 24S,projected
+22525,Corrego Alegre 1970-72 / UTM zone 25S,projected
+22700,Deir ez Zor / Levant Zone,projected
+22770,Deir ez Zor / Syria Lambert,projected
+22780,Deir ez Zor / Levant Stereographic,projected
+22991,Egypt 1907 / Blue Belt,projected
+22992,Egypt 1907 / Red Belt,projected
+22993,Egypt 1907 / Purple Belt,projected
+22994,Egypt 1907 / Extended Purple Belt,projected
+23028,ED50 / UTM zone 28N,projected
+23029,ED50 / UTM zone 29N,projected
+23030,ED50 / UTM zone 30N,projected
+23031,ED50 / UTM zone 31N,projected
+23032,ED50 / UTM zone 32N,projected
+23033,ED50 / UTM zone 33N,projected
+23034,ED50 / UTM zone 34N,projected
+23035,ED50 / UTM zone 35N,projected
+23036,ED50 / UTM zone 36N,projected
+23037,ED50 / UTM zone 37N,projected
+23038,ED50 / UTM zone 38N,projected
+23090,ED50 / TM 0 N,projected
+23095,ED50 / TM 5 NE,projected
+23239,Fahud / UTM zone 39N,projected
+23240,Fahud / UTM zone 40N,projected
+23700,HD72 / EOV,projected
+23830,DGN95 / Indonesia TM-3 zone 46.2,projected
+23831,DGN95 / Indonesia TM-3 zone 47.1,projected
+23832,DGN95 / Indonesia TM-3 zone 47.2,projected
+23833,DGN95 / Indonesia TM-3 zone 48.1,projected
+23834,DGN95 / Indonesia TM-3 zone 48.2,projected
+23835,DGN95 / Indonesia TM-3 zone 49.1,projected
+23836,DGN95 / Indonesia TM-3 zone 49.2,projected
+23837,DGN95 / Indonesia TM-3 zone 50.1,projected
+23838,DGN95 / Indonesia TM-3 zone 50.2,projected
+23839,DGN95 / Indonesia TM-3 zone 51.1,projected
+23840,DGN95 / Indonesia TM-3 zone 51.2,projected
+23841,DGN95 / Indonesia TM-3 zone 52.1,projected
+23842,DGN95 / Indonesia TM-3 zone 52.2,projected
+23843,DGN95 / Indonesia TM-3 zone 53.1,projected
+23844,DGN95 / Indonesia TM-3 zone 53.2,projected
+23845,DGN95 / Indonesia TM-3 zone 54.1,projected
+23846,ID74 / UTM zone 46N,projected
+23847,ID74 / UTM zone 47N,projected
+23848,ID74 / UTM zone 48N,projected
+23849,ID74 / UTM zone 49N,projected
+23850,ID74 / UTM zone 50N,projected
+23851,ID74 / UTM zone 51N,projected
+23852,ID74 / UTM zone 52N,projected
+23866,DGN95 / UTM zone 46N,projected
+23867,DGN95 / UTM zone 47N,projected
+23868,DGN95 / UTM zone 48N,projected
+23869,DGN95 / UTM zone 49N,projected
+23870,DGN95 / UTM zone 50N,projected
+23871,DGN95 / UTM zone 51N,projected
+23872,DGN95 / UTM zone 52N,projected
+23877,DGN95 / UTM zone 47S,projected
+23878,DGN95 / UTM zone 48S,projected
+23879,DGN95 / UTM zone 49S,projected
+23880,DGN95 / UTM zone 50S,projected
+23881,DGN95 / UTM zone 51S,projected
+23882,DGN95 / UTM zone 52S,projected
+23883,DGN95 / UTM zone 53S,projected
+23884,DGN95 / UTM zone 54S,projected
+23887,ID74 / UTM zone 47S,projected
+23888,ID74 / UTM zone 48S,projected
+23889,ID74 / UTM zone 49S,projected
+23890,ID74 / UTM zone 50S,projected
+23891,ID74 / UTM zone 51S,projected
+23892,ID74 / UTM zone 52S,projected
+23893,ID74 / UTM zone 53S,projected
+23894,ID74 / UTM zone 54S,projected
+23946,Indian 1954 / UTM zone 46N,projected
+23947,Indian 1954 / UTM zone 47N,projected
+23948,Indian 1954 / UTM zone 48N,projected
+24047,Indian 1975 / UTM zone 47N,projected
+24048,Indian 1975 / UTM zone 48N,projected
+24100,Jamaica 1875 / Jamaica (Old Grid),projected
+24200,JAD69 / Jamaica National Grid,projected
+24305,Kalianpur 1937 / UTM zone 45N,projected
+24306,Kalianpur 1937 / UTM zone 46N,projected
+24311,Kalianpur 1962 / UTM zone 41N,projected
+24312,Kalianpur 1962 / UTM zone 42N,projected
+24313,Kalianpur 1962 / UTM zone 43N,projected
+24342,Kalianpur 1975 / UTM zone 42N,projected
+24343,Kalianpur 1975 / UTM zone 43N,projected
+24344,Kalianpur 1975 / UTM zone 44N,projected
+24345,Kalianpur 1975 / UTM zone 45N,projected
+24346,Kalianpur 1975 / UTM zone 46N,projected
+24347,Kalianpur 1975 / UTM zone 47N,projected
+24370,Kalianpur 1880 / India zone 0,projected
+24371,Kalianpur 1880 / India zone I,projected
+24372,Kalianpur 1880 / India zone IIa,projected
+24373,Kalianpur 1880 / India zone IIIa,projected
+24374,Kalianpur 1880 / India zone IVa,projected
+24375,Kalianpur 1937 / India zone IIb,projected
+24376,Kalianpur 1962 / India zone I,projected
+24377,Kalianpur 1962 / India zone IIa,projected
+24378,Kalianpur 1975 / India zone I,projected
+24379,Kalianpur 1975 / India zone IIa,projected
+24380,Kalianpur 1975 / India zone IIb,projected
+24381,Kalianpur 1975 / India zone IIIa,projected
+24382,Kalianpur 1880 / India zone IIb,projected
+24383,Kalianpur 1975 / India zone IVa,projected
+24500,Kertau 1968 / Singapore Grid,projected
+24547,Kertau 1968 / UTM zone 47N,projected
+24548,Kertau 1968 / UTM zone 48N,projected
+24600,KOC Lambert,projected
+24718,La Canoa / UTM zone 18N,projected
+24719,La Canoa / UTM zone 19N,projected
+24720,La Canoa / UTM zone 20N,projected
+24817,PSAD56 / UTM zone 17N,projected
+24818,PSAD56 / UTM zone 18N,projected
+24819,PSAD56 / UTM zone 19N,projected
+24820,PSAD56 / UTM zone 20N,projected
+24821,PSAD56 / UTM zone 21N,projected
+24877,PSAD56 / UTM zone 17S,projected
+24878,PSAD56 / UTM zone 18S,projected
+24879,PSAD56 / UTM zone 19S,projected
+24880,PSAD56 / UTM zone 20S,projected
+24881,PSAD56 / UTM zone 21S,projected
+24882,PSAD56 / UTM zone 22S,projected
+24891,PSAD56 / Peru west zone,projected
+24892,PSAD56 / Peru central zone,projected
+24893,PSAD56 / Peru east zone,projected
+25000,Leigon / Ghana Metre Grid,projected
+25231,Lome / UTM zone 31N,projected
+25391,Luzon 1911 / Philippines zone I,projected
+25392,Luzon 1911 / Philippines zone II,projected
+25393,Luzon 1911 / Philippines zone III,projected
+25394,Luzon 1911 / Philippines zone IV,projected
+25395,Luzon 1911 / Philippines zone V,projected
+25828,ETRS89 / UTM zone 28N,projected
+25829,ETRS89 / UTM zone 29N,projected
+25830,ETRS89 / UTM zone 30N,projected
+25831,ETRS89 / UTM zone 31N,projected
+25832,ETRS89 / UTM zone 32N,projected
+25833,ETRS89 / UTM zone 33N,projected
+25834,ETRS89 / UTM zone 34N,projected
+25835,ETRS89 / UTM zone 35N,projected
+25836,ETRS89 / UTM zone 36N,projected
+25837,ETRS89 / UTM zone 37N,projected
+25884,ETRS89 / TM Baltic93,projected
+25932,Malongo 1987 / UTM zone 32S,projected
+26191,Merchich / Nord Maroc,projected
+26192,Merchich / Sud Maroc,projected
+26194,Merchich / Sahara Nord,projected
+26195,Merchich / Sahara Sud,projected
+26237,Massawa / UTM zone 37N,projected
+26331,Minna / UTM zone 31N,projected
+26332,Minna / UTM zone 32N,projected
+26391,Minna / Nigeria West Belt,projected
+26392,Minna / Nigeria Mid Belt,projected
+26393,Minna / Nigeria East Belt,projected
+26632,M'poraloko / UTM zone 32N,projected
+26692,M'poraloko / UTM zone 32S,projected
+26701,NAD27 / UTM zone 1N,projected
+26702,NAD27 / UTM zone 2N,projected
+26703,NAD27 / UTM zone 3N,projected
+26704,NAD27 / UTM zone 4N,projected
+26705,NAD27 / UTM zone 5N,projected
+26706,NAD27 / UTM zone 6N,projected
+26707,NAD27 / UTM zone 7N,projected
+26708,NAD27 / UTM zone 8N,projected
+26709,NAD27 / UTM zone 9N,projected
+26710,NAD27 / UTM zone 10N,projected
+26711,NAD27 / UTM zone 11N,projected
+26712,NAD27 / UTM zone 12N,projected
+26713,NAD27 / UTM zone 13N,projected
+26714,NAD27 / UTM zone 14N,projected
+26715,NAD27 / UTM zone 15N,projected
+26716,NAD27 / UTM zone 16N,projected
+26717,NAD27 / UTM zone 17N,projected
+26718,NAD27 / UTM zone 18N,projected
+26719,NAD27 / UTM zone 19N,projected
+26720,NAD27 / UTM zone 20N,projected
+26721,NAD27 / UTM zone 21N,projected
+26722,NAD27 / UTM zone 22N,projected
+26729,NAD27 / Alabama East,projected
+26730,NAD27 / Alabama West,projected
+26731,NAD27 / Alaska zone 1,projected
+26732,NAD27 / Alaska zone 2,projected
+26733,NAD27 / Alaska zone 3,projected
+26734,NAD27 / Alaska zone 4,projected
+26735,NAD27 / Alaska zone 5,projected
+26736,NAD27 / Alaska zone 6,projected
+26737,NAD27 / Alaska zone 7,projected
+26738,NAD27 / Alaska zone 8,projected
+26739,NAD27 / Alaska zone 9,projected
+26740,NAD27 / Alaska zone 10,projected
+26741,NAD27 / California zone I,projected
+26742,NAD27 / California zone II,projected
+26743,NAD27 / California zone III,projected
+26744,NAD27 / California zone IV,projected
+26745,NAD27 / California zone V,projected
+26746,NAD27 / California zone VI,projected
+26748,NAD27 / Arizona East,projected
+26749,NAD27 / Arizona Central,projected
+26750,NAD27 / Arizona West,projected
+26751,NAD27 / Arkansas North,projected
+26752,NAD27 / Arkansas South,projected
+26753,NAD27 / Colorado North,projected
+26754,NAD27 / Colorado Central,projected
+26755,NAD27 / Colorado South,projected
+26756,NAD27 / Connecticut,projected
+26757,NAD27 / Delaware,projected
+26758,NAD27 / Florida East,projected
+26759,NAD27 / Florida West,projected
+26760,NAD27 / Florida North,projected
+26766,NAD27 / Georgia East,projected
+26767,NAD27 / Georgia West,projected
+26768,NAD27 / Idaho East,projected
+26769,NAD27 / Idaho Central,projected
+26770,NAD27 / Idaho West,projected
+26771,NAD27 / Illinois East,projected
+26772,NAD27 / Illinois West,projected
+26773,NAD27 / Indiana East,projected
+26774,NAD27 / Indiana West,projected
+26775,NAD27 / Iowa North,projected
+26776,NAD27 / Iowa South,projected
+26777,NAD27 / Kansas North,projected
+26778,NAD27 / Kansas South,projected
+26779,NAD27 / Kentucky North,projected
+26780,NAD27 / Kentucky South,projected
+26781,NAD27 / Louisiana North,projected
+26782,NAD27 / Louisiana South,projected
+26783,NAD27 / Maine East,projected
+26784,NAD27 / Maine West,projected
+26785,NAD27 / Maryland,projected
+26786,NAD27 / Massachusetts Mainland,projected
+26787,NAD27 / Massachusetts Island,projected
+26791,NAD27 / Minnesota North,projected
+26792,NAD27 / Minnesota Central,projected
+26793,NAD27 / Minnesota South,projected
+26794,NAD27 / Mississippi East,projected
+26795,NAD27 / Mississippi West,projected
+26796,NAD27 / Missouri East,projected
+26797,NAD27 / Missouri Central,projected
+26798,NAD27 / Missouri West,projected
+26799,NAD27 / California zone VII,projected
+26811,NAD Michigan / Michigan North,projected
+26812,NAD Michigan / Michigan Central,projected
+26813,NAD Michigan / Michigan South,projected
+26847,NAD83 / Maine East (ftUS),projected
+26848,NAD83 / Maine West (ftUS),projected
+26849,NAD83 / Minnesota North (ftUS),projected
+26850,NAD83 / Minnesota Central (ftUS),projected
+26851,NAD83 / Minnesota South (ftUS),projected
+26852,NAD83 / Nebraska (ftUS),projected
+26853,NAD83 / West Virginia North (ftUS),projected
+26854,NAD83 / West Virginia South (ftUS),projected
+26855,NAD83(HARN) / Maine East (ftUS),projected
+26856,NAD83(HARN) / Maine West (ftUS),projected
+26857,NAD83(HARN) / Minnesota North (ftUS),projected
+26858,NAD83(HARN) / Minnesota Central (ftUS),projected
+26859,NAD83(HARN) / Minnesota South (ftUS),projected
+26860,NAD83(HARN) / Nebraska (ftUS),projected
+26861,NAD83(HARN) / West Virginia North (ftUS),projected
+26862,NAD83(HARN) / West Virginia South (ftUS),projected
+26863,NAD83(NSRS2007) / Maine East (ftUS),projected
+26864,NAD83(NSRS2007) / Maine West (ftUS),projected
+26865,NAD83(NSRS2007) / Minnesota North (ftUS),projected
+26866,NAD83(NSRS2007) / Minnesota Central (ftUS),projected
+26867,NAD83(NSRS2007) / Minnesota South (ftUS),projected
+26868,NAD83(NSRS2007) / Nebraska (ftUS),projected
+26869,NAD83(NSRS2007) / West Virginia North (ftUS),projected
+26870,NAD83(NSRS2007) / West Virginia South (ftUS),projected
+26891,NAD83(CSRS) / MTM zone 11,projected
+26892,NAD83(CSRS) / MTM zone 12,projected
+26893,NAD83(CSRS) / MTM zone 13,projected
+26894,NAD83(CSRS) / MTM zone 14,projected
+26895,NAD83(CSRS) / MTM zone 15,projected
+26896,NAD83(CSRS) / MTM zone 16,projected
+26897,NAD83(CSRS) / MTM zone 17,projected
+26898,NAD83(CSRS) / MTM zone 1,projected
+26899,NAD83(CSRS) / MTM zone 2,projected
+26901,NAD83 / UTM zone 1N,projected
+26902,NAD83 / UTM zone 2N,projected
+26903,NAD83 / UTM zone 3N,projected
+26904,NAD83 / UTM zone 4N,projected
+26905,NAD83 / UTM zone 5N,projected
+26906,NAD83 / UTM zone 6N,projected
+26907,NAD83 / UTM zone 7N,projected
+26908,NAD83 / UTM zone 8N,projected
+26909,NAD83 / UTM zone 9N,projected
+26910,NAD83 / UTM zone 10N,projected
+26911,NAD83 / UTM zone 11N,projected
+26912,NAD83 / UTM zone 12N,projected
+26913,NAD83 / UTM zone 13N,projected
+26914,NAD83 / UTM zone 14N,projected
+26915,NAD83 / UTM zone 15N,projected
+26916,NAD83 / UTM zone 16N,projected
+26917,NAD83 / UTM zone 17N,projected
+26918,NAD83 / UTM zone 18N,projected
+26919,NAD83 / UTM zone 19N,projected
+26920,NAD83 / UTM zone 20N,projected
+26921,NAD83 / UTM zone 21N,projected
+26922,NAD83 / UTM zone 22N,projected
+26923,NAD83 / UTM zone 23N,projected
+26929,NAD83 / Alabama East,projected
+26930,NAD83 / Alabama West,projected
+26931,NAD83 / Alaska zone 1,projected
+26932,NAD83 / Alaska zone 2,projected
+26933,NAD83 / Alaska zone 3,projected
+26934,NAD83 / Alaska zone 4,projected
+26935,NAD83 / Alaska zone 5,projected
+26936,NAD83 / Alaska zone 6,projected
+26937,NAD83 / Alaska zone 7,projected
+26938,NAD83 / Alaska zone 8,projected
+26939,NAD83 / Alaska zone 9,projected
+26940,NAD83 / Alaska zone 10,projected
+26941,NAD83 / California zone 1,projected
+26942,NAD83 / California zone 2,projected
+26943,NAD83 / California zone 3,projected
+26944,NAD83 / California zone 4,projected
+26945,NAD83 / California zone 5,projected
+26946,NAD83 / California zone 6,projected
+26948,NAD83 / Arizona East,projected
+26949,NAD83 / Arizona Central,projected
+26950,NAD83 / Arizona West,projected
+26951,NAD83 / Arkansas North,projected
+26952,NAD83 / Arkansas South,projected
+26953,NAD83 / Colorado North,projected
+26954,NAD83 / Colorado Central,projected
+26955,NAD83 / Colorado South,projected
+26956,NAD83 / Connecticut,projected
+26957,NAD83 / Delaware,projected
+26958,NAD83 / Florida East,projected
+26959,NAD83 / Florida West,projected
+26960,NAD83 / Florida North,projected
+26961,NAD83 / Hawaii zone 1,projected
+26962,NAD83 / Hawaii zone 2,projected
+26963,NAD83 / Hawaii zone 3,projected
+26964,NAD83 / Hawaii zone 4,projected
+26965,NAD83 / Hawaii zone 5,projected
+26966,NAD83 / Georgia East,projected
+26967,NAD83 / Georgia West,projected
+26968,NAD83 / Idaho East,projected
+26969,NAD83 / Idaho Central,projected
+26970,NAD83 / Idaho West,projected
+26971,NAD83 / Illinois East,projected
+26972,NAD83 / Illinois West,projected
+26973,NAD83 / Indiana East,projected
+26974,NAD83 / Indiana West,projected
+26975,NAD83 / Iowa North,projected
+26976,NAD83 / Iowa South,projected
+26977,NAD83 / Kansas North,projected
+26978,NAD83 / Kansas South,projected
+26980,NAD83 / Kentucky South,projected
+26981,NAD83 / Louisiana North,projected
+26982,NAD83 / Louisiana South,projected
+26983,NAD83 / Maine East,projected
+26984,NAD83 / Maine West,projected
+26985,NAD83 / Maryland,projected
+26986,NAD83 / Massachusetts Mainland,projected
+26987,NAD83 / Massachusetts Island,projected
+26988,NAD83 / Michigan North,projected
+26989,NAD83 / Michigan Central,projected
+26990,NAD83 / Michigan South,projected
+26991,NAD83 / Minnesota North,projected
+26992,NAD83 / Minnesota Central,projected
+26993,NAD83 / Minnesota South,projected
+26994,NAD83 / Mississippi East,projected
+26995,NAD83 / Mississippi West,projected
+26996,NAD83 / Missouri East,projected
+26997,NAD83 / Missouri Central,projected
+26998,NAD83 / Missouri West,projected
+27037,Nahrwan 1967 / UTM zone 37N,projected
+27038,Nahrwan 1967 / UTM zone 38N,projected
+27039,Nahrwan 1967 / UTM zone 39N,projected
+27040,Nahrwan 1967 / UTM zone 40N,projected
+27120,Naparima 1972 / UTM zone 20N,projected
+27200,NZGD49 / New Zealand Map Grid,projected
+27205,NZGD49 / Mount Eden Circuit,projected
+27206,NZGD49 / Bay of Plenty Circuit,projected
+27207,NZGD49 / Poverty Bay Circuit,projected
+27208,NZGD49 / Hawkes Bay Circuit,projected
+27209,NZGD49 / Taranaki Circuit,projected
+27210,NZGD49 / Tuhirangi Circuit,projected
+27211,NZGD49 / Wanganui Circuit,projected
+27212,NZGD49 / Wairarapa Circuit,projected
+27213,NZGD49 / Wellington Circuit,projected
+27214,NZGD49 / Collingwood Circuit,projected
+27215,NZGD49 / Nelson Circuit,projected
+27216,NZGD49 / Karamea Circuit,projected
+27217,NZGD49 / Buller Circuit,projected
+27218,NZGD49 / Grey Circuit,projected
+27219,NZGD49 / Amuri Circuit,projected
+27220,NZGD49 / Marlborough Circuit,projected
+27221,NZGD49 / Hokitika Circuit,projected
+27222,NZGD49 / Okarito Circuit,projected
+27223,NZGD49 / Jacksons Bay Circuit,projected
+27224,NZGD49 / Mount Pleasant Circuit,projected
+27225,NZGD49 / Gawler Circuit,projected
+27226,NZGD49 / Timaru Circuit,projected
+27227,NZGD49 / Lindis Peak Circuit,projected
+27228,NZGD49 / Mount Nicholas Circuit,projected
+27229,NZGD49 / Mount York Circuit,projected
+27230,NZGD49 / Observation Point Circuit,projected
+27231,NZGD49 / North Taieri Circuit,projected
+27232,NZGD49 / Bluff Circuit,projected
+27258,NZGD49 / UTM zone 58S,projected
+27259,NZGD49 / UTM zone 59S,projected
+27260,NZGD49 / UTM zone 60S,projected
+27291,NZGD49 / North Island Grid,projected
+27292,NZGD49 / South Island Grid,projected
+27391,NGO 1948 (Oslo) / NGO zone I,projected
+27392,NGO 1948 (Oslo) / NGO zone II,projected
+27393,NGO 1948 (Oslo) / NGO zone III,projected
+27394,NGO 1948 (Oslo) / NGO zone IV,projected
+27395,NGO 1948 (Oslo) / NGO zone V,projected
+27396,NGO 1948 (Oslo) / NGO zone VI,projected
+27397,NGO 1948 (Oslo) / NGO zone VII,projected
+27398,NGO 1948 (Oslo) / NGO zone VIII,projected
+27429,Datum 73 / UTM zone 29N,projected
+27493,Datum 73 / Modified Portuguese Grid,projected
+27500,ATF (Paris) / Nord de Guerre,projected
+27561,NTF (Paris) / Lambert Nord France,projected
+27562,NTF (Paris) / Lambert Centre France,projected
+27563,NTF (Paris) / Lambert Sud France,projected
+27564,NTF (Paris) / Lambert Corse,projected
+27571,NTF (Paris) / Lambert zone I,projected
+27572,NTF (Paris) / Lambert zone II,projected
+27573,NTF (Paris) / Lambert zone III,projected
+27574,NTF (Paris) / Lambert zone IV,projected
+27700,OSGB 1936 / British National Grid,projected
+28191,Palestine 1923 / Palestine Grid,projected
+28192,Palestine 1923 / Palestine Belt,projected
+28193,Palestine 1923 / Israeli CS Grid,projected
+28232,Pointe Noire / UTM zone 32S,projected
+28349,GDA94 / MGA zone 49,projected
+28350,GDA94 / MGA zone 50,projected
+28351,GDA94 / MGA zone 51,projected
+28352,GDA94 / MGA zone 52,projected
+28353,GDA94 / MGA zone 53,projected
+28354,GDA94 / MGA zone 54,projected
+28355,GDA94 / MGA zone 55,projected
+28356,GDA94 / MGA zone 56,projected
+28357,GDA94 / MGA zone 57,projected
+28358,GDA94 / MGA zone 58,projected
+28404,Pulkovo 1942 / Gauss-Kruger zone 4,projected
+28405,Pulkovo 1942 / Gauss-Kruger zone 5,projected
+28406,Pulkovo 1942 / Gauss-Kruger zone 6,projected
+28407,Pulkovo 1942 / Gauss-Kruger zone 7,projected
+28408,Pulkovo 1942 / Gauss-Kruger zone 8,projected
+28409,Pulkovo 1942 / Gauss-Kruger zone 9,projected
+28410,Pulkovo 1942 / Gauss-Kruger zone 10,projected
+28411,Pulkovo 1942 / Gauss-Kruger zone 11,projected
+28412,Pulkovo 1942 / Gauss-Kruger zone 12,projected
+28413,Pulkovo 1942 / Gauss-Kruger zone 13,projected
+28414,Pulkovo 1942 / Gauss-Kruger zone 14,projected
+28415,Pulkovo 1942 / Gauss-Kruger zone 15,projected
+28416,Pulkovo 1942 / Gauss-Kruger zone 16,projected
+28417,Pulkovo 1942 / Gauss-Kruger zone 17,projected
+28418,Pulkovo 1942 / Gauss-Kruger zone 18,projected
+28419,Pulkovo 1942 / Gauss-Kruger zone 19,projected
+28420,Pulkovo 1942 / Gauss-Kruger zone 20,projected
+28421,Pulkovo 1942 / Gauss-Kruger zone 21,projected
+28422,Pulkovo 1942 / Gauss-Kruger zone 22,projected
+28423,Pulkovo 1942 / Gauss-Kruger zone 23,projected
+28424,Pulkovo 1942 / Gauss-Kruger zone 24,projected
+28425,Pulkovo 1942 / Gauss-Kruger zone 25,projected
+28426,Pulkovo 1942 / Gauss-Kruger zone 26,projected
+28427,Pulkovo 1942 / Gauss-Kruger zone 27,projected
+28428,Pulkovo 1942 / Gauss-Kruger zone 28,projected
+28429,Pulkovo 1942 / Gauss-Kruger zone 29,projected
+28430,Pulkovo 1942 / Gauss-Kruger zone 30,projected
+28431,Pulkovo 1942 / Gauss-Kruger zone 31,projected
+28432,Pulkovo 1942 / Gauss-Kruger zone 32,projected
+28600,Qatar 1974 / Qatar National Grid,projected
+28991,Amersfoort / RD Old,projected
+28992,Amersfoort / RD New,projected
+29101,SAD69 / Brazil Polyconic,projected
+29168,SAD69 / UTM zone 18N,projected
+29169,SAD69 / UTM zone 19N,projected
+29170,SAD69 / UTM zone 20N,projected
+29171,SAD69 / UTM zone 21N,projected
+29172,SAD69 / UTM zone 22N,projected
+29187,SAD69 / UTM zone 17S,projected
+29188,SAD69 / UTM zone 18S,projected
+29189,SAD69 / UTM zone 19S,projected
+29190,SAD69 / UTM zone 20S,projected
+29191,SAD69 / UTM zone 21S,projected
+29192,SAD69 / UTM zone 22S,projected
+29193,SAD69 / UTM zone 23S,projected
+29194,SAD69 / UTM zone 24S,projected
+29195,SAD69 / UTM zone 25S,projected
+29220,Sapper Hill 1943 / UTM zone 20S,projected
+29221,Sapper Hill 1943 / UTM zone 21S,projected
+29333,Schwarzeck / UTM zone 33S,projected
+29371,Schwarzeck / Lo22/11,projected
+29373,Schwarzeck / Lo22/13,projected
+29375,Schwarzeck / Lo22/15,projected
+29377,Schwarzeck / Lo22/17,projected
+29379,Schwarzeck / Lo22/19,projected
+29381,Schwarzeck / Lo22/21,projected
+29383,Schwarzeck / Lo22/23,projected
+29385,Schwarzeck / Lo22/25,projected
+29701,Tananarive (Paris) / Laborde Grid,projected
+29702,Tananarive (Paris) / Laborde Grid approximation,projected
+29738,Tananarive / UTM zone 38S,projected
+29739,Tananarive / UTM zone 39S,projected
+29849,Timbalai 1948 / UTM zone 49N,projected
+29850,Timbalai 1948 / UTM zone 50N,projected
+29871,Timbalai 1948 / RSO Borneo (ch),projected
+29872,Timbalai 1948 / RSO Borneo (ft),projected
+29873,Timbalai 1948 / RSO Borneo (m),projected
+29901,OSNI 1952 / Irish National Grid,projected
+29902,TM65 / Irish Grid,projected
+29903,TM75 / Irish Grid,projected
+30161,Tokyo / Japan Plane Rectangular CS I,projected
+30162,Tokyo / Japan Plane Rectangular CS II,projected
+30163,Tokyo / Japan Plane Rectangular CS III,projected
+30164,Tokyo / Japan Plane Rectangular CS IV,projected
+30165,Tokyo / Japan Plane Rectangular CS V,projected
+30166,Tokyo / Japan Plane Rectangular CS VI,projected
+30167,Tokyo / Japan Plane Rectangular CS VII,projected
+30168,Tokyo / Japan Plane Rectangular CS VIII,projected
+30169,Tokyo / Japan Plane Rectangular CS IX,projected
+30170,Tokyo / Japan Plane Rectangular CS X,projected
+30171,Tokyo / Japan Plane Rectangular CS XI,projected
+30172,Tokyo / Japan Plane Rectangular CS XII,projected
+30173,Tokyo / Japan Plane Rectangular CS XIII,projected
+30174,Tokyo / Japan Plane Rectangular CS XIV,projected
+30175,Tokyo / Japan Plane Rectangular CS XV,projected
+30176,Tokyo / Japan Plane Rectangular CS XVI,projected
+30177,Tokyo / Japan Plane Rectangular CS XVII,projected
+30178,Tokyo / Japan Plane Rectangular CS XVIII,projected
+30179,Tokyo / Japan Plane Rectangular CS XIX,projected
+30200,Trinidad 1903 / Trinidad Grid,projected
+30339,TC(1948) / UTM zone 39N,projected
+30340,TC(1948) / UTM zone 40N,projected
+30491,Voirol 1875 / Nord Algerie (ancienne),projected
+30492,Voirol 1875 / Sud Algerie (ancienne),projected
+30493,Voirol 1879 / Nord Algerie (ancienne),projected
+30494,Voirol 1879 / Sud Algerie (ancienne),projected
+30729,Nord Sahara 1959 / UTM zone 29N,projected
+30730,Nord Sahara 1959 / UTM zone 30N,projected
+30731,Nord Sahara 1959 / UTM zone 31N,projected
+30732,Nord Sahara 1959 / UTM zone 32N,projected
+30791,Nord Sahara 1959 / Nord Algerie,projected
+30792,Nord Sahara 1959 / Sud Algerie,projected
+31028,Yoff / UTM zone 28N,projected
+31121,Zanderij / UTM zone 21N,projected
+31154,Zanderij / TM 54 NW,projected
+31170,Zanderij / Suriname Old TM,projected
+31171,Zanderij / Suriname TM,projected
+31251,MGI (Ferro) / Austria GK West Zone,projected
+31252,MGI (Ferro) / Austria GK Central Zone,projected
+31253,MGI (Ferro) / Austria GK East Zone,projected
+31254,MGI / Austria GK West,projected
+31255,MGI / Austria GK Central,projected
+31256,MGI / Austria GK East,projected
+31257,MGI / Austria GK M28,projected
+31258,MGI / Austria GK M31,projected
+31259,MGI / Austria GK M34,projected
+31281,MGI (Ferro) / Austria West Zone,projected
+31282,MGI (Ferro) / Austria Central Zone,projected
+31283,MGI (Ferro) / Austria East Zone,projected
+31284,MGI / Austria M28,projected
+31285,MGI / Austria M31,projected
+31286,MGI / Austria M34,projected
+31287,MGI / Austria Lambert,projected
+31288,MGI (Ferro) / M28,projected
+31289,MGI (Ferro) / M31,projected
+31290,MGI (Ferro) / M34,projected
+31300,Belge 1972 / Belge Lambert 72,projected
+31370,Belge 1972 / Belgian Lambert 72,projected
+31466,DHDN / 3-degree Gauss-Kruger zone 2,projected
+31467,DHDN / 3-degree Gauss-Kruger zone 3,projected
+31468,DHDN / 3-degree Gauss-Kruger zone 4,projected
+31469,DHDN / 3-degree Gauss-Kruger zone 5,projected
+31528,Conakry 1905 / UTM zone 28N,projected
+31529,Conakry 1905 / UTM zone 29N,projected
+31600,Dealul Piscului 1930 / Stereo 33,projected
+31838,NGN / UTM zone 38N,projected
+31839,NGN / UTM zone 39N,projected
+31901,KUDAMS / KTM,projected
+31965,SIRGAS 2000 / UTM zone 11N,projected
+31966,SIRGAS 2000 / UTM zone 12N,projected
+31967,SIRGAS 2000 / UTM zone 13N,projected
+31968,SIRGAS 2000 / UTM zone 14N,projected
+31969,SIRGAS 2000 / UTM zone 15N,projected
+31970,SIRGAS 2000 / UTM zone 16N,projected
+31971,SIRGAS 2000 / UTM zone 17N,projected
+31972,SIRGAS 2000 / UTM zone 18N,projected
+31973,SIRGAS 2000 / UTM zone 19N,projected
+31974,SIRGAS 2000 / UTM zone 20N,projected
+31975,SIRGAS 2000 / UTM zone 21N,projected
+31976,SIRGAS 2000 / UTM zone 22N,projected
+31977,SIRGAS 2000 / UTM zone 17S,projected
+31978,SIRGAS 2000 / UTM zone 18S,projected
+31979,SIRGAS 2000 / UTM zone 19S,projected
+31980,SIRGAS 2000 / UTM zone 20S,projected
+31981,SIRGAS 2000 / UTM zone 21S,projected
+31982,SIRGAS 2000 / UTM zone 22S,projected
+31983,SIRGAS 2000 / UTM zone 23S,projected
+31984,SIRGAS 2000 / UTM zone 24S,projected
+31985,SIRGAS 2000 / UTM zone 25S,projected
+31986,SIRGAS 1995 / UTM zone 17N,projected
+31987,SIRGAS 1995 / UTM zone 18N,projected
+31988,SIRGAS 1995 / UTM zone 19N,projected
+31989,SIRGAS 1995 / UTM zone 20N,projected
+31990,SIRGAS 1995 / UTM zone 21N,projected
+31991,SIRGAS 1995 / UTM zone 22N,projected
+31992,SIRGAS 1995 / UTM zone 17S,projected
+31993,SIRGAS 1995 / UTM zone 18S,projected
+31994,SIRGAS 1995 / UTM zone 19S,projected
+31995,SIRGAS 1995 / UTM zone 20S,projected
+31996,SIRGAS 1995 / UTM zone 21S,projected
+31997,SIRGAS 1995 / UTM zone 22S,projected
+31998,SIRGAS 1995 / UTM zone 23S,projected
+31999,SIRGAS 1995 / UTM zone 24S,projected
+32000,SIRGAS 1995 / UTM zone 25S,projected
+32001,NAD27 / Montana North,projected
+32002,NAD27 / Montana Central,projected
+32003,NAD27 / Montana South,projected
+32005,NAD27 / Nebraska North,projected
+32006,NAD27 / Nebraska South,projected
+32007,NAD27 / Nevada East,projected
+32008,NAD27 / Nevada Central,projected
+32009,NAD27 / Nevada West,projected
+32010,NAD27 / New Hampshire,projected
+32011,NAD27 / New Jersey,projected
+32012,NAD27 / New Mexico East,projected
+32013,NAD27 / New Mexico Central,projected
+32014,NAD27 / New Mexico West,projected
+32015,NAD27 / New York East,projected
+32016,NAD27 / New York Central,projected
+32017,NAD27 / New York West,projected
+32019,NAD27 / North Carolina,projected
+32020,NAD27 / North Dakota North,projected
+32021,NAD27 / North Dakota South,projected
+32022,NAD27 / Ohio North,projected
+32023,NAD27 / Ohio South,projected
+32024,NAD27 / Oklahoma North,projected
+32025,NAD27 / Oklahoma South,projected
+32026,NAD27 / Oregon North,projected
+32027,NAD27 / Oregon South,projected
+32028,NAD27 / Pennsylvania North,projected
+32030,NAD27 / Rhode Island,projected
+32031,NAD27 / South Carolina North,projected
+32033,NAD27 / South Carolina South,projected
+32034,NAD27 / South Dakota North,projected
+32035,NAD27 / South Dakota South,projected
+32037,NAD27 / Texas North,projected
+32038,NAD27 / Texas North Central,projected
+32039,NAD27 / Texas Central,projected
+32040,NAD27 / Texas South Central,projected
+32041,NAD27 / Texas South,projected
+32042,NAD27 / Utah North,projected
+32043,NAD27 / Utah Central,projected
+32044,NAD27 / Utah South,projected
+32045,NAD27 / Vermont,projected
+32046,NAD27 / Virginia North,projected
+32047,NAD27 / Virginia South,projected
+32048,NAD27 / Washington North,projected
+32049,NAD27 / Washington South,projected
+32050,NAD27 / West Virginia North,projected
+32051,NAD27 / West Virginia South,projected
+32052,NAD27 / Wisconsin North,projected
+32053,NAD27 / Wisconsin Central,projected
+32054,NAD27 / Wisconsin South,projected
+32055,NAD27 / Wyoming East,projected
+32056,NAD27 / Wyoming East Central,projected
+32057,NAD27 / Wyoming West Central,projected
+32058,NAD27 / Wyoming West,projected
+32064,NAD27 / BLM 14N (ftUS),projected
+32065,NAD27 / BLM 15N (ftUS),projected
+32066,NAD27 / BLM 16N (ftUS),projected
+32067,NAD27 / BLM 17N (ftUS),projected
+32081,NAD27 / MTM zone 1,projected
+32082,NAD27 / MTM zone 2,projected
+32083,NAD27 / MTM zone 3,projected
+32084,NAD27 / MTM zone 4,projected
+32085,NAD27 / MTM zone 5,projected
+32086,NAD27 / MTM zone 6,projected
+32098,NAD27 / Quebec Lambert,projected
+32099,NAD27 / Louisiana Offshore,projected
+32100,NAD83 / Montana,projected
+32104,NAD83 / Nebraska,projected
+32107,NAD83 / Nevada East,projected
+32108,NAD83 / Nevada Central,projected
+32109,NAD83 / Nevada West,projected
+32110,NAD83 / New Hampshire,projected
+32111,NAD83 / New Jersey,projected
+32112,NAD83 / New Mexico East,projected
+32113,NAD83 / New Mexico Central,projected
+32114,NAD83 / New Mexico West,projected
+32115,NAD83 / New York East,projected
+32116,NAD83 / New York Central,projected
+32117,NAD83 / New York West,projected
+32118,NAD83 / New York Long Island,projected
+32119,NAD83 / North Carolina,projected
+32120,NAD83 / North Dakota North,projected
+32121,NAD83 / North Dakota South,projected
+32122,NAD83 / Ohio North,projected
+32123,NAD83 / Ohio South,projected
+32124,NAD83 / Oklahoma North,projected
+32125,NAD83 / Oklahoma South,projected
+32126,NAD83 / Oregon North,projected
+32127,NAD83 / Oregon South,projected
+32128,NAD83 / Pennsylvania North,projected
+32129,NAD83 / Pennsylvania South,projected
+32130,NAD83 / Rhode Island,projected
+32133,NAD83 / South Carolina,projected
+32134,NAD83 / South Dakota North,projected
+32135,NAD83 / South Dakota South,projected
+32136,NAD83 / Tennessee,projected
+32137,NAD83 / Texas North,projected
+32138,NAD83 / Texas North Central,projected
+32139,NAD83 / Texas Central,projected
+32140,NAD83 / Texas South Central,projected
+32141,NAD83 / Texas South,projected
+32142,NAD83 / Utah North,projected
+32143,NAD83 / Utah Central,projected
+32144,NAD83 / Utah South,projected
+32145,NAD83 / Vermont,projected
+32146,NAD83 / Virginia North,projected
+32147,NAD83 / Virginia South,projected
+32148,NAD83 / Washington North,projected
+32149,NAD83 / Washington South,projected
+32150,NAD83 / West Virginia North,projected
+32151,NAD83 / West Virginia South,projected
+32152,NAD83 / Wisconsin North,projected
+32153,NAD83 / Wisconsin Central,projected
+32154,NAD83 / Wisconsin South,projected
+32155,NAD83 / Wyoming East,projected
+32156,NAD83 / Wyoming East Central,projected
+32157,NAD83 / Wyoming West Central,projected
+32158,NAD83 / Wyoming West,projected
+32161,NAD83 / Puerto Rico & Virgin Is.,projected
+32164,NAD83 / BLM 14N (ftUS),projected
+32165,NAD83 / BLM 15N (ftUS),projected
+32166,NAD83 / BLM 16N (ftUS),projected
+32167,NAD83 / BLM 17N (ftUS),projected
+32181,NAD83 / MTM zone 1,projected
+32182,NAD83 / MTM zone 2,projected
+32183,NAD83 / MTM zone 3,projected
+32184,NAD83 / MTM zone 4,projected
+32185,NAD83 / MTM zone 5,projected
+32186,NAD83 / MTM zone 6,projected
+32187,NAD83 / MTM zone 7,projected
+32188,NAD83 / MTM zone 8,projected
+32189,NAD83 / MTM zone 9,projected
+32190,NAD83 / MTM zone 10,projected
+32191,NAD83 / MTM zone 11,projected
+32192,NAD83 / MTM zone 12,projected
+32193,NAD83 / MTM zone 13,projected
+32194,NAD83 / MTM zone 14,projected
+32195,NAD83 / MTM zone 15,projected
+32196,NAD83 / MTM zone 16,projected
+32197,NAD83 / MTM zone 17,projected
+32198,NAD83 / Quebec Lambert,projected
+32199,NAD83 / Louisiana Offshore,projected
+32201,WGS 72 / UTM zone 1N,projected
+32202,WGS 72 / UTM zone 2N,projected
+32203,WGS 72 / UTM zone 3N,projected
+32204,WGS 72 / UTM zone 4N,projected
+32205,WGS 72 / UTM zone 5N,projected
+32206,WGS 72 / UTM zone 6N,projected
+32207,WGS 72 / UTM zone 7N,projected
+32208,WGS 72 / UTM zone 8N,projected
+32209,WGS 72 / UTM zone 9N,projected
+32210,WGS 72 / UTM zone 10N,projected
+32211,WGS 72 / UTM zone 11N,projected
+32212,WGS 72 / UTM zone 12N,projected
+32213,WGS 72 / UTM zone 13N,projected
+32214,WGS 72 / UTM zone 14N,projected
+32215,WGS 72 / UTM zone 15N,projected
+32216,WGS 72 / UTM zone 16N,projected
+32217,WGS 72 / UTM zone 17N,projected
+32218,WGS 72 / UTM zone 18N,projected
+32219,WGS 72 / UTM zone 19N,projected
+32220,WGS 72 / UTM zone 20N,projected
+32221,WGS 72 / UTM zone 21N,projected
+32222,WGS 72 / UTM zone 22N,projected
+32223,WGS 72 / UTM zone 23N,projected
+32224,WGS 72 / UTM zone 24N,projected
+32225,WGS 72 / UTM zone 25N,projected
+32226,WGS 72 / UTM zone 26N,projected
+32227,WGS 72 / UTM zone 27N,projected
+32228,WGS 72 / UTM zone 28N,projected
+32229,WGS 72 / UTM zone 29N,projected
+32230,WGS 72 / UTM zone 30N,projected
+32231,WGS 72 / UTM zone 31N,projected
+32232,WGS 72 / UTM zone 32N,projected
+32233,WGS 72 / UTM zone 33N,projected
+32234,WGS 72 / UTM zone 34N,projected
+32235,WGS 72 / UTM zone 35N,projected
+32236,WGS 72 / UTM zone 36N,projected
+32237,WGS 72 / UTM zone 37N,projected
+32238,WGS 72 / UTM zone 38N,projected
+32239,WGS 72 / UTM zone 39N,projected
+32240,WGS 72 / UTM zone 40N,projected
+32241,WGS 72 / UTM zone 41N,projected
+32242,WGS 72 / UTM zone 42N,projected
+32243,WGS 72 / UTM zone 43N,projected
+32244,WGS 72 / UTM zone 44N,projected
+32245,WGS 72 / UTM zone 45N,projected
+32246,WGS 72 / UTM zone 46N,projected
+32247,WGS 72 / UTM zone 47N,projected
+32248,WGS 72 / UTM zone 48N,projected
+32249,WGS 72 / UTM zone 49N,projected
+32250,WGS 72 / UTM zone 50N,projected
+32251,WGS 72 / UTM zone 51N,projected
+32252,WGS 72 / UTM zone 52N,projected
+32253,WGS 72 / UTM zone 53N,projected
+32254,WGS 72 / UTM zone 54N,projected
+32255,WGS 72 / UTM zone 55N,projected
+32256,WGS 72 / UTM zone 56N,projected
+32257,WGS 72 / UTM zone 57N,projected
+32258,WGS 72 / UTM zone 58N,projected
+32259,WGS 72 / UTM zone 59N,projected
+32260,WGS 72 / UTM zone 60N,projected
+32301,WGS 72 / UTM zone 1S,projected
+32302,WGS 72 / UTM zone 2S,projected
+32303,WGS 72 / UTM zone 3S,projected
+32304,WGS 72 / UTM zone 4S,projected
+32305,WGS 72 / UTM zone 5S,projected
+32306,WGS 72 / UTM zone 6S,projected
+32307,WGS 72 / UTM zone 7S,projected
+32308,WGS 72 / UTM zone 8S,projected
+32309,WGS 72 / UTM zone 9S,projected
+32310,WGS 72 / UTM zone 10S,projected
+32311,WGS 72 / UTM zone 11S,projected
+32312,WGS 72 / UTM zone 12S,projected
+32313,WGS 72 / UTM zone 13S,projected
+32314,WGS 72 / UTM zone 14S,projected
+32315,WGS 72 / UTM zone 15S,projected
+32316,WGS 72 / UTM zone 16S,projected
+32317,WGS 72 / UTM zone 17S,projected
+32318,WGS 72 / UTM zone 18S,projected
+32319,WGS 72 / UTM zone 19S,projected
+32320,WGS 72 / UTM zone 20S,projected
+32321,WGS 72 / UTM zone 21S,projected
+32322,WGS 72 / UTM zone 22S,projected
+32323,WGS 72 / UTM zone 23S,projected
+32324,WGS 72 / UTM zone 24S,projected
+32325,WGS 72 / UTM zone 25S,projected
+32326,WGS 72 / UTM zone 26S,projected
+32327,WGS 72 / UTM zone 27S,projected
+32328,WGS 72 / UTM zone 28S,projected
+32329,WGS 72 / UTM zone 29S,projected
+32330,WGS 72 / UTM zone 30S,projected
+32331,WGS 72 / UTM zone 31S,projected
+32332,WGS 72 / UTM zone 32S,projected
+32333,WGS 72 / UTM zone 33S,projected
+32334,WGS 72 / UTM zone 34S,projected
+32335,WGS 72 / UTM zone 35S,projected
+32336,WGS 72 / UTM zone 36S,projected
+32337,WGS 72 / UTM zone 37S,projected
+32338,WGS 72 / UTM zone 38S,projected
+32339,WGS 72 / UTM zone 39S,projected
+32340,WGS 72 / UTM zone 40S,projected
+32341,WGS 72 / UTM zone 41S,projected
+32342,WGS 72 / UTM zone 42S,projected
+32343,WGS 72 / UTM zone 43S,projected
+32344,WGS 72 / UTM zone 44S,projected
+32345,WGS 72 / UTM zone 45S,projected
+32346,WGS 72 / UTM zone 46S,projected
+32347,WGS 72 / UTM zone 47S,projected
+32348,WGS 72 / UTM zone 48S,projected
+32349,WGS 72 / UTM zone 49S,projected
+32350,WGS 72 / UTM zone 50S,projected
+32351,WGS 72 / UTM zone 51S,projected
+32352,WGS 72 / UTM zone 52S,projected
+32353,WGS 72 / UTM zone 53S,projected
+32354,WGS 72 / UTM zone 54S,projected
+32355,WGS 72 / UTM zone 55S,projected
+32356,WGS 72 / UTM zone 56S,projected
+32357,WGS 72 / UTM zone 57S,projected
+32358,WGS 72 / UTM zone 58S,projected
+32359,WGS 72 / UTM zone 59S,projected
+32360,WGS 72 / UTM zone 60S,projected
+32401,WGS 72BE / UTM zone 1N,projected
+32402,WGS 72BE / UTM zone 2N,projected
+32403,WGS 72BE / UTM zone 3N,projected
+32404,WGS 72BE / UTM zone 4N,projected
+32405,WGS 72BE / UTM zone 5N,projected
+32406,WGS 72BE / UTM zone 6N,projected
+32407,WGS 72BE / UTM zone 7N,projected
+32408,WGS 72BE / UTM zone 8N,projected
+32409,WGS 72BE / UTM zone 9N,projected
+32410,WGS 72BE / UTM zone 10N,projected
+32411,WGS 72BE / UTM zone 11N,projected
+32412,WGS 72BE / UTM zone 12N,projected
+32413,WGS 72BE / UTM zone 13N,projected
+32414,WGS 72BE / UTM zone 14N,projected
+32415,WGS 72BE / UTM zone 15N,projected
+32416,WGS 72BE / UTM zone 16N,projected
+32417,WGS 72BE / UTM zone 17N,projected
+32418,WGS 72BE / UTM zone 18N,projected
+32419,WGS 72BE / UTM zone 19N,projected
+32420,WGS 72BE / UTM zone 20N,projected
+32421,WGS 72BE / UTM zone 21N,projected
+32422,WGS 72BE / UTM zone 22N,projected
+32423,WGS 72BE / UTM zone 23N,projected
+32424,WGS 72BE / UTM zone 24N,projected
+32425,WGS 72BE / UTM zone 25N,projected
+32426,WGS 72BE / UTM zone 26N,projected
+32427,WGS 72BE / UTM zone 27N,projected
+32428,WGS 72BE / UTM zone 28N,projected
+32429,WGS 72BE / UTM zone 29N,projected
+32430,WGS 72BE / UTM zone 30N,projected
+32431,WGS 72BE / UTM zone 31N,projected
+32432,WGS 72BE / UTM zone 32N,projected
+32433,WGS 72BE / UTM zone 33N,projected
+32434,WGS 72BE / UTM zone 34N,projected
+32435,WGS 72BE / UTM zone 35N,projected
+32436,WGS 72BE / UTM zone 36N,projected
+32437,WGS 72BE / UTM zone 37N,projected
+32438,WGS 72BE / UTM zone 38N,projected
+32439,WGS 72BE / UTM zone 39N,projected
+32440,WGS 72BE / UTM zone 40N,projected
+32441,WGS 72BE / UTM zone 41N,projected
+32442,WGS 72BE / UTM zone 42N,projected
+32443,WGS 72BE / UTM zone 43N,projected
+32444,WGS 72BE / UTM zone 44N,projected
+32445,WGS 72BE / UTM zone 45N,projected
+32446,WGS 72BE / UTM zone 46N,projected
+32447,WGS 72BE / UTM zone 47N,projected
+32448,WGS 72BE / UTM zone 48N,projected
+32449,WGS 72BE / UTM zone 49N,projected
+32450,WGS 72BE / UTM zone 50N,projected
+32451,WGS 72BE / UTM zone 51N,projected
+32452,WGS 72BE / UTM zone 52N,projected
+32453,WGS 72BE / UTM zone 53N,projected
+32454,WGS 72BE / UTM zone 54N,projected
+32455,WGS 72BE / UTM zone 55N,projected
+32456,WGS 72BE / UTM zone 56N,projected
+32457,WGS 72BE / UTM zone 57N,projected
+32458,WGS 72BE / UTM zone 58N,projected
+32459,WGS 72BE / UTM zone 59N,projected
+32460,WGS 72BE / UTM zone 60N,projected
+32501,WGS 72BE / UTM zone 1S,projected
+32502,WGS 72BE / UTM zone 2S,projected
+32503,WGS 72BE / UTM zone 3S,projected
+32504,WGS 72BE / UTM zone 4S,projected
+32505,WGS 72BE / UTM zone 5S,projected
+32506,WGS 72BE / UTM zone 6S,projected
+32507,WGS 72BE / UTM zone 7S,projected
+32508,WGS 72BE / UTM zone 8S,projected
+32509,WGS 72BE / UTM zone 9S,projected
+32510,WGS 72BE / UTM zone 10S,projected
+32511,WGS 72BE / UTM zone 11S,projected
+32512,WGS 72BE / UTM zone 12S,projected
+32513,WGS 72BE / UTM zone 13S,projected
+32514,WGS 72BE / UTM zone 14S,projected
+32515,WGS 72BE / UTM zone 15S,projected
+32516,WGS 72BE / UTM zone 16S,projected
+32517,WGS 72BE / UTM zone 17S,projected
+32518,WGS 72BE / UTM zone 18S,projected
+32519,WGS 72BE / UTM zone 19S,projected
+32520,WGS 72BE / UTM zone 20S,projected
+32521,WGS 72BE / UTM zone 21S,projected
+32522,WGS 72BE / UTM zone 22S,projected
+32523,WGS 72BE / UTM zone 23S,projected
+32524,WGS 72BE / UTM zone 24S,projected
+32525,WGS 72BE / UTM zone 25S,projected
+32526,WGS 72BE / UTM zone 26S,projected
+32527,WGS 72BE / UTM zone 27S,projected
+32528,WGS 72BE / UTM zone 28S,projected
+32529,WGS 72BE / UTM zone 29S,projected
+32530,WGS 72BE / UTM zone 30S,projected
+32531,WGS 72BE / UTM zone 31S,projected
+32532,WGS 72BE / UTM zone 32S,projected
+32533,WGS 72BE / UTM zone 33S,projected
+32534,WGS 72BE / UTM zone 34S,projected
+32535,WGS 72BE / UTM zone 35S,projected
+32536,WGS 72BE / UTM zone 36S,projected
+32537,WGS 72BE / UTM zone 37S,projected
+32538,WGS 72BE / UTM zone 38S,projected
+32539,WGS 72BE / UTM zone 39S,projected
+32540,WGS 72BE / UTM zone 40S,projected
+32541,WGS 72BE / UTM zone 41S,projected
+32542,WGS 72BE / UTM zone 42S,projected
+32543,WGS 72BE / UTM zone 43S,projected
+32544,WGS 72BE / UTM zone 44S,projected
+32545,WGS 72BE / UTM zone 45S,projected
+32546,WGS 72BE / UTM zone 46S,projected
+32547,WGS 72BE / UTM zone 47S,projected
+32548,WGS 72BE / UTM zone 48S,projected
+32549,WGS 72BE / UTM zone 49S,projected
+32550,WGS 72BE / UTM zone 50S,projected
+32551,WGS 72BE / UTM zone 51S,projected
+32552,WGS 72BE / UTM zone 52S,projected
+32553,WGS 72BE / UTM zone 53S,projected
+32554,WGS 72BE / UTM zone 54S,projected
+32555,WGS 72BE / UTM zone 55S,projected
+32556,WGS 72BE / UTM zone 56S,projected
+32557,WGS 72BE / UTM zone 57S,projected
+32558,WGS 72BE / UTM zone 58S,projected
+32559,WGS 72BE / UTM zone 59S,projected
+32560,WGS 72BE / UTM zone 60S,projected
+32600,WGS 84 / UTM grid system (northern hemisphere),projected
+32601,WGS 84 / UTM zone 1N,projected
+32602,WGS 84 / UTM zone 2N,projected
+32603,WGS 84 / UTM zone 3N,projected
+32604,WGS 84 / UTM zone 4N,projected
+32605,WGS 84 / UTM zone 5N,projected
+32606,WGS 84 / UTM zone 6N,projected
+32607,WGS 84 / UTM zone 7N,projected
+32608,WGS 84 / UTM zone 8N,projected
+32609,WGS 84 / UTM zone 9N,projected
+32610,WGS 84 / UTM zone 10N,projected
+32611,WGS 84 / UTM zone 11N,projected
+32612,WGS 84 / UTM zone 12N,projected
+32613,WGS 84 / UTM zone 13N,projected
+32614,WGS 84 / UTM zone 14N,projected
+32615,WGS 84 / UTM zone 15N,projected
+32616,WGS 84 / UTM zone 16N,projected
+32617,WGS 84 / UTM zone 17N,projected
+32618,WGS 84 / UTM zone 18N,projected
+32619,WGS 84 / UTM zone 19N,projected
+32620,WGS 84 / UTM zone 20N,projected
+32621,WGS 84 / UTM zone 21N,projected
+32622,WGS 84 / UTM zone 22N,projected
+32623,WGS 84 / UTM zone 23N,projected
+32624,WGS 84 / UTM zone 24N,projected
+32625,WGS 84 / UTM zone 25N,projected
+32626,WGS 84 / UTM zone 26N,projected
+32627,WGS 84 / UTM zone 27N,projected
+32628,WGS 84 / UTM zone 28N,projected
+32629,WGS 84 / UTM zone 29N,projected
+32630,WGS 84 / UTM zone 30N,projected
+32631,WGS 84 / UTM zone 31N,projected
+32632,WGS 84 / UTM zone 32N,projected
+32633,WGS 84 / UTM zone 33N,projected
+32634,WGS 84 / UTM zone 34N,projected
+32635,WGS 84 / UTM zone 35N,projected
+32636,WGS 84 / UTM zone 36N,projected
+32637,WGS 84 / UTM zone 37N,projected
+32638,WGS 84 / UTM zone 38N,projected
+32639,WGS 84 / UTM zone 39N,projected
+32640,WGS 84 / UTM zone 40N,projected
+32641,WGS 84 / UTM zone 41N,projected
+32642,WGS 84 / UTM zone 42N,projected
+32643,WGS 84 / UTM zone 43N,projected
+32644,WGS 84 / UTM zone 44N,projected
+32645,WGS 84 / UTM zone 45N,projected
+32646,WGS 84 / UTM zone 46N,projected
+32647,WGS 84 / UTM zone 47N,projected
+32648,WGS 84 / UTM zone 48N,projected
+32649,WGS 84 / UTM zone 49N,projected
+32650,WGS 84 / UTM zone 50N,projected
+32651,WGS 84 / UTM zone 51N,projected
+32652,WGS 84 / UTM zone 52N,projected
+32653,WGS 84 / UTM zone 53N,projected
+32654,WGS 84 / UTM zone 54N,projected
+32655,WGS 84 / UTM zone 55N,projected
+32656,WGS 84 / UTM zone 56N,projected
+32657,WGS 84 / UTM zone 57N,projected
+32658,WGS 84 / UTM zone 58N,projected
+32659,WGS 84 / UTM zone 59N,projected
+32660,WGS 84 / UTM zone 60N,projected
+32661,"WGS 84 / UPS North (N,E)",projected
+32664,WGS 84 / BLM 14N (ftUS),projected
+32665,WGS 84 / BLM 15N (ftUS),projected
+32666,WGS 84 / BLM 16N (ftUS),projected
+32667,WGS 84 / BLM 17N (ftUS),projected
+32700,WGS 84 / UTM grid system (southern hemisphere),projected
+32701,WGS 84 / UTM zone 1S,projected
+32702,WGS 84 / UTM zone 2S,projected
+32703,WGS 84 / UTM zone 3S,projected
+32704,WGS 84 / UTM zone 4S,projected
+32705,WGS 84 / UTM zone 5S,projected
+32706,WGS 84 / UTM zone 6S,projected
+32707,WGS 84 / UTM zone 7S,projected
+32708,WGS 84 / UTM zone 8S,projected
+32709,WGS 84 / UTM zone 9S,projected
+32710,WGS 84 / UTM zone 10S,projected
+32711,WGS 84 / UTM zone 11S,projected
+32712,WGS 84 / UTM zone 12S,projected
+32713,WGS 84 / UTM zone 13S,projected
+32714,WGS 84 / UTM zone 14S,projected
+32715,WGS 84 / UTM zone 15S,projected
+32716,WGS 84 / UTM zone 16S,projected
+32717,WGS 84 / UTM zone 17S,projected
+32718,WGS 84 / UTM zone 18S,projected
+32719,WGS 84 / UTM zone 19S,projected
+32720,WGS 84 / UTM zone 20S,projected
+32721,WGS 84 / UTM zone 21S,projected
+32722,WGS 84 / UTM zone 22S,projected
+32723,WGS 84 / UTM zone 23S,projected
+32724,WGS 84 / UTM zone 24S,projected
+32725,WGS 84 / UTM zone 25S,projected
+32726,WGS 84 / UTM zone 26S,projected
+32727,WGS 84 / UTM zone 27S,projected
+32728,WGS 84 / UTM zone 28S,projected
+32729,WGS 84 / UTM zone 29S,projected
+32730,WGS 84 / UTM zone 30S,projected
+32731,WGS 84 / UTM zone 31S,projected
+32732,WGS 84 / UTM zone 32S,projected
+32733,WGS 84 / UTM zone 33S,projected
+32734,WGS 84 / UTM zone 34S,projected
+32735,WGS 84 / UTM zone 35S,projected
+32736,WGS 84 / UTM zone 36S,projected
+32737,WGS 84 / UTM zone 37S,projected
+32738,WGS 84 / UTM zone 38S,projected
+32739,WGS 84 / UTM zone 39S,projected
+32740,WGS 84 / UTM zone 40S,projected
+32741,WGS 84 / UTM zone 41S,projected
+32742,WGS 84 / UTM zone 42S,projected
+32743,WGS 84 / UTM zone 43S,projected
+32744,WGS 84 / UTM zone 44S,projected
+32745,WGS 84 / UTM zone 45S,projected
+32746,WGS 84 / UTM zone 46S,projected
+32747,WGS 84 / UTM zone 47S,projected
+32748,WGS 84 / UTM zone 48S,projected
+32749,WGS 84 / UTM zone 49S,projected
+32750,WGS 84 / UTM zone 50S,projected
+32751,WGS 84 / UTM zone 51S,projected
+32752,WGS 84 / UTM zone 52S,projected
+32753,WGS 84 / UTM zone 53S,projected
+32754,WGS 84 / UTM zone 54S,projected
+32755,WGS 84 / UTM zone 55S,projected
+32756,WGS 84 / UTM zone 56S,projected
+32757,WGS 84 / UTM zone 57S,projected
+32758,WGS 84 / UTM zone 58S,projected
+32759,WGS 84 / UTM zone 59S,projected
+32760,WGS 84 / UTM zone 60S,projected
+32761,"WGS 84 / UPS South (N,E)",projected
+32766,WGS 84 / TM 36 SE,projected

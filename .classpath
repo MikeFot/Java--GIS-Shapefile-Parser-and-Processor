@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="geotools-9.4/gt-data-9.4.jar"/>
+	<classpathentry kind="lib" path="geotools-9.4/gt-epsg-hsql-9.4.jar"/>
+	<classpathentry kind="lib" path="geotools-9.4/gt-graph-9.4.jar"/>
+	<classpathentry kind="lib" path="geotools-9.4/gt-process-9.4.jar"/>
+	<classpathentry kind="lib" path="geotools-9.4/gt-swing-9.4.jar"/>
+	<classpathentry kind="lib" path="geotools-9.4/gt-transform-9.4.jar"/>
+	<classpathentry kind="lib" path="geotools-9.4/gt-validation-9.4.jar"/>
+	<classpathentry kind="lib" path="geotools-9.4/gt-shapefile-9.4.jar"/>
+	<classpathentry kind="lib" path="libs/swt.jar"/>
+	<classpathentry kind="lib" path="libs/swt-debug.jar"/>
+	<classpathentry kind="lib" path="geotools-9.4/gt-geometry-9.4.jar"/>
+	<classpathentry kind="lib" path="libs/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="libs/guava-14.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/JavaAPIforKml.jar"/>
+	<classpathentry kind="lib" path="libs/jaxb-core.jar"/>
+	<classpathentry kind="lib" path="libs/jaxb-impl.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/ShapefileParserAndProcessor/libs/jaxb-impl-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/jaxb-jxc.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/ShapefileParserAndProcessor/libs/jaxb-jxc-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/jaxb-xjc.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/ShapefileParserAndProcessor/libs/jaxb-xjc-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
