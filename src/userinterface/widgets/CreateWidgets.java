@@ -13,6 +13,11 @@ import containers.ergo.widgets.ErgoButton;
 import containers.ergo.widgets.ErgoCombo;
 import containers.ergo.widgets.ErgoList;
 
+/**
+ * Class used to mass-produce widgets
+ * @author Michael Fotiadis
+ *
+ */
 public class CreateWidgets {
 
 	/**

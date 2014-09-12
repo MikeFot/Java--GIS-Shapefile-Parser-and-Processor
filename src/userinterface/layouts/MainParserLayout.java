@@ -1,6 +1,6 @@
 package userinterface.layouts;
 
-import helpers.TableOperations;
+import helpers.ProcessingOperations;
 
 import java.net.URL;
 import java.util.ArrayList;
@@ -37,18 +37,23 @@ import containers.ergo.geometry.ErgoReferenceSystem;
 import containers.ergo.widgets.ErgoButton;
 import containers.ergo.widgets.ErgoCombo;
 import containers.ergo.widgets.ErgoList;
-import containers.file.FileVariables;
+import containers.file.FileContainer;
 import containers.file.ShapefileContainer;
 import export.kml.ExportKML;
 
-public class MainLayout implements DisposeListener, SelectionListener {
+/**
+ * Class containing user interface SWT components and listeners
+ * @author Michael Fotiadis
+ *
+ */
+public class MainParserLayout implements DisposeListener, SelectionListener {
 	
 	private ShapefileContainer shapefileContainer;
 	
-	private Label label_3;
-	private Label label_8;
-	private Label label_13;
-	private Label label_14;
+	private Label labelFileSelection;
+	private Label labelCSR;
+	private Label labelStatus;
+	private Label labelInfo;
 
 	private ErgoButton buttonBrowse;
 	private ErgoButton buttonMap;
@@ -68,9 +73,9 @@ public class MainLayout implements DisposeListener, SelectionListener {
 	private ErgoList listCoordinates;
 
 	private Text textSearch;
-	private ErgoButton buttonSearch_1;
-	private ErgoButton buttonSearch_2;
-	private ErgoButton buttonSearch_3;
+	private ErgoButton buttonSearch1;
+	private ErgoButton buttonSearch2;
+	private ErgoButton buttonSearch3;
 	private ErgoList listSearch;
 
 	private static ErgoList STATUS_LIST;
@@ -91,7 +96,7 @@ public class MainLayout implements DisposeListener, SelectionListener {
 	public void initUI() {
 		display = new Display();
 
-		final Shell mainShell = new MainLayout().addMainShell(display);
+		final Shell mainShell = new MainParserLayout().addMainShell(display);
 
 		mainShell.open();
 		Log.Out("Initialising UI...", 0, true);
@@ -101,7 +106,7 @@ public class MainLayout implements DisposeListener, SelectionListener {
 		}
 	}
 
-	private final FileVariables filePath = new FileVariables();
+	private final FileContainer filePath = new FileContainer();
 
 	/**
 	 * The method creates a Shell in a Display defined by input
@@ -180,32 +185,35 @@ public class MainLayout implements DisposeListener, SelectionListener {
 		GridData gridData = new GridData(GridData.FILL, GridData.CENTER, true, false);
 		gridData.horizontalSpan = 2;
 		textSearch.setLayoutData(gridData);
-		buttonSearch_1 = new CreateWidgets().createButton(searchShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Clear", 1); // create draw button
+		buttonSearch1 = new CreateWidgets().createButton(searchShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Clear", 1); // create draw button
 
 		// Row 2
 		listSearch = new CreateWidgets().createList(searchShell, new GridData(GridData.FILL, GridData.FILL, true, true), 400, 400, 2); // create list populated with IDs
 
 		// Row 3
-		buttonSearch_2 = new CreateWidgets().createButton(searchShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Set Source", 1); // create draw button
-		label_13 = new CreateWidgets().createLabel(searchShell, new GridData(GridData.FILL), comboSource.ergoCombo.getText(), 500, 1); // create info label
+		buttonSearch2 = new CreateWidgets().createButton(searchShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Set Source", 1); // create draw button
+		labelStatus = new CreateWidgets().createLabel(searchShell, new GridData(GridData.FILL), comboSource.ergoCombo.getText(), 500, 1); // create info label
 
 		// Row 4
-		buttonSearch_3 = new CreateWidgets().createButton(searchShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Set Target", 1); // create draw button
-		label_14 = new CreateWidgets().createLabel(searchShell, new GridData(GridData.FILL), comboTarget.ergoCombo.getText(), 400, 1); // create info label
+		buttonSearch3 = new CreateWidgets().createButton(searchShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Set Target", 1); // create draw button
+		labelInfo = new CreateWidgets().createLabel(searchShell, new GridData(GridData.FILL), comboTarget.ergoCombo.getText(), 400, 1); // create info label
 
 		listSearch.ergoList.setItems(comboSource.ergoCombo.getItems());
 
-		buttonSearch_1.ergoButton.addSelectionListener(this);
-		buttonSearch_2.ergoButton.addSelectionListener(this);
-		buttonSearch_3.ergoButton.addSelectionListener(this);
+		buttonSearch1.ergoButton.addSelectionListener(this);
+		buttonSearch2.ergoButton.addSelectionListener(this);
+		buttonSearch3.ergoButton.addSelectionListener(this);
 
 		textSearch.addModifyListener(new ModifyListener() {
 
 			@Override
 			public void modifyText(ModifyEvent modifyEvent) {
-
-				performSearch();
-
+				Display.getDefault().asyncExec(new Runnable() {
+					@Override
+					public void run() {
+						performSearch();
+					}
+				});
 			}
 		});
 
@@ -232,14 +240,14 @@ public class MainLayout implements DisposeListener, SelectionListener {
 
 		String crsDescription = shapefileContainer.getVerboseCRS();
 
-		label_14= new Label(infoShell, SWT.NONE);
+		labelInfo= new Label(infoShell, SWT.NONE);
 		GridData gridData = new GridData(GridData.FILL);
 		gridData.widthHint = 400;
 		gridData.heightHint = 600;
 		gridData.horizontalSpan = 1;
 
-		label_14.setText(crsDescription.toString());
-		label_14.setLayoutData(gridData);
+		labelInfo.setText(crsDescription.toString());
+		labelInfo.setLayoutData(gridData);
 
 		return infoShell;
 	}
@@ -260,7 +268,7 @@ public class MainLayout implements DisposeListener, SelectionListener {
 
 		// Row 2
 		new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "Using ShapeFile: ", 200, 1); // create info label
-		label_3 = new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "No File Selected. Please Select a Shapefile.", 600, 2); // create info label
+		labelFileSelection = new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "No File Selected. Please Select a Shapefile.", 600, 2); // create info label
 
 		// Row 3
 		new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "Shape Identifier", 200, 1); // create info label for the List beneath it
@@ -273,7 +281,7 @@ public class MainLayout implements DisposeListener, SelectionListener {
 		listCoordinates = new CreateWidgets().createList(myShell, new GridData(GridData.FILL, GridData.FILL, true, true), 200, 400, 1); // create list populated with coordinates
 
 		// Row 5
-		label_8 = new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "CRS : Not Defined", 200, 1); // create info label
+		labelCSR = new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "CRS : Not Defined", 200, 1); // create info label
 		buttonViewCRS = new CreateWidgets().createButton(myShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Details", 2); // create button
 
 		// Row 6
@@ -311,7 +319,7 @@ public class MainLayout implements DisposeListener, SelectionListener {
 		new Label(myShell, SWT.NONE); // empty label, used to arrange widgets
 
 		// Row 13
-		label_13 = new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "Status : ", 200, 1); // create status label
+		labelStatus = new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "Status : ", 200, 1); // create status label
 		STATUS_LIST = new CreateWidgets().createList(myShell, new GridData(GridData.FILL, GridData.FILL_HORIZONTAL, false, false), 100, 50, 1); // create list populated with IDs 
 
 		// Add listeners
@@ -340,7 +348,7 @@ public class MainLayout implements DisposeListener, SelectionListener {
 		fileName = comboEPSG.ergoCombo.getItem(comboEPSG.ergoCombo.getSelectionIndex());
 		if (!fileName.isEmpty() || !fileName.equals("") || fileName != null) {
 			Log.Out("Using EPSG file : " + fileName, 0, true);
-			String[] listCRS = new TableOperations().createComboString(fileName);
+			String[] listCRS = new ProcessingOperations().createComboString(fileName);
 			comboSource.ergoCombo.setItems(listCRS);
 			comboTarget.ergoCombo.setItems(listCRS);
 		} else { Log.Err("Empty file selected.", 0, true);
@@ -386,6 +394,9 @@ public class MainLayout implements DisposeListener, SelectionListener {
 	}
 
 	private void performSearch() {
+		
+		
+		
 		String text = textSearch.getText().intern();
 
 		if (text != null && text != "") {
@@ -499,7 +510,7 @@ public class MainLayout implements DisposeListener, SelectionListener {
 			mainShell.setVisible(true);
 
 			filePath.setStringPath(shpLocation.toString());
-			label_3.setText(filePath.getStringPath());
+			labelFileSelection.setText(filePath.getStringPath());
 
 			listID.ergoList.removeAll();
 			listAttributes.ergoList.removeAll();
@@ -523,7 +534,7 @@ public class MainLayout implements DisposeListener, SelectionListener {
 
 			String shpCRS = getShapefileSystem();
 			Log.Out("Reference System is : " + shpCRS , 1 , true);
-			label_8.setText("CRS: " + shpCRS); // change the label displaying the reference system
+			labelCSR.setText("CRS: " + shpCRS); // change the label displaying the reference system
 
 			// iterate through the collection and create a String [] to store IDs
 			String[] plineIDList = new String[shapefileContainer.getGeometryCollection().size()];
@@ -567,7 +578,7 @@ public class MainLayout implements DisposeListener, SelectionListener {
 			System.out.println("Selected " + fileName);
 
 			if (!fileName.isEmpty() || !fileName.equals("") || fileName != null) {
-				String[] listCRS = new TableOperations().createComboString(fileName);
+				String[] listCRS = new ProcessingOperations().createComboString(fileName);
 				comboSource.ergoCombo.setItems(listCRS);
 				comboTarget.ergoCombo.setItems(listCRS);
 			}
@@ -580,7 +591,7 @@ public class MainLayout implements DisposeListener, SelectionListener {
 			Log.Out("Detected action on Combo Target " + selectionEvent.getSource().hashCode(), 1, false);
 			String selectedItem = comboTarget.ergoCombo.getItem(comboTarget.ergoCombo.getSelectionIndex());
 
-			ErgoReferenceSystem selectedCRS = new TableOperations().splitComboString(selectedItem);
+			ErgoReferenceSystem selectedCRS = new ProcessingOperations().splitComboString(selectedItem);
 			Log.Out("Selected " + selectedItem, 1, true);
 			REFERENCE_SETS.setTargetSystem(selectedCRS);
 
@@ -612,8 +623,8 @@ public class MainLayout implements DisposeListener, SelectionListener {
 
 					String[] stringKeysPline = currentPolyline.getStringKeys();
 
-					String[] coordinateTable = new TableOperations().buildCoordList(currentPolyline); // call method to create list items
-					String[] attributeTable = new TableOperations().buildAttributeList(stringKeysPline, currentPolyline);
+					String[] coordinateTable = new ProcessingOperations().buildCoordinateList(currentPolyline); // call method to create list items
+					String[] attributeTable = new ProcessingOperations().buildAttributeList(stringKeysPline, currentPolyline);
 
 					listAttributes.ergoList.setItems(attributeTable);
 					listAttributes.ergoList.redraw();
@@ -633,12 +644,12 @@ public class MainLayout implements DisposeListener, SelectionListener {
 			searchShell.open();
 			searchShell.pack();
 
-		}  else if (searchShellCreated && callerHashCode == buttonSearch_1.getErgoID()) {
+		}  else if (searchShellCreated && callerHashCode == buttonSearch1.getErgoID()) {
 			Log.Out("Detected click on Clear Search Button " + selectionEvent.getSource().hashCode(), 1, false);
 
 			textSearch.setText("");
 
-		} else if (searchShellCreated && callerHashCode == buttonSearch_2.getErgoID()) {
+		} else if (searchShellCreated && callerHashCode == buttonSearch2.getErgoID()) {
 			Log.Out("Detected click on Set Source Button " + selectionEvent.getSource().hashCode(), 1, false);
 
 			int countSelected = listSearch.ergoList.getSelectionCount();
@@ -655,7 +666,7 @@ public class MainLayout implements DisposeListener, SelectionListener {
 					if (item.equalsIgnoreCase(selection)) {
 						comboSource.ergoCombo.select(count);
 						setSystem();
-						label_13.setText(comboSource.ergoCombo.getText());
+						labelStatus.setText(comboSource.ergoCombo.getText());
 						break;
 					}
 					count ++;
@@ -663,7 +674,7 @@ public class MainLayout implements DisposeListener, SelectionListener {
 
 			}
 
-		} else if (searchShellCreated && callerHashCode == buttonSearch_3.getErgoID()) {
+		} else if (searchShellCreated && callerHashCode == buttonSearch3.getErgoID()) {
 			Log.Out("Detected click on Set Target Button " + selectionEvent.getSource().hashCode(), 1, false);
 			int countSelected = listSearch.ergoList.getSelectionCount();
 			if (countSelected == 1) {
@@ -678,7 +689,7 @@ public class MainLayout implements DisposeListener, SelectionListener {
 
 					if (item.equalsIgnoreCase(selection)) {
 						comboTarget.ergoCombo.select(count);
-						label_14.setText(comboTarget.ergoCombo.getText());
+						labelInfo.setText(comboTarget.ergoCombo.getText());
 						break;
 					}
 					count ++;
@@ -708,7 +719,7 @@ public class MainLayout implements DisposeListener, SelectionListener {
 
 		Log.Out("Selected " + selectedItem, 1, true);
 
-		ErgoReferenceSystem selectedCRS = new TableOperations().splitComboString(selectedItem);
+		ErgoReferenceSystem selectedCRS = new ProcessingOperations().splitComboString(selectedItem);
 		REFERENCE_SETS.setSourceSystem(selectedCRS);
 
 	}

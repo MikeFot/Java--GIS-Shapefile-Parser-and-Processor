@@ -14547,3 +14547,491 @@
 2014-09-11 16:56:58 - OUT:    Preparing to export...
 2014-09-11 16:56:59 - OUT: KML exported successfully at : Point_Export.kml
 2014-09-11 16:57:08 - OUT: Exiting...
+2014-09-12 16:19:43 - OUT: Using EPSG file : EPSG_v8_2.csv
+2014-09-12 16:19:43 - OUT:       Populating combo boxes with 4534 items.
+2014-09-12 16:19:43 - OUT: Initialising UI...
+2014-09-12 16:19:45 - OUT:    Detected click on Browse Button 109961541
+2014-09-12 16:19:45 - OUT: Browsing for file...
+2014-09-12 16:19:51 - OUT:       Feature Source Hashcode = 390689829
+2014-09-12 16:19:51 - OUT:    Geometry Type : the_geom
+2014-09-12 16:19:51 - OUT:       Size of the Feature Collection : 5
+2014-09-12 16:19:51 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2014-09-12 16:19:51 - OUT:       Waiting for user input...
+2014-09-12 16:19:52 - OUT:       Now Parsing Feature with ID : 1
+2014-09-12 16:19:53 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:19:53 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2014-09-12 16:19:53 - OUT:          529408.0
+2014-09-12 16:19:53 - OUT:          155354.0
+2014-09-12 16:19:53 - OUT:       Now Parsing Feature with ID : 2
+2014-09-12 16:19:53 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:19:53 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2014-09-12 16:19:53 - OUT:          543522.0
+2014-09-12 16:19:53 - OUT:          140347.0
+2014-09-12 16:19:53 - OUT:       Now Parsing Feature with ID : 3
+2014-09-12 16:19:53 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:19:53 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2014-09-12 16:19:53 - OUT:          543471.0
+2014-09-12 16:19:53 - OUT:          140446.0
+2014-09-12 16:19:53 - OUT:       Now Parsing Feature with ID : 4
+2014-09-12 16:19:53 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:19:53 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2014-09-12 16:19:53 - OUT:          543465.0
+2014-09-12 16:19:53 - OUT:          153566.0
+2014-09-12 16:19:53 - OUT:       Now Parsing Feature with ID : 5
+2014-09-12 16:19:53 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:19:53 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2014-09-12 16:19:53 - OUT:          543454.0
+2014-09-12 16:19:53 - OUT:          140379.0
+2014-09-12 16:19:53 - OUT:    Exiting Shapefile Parser.
+2014-09-12 16:19:53 - OUT: Data Parsing Complete
+2014-09-12 16:19:53 - OUT:    Reference System is : British National Grid
+2014-09-12 16:19:53 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2014-09-12 16:19:56 - OUT:    Detected click on Search Button 1108411398
+2014-09-12 16:19:56 - OUT: Creating Search Shell...
+2014-09-12 16:19:56 - OUT: Opening Search Shell...
+2014-09-12 16:20:15 - OUT:    Detected click on Set Target Button 889891977
+2014-09-12 16:20:17 - OUT:    Detected click on Set Source Button 1967355409
+2014-09-12 16:20:17 - OUT:    Selected GGRS87 / Greek Grid (EPSG: 2100 , projected)
+2014-09-12 16:20:24 - OUT: Exiting...
+2014-09-12 16:20:31 - OUT: Using EPSG file : EPSG_v8_2.csv
+2014-09-12 16:20:31 - OUT:       Populating combo boxes with 4534 items.
+2014-09-12 16:20:31 - OUT: Initialising UI...
+2014-09-12 16:20:32 - OUT:    Detected click on Browse Button 109961541
+2014-09-12 16:20:32 - OUT: Browsing for file...
+2014-09-12 16:20:38 - OUT:       Feature Source Hashcode = 390689829
+2014-09-12 16:20:39 - OUT:    Geometry Type : the_geom
+2014-09-12 16:20:39 - OUT:       Size of the Feature Collection : 5
+2014-09-12 16:20:39 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2014-09-12 16:20:39 - OUT:       Waiting for user input...
+2014-09-12 16:20:40 - OUT:       Now Parsing Feature with ID : 1
+2014-09-12 16:20:40 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:20:40 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2014-09-12 16:20:40 - OUT:          529408.0
+2014-09-12 16:20:40 - OUT:          155354.0
+2014-09-12 16:20:40 - OUT:       Now Parsing Feature with ID : 2
+2014-09-12 16:20:40 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:20:40 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2014-09-12 16:20:40 - OUT:          543522.0
+2014-09-12 16:20:40 - OUT:          140347.0
+2014-09-12 16:20:40 - OUT:       Now Parsing Feature with ID : 3
+2014-09-12 16:20:40 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:20:40 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2014-09-12 16:20:40 - OUT:          543471.0
+2014-09-12 16:20:40 - OUT:          140446.0
+2014-09-12 16:20:40 - OUT:       Now Parsing Feature with ID : 4
+2014-09-12 16:20:40 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:20:40 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2014-09-12 16:20:40 - OUT:          543465.0
+2014-09-12 16:20:40 - OUT:          153566.0
+2014-09-12 16:20:40 - OUT:       Now Parsing Feature with ID : 5
+2014-09-12 16:20:40 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:20:40 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2014-09-12 16:20:40 - OUT:          543454.0
+2014-09-12 16:20:40 - OUT:          140379.0
+2014-09-12 16:20:40 - OUT:    Exiting Shapefile Parser.
+2014-09-12 16:20:40 - OUT: Data Parsing Complete
+2014-09-12 16:20:40 - OUT:    Reference System is : British National Grid
+2014-09-12 16:20:40 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2014-09-12 16:20:43 - OUT:    Detected click on Search Button 1108411398
+2014-09-12 16:20:43 - OUT: Creating Search Shell...
+2014-09-12 16:20:44 - OUT: Opening Search Shell...
+2014-09-12 16:21:00 - OUT:    Detected click on Clear Search Button 2075809815
+2014-09-12 16:21:03 - OUT: Exiting...
+2014-09-12 16:22:29 - OUT: Using EPSG file : EPSG_v8_2.csv
+2014-09-12 16:22:29 - OUT:       Populating combo boxes with 4534 items.
+2014-09-12 16:22:30 - OUT: Initialising UI...
+2014-09-12 16:22:31 - OUT:    Detected click on Browse Button 109961541
+2014-09-12 16:22:31 - OUT: Browsing for file...
+2014-09-12 16:22:39 - OUT:       Feature Source Hashcode = 390689829
+2014-09-12 16:22:39 - OUT:    Geometry Type : the_geom
+2014-09-12 16:22:39 - OUT:       Size of the Feature Collection : 5
+2014-09-12 16:22:39 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2014-09-12 16:22:39 - OUT:       Waiting for user input...
+2014-09-12 16:22:40 - OUT:       Now Parsing Feature with ID : 1
+2014-09-12 16:22:40 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:22:40 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2014-09-12 16:22:40 - OUT:          529408.0
+2014-09-12 16:22:40 - OUT:          155354.0
+2014-09-12 16:22:40 - OUT:       Now Parsing Feature with ID : 2
+2014-09-12 16:22:40 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:22:40 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2014-09-12 16:22:40 - OUT:          543522.0
+2014-09-12 16:22:40 - OUT:          140347.0
+2014-09-12 16:22:40 - OUT:       Now Parsing Feature with ID : 3
+2014-09-12 16:22:40 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:22:40 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2014-09-12 16:22:40 - OUT:          543471.0
+2014-09-12 16:22:40 - OUT:          140446.0
+2014-09-12 16:22:40 - OUT:       Now Parsing Feature with ID : 4
+2014-09-12 16:22:40 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:22:40 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2014-09-12 16:22:40 - OUT:          543465.0
+2014-09-12 16:22:40 - OUT:          153566.0
+2014-09-12 16:22:40 - OUT:       Now Parsing Feature with ID : 5
+2014-09-12 16:22:40 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:22:40 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2014-09-12 16:22:40 - OUT:          543454.0
+2014-09-12 16:22:40 - OUT:          140379.0
+2014-09-12 16:22:40 - OUT:    Exiting Shapefile Parser.
+2014-09-12 16:22:40 - OUT: Data Parsing Complete
+2014-09-12 16:22:40 - OUT:    Reference System is : British National Grid
+2014-09-12 16:22:40 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2014-09-12 16:22:43 - OUT: Starting KML export...
+2014-09-12 16:22:43 - OUT:    Created the KML document in memory.
+2014-09-12 16:22:43 - OUT:    Created the KML styles.
+2014-09-12 16:22:46 - OUT:        From : 529408.0 155354.0 To : -0.14585524539516262 51.2826356100346
+2014-09-12 16:22:46 - OUT:        From : 543522.0 140347.0 To : 0.05038728479539054 51.144402809990765
+2014-09-12 16:22:46 - OUT:        From : 543471.0 140446.0 To : 0.04969810927334914 51.14530522233094
+2014-09-12 16:22:46 - OUT:        From : 543465.0 153566.0 To : 0.05485309408196138 51.263204991658746
+2014-09-12 16:22:46 - OUT:        From : 543454.0 140379.0 To : 0.049428572043433185 51.1447074000427
+2014-09-12 16:22:46 - OUT:    Preparing to export...
+2014-09-12 16:22:46 - OUT: KML exported successfully at : Point_Export.kml
+2014-09-12 16:35:40 - OUT: Exiting...
+2014-09-12 16:39:59 - OUT: Using EPSG file : EPSG_v8_2.csv
+2014-09-12 16:39:59 - OUT:       Populating combo boxes with 4534 items.
+2014-09-12 16:40:00 - OUT: Initialising UI...
+2014-09-12 16:40:01 - OUT:    Detected click on Browse Button 109961541
+2014-09-12 16:40:01 - OUT: Browsing for file...
+2014-09-12 16:40:06 - OUT:       Feature Source Hashcode = 390689829
+2014-09-12 16:40:06 - OUT:    Geometry Type : the_geom
+2014-09-12 16:40:06 - OUT:       Size of the Feature Collection : 5
+2014-09-12 16:40:06 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2014-09-12 16:40:06 - OUT:       Waiting for user input...
+2014-09-12 16:40:07 - OUT:       Now Parsing Feature with ID : 1
+2014-09-12 16:40:07 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:40:07 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2014-09-12 16:40:07 - OUT:          529408.0
+2014-09-12 16:40:07 - OUT:          155354.0
+2014-09-12 16:40:07 - OUT:       Now Parsing Feature with ID : 2
+2014-09-12 16:40:07 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:40:07 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2014-09-12 16:40:07 - OUT:          543522.0
+2014-09-12 16:40:07 - OUT:          140347.0
+2014-09-12 16:40:07 - OUT:       Now Parsing Feature with ID : 3
+2014-09-12 16:40:07 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:40:07 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2014-09-12 16:40:07 - OUT:          543471.0
+2014-09-12 16:40:07 - OUT:          140446.0
+2014-09-12 16:40:07 - OUT:       Now Parsing Feature with ID : 4
+2014-09-12 16:40:07 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:40:07 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2014-09-12 16:40:07 - OUT:          543465.0
+2014-09-12 16:40:07 - OUT:          153566.0
+2014-09-12 16:40:07 - OUT:       Now Parsing Feature with ID : 5
+2014-09-12 16:40:07 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:40:07 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2014-09-12 16:40:07 - OUT:          543454.0
+2014-09-12 16:40:07 - OUT:          140379.0
+2014-09-12 16:40:07 - OUT:    Exiting Shapefile Parser.
+2014-09-12 16:40:07 - OUT: Data Parsing Complete
+2014-09-12 16:40:07 - OUT:    Reference System is : British National Grid
+2014-09-12 16:40:07 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2014-09-12 16:40:09 - OUT: Starting KML export...
+2014-09-12 16:40:09 - OUT:    Created the KML document in memory.
+2014-09-12 16:40:09 - OUT:    Created the KML styles.
+2014-09-12 16:40:10 - OUT:        From : 529408.0 155354.0 To : -0.14585524539516262 51.2826356100346
+2014-09-12 16:40:10 - OUT:        From : 543522.0 140347.0 To : 0.05038728479539054 51.144402809990765
+2014-09-12 16:40:10 - OUT:        From : 543471.0 140446.0 To : 0.04969810927334914 51.14530522233094
+2014-09-12 16:40:10 - OUT:        From : 543465.0 153566.0 To : 0.05485309408196138 51.263204991658746
+2014-09-12 16:40:10 - OUT:        From : 543454.0 140379.0 To : 0.049428572043433185 51.1447074000427
+2014-09-12 16:40:10 - OUT:    Preparing to export...
+2014-09-12 16:40:11 - OUT: KML exported successfully at : Point_Export.kml
+2014-09-12 16:40:13 - OUT: Starting KML export...
+2014-09-12 16:40:13 - OUT:    Created the KML document in memory.
+2014-09-12 16:40:13 - OUT:    Created the KML styles.
+2014-09-12 16:40:13 - OUT:        From : 529408.0 155354.0 To : -0.14585524539516262 51.2826356100346
+2014-09-12 16:40:13 - OUT:        From : 543522.0 140347.0 To : 0.05038728479539054 51.144402809990765
+2014-09-12 16:40:13 - OUT:        From : 543471.0 140446.0 To : 0.04969810927334914 51.14530522233094
+2014-09-12 16:40:13 - OUT:        From : 543465.0 153566.0 To : 0.05485309408196138 51.263204991658746
+2014-09-12 16:40:13 - OUT:        From : 543454.0 140379.0 To : 0.049428572043433185 51.1447074000427
+2014-09-12 16:40:13 - OUT:    Preparing to export...
+2014-09-12 16:40:14 - OUT: KML exported successfully at : Point_Export.kml
+2014-09-12 16:40:21 - OUT: Exiting...
+2014-09-12 16:45:26 - OUT: Using EPSG file : EPSG_v8_2.csv
+2014-09-12 16:45:26 - OUT:       Populating combo boxes with 4534 items.
+2014-09-12 16:45:27 - OUT: Initialising UI...
+2014-09-12 16:45:28 - OUT:    Detected click on Browse Button 109961541
+2014-09-12 16:45:28 - OUT: Browsing for file...
+2014-09-12 16:45:33 - OUT:       Feature Source Hashcode = 390689829
+2014-09-12 16:45:33 - OUT:    Geometry Type : the_geom
+2014-09-12 16:45:33 - OUT:       Size of the Feature Collection : 5
+2014-09-12 16:45:33 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2014-09-12 16:45:33 - OUT:       Waiting for user input...
+2014-09-12 16:45:34 - OUT:       Now Parsing Feature with ID : 1
+2014-09-12 16:45:34 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:45:34 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2014-09-12 16:45:34 - OUT:          529408.0
+2014-09-12 16:45:34 - OUT:          155354.0
+2014-09-12 16:45:34 - OUT:       Now Parsing Feature with ID : 2
+2014-09-12 16:45:34 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:45:34 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2014-09-12 16:45:34 - OUT:          543522.0
+2014-09-12 16:45:34 - OUT:          140347.0
+2014-09-12 16:45:34 - OUT:       Now Parsing Feature with ID : 3
+2014-09-12 16:45:34 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:45:34 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2014-09-12 16:45:34 - OUT:          543471.0
+2014-09-12 16:45:34 - OUT:          140446.0
+2014-09-12 16:45:34 - OUT:       Now Parsing Feature with ID : 4
+2014-09-12 16:45:34 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:45:34 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2014-09-12 16:45:34 - OUT:          543465.0
+2014-09-12 16:45:34 - OUT:          153566.0
+2014-09-12 16:45:34 - OUT:       Now Parsing Feature with ID : 5
+2014-09-12 16:45:34 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:45:34 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2014-09-12 16:45:34 - OUT:          543454.0
+2014-09-12 16:45:34 - OUT:          140379.0
+2014-09-12 16:45:34 - OUT:    Exiting Shapefile Parser.
+2014-09-12 16:45:34 - OUT: Data Parsing Complete
+2014-09-12 16:45:34 - OUT:    Reference System is : British National Grid
+2014-09-12 16:45:34 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2014-09-12 16:45:37 - OUT: Starting KML export...
+2014-09-12 16:45:37 - OUT:    Created the KML document in memory.
+2014-09-12 16:45:37 - OUT:    Created the KML styles.
+2014-09-12 16:45:38 - OUT:        From : 529408.0 155354.0 To : -0.14585524539516262 51.2826356100346
+2014-09-12 16:45:38 - OUT:        From : 543522.0 140347.0 To : 0.05038728479539054 51.144402809990765
+2014-09-12 16:45:38 - OUT:        From : 543471.0 140446.0 To : 0.04969810927334914 51.14530522233094
+2014-09-12 16:45:38 - OUT:        From : 543465.0 153566.0 To : 0.05485309408196138 51.263204991658746
+2014-09-12 16:45:38 - OUT:        From : 543454.0 140379.0 To : 0.049428572043433185 51.1447074000427
+2014-09-12 16:45:38 - OUT:    Preparing to export...
+2014-09-12 16:45:41 - OUT: KML exported successfully at : C:\Users\Michael Fotiadis\Documents\1.kml
+2014-09-12 16:55:34 - OUT: Using EPSG file : EPSG_v8_2.csv
+2014-09-12 16:55:34 - OUT:       Populating combo boxes with 4534 items.
+2014-09-12 16:55:34 - OUT: Initialising UI...
+2014-09-12 16:55:35 - OUT:    Detected click on Browse Button 109961541
+2014-09-12 16:55:35 - OUT: Browsing for file...
+2014-09-12 16:55:45 - OUT:       Feature Source Hashcode = 390689829
+2014-09-12 16:55:45 - OUT:    Geometry Type : the_geom
+2014-09-12 16:55:45 - OUT:       Size of the Feature Collection : 5
+2014-09-12 16:55:45 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2014-09-12 16:55:45 - OUT:       Waiting for user input...
+2014-09-12 16:55:46 - OUT:       Now Parsing Feature with ID : 1
+2014-09-12 16:55:46 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:55:46 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2014-09-12 16:55:46 - OUT:          529408.0
+2014-09-12 16:55:46 - OUT:          155354.0
+2014-09-12 16:55:46 - OUT:       Now Parsing Feature with ID : 2
+2014-09-12 16:55:46 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:55:46 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2014-09-12 16:55:46 - OUT:          543522.0
+2014-09-12 16:55:46 - OUT:          140347.0
+2014-09-12 16:55:46 - OUT:       Now Parsing Feature with ID : 3
+2014-09-12 16:55:46 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:55:46 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2014-09-12 16:55:46 - OUT:          543471.0
+2014-09-12 16:55:46 - OUT:          140446.0
+2014-09-12 16:55:46 - OUT:       Now Parsing Feature with ID : 4
+2014-09-12 16:55:46 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:55:46 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2014-09-12 16:55:46 - OUT:          543465.0
+2014-09-12 16:55:46 - OUT:          153566.0
+2014-09-12 16:55:46 - OUT:       Now Parsing Feature with ID : 5
+2014-09-12 16:55:46 - OUT:          GEOMETRY TYPE Point
+2014-09-12 16:55:46 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2014-09-12 16:55:46 - OUT:          543454.0
+2014-09-12 16:55:46 - OUT:          140379.0
+2014-09-12 16:55:46 - OUT:    Exiting Shapefile Parser.
+2014-09-12 16:55:46 - OUT: Data Parsing Complete
+2014-09-12 16:55:46 - OUT:    Reference System is : British National Grid
+2014-09-12 16:55:46 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2014-09-12 16:55:49 - OUT: Starting KML export...
+2014-09-12 16:55:49 - OUT:    Created the KML document in memory.
+2014-09-12 16:55:49 - OUT:    Created the KML styles.
+2014-09-12 16:55:50 - OUT:        From : 529408.0 155354.0 To : -0.14585524539516262 51.2826356100346
+2014-09-12 16:55:50 - OUT:        From : 543522.0 140347.0 To : 0.05038728479539054 51.144402809990765
+2014-09-12 16:55:50 - OUT:        From : 543471.0 140446.0 To : 0.04969810927334914 51.14530522233094
+2014-09-12 16:55:50 - OUT:        From : 543465.0 153566.0 To : 0.05485309408196138 51.263204991658746
+2014-09-12 16:55:50 - OUT:        From : 543454.0 140379.0 To : 0.049428572043433185 51.1447074000427
+2014-09-12 16:55:50 - OUT:    Preparing to export...
+2014-09-12 16:55:52 - OUT: KML exported successfully at : C:\Users\Michael Fotiadis\Documents\2.kml
+2014-09-12 16:56:09 - OUT: Exiting...
+2014-09-12 17:20:22 - OUT: Using EPSG file : EPSG_v8_2.csv
+2014-09-12 17:20:22 - OUT:       Populating combo boxes with 4534 items.
+2014-09-12 17:20:23 - OUT: Initialising UI...
+2014-09-12 17:20:24 - OUT:    Detected click on Browse Button 109961541
+2014-09-12 17:20:24 - OUT: Browsing for file...
+2014-09-12 17:20:29 - OUT:       Feature Source Hashcode = 390689829
+2014-09-12 17:20:29 - OUT:    Geometry Type : the_geom
+2014-09-12 17:20:29 - OUT:       Size of the Feature Collection : 5
+2014-09-12 17:20:29 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2014-09-12 17:20:29 - OUT:       Waiting for user input...
+2014-09-12 17:20:30 - OUT:       Now Parsing Feature with ID : 1
+2014-09-12 17:20:30 - OUT:          GEOMETRY TYPE Point
+2014-09-12 17:20:30 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2014-09-12 17:20:30 - OUT:          529408.0
+2014-09-12 17:20:30 - OUT:          155354.0
+2014-09-12 17:20:31 - OUT:       Now Parsing Feature with ID : 2
+2014-09-12 17:20:31 - OUT:          GEOMETRY TYPE Point
+2014-09-12 17:20:31 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2014-09-12 17:20:31 - OUT:          543522.0
+2014-09-12 17:20:31 - OUT:          140347.0
+2014-09-12 17:20:31 - OUT:       Now Parsing Feature with ID : 3
+2014-09-12 17:20:31 - OUT:          GEOMETRY TYPE Point
+2014-09-12 17:20:31 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2014-09-12 17:20:31 - OUT:          543471.0
+2014-09-12 17:20:31 - OUT:          140446.0
+2014-09-12 17:20:31 - OUT:       Now Parsing Feature with ID : 4
+2014-09-12 17:20:31 - OUT:          GEOMETRY TYPE Point
+2014-09-12 17:20:31 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2014-09-12 17:20:31 - OUT:          543465.0
+2014-09-12 17:20:31 - OUT:          153566.0
+2014-09-12 17:20:31 - OUT:       Now Parsing Feature with ID : 5
+2014-09-12 17:20:31 - OUT:          GEOMETRY TYPE Point
+2014-09-12 17:20:31 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2014-09-12 17:20:31 - OUT:          543454.0
+2014-09-12 17:20:31 - OUT:          140379.0
+2014-09-12 17:20:31 - OUT:    Exiting Shapefile Parser.
+2014-09-12 17:20:31 - OUT: Data Parsing Complete
+2014-09-12 17:20:31 - OUT:    Reference System is : British National Grid
+2014-09-12 17:20:31 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2014-09-12 17:20:33 - OUT:    Detected click on ID List 1558600329
+2014-09-12 17:20:33 - OUT:    Selected Items: 4 
+2014-09-12 17:20:33 - OUT:    HashMapSize : 18
+2014-09-12 17:20:33 - OUT:          Status RESOLVED
+2014-09-12 17:20:33 - OUT:          Descriptio Ironwork - CW Broken Sunken > 40mm
+2014-09-12 17:20:33 - OUT:          POC Inspector
+2014-09-12 17:20:33 - OUT:          Assetnum 39501167
+2014-09-12 17:20:33 - OUT:          NEAR_FID -1
+2014-09-12 17:20:33 - OUT:          OBJECTID 4
+2014-09-12 17:20:33 - OUT:          Affectedpe MBARBER
+2014-09-12 17:20:33 - OUT:          Pluspcity LIMPSFIELD
+2014-09-12 17:20:33 - OUT:          Ticketid 292684
+2014-09-12 17:20:33 - OUT:          SR_Priorit 2
+2014-09-12 17:20:33 - OUT:          Reportdate Mon Jul 16 00:00:00 BST 2012
+2014-09-12 17:20:33 - OUT:          NEAR_DIST -1.0
+2014-09-12 17:20:33 - OUT:          X 543465.0
+2014-09-12 17:20:33 - OUT:          Y 153566.0
+2014-09-12 17:20:33 - OUT:          Pluspstadd WESTERHAM ROAD
+2014-09-12 17:20:33 - OUT:          Srdefect CW-IRWKBRK
+2014-09-12 17:20:33 - OUT:          USRN 39501167
+2014-09-12 17:20:33 - OUT:          SR_Prior_1 2.0
+2014-09-12 17:20:33 - OUT:    Detected click on ID List 1558600329
+2014-09-12 17:20:33 - OUT:    Selected Items: 3 
+2014-09-12 17:20:33 - OUT:    HashMapSize : 18
+2014-09-12 17:20:33 - OUT:          Status RESOLVED
+2014-09-12 17:20:33 - OUT:          Descriptio CW PH (dia > 150 mm) - >40 mm deep
+2014-09-12 17:20:33 - OUT:          POC Inspector
+2014-09-12 17:20:33 - OUT:          Assetnum 39500941
+2014-09-12 17:20:33 - OUT:          NEAR_FID -1
+2014-09-12 17:20:33 - OUT:          OBJECTID 3
+2014-09-12 17:20:33 - OUT:          Affectedpe MBARBER
+2014-09-12 17:20:33 - OUT:          Pluspcity EDENBRIDGE
+2014-09-12 17:20:33 - OUT:          Ticketid 333860
+2014-09-12 17:20:33 - OUT:          SR_Priorit 2
+2014-09-12 17:20:33 - OUT:          Reportdate Wed Nov 14 00:00:00 GMT 2012
+2014-09-12 17:20:33 - OUT:          NEAR_DIST -1.0
+2014-09-12 17:20:33 - OUT:          X 543471.0
+2014-09-12 17:20:33 - OUT:          Y 140446.0
+2014-09-12 17:20:33 - OUT:          Pluspstadd SMITHERS LANE
+2014-09-12 17:20:33 - OUT:          Srdefect CW-POTHOLE
+2014-09-12 17:20:33 - OUT:          USRN 39500941
+2014-09-12 17:20:33 - OUT:          SR_Prior_1 2.0
+2014-09-12 17:20:34 - OUT:    Detected click on ID List 1558600329
+2014-09-12 17:20:34 - OUT:    Selected Items: 1 
+2014-09-12 17:20:34 - OUT:    HashMapSize : 18
+2014-09-12 17:20:34 - OUT:          Status RESOLVED
+2014-09-12 17:20:34 - OUT:          Descriptio Ironwork - CW Broken Sunken > 40mm
+2014-09-12 17:20:34 - OUT:          POC Inspector
+2014-09-12 17:20:34 - OUT:          Assetnum 31200419
+2014-09-12 17:20:34 - OUT:          NEAR_FID -1
+2014-09-12 17:20:34 - OUT:          OBJECTID 1
+2014-09-12 17:20:34 - OUT:          Affectedpe JMCSPORRAN
+2014-09-12 17:20:34 - OUT:          Pluspcity MERSTHAM
+2014-09-12 17:20:34 - OUT:          Ticketid 307332
+2014-09-12 17:20:34 - OUT:          SR_Priorit 4
+2014-09-12 17:20:34 - OUT:          Reportdate Thu Aug 23 00:00:00 BST 2012
+2014-09-12 17:20:34 - OUT:          NEAR_DIST -1.0
+2014-09-12 17:20:34 - OUT:          X 529408.0
+2014-09-12 17:20:34 - OUT:          Y 155354.0
+2014-09-12 17:20:34 - OUT:          Pluspstadd DEAN LANE
+2014-09-12 17:20:34 - OUT:          Srdefect CW-IRWKBRK
+2014-09-12 17:20:34 - OUT:          USRN 31200419
+2014-09-12 17:20:34 - OUT:          SR_Prior_1 4.0
+2014-09-12 17:20:34 - OUT:    Detected click on ID List 1558600329
+2014-09-12 17:20:34 - OUT:    Selected Items: 2 
+2014-09-12 17:20:34 - OUT:    HashMapSize : 18
+2014-09-12 17:20:34 - OUT:          Status RESOLVED
+2014-09-12 17:20:34 - OUT:          Descriptio CW PH (dia > 150 mm) - >40 mm deep
+2014-09-12 17:20:34 - OUT:          POC Inspector
+2014-09-12 17:20:34 - OUT:          Assetnum 39500941
+2014-09-12 17:20:34 - OUT:          NEAR_FID -1
+2014-09-12 17:20:34 - OUT:          OBJECTID 2
+2014-09-12 17:20:34 - OUT:          Affectedpe MBARBER
+2014-09-12 17:20:34 - OUT:          Pluspcity EDENBRIDGE
+2014-09-12 17:20:34 - OUT:          Ticketid 266778
+2014-09-12 17:20:34 - OUT:          SR_Priorit 2
+2014-09-12 17:20:34 - OUT:          Reportdate Mon May 21 00:00:00 BST 2012
+2014-09-12 17:20:34 - OUT:          NEAR_DIST -1.0
+2014-09-12 17:20:34 - OUT:          X 543522.0
+2014-09-12 17:20:34 - OUT:          Y 140347.0
+2014-09-12 17:20:34 - OUT:          Pluspstadd SMITHERS LANE
+2014-09-12 17:20:35 - OUT:          Srdefect CW-POTHOLE
+2014-09-12 17:20:35 - OUT:          USRN 39500941
+2014-09-12 17:20:35 - OUT:          SR_Prior_1 2.0
+2014-09-12 17:20:35 - OUT:    Detected click on ID List 1558600329
+2014-09-12 17:20:35 - OUT:    Selected Items: 4 
+2014-09-12 17:20:35 - OUT:    HashMapSize : 18
+2014-09-12 17:20:35 - OUT:          Status RESOLVED
+2014-09-12 17:20:35 - OUT:          Descriptio Ironwork - CW Broken Sunken > 40mm
+2014-09-12 17:20:35 - OUT:          POC Inspector
+2014-09-12 17:20:35 - OUT:          Assetnum 39501167
+2014-09-12 17:20:35 - OUT:          NEAR_FID -1
+2014-09-12 17:20:35 - OUT:          OBJECTID 4
+2014-09-12 17:20:35 - OUT:          Affectedpe MBARBER
+2014-09-12 17:20:35 - OUT:          Pluspcity LIMPSFIELD
+2014-09-12 17:20:35 - OUT:          Ticketid 292684
+2014-09-12 17:20:35 - OUT:          SR_Priorit 2
+2014-09-12 17:20:35 - OUT:          Reportdate Mon Jul 16 00:00:00 BST 2012
+2014-09-12 17:20:35 - OUT:          NEAR_DIST -1.0
+2014-09-12 17:20:35 - OUT:          X 543465.0
+2014-09-12 17:20:35 - OUT:          Y 153566.0
+2014-09-12 17:20:35 - OUT:          Pluspstadd WESTERHAM ROAD
+2014-09-12 17:20:35 - OUT:          Srdefect CW-IRWKBRK
+2014-09-12 17:20:35 - OUT:          USRN 39501167
+2014-09-12 17:20:35 - OUT:          SR_Prior_1 2.0
+2014-09-12 17:20:35 - OUT:    Detected click on ID List 1558600329
+2014-09-12 17:20:35 - OUT:    Selected Items: 4 
+2014-09-12 17:20:35 - OUT:    HashMapSize : 18
+2014-09-12 17:20:35 - OUT:          Status RESOLVED
+2014-09-12 17:20:35 - OUT:          Descriptio Ironwork - CW Broken Sunken > 40mm
+2014-09-12 17:20:35 - OUT:          POC Inspector
+2014-09-12 17:20:35 - OUT:          Assetnum 39501167
+2014-09-12 17:20:35 - OUT:          NEAR_FID -1
+2014-09-12 17:20:35 - OUT:          OBJECTID 4
+2014-09-12 17:20:35 - OUT:          Affectedpe MBARBER
+2014-09-12 17:20:35 - OUT:          Pluspcity LIMPSFIELD
+2014-09-12 17:20:35 - OUT:          Ticketid 292684
+2014-09-12 17:20:35 - OUT:          SR_Priorit 2
+2014-09-12 17:20:35 - OUT:          Reportdate Mon Jul 16 00:00:00 BST 2012
+2014-09-12 17:20:35 - OUT:          NEAR_DIST -1.0
+2014-09-12 17:20:35 - OUT:          X 543465.0
+2014-09-12 17:20:35 - OUT:          Y 153566.0
+2014-09-12 17:20:35 - OUT:          Pluspstadd WESTERHAM ROAD
+2014-09-12 17:20:35 - OUT:          Srdefect CW-IRWKBRK
+2014-09-12 17:20:35 - OUT:          USRN 39501167
+2014-09-12 17:20:35 - OUT:          SR_Prior_1 2.0
+2014-09-12 17:20:37 - OUT:    Detected click on ID List 1558600329
+2014-09-12 17:20:37 - OUT:    Selected Items: 5 
+2014-09-12 17:20:37 - OUT:    HashMapSize : 18
+2014-09-12 17:20:37 - OUT:          Status RESOLVED
+2014-09-12 17:20:37 - OUT:          Descriptio CW PH (dia > 150 mm) - >40 mm deep
+2014-09-12 17:20:37 - OUT:          POC Inspector
+2014-09-12 17:20:37 - OUT:          Assetnum 39500941
+2014-09-12 17:20:37 - OUT:          NEAR_FID -1
+2014-09-12 17:20:37 - OUT:          OBJECTID 5
+2014-09-12 17:20:37 - OUT:          Affectedpe MBARBER
+2014-09-12 17:20:37 - OUT:          Pluspcity EDENBRIDGE
+2014-09-12 17:20:37 - OUT:          Ticketid 266769
+2014-09-12 17:20:37 - OUT:          SR_Priorit 2
+2014-09-12 17:20:37 - OUT:          Reportdate Mon May 21 00:00:00 BST 2012
+2014-09-12 17:20:37 - OUT:          NEAR_DIST -1.0
+2014-09-12 17:20:37 - OUT:          X 543454.0
+2014-09-12 17:20:37 - OUT:          Y 140379.0
+2014-09-12 17:20:37 - OUT:          Pluspstadd SMITHERS LANE
+2014-09-12 17:20:37 - OUT:          Srdefect CW-POTHOLE
+2014-09-12 17:20:37 - OUT:          USRN 39500941
+2014-09-12 17:20:37 - OUT:          SR_Prior_1 2.0
+2014-09-12 17:20:38 - OUT:    Displaying contents of file.
+2014-09-12 17:20:45 - OUT:    Displaying contents of file.
+2014-09-12 17:20:57 - OUT: Exiting...

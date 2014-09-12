@@ -1,8 +1,8 @@
 package containers.metadata;
 
 /**
- * 
- * @author Mike
+ * Interface for metadata
+ * @author Michael Fotiadis
  *
  */
 interface Metadata {

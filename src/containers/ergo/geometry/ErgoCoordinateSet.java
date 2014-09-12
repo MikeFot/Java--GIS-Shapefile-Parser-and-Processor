@@ -2,7 +2,7 @@ package containers.ergo.geometry;
 
 /**
  * 
- * @author Mike
+ * @author Michael Fotiadis
  *
  */
 public class ErgoCoordinateSet {

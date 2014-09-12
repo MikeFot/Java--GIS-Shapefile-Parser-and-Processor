@@ -10,11 +10,11 @@ import java.util.Date;
 
 import org.eclipse.swt.widgets.List;
 
-import userinterface.layouts.MainLayout;
+import userinterface.layouts.MainParserLayout;
 
 /**
  * 
- * @author Michael Fotiadis
+ * @author Michael Fotiadis & Alex Schillings
  *
  */
 public class Log {
@@ -164,7 +164,7 @@ public class Log {
 	
 	private static void logUI(int indent_level, String text) {
 		String indent = "";
-		List status = MainLayout.getSTATUS_LIST().ergoList;
+		List status = MainParserLayout.getSTATUS_LIST().ergoList;
 		if ( status != null) {
 			
 			switch (indent_level) {
@@ -179,7 +179,7 @@ public class Log {
 			status.setTopIndex(status.getItemCount() - 1); // ensure list always scrolls down
 		}
 		
-		MainLayout.getSTATUS_LIST().ergoList.redraw();
+		MainParserLayout.getSTATUS_LIST().ergoList.redraw();
 	}
 	
 }

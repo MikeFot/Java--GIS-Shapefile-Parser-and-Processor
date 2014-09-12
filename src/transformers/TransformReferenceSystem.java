@@ -15,6 +15,11 @@ import com.vividsolutions.jts.geom.Point;
 
 import containers.ergo.geometry.ErgoCoordinateSet;
 
+/**
+ * 
+ * @author Michael Fotiadis
+ *
+ */
 public class TransformReferenceSystem {
 
 	/**

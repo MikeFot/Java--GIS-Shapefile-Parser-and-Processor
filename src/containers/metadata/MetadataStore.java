@@ -4,8 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 
- * @author Mike
+ * Class for Maps containing metadata objects
+ * Implements Metadata interface
+ * @author Michael Fotiadis
  *
  */
 public abstract class MetadataStore implements Metadata {
@@ -29,7 +30,6 @@ public abstract class MetadataStore implements Metadata {
 		return stringMap.get(key);
 	}
 	
-//	@Override
 	public String[] getStringKeys(){
 		return stringMap.keySet().toArray(new String[1]);
 	}

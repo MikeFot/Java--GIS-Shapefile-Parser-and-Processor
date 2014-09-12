@@ -5,7 +5,7 @@ import org.eclipse.swt.widgets.Shell;
 
 /**
  * 
- * @author Mike
+ * @author Michael Fotiadis
  *
  */
 public class ErgoList {

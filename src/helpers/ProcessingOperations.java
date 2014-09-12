@@ -11,14 +11,14 @@ import containers.ergo.geometry.ErgoVertex;
  * @author Michael Fotiadis
  *
  */
-public class TableOperations {
+public class ProcessingOperations {
 
 	/**
-	 * 
-	 * @param polyline
-	 * @return
+	 * Converts an ErgoPolyline#s ErgoVertex list to a String array
+	 * @param polyline ErgoPolyline object to be processed
+	 * @return String array containing coordinates
 	 */
-	public String[] buildCoordList(ErgoPolyline polyline) {
+	public String[] buildCoordinateList(ErgoPolyline polyline) {
 
 		String[] coordinateTable = new String[polyline.getVertexList().size()];
 		int iter_CoordinateCount = 0;

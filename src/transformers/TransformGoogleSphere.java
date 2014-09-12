@@ -2,7 +2,7 @@ package transformers;
 
 /**
  * 
- * @author Mike
+ * @author Michael Fotiadis
  *
  */
 public class TransformGoogleSphere {

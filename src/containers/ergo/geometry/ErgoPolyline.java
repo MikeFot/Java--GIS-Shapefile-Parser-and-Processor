@@ -1,45 +1,42 @@
 package containers.ergo.geometry;
 
+import java.util.Collection;
 import java.util.List;
 
 import containers.metadata.MetadataStore;
 
 
 /**
- * Custom container class for objects containing 1++ MyVertex objects (stored in a collection). Supports storing metadata in a HashMap.
+ * Custom container class for objects containing 1++ MyVertex objects (stored in a collection). 
+ * Supports storing metadata in a HashMap through a MetadataStore.
  * @author Michael Fotiadis
  *
  */
 public class ErgoPolyline extends MetadataStore {
 
-	private final List<ErgoVertex> vertexList;
+	private final Collection<ErgoVertex> vertexList;
 	private final String id;
 	private final String type;
-	private final int vertexSize;
 	private int hasmhapSize = 0;
 	private String mReferenceSystem;
 
-	public ErgoPolyline (List<ErgoVertex> VertexList) {
-		this.vertexList = VertexList;
+	public <T extends Collection<ErgoVertex>> ErgoPolyline (T vertexList) {
+		this.vertexList = vertexList;
 		this.id = null;
 		this.type = null;
-		this.vertexSize = VertexList.size();
 	}
 
 
-	public ErgoPolyline (List<ErgoVertex> VertexList, String ID) {
-		this.vertexList = VertexList;
-		this.id = ID;
+	public <T extends Collection<ErgoVertex>> ErgoPolyline (T vertexList, String id) {
+		this.vertexList = vertexList;
+		this.id = id;
 		this.type = null;
-		this.vertexSize = VertexList.size();
-
 	}
 
-	public ErgoPolyline (List<ErgoVertex> VertexList, String ID, String Type) {
-		this.vertexList = VertexList;
-		this.id = ID;
-		this.type = Type;
-		this.vertexSize = VertexList.size();
+	public <T extends Collection<ErgoVertex>> ErgoPolyline (T vertexList, String id, String type) {
+		this.vertexList = vertexList;
+		this.id = id;
+		this.type = type;
 	}
 
 	public void setHashMapSize() {
@@ -49,20 +46,13 @@ public class ErgoPolyline extends MetadataStore {
 	public int getHashMapSize() {
 		return hasmhapSize;
 	}
-	
-	
-	
-	public int getSize() {
-		return vertexSize;
-	}
 
-	public List<ErgoVertex> getVertexList() {
+	public Collection<ErgoVertex> getVertexList() {
 		return vertexList;
 	}
 
-	public ErgoVertex getVertex(int Number) {
-		ErgoVertex singleVertex = vertexList.get(Number);
-		return singleVertex;
+	public ErgoVertex getVertex(int vertexIndex) {
+		return ((List<ErgoVertex>) vertexList).get(vertexIndex);
 	}
 
 	public String getID() {
@@ -92,7 +82,6 @@ public class ErgoPolyline extends MetadataStore {
 		return true;
 		
 	}
-
 
 	public String getReferenceSystem() {
 		return mReferenceSystem;

@@ -3,15 +3,15 @@ package helpers;
 import containers.ergo.geometry.ErgoPolyline;
 
 /**
- * Class containing methods to iterate through the properties of a MyPolyline object and print them
+ * Class containing methods to iterate through the properties of a custom ErgoPolyline object and print them
  * @author Michael Fotiadis
  * 
  */
 public class PrintFeatureProperties {
 
 	/**
-	 * Prints String properties from the MyPolyline HashMap
-	 * @param featurePolyline : The MyPolyline object whose properties will be printed
+	 * Prints String properties from the ErgoPolyline HashMap
+	 * @param featurePolyline : The ErgoPolyline object whose properties will be printed
 	 */
 	public static void PrintStringKeys (ErgoPolyline featurePolyline) {
 		// String Keys
@@ -24,8 +24,8 @@ public class PrintFeatureProperties {
 	}
 
 	/**
-	 * Prints Integer properties from the MyPolyline HashMap
-	 * @param featurePolyline : The MyPolyline object whose properties will be printed
+	 * Prints Integer properties from the ErgoPolyline HashMap
+	 * @param featurePolyline : The ErgoPolyline object whose properties will be printed
 	 */
 	public static void PrintIntegerKeys (ErgoPolyline featurePolyline) {
 		// String Keys
@@ -38,8 +38,8 @@ public class PrintFeatureProperties {
 	}
 
 	/**
-	 * Prints Double properties from the MyPolyline HashMap
-	 * @param featurePolyline : The MyPolyline object whose properties will be printed
+	 * Prints Double properties from the ErgoPolyline HashMap
+	 * @param featurePolyline : The ErgoPolyline object whose properties will be printed
 	 */
 	public static void PrintDoubleKeys (ErgoPolyline featurePolyline) {
 		// String Keys

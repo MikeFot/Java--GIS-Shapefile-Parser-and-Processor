@@ -28,26 +28,38 @@ import org.opengis.referencing.FactoryException;
 import util.system.Log;
 import constants.AppConstants;
 import containers.ergo.geometry.ErgoPolyline;
+import containers.ergo.geometry.ErgoShapefileGeometryType;
 import containers.ergo.geometry.ErgoVertex;
 import containers.file.ShapefileContainer;
 
+/**
+ * Class for parsing shapefiles
+ * @author Michael Fotiadis
+ *
+ */
 public class ParseShapefile {
 
 	private static boolean userChoice;
 	private ShapefileContainer shapefileContainer;
 
 
-	private boolean makeUserDialog(int fsSize, String shpPrintout) {
+	/**
+	 * Prompts the user for input on whether to proceed or not according to initial parsing results
+	 * @param parsedItemSize Number of items to be parsed
+	 * @param referenceSystemDescription String description of the reference system
+	 * @return True if proceeding, False if aborting
+	 */
+	private boolean makeUserDialog(int parsedItemSize, String referenceSystemDescription) {
 		Display.getDefault().syncExec(new Runnable() {
 
 			@Override
 			public void run() {
 				// Wait for user input before continuing
 				final int dialogButton = JOptionPane.YES_NO_OPTION;
-				int dialogResult = JOptionPane.showConfirmDialog (null, "Shapefile contains " + fsSize + 
+				int dialogResult = JOptionPane.showConfirmDialog (null, "Shapefile contains " + parsedItemSize + 
 						" items. \nThe geometry type is " + shapefileContainer.getGeometryType() +
-						". \nThe reference system is " + shpPrintout + 
-						".\n\nContinue parsing?","Valid Shapefile Detected",dialogButton);
+						". \nThe reference system is " + referenceSystemDescription + 
+						".\n\nContinue parsing?","Valid Shapefile Detected", dialogButton);
 
 				if (dialogResult == JOptionPane.NO_OPTION){
 					userChoice = false;
@@ -59,6 +71,13 @@ public class ParseShapefile {
 		return userChoice;
 	}
 
+	/**
+	 * Parses a shapefile to memory
+	 * Prompts user for input and proceeds to second stage parsing if true
+	 * @param shapeURL Location of the shapefile in URL format
+	 * @return ShapefileContainer custom object containing geometry and metadata. 
+	 * Returns null if operation failed.
+	 */
 	@SuppressWarnings("rawtypes")
 	public ShapefileContainer parseURLshapefile(final URL shapeURL) {
 
@@ -126,11 +145,15 @@ public class ParseShapefile {
 			return null;
 		}
 
-		switch (geom) {
-		case "Point" : shapefileContainer.setGeometryType("Point"); break;
-		case "MultiLineString" :  shapefileContainer.setGeometryType("Polyline"); break;
-		case "MultiPolygon" :  shapefileContainer.setGeometryType("Polygon");break;
-		default :  shapefileContainer.setGeometryType(geom); break;
+		// replace geometry types
+		if (geom.equals(ErgoShapefileGeometryType.POINT.toString())) {
+			shapefileContainer.setGeometryType(geom);
+		} else if (geom.equals(ErgoShapefileGeometryType.MULTI_LINE_STRING.toString())) {
+			 shapefileContainer.setGeometryType(ErgoShapefileGeometryType.POLYLINE.toString());
+		} else if (geom.equals(ErgoShapefileGeometryType.MULTI_POLYGON.toString())) {
+			 shapefileContainer.setGeometryType(ErgoShapefileGeometryType.POLYGON.toString());
+		} else {
+			shapefileContainer.setGeometryType(geom);
 		}
 
 		Log.Out("Size of the Feature Collection : " + fsSize, 2, true);
@@ -153,6 +176,12 @@ public class ParseShapefile {
 		return shapefileContainer;
 	}
 
+	/**
+	 * Second stage of shapefile parsing
+	 * @param featureSource Source of items to be parsed
+	 * @param shpReferenceSystem Reference System of the parsed shapefile
+	 * @return Collection of <ErgoPolyline> containing parsed objects
+	 */
 	@SuppressWarnings("rawtypes")
 	private static Collection<ErgoPolyline> secondStageParsing(FeatureSource featureSource, 
 			String shpReferenceSystem) {
@@ -180,7 +209,7 @@ public class ParseShapefile {
 			String[] splitGeomString = FeatureOperations.SplitGeometryString(geomType, geomValue);
 
 			// Collection of Vertices (MyVertex)
-			List<ErgoVertex> pointCollection = new ArrayList<ErgoVertex>(); 
+			Collection<ErgoVertex> pointCollection = new ArrayList<ErgoVertex>(); 
 
 			for (String coordinateSet : splitGeomString) {
 

@@ -11,6 +11,11 @@ import java.io.IOException;
 
 import javax.swing.JOptionPane;
 
+/**
+ * 
+ * @author Michael Fotiadis
+ *
+ */
 public class SystemOperations implements ClipboardOwner {
 
 	/**

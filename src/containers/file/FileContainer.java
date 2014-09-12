@@ -2,24 +2,24 @@ package containers.file;
 
 import java.io.File;
 
-import util.file.HelperOperations;
+import util.file.FileOperations;
 
 /**
- * 
+ * Object storing information about a parsed file
  * @author Michael Fotiadis
  *
  */
-public class FileVariables {
+public class FileContainer {
 
 	private String mFilePath;
 
-	public FileVariables(String filePath) {
+	public FileContainer(String filePath) {
 
 		this.mFilePath = filePath;
 
 	}
 
-	public FileVariables() {
+	public FileContainer() {
 		this.mFilePath = null;
 	}
 
@@ -34,7 +34,7 @@ public class FileVariables {
 	}
 
 	public File getPathAsFile() {
-		File shpFile = HelperOperations.convertURLtoFile(mFilePath);
+		File shpFile = new FileOperations().convertURLtoFile(mFilePath);
 		return shpFile;
 	}
 

@@ -1,5 +1,10 @@
 package containers.ergo.geometry;
 
+/**
+ * 
+ * @author Michael Fotiadis
+ *
+ */
 public class ErgoReferenceSystem {
 
 	private String ergoSystem;

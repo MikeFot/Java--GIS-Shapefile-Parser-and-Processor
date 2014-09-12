@@ -19,6 +19,28 @@ public class FileOperations {
 	private final String SHAPEFILE_DESCRIPTION = "ShapeFile";
 	private final String SHAPEFILE_EXTENSION = ".shp";
 
+	
+	public File saveSpecificFile(String extension) {
+
+		// Create a file chooser
+		JFileChooser fc = new JFileChooser();
+
+		if (extension.length() > 0) {
+
+			// Add a File Filter for DXF files only
+			FileFilter type = new ExtensionFilter(extension, extension);
+			fc.addChoosableFileFilter(type);
+			fc.setFileFilter(type);
+		}
+		int returnVal = fc.showSaveDialog(fc);
+
+		if (returnVal == JFileChooser.APPROVE_OPTION) {
+			return new File(fc.getSelectedFile().getAbsolutePath() + extension);
+		} else {
+			return null;
+		}
+	}
+	
 	/**
 	 * Opens a browser for shapefiles
 	 * @return Location of the user selected file in FILE format
@@ -42,6 +64,23 @@ public class FileOperations {
 		}
 	}
 
+	/**
+	 * 
+	 * @param pathURL : The URL filename
+	 * @return FILE object of the input filename
+	 */
+	public File convertURLtoFile(String pathURL) {
+		
+		String[] stringURL = pathURL.toString().split("file:/");
+		
+		System.out.println(stringURL[1]);
+		
+		File shpFile = new File(stringURL[1]);
+		
+		
+		return shpFile;
+		
+	}
 
 	/**
 	 * Opens a browser for shapefiles

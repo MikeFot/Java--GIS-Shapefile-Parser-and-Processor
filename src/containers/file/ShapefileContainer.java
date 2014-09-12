@@ -5,6 +5,11 @@ import java.util.Collection;
 
 import containers.ergo.geometry.ErgoPolyline;
 
+/**
+ * Object storing information about a parsed shapefile along with geometric data
+ * @author Michael Fotiadis
+ *
+ */
 public class ShapefileContainer {
 
 	
