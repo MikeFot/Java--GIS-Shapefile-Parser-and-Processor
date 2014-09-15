@@ -15035,3 +15035,498 @@
 2014-09-12 17:20:38 - OUT:    Displaying contents of file.
 2014-09-12 17:20:45 - OUT:    Displaying contents of file.
 2014-09-12 17:20:57 - OUT: Exiting...
+2014-09-15 09:00:21 - OUT: Using EPSG file : EPSG_v8_2.csv
+2014-09-15 09:00:21 - OUT:       Populating combo boxes with 4534 items.
+2014-09-15 09:00:22 - OUT: Initialising UI...
+2014-09-15 09:00:24 - OUT: Exiting...
+2014-09-15 10:39:48 - OUT: Using EPSG file : EPSG_v8_2.csv
+2014-09-15 10:39:48 - OUT:       Populating combo boxes with 4534 items.
+2014-09-15 10:39:48 - OUT: Initialising UI...
+2014-09-15 10:39:50 - OUT: Exiting...
+2014-09-15 10:47:30 - OUT: Using EPSG file : EPSG_v8_2.csv
+2014-09-15 10:47:30 - OUT:       Populating combo boxes with 4534 items.
+2014-09-15 10:47:30 - OUT: Initialising UI...
+2014-09-15 10:47:32 - OUT:    Detected click on Browse Button 109961541
+2014-09-15 10:47:32 - OUT: Browsing for file...
+2014-09-15 10:47:33 - ERR: No file selected.
+2014-09-15 10:47:34 - OUT: Exiting...
+2014-09-15 10:48:15 - OUT: Using EPSG file : EPSG_v8_2.csv
+2014-09-15 10:48:15 - OUT:       Populating combo boxes with 4534 items.
+2014-09-15 10:48:15 - OUT: Initialising UI...
+2014-09-15 10:48:16 - OUT:    Detected click on Browse Button 109961541
+2014-09-15 10:48:16 - OUT: Browsing for file...
+2014-09-15 10:48:23 - OUT:       Feature Source Hashcode = 268084911
+2014-09-15 10:48:23 - OUT:    Geometry Type : the_geom
+2014-09-15 10:48:23 - OUT:       Size of the Feature Collection : 5
+2014-09-15 10:48:23 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2014-09-15 10:48:23 - OUT:       Waiting for user input...
+2014-09-15 10:48:24 - OUT:       Now Parsing Feature with ID : 1
+2014-09-15 10:48:24 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:48:24 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2014-09-15 10:48:24 - OUT:          529408.0
+2014-09-15 10:48:24 - OUT:          155354.0
+2014-09-15 10:48:24 - OUT:       Now Parsing Feature with ID : 2
+2014-09-15 10:48:24 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:48:24 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2014-09-15 10:48:24 - OUT:          543522.0
+2014-09-15 10:48:24 - OUT:          140347.0
+2014-09-15 10:48:24 - OUT:       Now Parsing Feature with ID : 3
+2014-09-15 10:48:24 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:48:24 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2014-09-15 10:48:24 - OUT:          543471.0
+2014-09-15 10:48:24 - OUT:          140446.0
+2014-09-15 10:48:24 - OUT:       Now Parsing Feature with ID : 4
+2014-09-15 10:48:24 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:48:24 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2014-09-15 10:48:24 - OUT:          543465.0
+2014-09-15 10:48:24 - OUT:          153566.0
+2014-09-15 10:48:24 - OUT:       Now Parsing Feature with ID : 5
+2014-09-15 10:48:24 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:48:24 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2014-09-15 10:48:24 - OUT:          543454.0
+2014-09-15 10:48:24 - OUT:          140379.0
+2014-09-15 10:48:24 - OUT:    Exiting Shapefile Parser.
+2014-09-15 10:48:24 - OUT: Data Parsing Complete
+2014-09-15 10:48:24 - OUT:    Reference System is : British National Grid
+2014-09-15 10:48:24 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2014-09-15 10:48:27 - OUT:    Detected click on Export SQL Button 501263526
+2014-09-15 10:48:27 - OUT:    Status
+2014-09-15 10:48:27 - OUT:    Descriptio
+2014-09-15 10:48:27 - OUT:    POC
+2014-09-15 10:48:27 - OUT:    Assetnum
+2014-09-15 10:48:27 - OUT:    NEAR_FID
+2014-09-15 10:48:27 - OUT:    OBJECTID
+2014-09-15 10:48:27 - OUT:    Affectedpe
+2014-09-15 10:48:27 - OUT:    Pluspcity
+2014-09-15 10:48:27 - OUT:    Ticketid
+2014-09-15 10:48:27 - OUT:    SR_Priorit
+2014-09-15 10:48:27 - OUT:    Reportdate
+2014-09-15 10:48:27 - OUT:    NEAR_DIST
+2014-09-15 10:48:27 - OUT:    X
+2014-09-15 10:48:27 - OUT:    Y
+2014-09-15 10:48:27 - OUT:    Pluspstadd
+2014-09-15 10:48:27 - OUT:    Srdefect
+2014-09-15 10:48:27 - OUT:    USRN
+2014-09-15 10:48:27 - OUT:    SR_Prior_1
+2014-09-15 10:48:27 - OUT:    CREATE TABLE Sample_Defects (ID INT PRIMARY KEY NOT NULL,Status TEXT,Descriptio TEXT,POC TEXT,Assetnum TEXT,NEAR_FID TEXT,OBJECTID TEXT,Affectedpe TEXT,Pluspcity TEXT,Ticketid TEXT,SR_Priorit TEXT,Reportdate TEXT,NEAR_DIST TEXT,X TEXT,Y TEXT,Pluspstadd TEXT,Srdefect TEXT,USRN TEXT,SR_Prior_1 TEXT)
+2014-09-15 10:48:27 - OUT:    Creating Table Sample_Defects
+2014-09-15 10:48:27 - ERR:          java.lang.ClassNotFoundException: org.sqlite.JDBC
+2014-09-15 10:48:27 - ERR:          	at java.net.URLClassLoader$1.run(Unknown Source)
+2014-09-15 10:48:27 - ERR:          	at java.net.URLClassLoader$1.run(Unknown Source)
+2014-09-15 10:48:27 - ERR:          	at java.security.AccessController.doPrivileged(Native Method)
+2014-09-15 10:48:27 - ERR:          	at java.net.URLClassLoader.findClass(Unknown Source)
+2014-09-15 10:48:27 - ERR:          	at java.lang.ClassLoader.loadClass(Unknown Source)
+2014-09-15 10:48:27 - ERR:          	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+2014-09-15 10:48:27 - ERR:          	at java.lang.ClassLoader.loadClass(Unknown Source)
+2014-09-15 10:48:27 - ERR:          	at java.lang.Class.forName0(Native Method)
+2014-09-15 10:48:27 - ERR:          	at java.lang.Class.forName(Unknown Source)
+2014-09-15 10:48:27 - ERR:          	at com.michaelfotiadis.shpparser.datastore.Singleton.openConnection(Singleton.java:43)
+2014-09-15 10:48:27 - ERR:          	at com.michaelfotiadis.shpparser.export.sql.ExportSQL.makeTable(ExportSQL.java:47)
+2014-09-15 10:48:27 - ERR:          	at com.michaelfotiadis.shpparser.export.sql.ExportSQL.processCollection(ExportSQL.java:194)
+2014-09-15 10:48:27 - ERR:          	at com.michaelfotiadis.shpparser.userinterface.layouts.MainParserLayout.widgetSelected(MainParserLayout.java:720)
+2014-09-15 10:48:27 - ERR:          	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+2014-09-15 10:48:27 - ERR:          	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+2014-09-15 10:48:27 - ERR:          	at org.eclipse.swt.widgets.Display.sendEvent(Unknown Source)
+2014-09-15 10:48:27 - ERR:          	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+2014-09-15 10:48:27 - ERR:          	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+2014-09-15 10:48:27 - ERR:          	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+2014-09-15 10:48:27 - ERR:          	at com.michaelfotiadis.shpparser.userinterface.layouts.MainParserLayout.initUI(MainParserLayout.java:104)
+2014-09-15 10:48:27 - ERR:          	at com.michaelfotiadis.shpparser.main.MainMethod.main(MainMethod.java:16)
+2014-09-15 10:48:27 - ERR:          
+2014-09-15 10:50:39 - OUT: Using EPSG file : EPSG_v8_2.csv
+2014-09-15 10:50:39 - OUT:       Populating combo boxes with 4534 items.
+2014-09-15 10:50:39 - OUT: Initialising UI...
+2014-09-15 10:50:40 - OUT:    Detected click on Browse Button 109961541
+2014-09-15 10:50:40 - OUT: Browsing for file...
+2014-09-15 10:50:45 - OUT:       Feature Source Hashcode = 268084911
+2014-09-15 10:50:45 - OUT:    Geometry Type : the_geom
+2014-09-15 10:50:45 - OUT:       Size of the Feature Collection : 5
+2014-09-15 10:50:45 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2014-09-15 10:50:45 - OUT:       Waiting for user input...
+2014-09-15 10:50:46 - OUT:       Now Parsing Feature with ID : 1
+2014-09-15 10:50:46 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:50:46 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2014-09-15 10:50:46 - OUT:          529408.0
+2014-09-15 10:50:46 - OUT:          155354.0
+2014-09-15 10:50:46 - OUT:       Now Parsing Feature with ID : 2
+2014-09-15 10:50:46 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:50:46 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2014-09-15 10:50:46 - OUT:          543522.0
+2014-09-15 10:50:46 - OUT:          140347.0
+2014-09-15 10:50:46 - OUT:       Now Parsing Feature with ID : 3
+2014-09-15 10:50:46 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:50:46 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2014-09-15 10:50:46 - OUT:          543471.0
+2014-09-15 10:50:46 - OUT:          140446.0
+2014-09-15 10:50:46 - OUT:       Now Parsing Feature with ID : 4
+2014-09-15 10:50:46 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:50:46 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2014-09-15 10:50:46 - OUT:          543465.0
+2014-09-15 10:50:46 - OUT:          153566.0
+2014-09-15 10:50:46 - OUT:       Now Parsing Feature with ID : 5
+2014-09-15 10:50:46 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:50:46 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2014-09-15 10:50:46 - OUT:          543454.0
+2014-09-15 10:50:46 - OUT:          140379.0
+2014-09-15 10:50:46 - OUT:    Exiting Shapefile Parser.
+2014-09-15 10:50:46 - OUT: Data Parsing Complete
+2014-09-15 10:50:46 - OUT:    Reference System is : British National Grid
+2014-09-15 10:50:46 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2014-09-15 10:50:48 - OUT:    Detected click on Export SQL Button 501263526
+2014-09-15 10:50:48 - OUT:    Status
+2014-09-15 10:50:48 - OUT:    Descriptio
+2014-09-15 10:50:48 - OUT:    POC
+2014-09-15 10:50:48 - OUT:    Assetnum
+2014-09-15 10:50:48 - OUT:    NEAR_FID
+2014-09-15 10:50:48 - OUT:    OBJECTID
+2014-09-15 10:50:48 - OUT:    Affectedpe
+2014-09-15 10:50:48 - OUT:    Pluspcity
+2014-09-15 10:50:48 - OUT:    Ticketid
+2014-09-15 10:50:48 - OUT:    SR_Priorit
+2014-09-15 10:50:48 - OUT:    Reportdate
+2014-09-15 10:50:48 - OUT:    NEAR_DIST
+2014-09-15 10:50:48 - OUT:    X
+2014-09-15 10:50:48 - OUT:    Y
+2014-09-15 10:50:48 - OUT:    Pluspstadd
+2014-09-15 10:50:48 - OUT:    Srdefect
+2014-09-15 10:50:48 - OUT:    USRN
+2014-09-15 10:50:48 - OUT:    SR_Prior_1
+2014-09-15 10:50:48 - OUT:    CREATE TABLE Sample_Defects (ID INT PRIMARY KEY NOT NULL,Status TEXT,Descriptio TEXT,POC TEXT,Assetnum TEXT,NEAR_FID TEXT,OBJECTID TEXT,Affectedpe TEXT,Pluspcity TEXT,Ticketid TEXT,SR_Priorit TEXT,Reportdate TEXT,NEAR_DIST TEXT,X TEXT,Y TEXT,Pluspstadd TEXT,Srdefect TEXT,USRN TEXT,SR_Prior_1 TEXT)
+2014-09-15 10:50:48 - OUT:    Creating Table Sample_Defects
+2014-09-15 10:50:48 - ERR:          java.lang.ClassNotFoundException: org.sqlite.JDBC
+2014-09-15 10:50:48 - ERR:          	at java.net.URLClassLoader$1.run(Unknown Source)
+2014-09-15 10:50:48 - ERR:          	at java.net.URLClassLoader$1.run(Unknown Source)
+2014-09-15 10:50:48 - ERR:          	at java.security.AccessController.doPrivileged(Native Method)
+2014-09-15 10:50:48 - ERR:          	at java.net.URLClassLoader.findClass(Unknown Source)
+2014-09-15 10:50:48 - ERR:          	at java.lang.ClassLoader.loadClass(Unknown Source)
+2014-09-15 10:50:48 - ERR:          	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+2014-09-15 10:50:48 - ERR:          	at java.lang.ClassLoader.loadClass(Unknown Source)
+2014-09-15 10:50:48 - ERR:          	at java.lang.Class.forName0(Native Method)
+2014-09-15 10:50:48 - ERR:          	at java.lang.Class.forName(Unknown Source)
+2014-09-15 10:50:48 - ERR:          	at com.michaelfotiadis.shpparser.datastore.Singleton.openConnection(Singleton.java:43)
+2014-09-15 10:50:48 - ERR:          	at com.michaelfotiadis.shpparser.export.sql.ExportSQL.makeTable(ExportSQL.java:47)
+2014-09-15 10:50:48 - ERR:          	at com.michaelfotiadis.shpparser.export.sql.ExportSQL.processCollection(ExportSQL.java:194)
+2014-09-15 10:50:48 - ERR:          	at com.michaelfotiadis.shpparser.userinterface.layouts.MainParserLayout.widgetSelected(MainParserLayout.java:720)
+2014-09-15 10:50:48 - ERR:          	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+2014-09-15 10:50:48 - ERR:          	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+2014-09-15 10:50:48 - ERR:          	at org.eclipse.swt.widgets.Display.sendEvent(Unknown Source)
+2014-09-15 10:50:48 - ERR:          	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+2014-09-15 10:50:48 - ERR:          	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+2014-09-15 10:50:48 - ERR:          	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+2014-09-15 10:50:48 - ERR:          	at com.michaelfotiadis.shpparser.userinterface.layouts.MainParserLayout.initUI(MainParserLayout.java:104)
+2014-09-15 10:50:48 - ERR:          	at com.michaelfotiadis.shpparser.main.MainMethod.main(MainMethod.java:16)
+2014-09-15 10:50:48 - ERR:          
+2014-09-15 10:53:25 - OUT: Using EPSG file : EPSG_v8_2.csv
+2014-09-15 10:53:25 - OUT:       Populating combo boxes with 4534 items.
+2014-09-15 10:53:25 - OUT: Initialising UI...
+2014-09-15 10:53:26 - OUT:    Detected click on Browse Button 109961541
+2014-09-15 10:53:26 - OUT: Browsing for file...
+2014-09-15 10:53:36 - OUT:       Feature Source Hashcode = 829149076
+2014-09-15 10:53:36 - OUT:    Geometry Type : the_geom
+2014-09-15 10:53:36 - OUT:       Size of the Feature Collection : 5
+2014-09-15 10:53:36 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2014-09-15 10:53:36 - OUT:       Waiting for user input...
+2014-09-15 10:53:38 - OUT:       Now Parsing Feature with ID : 1
+2014-09-15 10:53:38 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:53:38 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2014-09-15 10:53:38 - OUT:          529408.0
+2014-09-15 10:53:38 - OUT:          155354.0
+2014-09-15 10:53:38 - OUT:       Now Parsing Feature with ID : 2
+2014-09-15 10:53:38 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:53:38 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2014-09-15 10:53:38 - OUT:          543522.0
+2014-09-15 10:53:38 - OUT:          140347.0
+2014-09-15 10:53:38 - OUT:       Now Parsing Feature with ID : 3
+2014-09-15 10:53:38 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:53:38 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2014-09-15 10:53:38 - OUT:          543471.0
+2014-09-15 10:53:38 - OUT:          140446.0
+2014-09-15 10:53:38 - OUT:       Now Parsing Feature with ID : 4
+2014-09-15 10:53:38 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:53:38 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2014-09-15 10:53:38 - OUT:          543465.0
+2014-09-15 10:53:38 - OUT:          153566.0
+2014-09-15 10:53:38 - OUT:       Now Parsing Feature with ID : 5
+2014-09-15 10:53:38 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:53:38 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2014-09-15 10:53:38 - OUT:          543454.0
+2014-09-15 10:53:38 - OUT:          140379.0
+2014-09-15 10:53:38 - OUT:    Exiting Shapefile Parser.
+2014-09-15 10:53:38 - OUT: Data Parsing Complete
+2014-09-15 10:53:38 - OUT:    Reference System is : British National Grid
+2014-09-15 10:53:38 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2014-09-15 10:53:42 - OUT:    Detected click on Export SQL Button 501263526
+2014-09-15 10:53:42 - OUT:    Status
+2014-09-15 10:53:42 - OUT:    Descriptio
+2014-09-15 10:53:42 - OUT:    POC
+2014-09-15 10:53:42 - OUT:    Assetnum
+2014-09-15 10:53:42 - OUT:    NEAR_FID
+2014-09-15 10:53:42 - OUT:    OBJECTID
+2014-09-15 10:53:42 - OUT:    Affectedpe
+2014-09-15 10:53:42 - OUT:    Pluspcity
+2014-09-15 10:53:42 - OUT:    Ticketid
+2014-09-15 10:53:42 - OUT:    SR_Priorit
+2014-09-15 10:53:42 - OUT:    Reportdate
+2014-09-15 10:53:42 - OUT:    NEAR_DIST
+2014-09-15 10:53:42 - OUT:    X
+2014-09-15 10:53:42 - OUT:    Y
+2014-09-15 10:53:42 - OUT:    Pluspstadd
+2014-09-15 10:53:42 - OUT:    Srdefect
+2014-09-15 10:53:42 - OUT:    USRN
+2014-09-15 10:53:42 - OUT:    SR_Prior_1
+2014-09-15 10:53:42 - OUT:    CREATE TABLE Sample_Defects (ID INT PRIMARY KEY NOT NULL,Status TEXT,Descriptio TEXT,POC TEXT,Assetnum TEXT,NEAR_FID TEXT,OBJECTID TEXT,Affectedpe TEXT,Pluspcity TEXT,Ticketid TEXT,SR_Priorit TEXT,Reportdate TEXT,NEAR_DIST TEXT,X TEXT,Y TEXT,Pluspstadd TEXT,Srdefect TEXT,USRN TEXT,SR_Prior_1 TEXT)
+2014-09-15 10:53:42 - OUT:    Creating Table Sample_Defects
+2014-09-15 10:53:42 - ERR:          java.sql.SQLException: path to '../GIS-Parser/database/Database_SQLite.db': 'C:\Users\Michael Fotiadis\git\ShapeFileParserAndProcessor\..\GIS-Parser' does not exist
+2014-09-15 10:53:42 - ERR:          	at org.sqlite.Conn.open(Conn.java:103)
+2014-09-15 10:53:42 - ERR:          	at org.sqlite.Conn.<init>(Conn.java:57)
+2014-09-15 10:53:42 - ERR:          	at org.sqlite.JDBC.createConnection(JDBC.java:77)
+2014-09-15 10:53:42 - ERR:          	at org.sqlite.JDBC.connect(JDBC.java:64)
+2014-09-15 10:53:42 - ERR:          	at java.sql.DriverManager.getConnection(Unknown Source)
+2014-09-15 10:53:42 - ERR:          	at java.sql.DriverManager.getConnection(Unknown Source)
+2014-09-15 10:53:42 - ERR:          	at com.michaelfotiadis.shpparser.datastore.Singleton.openConnection(Singleton.java:44)
+2014-09-15 10:53:42 - ERR:          	at com.michaelfotiadis.shpparser.export.sql.ExportSQL.makeTable(ExportSQL.java:47)
+2014-09-15 10:53:42 - ERR:          	at com.michaelfotiadis.shpparser.export.sql.ExportSQL.processCollection(ExportSQL.java:194)
+2014-09-15 10:53:42 - ERR:          	at com.michaelfotiadis.shpparser.userinterface.layouts.MainParserLayout.widgetSelected(MainParserLayout.java:720)
+2014-09-15 10:53:42 - ERR:          	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+2014-09-15 10:53:42 - ERR:          	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+2014-09-15 10:53:42 - ERR:          	at org.eclipse.swt.widgets.Display.sendEvent(Unknown Source)
+2014-09-15 10:53:42 - ERR:          	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+2014-09-15 10:53:42 - ERR:          	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+2014-09-15 10:53:42 - ERR:          	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+2014-09-15 10:53:42 - ERR:          	at com.michaelfotiadis.shpparser.userinterface.layouts.MainParserLayout.initUI(MainParserLayout.java:104)
+2014-09-15 10:53:42 - ERR:          	at com.michaelfotiadis.shpparser.main.MainMethod.main(MainMethod.java:16)
+2014-09-15 10:53:42 - ERR:          
+2014-09-15 10:57:51 - OUT: Using EPSG file : EPSG_v8_2.csv
+2014-09-15 10:57:51 - OUT:       Populating combo boxes with 4534 items.
+2014-09-15 10:57:51 - OUT: Initialising UI...
+2014-09-15 10:57:53 - OUT:    Detected click on Browse Button 109961541
+2014-09-15 10:57:53 - OUT: Browsing for file...
+2014-09-15 10:57:57 - OUT:       Feature Source Hashcode = 829149076
+2014-09-15 10:57:57 - OUT:    Geometry Type : the_geom
+2014-09-15 10:57:57 - OUT:       Size of the Feature Collection : 5
+2014-09-15 10:57:57 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2014-09-15 10:57:57 - OUT:       Waiting for user input...
+2014-09-15 10:57:59 - OUT:       Now Parsing Feature with ID : 1
+2014-09-15 10:57:59 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:57:59 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2014-09-15 10:57:59 - OUT:          529408.0
+2014-09-15 10:57:59 - OUT:          155354.0
+2014-09-15 10:57:59 - OUT:       Now Parsing Feature with ID : 2
+2014-09-15 10:57:59 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:57:59 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2014-09-15 10:57:59 - OUT:          543522.0
+2014-09-15 10:57:59 - OUT:          140347.0
+2014-09-15 10:57:59 - OUT:       Now Parsing Feature with ID : 3
+2014-09-15 10:57:59 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:57:59 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2014-09-15 10:57:59 - OUT:          543471.0
+2014-09-15 10:57:59 - OUT:          140446.0
+2014-09-15 10:57:59 - OUT:       Now Parsing Feature with ID : 4
+2014-09-15 10:57:59 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:57:59 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2014-09-15 10:57:59 - OUT:          543465.0
+2014-09-15 10:57:59 - OUT:          153566.0
+2014-09-15 10:57:59 - OUT:       Now Parsing Feature with ID : 5
+2014-09-15 10:57:59 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:57:59 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2014-09-15 10:57:59 - OUT:          543454.0
+2014-09-15 10:57:59 - OUT:          140379.0
+2014-09-15 10:57:59 - OUT:    Exiting Shapefile Parser.
+2014-09-15 10:57:59 - OUT: Data Parsing Complete
+2014-09-15 10:57:59 - OUT:    Reference System is : British National Grid
+2014-09-15 10:57:59 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2014-09-15 10:58:03 - OUT:    Detected click on Export SQL Button 501263526
+2014-09-15 10:58:03 - OUT:    Status
+2014-09-15 10:58:03 - OUT:    Descriptio
+2014-09-15 10:58:03 - OUT:    POC
+2014-09-15 10:58:03 - OUT:    Assetnum
+2014-09-15 10:58:03 - OUT:    NEAR_FID
+2014-09-15 10:58:03 - OUT:    OBJECTID
+2014-09-15 10:58:03 - OUT:    Affectedpe
+2014-09-15 10:58:03 - OUT:    Pluspcity
+2014-09-15 10:58:03 - OUT:    Ticketid
+2014-09-15 10:58:03 - OUT:    SR_Priorit
+2014-09-15 10:58:03 - OUT:    Reportdate
+2014-09-15 10:58:03 - OUT:    NEAR_DIST
+2014-09-15 10:58:03 - OUT:    X
+2014-09-15 10:58:03 - OUT:    Y
+2014-09-15 10:58:03 - OUT:    Pluspstadd
+2014-09-15 10:58:03 - OUT:    Srdefect
+2014-09-15 10:58:03 - OUT:    USRN
+2014-09-15 10:58:03 - OUT:    SR_Prior_1
+2014-09-15 10:58:03 - OUT:    CREATE TABLE Sample_Defects (ID INT PRIMARY KEY NOT NULL,Status TEXT,Descriptio TEXT,POC TEXT,Assetnum TEXT,NEAR_FID TEXT,OBJECTID TEXT,Affectedpe TEXT,Pluspcity TEXT,Ticketid TEXT,SR_Priorit TEXT,Reportdate TEXT,NEAR_DIST TEXT,X TEXT,Y TEXT,Pluspstadd TEXT,Srdefect TEXT,USRN TEXT,SR_Prior_1 TEXT)
+2014-09-15 10:58:03 - OUT:    Creating Table Sample_Defects
+2014-09-15 10:58:03 - ERR:          java.sql.SQLException: path to '../output/Database_SQLite.db': 'C:\Users\Michael Fotiadis\git\ShapeFileParserAndProcessor\..\output' does not exist
+2014-09-15 10:58:03 - ERR:          	at org.sqlite.Conn.open(Conn.java:103)
+2014-09-15 10:58:03 - ERR:          	at org.sqlite.Conn.<init>(Conn.java:57)
+2014-09-15 10:58:03 - ERR:          	at org.sqlite.JDBC.createConnection(JDBC.java:77)
+2014-09-15 10:58:03 - ERR:          	at org.sqlite.JDBC.connect(JDBC.java:64)
+2014-09-15 10:58:03 - ERR:          	at java.sql.DriverManager.getConnection(Unknown Source)
+2014-09-15 10:58:03 - ERR:          	at java.sql.DriverManager.getConnection(Unknown Source)
+2014-09-15 10:58:03 - ERR:          	at com.michaelfotiadis.shpparser.datastore.Singleton.openConnection(Singleton.java:41)
+2014-09-15 10:58:03 - ERR:          	at com.michaelfotiadis.shpparser.export.sql.ExportSQL.makeTable(ExportSQL.java:47)
+2014-09-15 10:58:03 - ERR:          	at com.michaelfotiadis.shpparser.export.sql.ExportSQL.processCollection(ExportSQL.java:186)
+2014-09-15 10:58:03 - ERR:          	at com.michaelfotiadis.shpparser.userinterface.layouts.MainParserLayout.widgetSelected(MainParserLayout.java:720)
+2014-09-15 10:58:03 - ERR:          	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+2014-09-15 10:58:03 - ERR:          	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+2014-09-15 10:58:03 - ERR:          	at org.eclipse.swt.widgets.Display.sendEvent(Unknown Source)
+2014-09-15 10:58:03 - ERR:          	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+2014-09-15 10:58:03 - ERR:          	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+2014-09-15 10:58:03 - ERR:          	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+2014-09-15 10:58:03 - ERR:          	at com.michaelfotiadis.shpparser.userinterface.layouts.MainParserLayout.initUI(MainParserLayout.java:104)
+2014-09-15 10:58:03 - ERR:          	at com.michaelfotiadis.shpparser.main.MainMethod.main(MainMethod.java:16)
+2014-09-15 10:58:03 - ERR:          
+2014-09-15 10:58:23 - OUT: Using EPSG file : EPSG_v8_2.csv
+2014-09-15 10:58:23 - OUT:       Populating combo boxes with 4534 items.
+2014-09-15 10:58:24 - OUT: Initialising UI...
+2014-09-15 10:58:25 - OUT:    Detected click on Browse Button 109961541
+2014-09-15 10:58:25 - OUT: Browsing for file...
+2014-09-15 10:58:29 - OUT:       Feature Source Hashcode = 1866850137
+2014-09-15 10:59:02 - OUT: Using EPSG file : EPSG_v8_2.csv
+2014-09-15 10:59:02 - OUT:       Populating combo boxes with 4534 items.
+2014-09-15 10:59:03 - OUT: Initialising UI...
+2014-09-15 10:59:04 - OUT:    Detected click on Browse Button 109961541
+2014-09-15 10:59:04 - OUT: Browsing for file...
+2014-09-15 10:59:27 - OUT:       Feature Source Hashcode = 829149076
+2014-09-15 10:59:27 - OUT:    Geometry Type : the_geom
+2014-09-15 10:59:27 - OUT:       Size of the Feature Collection : 5
+2014-09-15 10:59:27 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2014-09-15 10:59:27 - OUT:       Waiting for user input...
+2014-09-15 10:59:28 - OUT:       Now Parsing Feature with ID : 1
+2014-09-15 10:59:28 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:59:28 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2014-09-15 10:59:28 - OUT:          529408.0
+2014-09-15 10:59:28 - OUT:          155354.0
+2014-09-15 10:59:28 - OUT:       Now Parsing Feature with ID : 2
+2014-09-15 10:59:28 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:59:28 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2014-09-15 10:59:28 - OUT:          543522.0
+2014-09-15 10:59:28 - OUT:          140347.0
+2014-09-15 10:59:28 - OUT:       Now Parsing Feature with ID : 3
+2014-09-15 10:59:28 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:59:28 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2014-09-15 10:59:28 - OUT:          543471.0
+2014-09-15 10:59:28 - OUT:          140446.0
+2014-09-15 10:59:28 - OUT:       Now Parsing Feature with ID : 4
+2014-09-15 10:59:28 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:59:28 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2014-09-15 10:59:28 - OUT:          543465.0
+2014-09-15 10:59:28 - OUT:          153566.0
+2014-09-15 10:59:28 - OUT:       Now Parsing Feature with ID : 5
+2014-09-15 10:59:28 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:59:28 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2014-09-15 10:59:28 - OUT:          543454.0
+2014-09-15 10:59:28 - OUT:          140379.0
+2014-09-15 10:59:28 - OUT:    Exiting Shapefile Parser.
+2014-09-15 10:59:28 - OUT: Data Parsing Complete
+2014-09-15 10:59:28 - OUT:    Reference System is : British National Grid
+2014-09-15 10:59:28 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2014-09-15 10:59:31 - OUT:    Detected click on Export SQL Button 501263526
+2014-09-15 10:59:31 - OUT:    Status
+2014-09-15 10:59:31 - OUT:    Descriptio
+2014-09-15 10:59:31 - OUT:    POC
+2014-09-15 10:59:31 - OUT:    Assetnum
+2014-09-15 10:59:31 - OUT:    NEAR_FID
+2014-09-15 10:59:31 - OUT:    OBJECTID
+2014-09-15 10:59:31 - OUT:    Affectedpe
+2014-09-15 10:59:31 - OUT:    Pluspcity
+2014-09-15 10:59:31 - OUT:    Ticketid
+2014-09-15 10:59:31 - OUT:    SR_Priorit
+2014-09-15 10:59:31 - OUT:    Reportdate
+2014-09-15 10:59:31 - OUT:    NEAR_DIST
+2014-09-15 10:59:31 - OUT:    X
+2014-09-15 10:59:31 - OUT:    Y
+2014-09-15 10:59:31 - OUT:    Pluspstadd
+2014-09-15 10:59:31 - OUT:    Srdefect
+2014-09-15 10:59:31 - OUT:    USRN
+2014-09-15 10:59:31 - OUT:    SR_Prior_1
+2014-09-15 10:59:31 - OUT:    CREATE TABLE Sample_Defects (ID INT PRIMARY KEY NOT NULL,Status TEXT,Descriptio TEXT,POC TEXT,Assetnum TEXT,NEAR_FID TEXT,OBJECTID TEXT,Affectedpe TEXT,Pluspcity TEXT,Ticketid TEXT,SR_Priorit TEXT,Reportdate TEXT,NEAR_DIST TEXT,X TEXT,Y TEXT,Pluspstadd TEXT,Srdefect TEXT,USRN TEXT,SR_Prior_1 TEXT)
+2014-09-15 10:59:31 - OUT:    Creating Table Sample_Defects
+2014-09-15 10:59:31 - ERR:          java.sql.SQLException: path to '/output/Database_SQLite.db': 'C:\output' does not exist
+2014-09-15 10:59:31 - ERR:          	at org.sqlite.Conn.open(Conn.java:103)
+2014-09-15 10:59:31 - ERR:          	at org.sqlite.Conn.<init>(Conn.java:57)
+2014-09-15 10:59:31 - ERR:          	at org.sqlite.JDBC.createConnection(JDBC.java:77)
+2014-09-15 10:59:31 - ERR:          	at org.sqlite.JDBC.connect(JDBC.java:64)
+2014-09-15 10:59:31 - ERR:          	at java.sql.DriverManager.getConnection(Unknown Source)
+2014-09-15 10:59:31 - ERR:          	at java.sql.DriverManager.getConnection(Unknown Source)
+2014-09-15 10:59:31 - ERR:          	at com.michaelfotiadis.shpparser.datastore.Singleton.openConnection(Singleton.java:41)
+2014-09-15 10:59:31 - ERR:          	at com.michaelfotiadis.shpparser.export.sql.ExportSQL.makeTable(ExportSQL.java:47)
+2014-09-15 10:59:31 - ERR:          	at com.michaelfotiadis.shpparser.export.sql.ExportSQL.processCollection(ExportSQL.java:186)
+2014-09-15 10:59:31 - ERR:          	at com.michaelfotiadis.shpparser.userinterface.layouts.MainParserLayout.widgetSelected(MainParserLayout.java:720)
+2014-09-15 10:59:31 - ERR:          	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+2014-09-15 10:59:31 - ERR:          	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+2014-09-15 10:59:31 - ERR:          	at org.eclipse.swt.widgets.Display.sendEvent(Unknown Source)
+2014-09-15 10:59:31 - ERR:          	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+2014-09-15 10:59:31 - ERR:          	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+2014-09-15 10:59:31 - ERR:          	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+2014-09-15 10:59:31 - ERR:          	at com.michaelfotiadis.shpparser.userinterface.layouts.MainParserLayout.initUI(MainParserLayout.java:104)
+2014-09-15 10:59:31 - ERR:          	at com.michaelfotiadis.shpparser.main.MainMethod.main(MainMethod.java:16)
+2014-09-15 10:59:31 - ERR:          
+2014-09-15 10:59:47 - OUT: Using EPSG file : EPSG_v8_2.csv
+2014-09-15 10:59:47 - OUT:       Populating combo boxes with 4534 items.
+2014-09-15 10:59:48 - OUT: Initialising UI...
+2014-09-15 10:59:49 - OUT:    Detected click on Browse Button 109961541
+2014-09-15 10:59:49 - OUT: Browsing for file...
+2014-09-15 10:59:55 - OUT:       Feature Source Hashcode = 829149076
+2014-09-15 10:59:55 - OUT:    Geometry Type : the_geom
+2014-09-15 10:59:55 - OUT:       Size of the Feature Collection : 5
+2014-09-15 10:59:55 - OUT:        Feature Class BoundariesReferencedEnvelope[529408.0 : 543522.0, 140347.0 : 155354.0]
+2014-09-15 10:59:56 - OUT:       Waiting for user input...
+2014-09-15 10:59:56 - OUT:       Now Parsing Feature with ID : 1
+2014-09-15 10:59:56 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:59:56 - OUT:          GEOMETRY VALUE POINT (529408 155354)
+2014-09-15 10:59:56 - OUT:          529408.0
+2014-09-15 10:59:56 - OUT:          155354.0
+2014-09-15 10:59:56 - OUT:       Now Parsing Feature with ID : 2
+2014-09-15 10:59:56 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:59:56 - OUT:          GEOMETRY VALUE POINT (543522 140347)
+2014-09-15 10:59:56 - OUT:          543522.0
+2014-09-15 10:59:56 - OUT:          140347.0
+2014-09-15 10:59:56 - OUT:       Now Parsing Feature with ID : 3
+2014-09-15 10:59:56 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:59:56 - OUT:          GEOMETRY VALUE POINT (543471 140446)
+2014-09-15 10:59:56 - OUT:          543471.0
+2014-09-15 10:59:56 - OUT:          140446.0
+2014-09-15 10:59:56 - OUT:       Now Parsing Feature with ID : 4
+2014-09-15 10:59:56 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:59:56 - OUT:          GEOMETRY VALUE POINT (543465 153566)
+2014-09-15 10:59:56 - OUT:          543465.0
+2014-09-15 10:59:56 - OUT:          153566.0
+2014-09-15 10:59:56 - OUT:       Now Parsing Feature with ID : 5
+2014-09-15 10:59:56 - OUT:          GEOMETRY TYPE Point
+2014-09-15 10:59:56 - OUT:          GEOMETRY VALUE POINT (543454 140379)
+2014-09-15 10:59:56 - OUT:          543454.0
+2014-09-15 10:59:56 - OUT:          140379.0
+2014-09-15 10:59:56 - OUT:    Exiting Shapefile Parser.
+2014-09-15 10:59:57 - OUT: Data Parsing Complete
+2014-09-15 10:59:57 - OUT:    Reference System is : British National Grid
+2014-09-15 10:59:57 - OUT:    Selected OSGB 1936 / British National Grid (EPSG: 27700 , projected)
+2014-09-15 11:00:00 - OUT:    Detected click on Export SQL Button 501263526
+2014-09-15 11:00:00 - OUT:    Status
+2014-09-15 11:00:00 - OUT:    Descriptio
+2014-09-15 11:00:00 - OUT:    POC
+2014-09-15 11:00:00 - OUT:    Assetnum
+2014-09-15 11:00:00 - OUT:    NEAR_FID
+2014-09-15 11:00:00 - OUT:    OBJECTID
+2014-09-15 11:00:00 - OUT:    Affectedpe
+2014-09-15 11:00:00 - OUT:    Pluspcity
+2014-09-15 11:00:00 - OUT:    Ticketid
+2014-09-15 11:00:00 - OUT:    SR_Priorit
+2014-09-15 11:00:00 - OUT:    Reportdate
+2014-09-15 11:00:00 - OUT:    NEAR_DIST
+2014-09-15 11:00:00 - OUT:    X
+2014-09-15 11:00:00 - OUT:    Y
+2014-09-15 11:00:00 - OUT:    Pluspstadd
+2014-09-15 11:00:00 - OUT:    Srdefect
+2014-09-15 11:00:00 - OUT:    USRN
+2014-09-15 11:00:00 - OUT:    SR_Prior_1
+2014-09-15 11:00:00 - OUT:    CREATE TABLE Sample_Defects (ID INT PRIMARY KEY NOT NULL,Status TEXT,Descriptio TEXT,POC TEXT,Assetnum TEXT,NEAR_FID TEXT,OBJECTID TEXT,Affectedpe TEXT,Pluspcity TEXT,Ticketid TEXT,SR_Priorit TEXT,Reportdate TEXT,NEAR_DIST TEXT,X TEXT,Y TEXT,Pluspstadd TEXT,Srdefect TEXT,USRN TEXT,SR_Prior_1 TEXT)
+2014-09-15 11:00:00 - OUT:    Creating Table Sample_Defects
+2014-09-15 11:00:00 - OUT:    Created Table with Result 0
+2014-09-15 11:00:00 - OUT:    Insert Schema is INSERT OR IGNORE INTO Sample_Defects (ID ,Status ,Descriptio ,POC ,Assetnum ,NEAR_FID ,OBJECTID ,Affectedpe ,Pluspcity ,Ticketid ,SR_Priorit ,Reportdate ,NEAR_DIST ,X ,Y ,Pluspstadd ,Srdefect ,USRN ,SR_Prior_1) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+2014-09-15 11:00:00 - OUT:       Received 1 for object com.michaelfotiadis.shpparser.containers.ergo.geometry.ErgoPolyline@221a3fa4
+2014-09-15 11:00:00 - OUT:       Received 2 for object com.michaelfotiadis.shpparser.containers.ergo.geometry.ErgoPolyline@3e08ff24
+2014-09-15 11:00:00 - OUT:       Received 3 for object com.michaelfotiadis.shpparser.containers.ergo.geometry.ErgoPolyline@4d1c005e
+2014-09-15 11:00:00 - OUT:       Received 4 for object com.michaelfotiadis.shpparser.containers.ergo.geometry.ErgoPolyline@8462f31
+2014-09-15 11:00:00 - OUT:       Received 5 for object com.michaelfotiadis.shpparser.containers.ergo.geometry.ErgoPolyline@24569dba
+2014-09-15 11:00:13 - OUT: Exiting...
