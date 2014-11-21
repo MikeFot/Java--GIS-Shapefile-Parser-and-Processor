@@ -80,9 +80,15 @@ public class ParseShapefile {
 	@SuppressWarnings("rawtypes")
 	public ShapefileContainer parseURLshapefile(final URL shapeURL) {
 
+		
+		
 		shapefileContainer = new ShapefileContainer();
 
-		final String shpReferenceSystem;
+		Thread parserThread = new Thread() {
+			
+		};
+		
+		String shpReferenceSystem;
 
 		final Map<String, URL> map = new HashMap<String, URL>();
 		map.put( "url", shapeURL );
@@ -108,24 +114,33 @@ public class ParseShapefile {
 			if (shpReferenceSystem.equals(com.michaelfotiadis.shpparser.constants.AppConstants.USER_PREFERRED_CRS)) {
 				shapefileContainer.setEpsgCode(AppConstants.USER_PREFERRED_EPSG);
 			} else {
-				try {
-					shapefileContainer.setEpsgCode(
-							CRS.lookupEpsgCode(spatialFeatureType.getCoordinateReferenceSystem(), true));
-				} catch (FactoryException eFactory) {
-					Log.Exception(eFactory, 0);
-					eFactory.printStackTrace();
-					shapefileContainer.setEpsgCode(0);
-				} // store the EPSG code
+				if (spatialFeatureType.getCoordinateReferenceSystem() != null) {
+					try {
+						shapefileContainer.setEpsgCode(
+								CRS.lookupEpsgCode(spatialFeatureType.getCoordinateReferenceSystem(), true));
+					} catch (FactoryException eFactory) {
+						Log.Exception(eFactory, 0);
+						shpReferenceSystem = "Not Defined";
+						shapefileContainer.setVerboseCRS("Not Defined");
+						shapefileContainer.setEpsgCode(0);
+					} catch (NullPointerException e) {
+						Log.Exception(e, 0);
+						shpReferenceSystem = "Not Defined";
+						shapefileContainer.setVerboseCRS("Not Defined");
+						shapefileContainer.setEpsgCode(0);
+					}
+				} else {
+					shpReferenceSystem = "Not Defined";
+					shapefileContainer.setVerboseCRS("Not Defined");
+				}
 			}
 		} else {
 			shpReferenceSystem = "Not Defined";
 			shapefileContainer.setVerboseCRS("Not Defined");
 		}
 
-		
-
 		// e.g. prints "Points"
-		Log.Out("Geometry Type : " + spatialFeatureType.getGeometryDescriptor().getName() , 1, false); 
+//		Log.Out("Geometry Type : " + spatialFeatureType.getGeometryDescriptor().getName() , 1, false); 
 		FeatureCollection fsShape;
 		try {
 			fsShape = featureSource.getFeatures();
@@ -150,9 +165,9 @@ public class ParseShapefile {
 		if (geom.equals(ErgoShapefileGeometryType.POINT.toString())) {
 			shapefileContainer.setGeometryType(geom);
 		} else if (geom.equals(ErgoShapefileGeometryType.MULTI_LINE_STRING.toString())) {
-			 shapefileContainer.setGeometryType(ErgoShapefileGeometryType.POLYLINE.toString());
+			shapefileContainer.setGeometryType(ErgoShapefileGeometryType.POLYLINE.toString());
 		} else if (geom.equals(ErgoShapefileGeometryType.MULTI_POLYGON.toString())) {
-			 shapefileContainer.setGeometryType(ErgoShapefileGeometryType.POLYGON.toString());
+			shapefileContainer.setGeometryType(ErgoShapefileGeometryType.POLYGON.toString());
 		} else {
 			shapefileContainer.setGeometryType(geom);
 		}
@@ -199,13 +214,13 @@ public class ParseShapefile {
 
 		while (featureCollectionA.hasNext()) {
 			Feature featureA = featureCollectionA.next();
-			Log.Out("Now Parsing Feature with ID : " + featureA.getIdentifier().toString().substring(featureA.getIdentifier().toString().indexOf('.')+1) , 2, true);
+//			Log.Out("Now Parsing Feature with ID : " + featureA.getIdentifier().toString().substring(featureA.getIdentifier().toString().indexOf('.')+1) , 2, true);
 
 			String geomType = featureA.getDefaultGeometryProperty().getType().getName().toString();
 			String geomValue = featureA.getDefaultGeometryProperty().getValue().toString();
 
-			Log.Out("GEOMETRY TYPE " + geomType , 3 , false);
-			Log.Out("GEOMETRY VALUE " + geomValue , 3, false);
+//			Log.Out("GEOMETRY TYPE " + geomType , 3 , false);
+//			Log.Out("GEOMETRY VALUE " + geomValue , 3, false);
 
 			String[] splitGeomString = FeatureOperations.SplitGeometryString(geomType, geomValue);
 
@@ -223,7 +238,7 @@ public class ParseShapefile {
 					if (!singleCoordinate.isEmpty()) { // check because parsing may have failed
 						doubleCoordinateList.add(Double.parseDouble(singleCoordinate));
 					} else {
-						Log.Err("Warning: Empty Coordinate Detected.", 1, false);
+						//						Log.Err("Warning: Empty Coordinate Detected.", 1, false);
 					}
 				}
 
@@ -231,15 +246,15 @@ public class ParseShapefile {
 
 					double raw_X_Coordinate = doubleCoordinateList.get(0);
 					double raw_Y_Coordinate = doubleCoordinateList.get(1);
-					Log.Out(String.valueOf(raw_X_Coordinate) , 3, false);
-					Log.Out(String.valueOf(raw_Y_Coordinate) , 3, false);
+					//					Log.Out(String.valueOf(raw_X_Coordinate) , 3, false);
+					//					Log.Out(String.valueOf(raw_Y_Coordinate) , 3, false);
 
 					ErgoVertex vertex2D = new ErgoVertex(raw_X_Coordinate, raw_Y_Coordinate);
 					vertex2D.setReferenceSystem(shpReferenceSystem);
 					pointCollection.add(vertex2D);
 
 				} else {
-					Log.Err("Warning: Generated Coordinate Array with less than 2 entries.", 0, false);
+					//					Log.Err("Warning: Generated Coordinate Array with less than 2 entries.", 0, false);
 				}
 
 			} // finish iterating coordinates
@@ -250,29 +265,36 @@ public class ParseShapefile {
 
 			// HASHMAP FROM HERE ON NOW
 			for (Property singleProperty : featureA.getProperties()) {
-				String propertyName = singleProperty.getName().toString();
-				String propertyValue = singleProperty.getValue().toString();
-				String propertyType = singleProperty.getType().getBinding().getSimpleName().toString();
-
-				// TODO handle this properly
-				propertyType = "String"; // OVERRIDE
-
-				// add exception for DATES and convert them to String
-				if (!propertyType.equalsIgnoreCase("String") && !propertyType.equalsIgnoreCase("Double") && !propertyType.equalsIgnoreCase("Integer")  ) {
-					propertyType = "String";
-				}
-
-				if (!propertyName.equalsIgnoreCase("the_geom")) { // skip the_geom
-					// Write to HashMap and get recorded value
-					String valueToMap = new FeatureOperations().CreateHashMapEntry(featurePolyline, propertyType, propertyValue, propertyName);
-
-					if (valueToMap != null) {
-						//				Log.Out(" Wrote " + propertyType + " value \"" + returnFromHashmap + "\" for field \"" + propertyName + "\"");
-						featurePolyline.setHashMapSize();
-					} else {
-						Log.Err(" Property " + propertyName + " of type " + propertyType + " has not been added.", 1, false);
+				if (singleProperty != null) {
+					String propertyName = singleProperty.getName().toString();
+					String propertyValue;
+					try {
+						propertyValue = singleProperty.getValue().toString();
+					} catch (NullPointerException e) {
+						propertyValue = "";
 					}
-					featurePolyline.setReferenceSystem(shpReferenceSystem);
+					String propertyType = singleProperty.getType().getBinding().getSimpleName().toString();
+
+					// TODO handle this properly
+					propertyType = "String"; // OVERRIDE
+
+					// add exception for DATES and convert them to String
+					if (!propertyType.equalsIgnoreCase("String") && !propertyType.equalsIgnoreCase("Double") && !propertyType.equalsIgnoreCase("Integer")  ) {
+						propertyType = "String";
+					}
+
+					if (!propertyName.equalsIgnoreCase("the_geom")) { // skip the_geom
+						// Write to HashMap and get recorded value
+						String valueToMap = new FeatureOperations().CreateHashMapEntry(featurePolyline, propertyType, propertyValue, propertyName);
+
+						if (valueToMap != null) {
+							//				Log.Out(" Wrote " + propertyType + " value \"" + returnFromHashmap + "\" for field \"" + propertyName + "\"");
+							featurePolyline.setHashMapSize();
+						} else {
+							//						Log.Err(" Property " + propertyName + " of type " + propertyType + " has not been added.", 1, false);
+						}
+						featurePolyline.setReferenceSystem(shpReferenceSystem);
+					}
 				}
 			} // end iterate property list
 

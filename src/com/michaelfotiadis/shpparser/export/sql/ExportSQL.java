@@ -34,7 +34,50 @@ import com.michaelfotiadis.shpparser.util.system.Log;
  */
 public class ExportSQL {
     
-    
+    public void insertDataToTable(int ID, ErgoPolyline line, String schema) {
+        PreparedStatement prepStmt = null;
+        
+        try {
+            // use a prepared statement to avoid injections
+            
+            Log.Out("Received " + ID + " for object " + line, 2, true);
+            
+            
+            prepStmt = Singleton.getConnection().prepareStatement(schema);
+            
+            int countColumn = 1;
+            
+            // set ? variables by index order
+            prepStmt.setInt(countColumn, ID);
+            
+            // add coordinates
+            countColumn ++;
+            prepStmt.setString(countColumn, line.getVertexListAsString());
+            
+            for (String key : line.getStringKeys()) {
+                countColumn++;
+                prepStmt.setString(countColumn, String.valueOf(line.getString(key)));
+                
+            }
+            
+            // get 0 or 1, depending on success
+            int result = prepStmt.executeUpdate();
+            
+        } catch (SQLException e) {
+            // TODO Auto-generated catch block
+            Log.Exception(e, 1);
+            
+        } finally {
+            // close statement
+            if (prepStmt != null)
+                try {
+                    prepStmt.close();
+                    
+                } catch (SQLException logOrIgnore) {
+                }
+        }
+        
+    }
     
     public boolean makeTable(String text) {
         
@@ -65,87 +108,6 @@ public class ExportSQL {
         }
     }
     
-    public Result<Record> selectQuery(String dbTable, String fieldColumn, String fieldValue) {
-        
-        try {
-            // Open the connection - requires try/catch
-            Singleton.getConnection().setAutoCommit(false);
-            Singleton.getConnection().setReadOnly(true);
-            
-            // Make a new context
-            DSLContext create = DSL.using(Singleton.getConnection(), SQLDialect.SQLITE);
-            
-            Table<?> mTable = DSL.table(dbTable);
-            Field<Object> mColumn = DSL.field(fieldColumn);
-            
-            SelectQuery<Record> query;
-            
-            if(fieldColumn == null || fieldValue == null) {
-                query = create.selectQuery();
-                query.addFrom(mTable);
-            } else {
-                Field<Object> mValue = DSL.field(fieldValue);
-                query = create.selectQuery();
-                query.addFrom(mTable);
-                query.addConditions(mColumn.equal(mValue));
-            }
-            
-            Result<Record> result = query.fetch();
-            Singleton.closeConnection();
-            return result;
-            
-        } catch (SQLException | DataAccessException e) {
-            System.err.println(e.getClass().getName() + ": " + e.getMessage());
-            Singleton.closeConnection();
-            System.exit(0);
-        }
-        return null;
-    }
-    
-    public void insertDataToTable(int ID, ErgoPolyline line, String schema) {
-        PreparedStatement prepStmt = null;
-        
-        try {
-            // use a prepared statement to avoid injections
-            
-            Log.Out("Received " + ID + " for object " + line, 2, true);
-            
-            
-            prepStmt = Singleton.getConnection().prepareStatement(schema);
-            
-            int countColumn = 1;
-            
-            // set ? variables by index order
-            prepStmt.setInt(countColumn, ID);
-            
-            for (String key : line.getStringKeys()) {
-                countColumn++;
-                prepStmt.setString(countColumn, String.valueOf(line.getString(key)));
-                
-            }
-            
-            // get 0 or 1, depending on success
-            int result = prepStmt.executeUpdate();
-            
-        } catch (SQLException e) {
-            // TODO Auto-generated catch block
-            Log.Exception(e, 1);
-            
-        } finally {
-            // close statement
-            if (prepStmt != null)
-                try {
-                    prepStmt.close();
-                    
-                } catch (SQLException logOrIgnore) {
-                }
-        }
-        
-    }
-    
-    
-    
-    
     public void processCollection(Collection<ErgoPolyline> collection, String fileName) {
         
         String mFileName = fileName.replaceAll(".shp", "");
@@ -156,10 +118,10 @@ public class ExportSQL {
         
         queryStringBuilder.append("CREATE TABLE ");
         queryStringBuilder.append(mFileName);
-        queryStringBuilder.append(" (ID INT PRIMARY KEY NOT NULL");
+        queryStringBuilder.append(" (ID INT PRIMARY KEY NOT NULL, COORDINATES TEXT");
         
-        schemaStringBuilder.append("(ID");
-        valueStringBulder.append("VALUES(?");
+        schemaStringBuilder.append("(ID, COORDINATES");
+        valueStringBulder.append("VALUES(?,?");
         
         boolean firstPass = true;
         
@@ -209,6 +171,43 @@ public class ExportSQL {
         	 Singleton.closeConnection();
         }
         
+    }
+    
+    public Result<Record> selectQuery(String dbTable, String fieldColumn, String fieldValue) {
+        
+        try {
+            // Open the connection - requires try/catch
+            Singleton.getConnection().setAutoCommit(false);
+            Singleton.getConnection().setReadOnly(true);
+            
+            // Make a new context
+            DSLContext create = DSL.using(Singleton.getConnection(), SQLDialect.SQLITE);
+            
+            Table<?> mTable = DSL.table(dbTable);
+            Field<Object> mColumn = DSL.field(fieldColumn);
+            
+            SelectQuery<Record> query;
+            
+            if(fieldColumn == null || fieldValue == null) {
+                query = create.selectQuery();
+                query.addFrom(mTable);
+            } else {
+                Field<Object> mValue = DSL.field(fieldValue);
+                query = create.selectQuery();
+                query.addFrom(mTable);
+                query.addConditions(mColumn.equal(mValue));
+            }
+            
+            Result<Record> result = query.fetch();
+            Singleton.closeConnection();
+            return result;
+            
+        } catch (SQLException | DataAccessException e) {
+            System.err.println(e.getClass().getName() + ": " + e.getMessage());
+            Singleton.closeConnection();
+            System.exit(0);
+        }
+        return null;
     }
     
 }

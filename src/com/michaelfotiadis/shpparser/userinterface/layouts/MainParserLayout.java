@@ -86,7 +86,7 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 	private Shell infoShell;
 
 	private boolean searchShellCreated = false;
-	private Display display;
+	private static Display display;
 
 	private static ErgoReferenceSet REFERENCE_SETS = new ErgoReferenceSet();
 
@@ -96,13 +96,13 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 	public void initUI() {
 		display = new Display();
 
-		final Shell mainShell = new MainParserLayout().addMainShell(display);
+		final Shell mainShell = new MainParserLayout().addMainShell(getDisplay());
 
 		mainShell.open();
 		Log.Out("Initialising UI...", 0, true);
 		while (!mainShell.isDisposed()) {
-			if (!display.readAndDispatch())
-				display.sleep();
+			if (!getDisplay().readAndDispatch())
+				getDisplay().sleep();
 		}
 	}
 
@@ -745,6 +745,11 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 			return null;
 		}
 
+	}
+
+
+	public static Display getDisplay() {
+		return display;
 	}
 
 }

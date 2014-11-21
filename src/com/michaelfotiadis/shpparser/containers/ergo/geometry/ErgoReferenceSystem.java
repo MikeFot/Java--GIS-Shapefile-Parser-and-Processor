@@ -1,7 +1,7 @@
 package com.michaelfotiadis.shpparser.containers.ergo.geometry;
 
 /**
- * 
+ * Class for storing the properties of a Reference System
  * @author Michael Fotiadis
  *
  */

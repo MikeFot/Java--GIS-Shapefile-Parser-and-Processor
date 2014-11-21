@@ -42,7 +42,7 @@ public class ErgoPolyline extends MetadataStore {
 	public void setHashMapSize() {
 		this.hasmhapSize ++;
 	}
-	
+
 	public int getHashMapSize() {
 		return hasmhapSize;
 	}
@@ -58,7 +58,21 @@ public class ErgoPolyline extends MetadataStore {
 	public String getID() {
 		return id;
 	}
+	
+	// integer for defining maximum decimals
+	private final int DECIMAL_LIMIT = 6;
 
+	public String getVertexListAsString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("\"");
+		for (ErgoVertex vertex : getVertexList()) {
+			builder.append(vertex.getXasDouble(DECIMAL_LIMIT));
+			builder.append(",");
+			builder.append(vertex.getYasDouble(DECIMAL_LIMIT));
+		}
+		builder.append("\"");
+		return builder.toString();
+	}
 
 	public String getType() {
 		return type;
@@ -66,7 +80,7 @@ public class ErgoPolyline extends MetadataStore {
 
 	@Override
 	public boolean equals(Object obj) {
-		
+
 		if (this == obj)
 			return true;
 		if (obj == null)
@@ -80,7 +94,7 @@ public class ErgoPolyline extends MetadataStore {
 		} else if (!vertexList .equals(other.vertexList ))
 			return false;
 		return true;
-		
+
 	}
 
 	public String getReferenceSystem() {

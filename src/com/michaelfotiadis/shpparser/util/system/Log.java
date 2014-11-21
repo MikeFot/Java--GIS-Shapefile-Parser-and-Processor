@@ -163,23 +163,26 @@ public class Log {
 	}
 	
 	private static void logUI(int indent_level, String text) {
-		String indent = "";
+
 		List status = MainParserLayout.getSTATUS_LIST().ergoList;
-		if ( status != null) {
-			
-			switch (indent_level) {
-			case 0 : indent = "";
-			case 1 : indent = " ";
-			case 2 : indent = "  ";
-			case 3 : indent = "   ";
-			default : indent = "";
-			}
-			
-			status.add(indent + text);
-			status.setTopIndex(status.getItemCount() - 1); // ensure list always scrolls down
+		if ( status != null && MainParserLayout.getDisplay() != null) {
+			MainParserLayout.getDisplay().asyncExec(new Runnable() {
+				@Override
+				public void run() {
+					String indent = "";
+					switch (indent_level) {
+					case 0 : indent = "";
+					case 1 : indent = " ";
+					case 2 : indent = "  ";
+					case 3 : indent = "   ";
+					default : indent = "";
+					}
+					status.add(indent + text);
+					status.setTopIndex(status.getItemCount() - 1); // ensure list always scrolls down
+					MainParserLayout.getSTATUS_LIST().ergoList.redraw();
+				}
+			});
+
 		}
-		
-		MainParserLayout.getSTATUS_LIST().ergoList.redraw();
 	}
-	
 }
