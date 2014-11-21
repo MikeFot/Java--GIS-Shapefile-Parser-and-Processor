@@ -65,7 +65,15 @@ public class ErgoPolyline extends MetadataStore {
 	public String getVertexListAsString() {
 		StringBuilder builder = new StringBuilder();
 		builder.append("\"");
+		boolean firstLine = true;
+		
 		for (ErgoVertex vertex : getVertexList()) {
+			// add an extra comma
+			if (!firstLine) {
+				builder.append(",");
+			} else {
+				firstLine = false;
+			}
 			builder.append(vertex.getXasDouble(DECIMAL_LIMIT));
 			builder.append(",");
 			builder.append(vertex.getYasDouble(DECIMAL_LIMIT));
