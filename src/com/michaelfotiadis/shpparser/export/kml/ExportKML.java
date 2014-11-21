@@ -9,7 +9,6 @@ import javax.swing.JOptionPane;
 
 import org.apache.commons.lang3.ArrayUtils;
 
-import com.michaelfotiadis.shpparser.constants.AppConstants;
 import com.michaelfotiadis.shpparser.containers.ergo.geometry.ErgoPolyline;
 import com.michaelfotiadis.shpparser.containers.ergo.geometry.ErgoReferenceSystem;
 import com.michaelfotiadis.shpparser.containers.ergo.geometry.ErgoShapefileGeometryType;
@@ -41,6 +40,8 @@ import de.micromata.opengis.kml.v_2_2_0.Style;
 public class ExportKML {
 
 	private boolean didOperationSucceed;
+	private File kmlFile;
+	private Kml mKML;
 
 	/**
 	 * Exports geometry collection to KML
@@ -54,7 +55,7 @@ public class ExportKML {
 			final ErgoReferenceSystem sourceCRS) {
 
 		Log.Out("Starting KML export..." , 0 , true);
-		final Kml mKML = new Kml();
+		mKML = new Kml();
 		final String geometry = shapefileContainer.getGeometryType();
 
 		Document document;
@@ -83,7 +84,7 @@ public class ExportKML {
 
 		Log.Out("Created the KML styles." , 1, false);
 		Long totalCount = (long) shapefileContainer.getGeometryCollection().size();
-		
+
 		Log.Out("Source CRS is " + sourceCRS.getSystem(), 1, false);
 		ErgoReferenceSystem targetCRS = new ErgoReferenceSystem(new CoordinateSystemsContainer().getWGS_84_2D_LAT_LON(), "geographic 2D");
 		Log.Out("Target CRS is " + targetCRS.getSystem(), 1, false);
@@ -93,7 +94,7 @@ public class ExportKML {
 			Log.Out("Transformation needs to be performed", 1, false);
 			doTransformation = true;
 		}
-		
+
 		for (ErgoPolyline currentPolyline : shapefileContainer.getGeometryCollection()) {
 			String vID;
 			double vCoord1;
@@ -102,7 +103,7 @@ public class ExportKML {
 			vID = currentPolyline.getID();
 
 			Log.Out(" Exporting " + vID + " of " + totalCount, 2, true);
-			
+
 			Placemark mPlacemark = document.createAndAddPlacemark().withName(
 					vID);
 			ExtendedData mExtendedData = new ExtendedData();
@@ -123,7 +124,7 @@ public class ExportKML {
 
 			mPlacemark.setExtendedData(mExtendedData);
 
-	
+
 
 			if (geometry.equals(ErgoShapefileGeometryType.POLYLINE.toString())) {
 				LineString mLine = mPlacemark.createAndSetLineString();
@@ -132,9 +133,9 @@ public class ExportKML {
 					if (doTransformation) {
 						vCoord1 = vertex.getWGSCoordinates(sourceCRS).getC2();
 						vCoord2 = vertex.getWGSCoordinates(sourceCRS).getC1();
-//						String export = " From : " + vertex.getXasDouble() + " " 
-//								+ vertex.getYasDouble() + " To : " + vCoord1 + " " + vCoord2;
-//						Log.Out(export , 2, true);
+						//						String export = " From : " + vertex.getXasDouble() + " " 
+						//								+ vertex.getYasDouble() + " To : " + vCoord1 + " " + vCoord2;
+						//						Log.Out(export , 2, true);
 					} else {
 						vCoord1 = vertex.getXasDouble();
 						vCoord2 = vertex.getYasDouble();
@@ -150,9 +151,9 @@ public class ExportKML {
 					if (doTransformation) {
 						vCoord1 = vertex.getWGSCoordinates(sourceCRS).getC2();
 						vCoord2 = vertex.getWGSCoordinates(sourceCRS).getC1();
-//						String export = " From : " + vertex.getXasDouble() + " " 
-//								+ vertex.getYasDouble() + " To : " + vCoord1 + " " + vCoord2;
-//						Log.Out(export , 2, true);
+						//						String export = " From : " + vertex.getXasDouble() + " " 
+						//								+ vertex.getYasDouble() + " To : " + vCoord1 + " " + vCoord2;
+						//						Log.Out(export , 2, true);
 					} else {
 						vCoord1 = vertex.getXasDouble();
 						vCoord2 = vertex.getYasDouble();
@@ -166,23 +167,23 @@ public class ExportKML {
 				if (doTransformation) {
 					vCoord1 = vertex.getWGSCoordinates(sourceCRS).getC2();
 					vCoord2 = vertex.getWGSCoordinates(sourceCRS).getC1();
-//					String export = " From : " + vertex.getXasDouble() + " " 
-//							+ vertex.getYasDouble() + " To : " + vCoord1 + " " + vCoord2;
-//					Log.Out(export , 2, true);
+					//					String export = " From : " + vertex.getXasDouble() + " " 
+					//							+ vertex.getYasDouble() + " To : " + vCoord1 + " " + vCoord2;
+					//					Log.Out(export , 2, true);
 				} else {
 					vCoord1 = vertex.getXasDouble();
 					vCoord2 = vertex.getYasDouble();
 				}
 
 				mPlacemark.createAndSetPoint().createAndSetCoordinates()
-					.add(new Coordinate(vCoord1, vCoord2));
+				.add(new Coordinate(vCoord1, vCoord2));
 				mPlacemark.createAndAddStyle().withIconStyle(iconstyle);
 			}
 		} // end iteration
 		Log.Out("Preparing to export..." , 1, true);
 
 		try {
-			File kmlFile = new FileOperations().saveSpecificFile(".kml");
+			kmlFile = new FileOperations().saveSpecificFile(".kml");
 
 			if (kmlFile == null) {
 				Log.Out("User Aborted", 1, true);
@@ -204,6 +205,8 @@ public class ExportKML {
 				Desktop desktop = Desktop.getDesktop();
 				desktop.open(kmlFile); // remove if needed
 			}
+			
+			document = null;
 		} catch (FileNotFoundException eFileNotFound) {
 			didOperationSucceed = false;
 			Log.Exception(eFileNotFound, 0);
@@ -212,6 +215,12 @@ public class ExportKML {
 			didOperationSucceed = false;
 			Log.Exception(eIO3, 0);
 			eIO3.printStackTrace();
+		} finally {
+			if (kmlFile != null && mKML != null) {
+				Kml.unmarshal(kmlFile);
+				mKML = null;
+				kmlFile = null;
+			}
 		}
 		return didOperationSucceed;
 	}

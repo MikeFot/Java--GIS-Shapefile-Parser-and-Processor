@@ -62,6 +62,27 @@ public class ErgoPolyline extends MetadataStore {
 	// integer for defining maximum decimals
 	private final int DECIMAL_LIMIT = 6;
 
+	public String getVertexListAsTransformedString(ErgoReferenceSystem sourceCRS, ErgoReferenceSystem targetCRS) {
+		StringBuilder builder = new StringBuilder();
+		builder.append("\"");
+		boolean firstLine = true;
+		
+		for (ErgoVertex vertex : getVertexList()) {
+			// add an extra comma
+			if (!firstLine) {
+				builder.append(",");
+			} else {
+				firstLine = false;
+			}
+			builder.append(vertex.getTransformedCoordinates(sourceCRS, targetCRS).getC2());
+			builder.append(",");
+			builder.append(vertex.getTransformedCoordinates(sourceCRS, targetCRS).getC1());
+		}
+		builder.append("\"");
+		return builder.toString();
+	}
+	
+	
 	public String getVertexListAsString() {
 		StringBuilder builder = new StringBuilder();
 		builder.append("\"");
@@ -81,7 +102,7 @@ public class ErgoPolyline extends MetadataStore {
 		builder.append("\"");
 		return builder.toString();
 	}
-
+	
 	public String getType() {
 		return type;
 	}

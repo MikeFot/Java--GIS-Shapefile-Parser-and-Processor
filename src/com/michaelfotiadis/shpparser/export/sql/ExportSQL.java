@@ -40,7 +40,7 @@ public class ExportSQL {
         try {
             // use a prepared statement to avoid injections
             
-            Log.Out("Received " + ID + " for object " + line, 2, true);
+            Log.Out("Processing " + ID + " for object " + line, 2, false);
             
             
             prepStmt = Singleton.getConnection().prepareStatement(schema);

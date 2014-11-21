@@ -10,6 +10,7 @@ import java.util.Date;
 
 import org.eclipse.swt.widgets.List;
 
+import com.michaelfotiadis.shpparser.constants.AppConstants;
 import com.michaelfotiadis.shpparser.userinterface.layouts.MainParserLayout;
 
 /**
@@ -29,8 +30,6 @@ public class Log {
 	private static final String LEVEL_3 = LEVEL_2 + LEVEL_SPACER;
 	private static final String LEVEL_4 = LEVEL_3 + LEVEL_SPACER;
 	
-	private static final String LOG_FILE = "log.txt";
-
 	private static final DateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");			
 	private static StringBuilder output  = new StringBuilder();
 	
@@ -120,7 +119,7 @@ public class Log {
 			break;
 		}		
 		
-		writeToFile(LOG_FILE, text, true);
+		writeToFile(AppConstants.LOG_FILENAME, text, true);
 		output.append(text + "\n");
 		
 	}

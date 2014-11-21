@@ -1,6 +1,7 @@
 package com.michaelfotiadis.shpparser.userinterface.layouts;
 
 import java.io.File;
+import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 
@@ -31,6 +32,7 @@ import com.michaelfotiadis.shpparser.containers.ergo.widgets.ErgoCombo;
 import com.michaelfotiadis.shpparser.containers.ergo.widgets.ErgoList;
 import com.michaelfotiadis.shpparser.containers.file.FileContainer;
 import com.michaelfotiadis.shpparser.containers.file.ShapefileContainer;
+import com.michaelfotiadis.shpparser.export.csv.ExportCSV;
 import com.michaelfotiadis.shpparser.export.kml.ExportKML;
 import com.michaelfotiadis.shpparser.export.sql.ExportSQL;
 import com.michaelfotiadis.shpparser.helpers.ProcessingOperations;
@@ -57,8 +59,8 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 	private ErgoButton buttonBrowse;
 	private ErgoButton buttonMap;
 	private ErgoButton buttonKML;
-	private ErgoButton buttonCSV;
-	private ErgoButton buttonRawCSV;
+	private ErgoButton buttonExportTransformedCSV;
+	private ErgoButton buttonExportRawCSV;
 	private ErgoButton buttonSearchCRS;
 	private ErgoButton buttonViewCRS;
 	private ErgoButton buttonDetectCRS;
@@ -305,12 +307,12 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 
 		// Row 10
 		new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "Export to CSV :", 200, 1); // create info label
-		buttonRawCSV = new CreateWidgets().createButton(myShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Export to CSV", 1); // create draw button
+		buttonExportRawCSV = new CreateWidgets().createButton(myShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Export to CSV", 1); // create draw button
 		new Label(myShell, SWT.NONE); // empty label, used to arrange widgets
 
 		// Row 11
 		new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "Transform and Export to CSV :", 200, 1); // create info label
-		buttonCSV = new CreateWidgets().createButton(myShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Transform to CSV", 1); // create draw button
+		buttonExportTransformedCSV = new CreateWidgets().createButton(myShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Transform to CSV", 1); // create draw button
 		new Label(myShell, SWT.NONE); // empty label, used to arrange widgets
 
 		// Row 12
@@ -339,6 +341,8 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 		buttonSearchCRS.ergoButton.addSelectionListener(this);
 		buttonViewCRS.ergoButton.addSelectionListener(this);
 		buttonExportSQL.ergoButton.addSelectionListener(this);
+		buttonExportRawCSV.ergoButton.addSelectionListener(this);
+		buttonExportTransformedCSV.ergoButton.addSelectionListener(this);
 
 		// populate the EPSG Combo Widget
 		boolean isDirectoryEmpty = FileOperations.isDirectoryEmpty(dataDir);
@@ -369,8 +373,8 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 	private void changeStateOfWidgets(boolean state) {
 
 		buttonKML.ergoButton.setEnabled(state);
-		buttonCSV.ergoButton.setEnabled(state);
-		buttonRawCSV.ergoButton.setEnabled(state);
+		buttonExportTransformedCSV.ergoButton.setEnabled(state);
+		buttonExportRawCSV.ergoButton.setEnabled(state);
 		buttonViewCRS.ergoButton.setEnabled(state);
 		buttonMap.ergoButton.setEnabled(state);
 		comboEPSG.ergoCombo.setEnabled(state);
@@ -715,11 +719,63 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 
 		} else if (callerHashCode == buttonExportSQL.getErgoID()) {
 			Log.Out("Detected click on Export SQL Button " + selectionEvent.getSource().hashCode(), 1, false);
-			ExportSQL sqlHelper = new ExportSQL();
-			File shpFile = new File(shpLocation.toString());
-			sqlHelper.processCollection(shapefileContainer.getGeometryCollection(), shpFile.getName());
+			Log.Out("Starting SQL Export", 1, true);
 
+			Display.getDefault().syncExec(new Runnable() {
+				@Override
+				public void run() {
+					ExportSQL sqlHelper = new ExportSQL();
+					File shpFile = new File(shpLocation.toString());
+					sqlHelper.processCollection(shapefileContainer.getGeometryCollection(), shpFile.getName());
+				}
+			});
 
+		} else if (callerHashCode == buttonExportRawCSV.getErgoID()) {
+
+			Log.Out("Detected click on Raw CSV Button " + selectionEvent.getSource().hashCode(), 1, false);
+			Log.Out("Starting CSV Export", 1, true);
+			
+			try {
+				// browse for output file
+				File saveFile = new FileOperations().saveSpecificFile(".csv");
+				Log.Out("Saving to File " + saveFile.getCanonicalPath(), 2, true);
+				
+				if (saveFile != null) {
+					Display.getDefault().syncExec(new Runnable() {
+						@Override
+						public void run() {
+							// start the export with Target CRS null (no conversion)
+							new ExportCSV().createAndExportCSV(saveFile, shapefileContainer, 
+									REFERENCE_SETS.getSourceSystem(), null);
+						}
+					});
+				}
+			} catch (IOException e) {
+				Log.Exception(e, 0);
+			}
+		} else if (callerHashCode == buttonExportTransformedCSV.getErgoID()) {
+
+			Log.Out("Detected click on Transformed CSV Button " + selectionEvent.getSource().hashCode(), 1, false);
+			Log.Out("Starting Transformed CSV Export", 1, true);
+			
+			try {
+				// browse for output file
+				File saveFile = new FileOperations().saveSpecificFile(".csv");
+				Log.Out("Saving to File " + saveFile.getCanonicalPath(), 2, true);
+				
+				if (saveFile != null) {
+					Display.getDefault().syncExec(new Runnable() {
+						@Override
+						public void run() {
+							// start the export with Target CRS null (no conversion)
+							new ExportCSV().createAndExportCSV(saveFile, shapefileContainer, 
+									REFERENCE_SETS.getSourceSystem(), REFERENCE_SETS.getTargetSystem());
+						}
+					});
+				}
+			} catch (IOException e) {
+				Log.Exception(e, 0);
+			}
 		} else {
 			Log.Err("Unidentified Command Intercepted.", 0 , false);
 			return;
