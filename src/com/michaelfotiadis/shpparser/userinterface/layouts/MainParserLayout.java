@@ -533,10 +533,10 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 		changeStateOfWidgets(false);
 
 		// create a thread to handle the runnable
-		Thread processorThread = new Thread(processorRunnable);
+		final Thread processorThread = new Thread(processorRunnable);
 
 		// create a thread that will monitor the processor
-		Thread monitorThread = new Thread(new Runnable() {
+		final Thread monitorThread = new Thread(new Runnable() {
 			@Override
 			public void run() {
 				processorThread.start();
@@ -553,7 +553,7 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 					if (processorRunnable instanceof ParserInterface) {
 						try {
 							shapefileContainer = (ShapefileContainer) ((ParserInterface) processorRunnable).getData();
-							// update the UI
+							// update the UI through a SWT thread
 							Display.getDefault().syncExec( new Runnable() {
 								public void run() {
 									setUIData();

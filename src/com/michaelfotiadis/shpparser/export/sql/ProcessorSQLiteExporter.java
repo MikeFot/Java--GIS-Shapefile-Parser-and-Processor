@@ -127,8 +127,6 @@ public class ProcessorSQLiteExporter implements ExporterInterface, Runnable {
 			// ensure that the SQL connection is closed
 			Singleton.closeConnection();
 			Log.Out("Finished exporting to SQL", 1, true);
-			// notify monitoring Threads that this operation has finished
-			notify();
 		}
 	}
 
@@ -144,7 +142,7 @@ public class ProcessorSQLiteExporter implements ExporterInterface, Runnable {
 		try {
 			// use a prepared statement to avoid injections
 
-			Log.Out("Processing object " + ID, 2, true);
+			
 
 			prepStmt = Singleton.getConnection().prepareStatement(schema);
 
@@ -161,12 +159,11 @@ public class ProcessorSQLiteExporter implements ExporterInterface, Runnable {
 			for (String key : line.getStringKeys()) {
 				countColumn++;
 				prepStmt.setString(countColumn, String.valueOf(line.getString(key)));
-
 			}
 
 			// get 0 or 1, depending on success
 			int result = prepStmt.executeUpdate();
-			Log.Out("Update result is " + result, 2, false);
+			Log.Out("Processed object " + ID + " (" + result + ")", 2, true);
 		} catch (SQLException e) {
 			Log.Exception(e, 1);
 		} finally {
