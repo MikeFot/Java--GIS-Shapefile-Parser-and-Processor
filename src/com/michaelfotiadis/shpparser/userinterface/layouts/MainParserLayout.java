@@ -1,7 +1,6 @@
 package com.michaelfotiadis.shpparser.userinterface.layouts;
 
 import java.io.File;
-import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -34,11 +33,12 @@ import com.michaelfotiadis.shpparser.containers.ergo.widgets.ErgoCombo;
 import com.michaelfotiadis.shpparser.containers.ergo.widgets.ErgoList;
 import com.michaelfotiadis.shpparser.containers.file.FileContainer;
 import com.michaelfotiadis.shpparser.containers.file.ShapefileContainer;
-import com.michaelfotiadis.shpparser.export.csv.ExportCSV;
-import com.michaelfotiadis.shpparser.export.kml.ExportKML;
-import com.michaelfotiadis.shpparser.export.sql.ExportSQL;
+import com.michaelfotiadis.shpparser.containers.interfaces.ParserInterface;
+import com.michaelfotiadis.shpparser.export.csv.ProcessorCSVExporter;
+import com.michaelfotiadis.shpparser.export.kml.ProcessorKMLExporter;
+import com.michaelfotiadis.shpparser.export.sql.ProcessorSQLiteExporter;
 import com.michaelfotiadis.shpparser.helpers.ProcessingOperations;
-import com.michaelfotiadis.shpparser.parsers.shapefile.ParseShapefile;
+import com.michaelfotiadis.shpparser.parsers.shapefile.ProcessorShpParser;
 import com.michaelfotiadis.shpparser.userinterface.viewer.MapDisplay;
 import com.michaelfotiadis.shpparser.userinterface.widgets.WidgetFactory;
 import com.michaelfotiadis.shpparser.util.file.FileOperations;
@@ -98,7 +98,7 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 
 	private ErgoReferenceSet REFERENCE_SETS = new ErgoReferenceSet();
 
-	URL shpLocation;
+	private URL shpLocation;
 
 	@SuppressWarnings("deprecation")
 	private void actionBrowseAndParseShapefile() {
@@ -149,14 +149,16 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 
 		Log.Out("Parsing File", 0, true);
 		// start a new thread to parse the file
-		shapefileContainer = new ParseShapefile().parseURLshapefile(shpLocation);
+		ProcessorShpParser shpProcessor = new ProcessorShpParser(shpLocation);
 
-		changeStateOfWidgets(true);
+		executeTask(shpProcessor);
+	}
 
+	private void setUIData() {
 		if (shapefileContainer == null || shapefileContainer.getGeometryCollection() == null) {
+			Log.Out("Null ShapefileData", 0, true);
 			return;
 		}
-
 		final String shpCRS = getShapefileSystem();
 		Log.Out("Reference System is : " + shpCRS , 1 , true);
 		labelCSR.setText("CRS: " + shpCRS); // change the label displaying the reference system
@@ -181,48 +183,56 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 	}
 
 
+	private void actionExportToCSV(boolean doTransform) {
+		changeStateOfWidgets(false);
+
+		// do an initial check for null geometry and / or reference system
+		if (shapefileContainer != null && shapefileContainer.getGeometryCollection() != null) {
+			final SafeSaveDialog saveDialog = new SafeSaveDialog(mainShell);
+			saveDialog.setFilterExtensions(new String[]{"*.csv"});
+
+			final String destination = saveDialog.open();
+
+			if (destination != null) {
+				// set up the processor
+				ProcessorCSVExporter processorThread;
+				if (doTransform) {
+					processorThread = 	new ProcessorCSVExporter(new File(destination), shapefileContainer, 
+							REFERENCE_SETS.getSourceSystem(), REFERENCE_SETS.getTargetSystem());
+				} else {
+					processorThread = 	new ProcessorCSVExporter(new File(destination), shapefileContainer, 
+							REFERENCE_SETS.getSourceSystem(), null);
+				}
+				executeTask(processorThread);
+			} else {
+				Log.Err("No file selected", 1, true);
+				changeStateOfWidgets(true);
+			}
+		} else {
+			Log.Err("KML creation failed to start.", 0, true);
+			changeStateOfWidgets(true);
+		}
+	}
+
 	/**
 	 * Action for exporting to KML (opens a file chooser)
 	 */
 	private void actionExportToKML() {
 		changeStateOfWidgets(false);
 
-		if (shapefileContainer.getGeometryCollection() != null && REFERENCE_SETS.getSourceSystem() != null) {
+		// do an initial check for null geometry and / or reference system
+		if (shapefileContainer != null && shapefileContainer.getGeometryCollection() != null && REFERENCE_SETS.getSourceSystem() != null) {
 			final SafeSaveDialog saveDialog = new SafeSaveDialog(mainShell);
 			saveDialog.setFilterExtensions(new String[]{"*.kml"});
 
 			final String destination = saveDialog.open();
 
 			if (destination != null) {
-				// create a thread that will monitor the processor
-				Thread monitorThread = new Thread(new Runnable() {
-					@Override
-					public void run() {
-						// set and start the processor
-						Thread processorThread = new ExportKML().createKMLProcessor(
-								new File(destination), shapefileContainer,
-								REFERENCE_SETS.getSourceSystem());
-						processorThread.start();
-
-						// wait for the processor thread to finish
-						synchronized (processorThread) {
-							try {
-								processorThread.wait();
-							} catch (InterruptedException e) {
-								Log.Exception(e, 1);
-							}
-							// start a SWT UI thread to update the UI
-							Display.getDefault().syncExec( new Runnable() {
-								public void run() {
-									// change widget state
-									changeStateOfWidgets(true);
-								}
-							});
-						}
-					}
-				});
-				// start the monitor thread
-				monitorThread.start();
+				// set and start the processor
+				ProcessorKMLExporter processorRunnable = new ProcessorKMLExporter(
+						new File(destination), shapefileContainer,
+						REFERENCE_SETS.getSourceSystem());
+				executeTask(processorRunnable);
 			} else {
 				Log.Err("No file selected", 1, true);
 				changeStateOfWidgets(true);
@@ -237,17 +247,17 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 	 * Method for handling exporting to SQLite
 	 */
 	private void actionExportToSQLite() {
+		if (shapefileContainer != null && shapefileContainer.getGeometryCollection() != null) {
 
-		Log.Out("Starting SQL Export", 1, true);
-		changeStateOfWidgets(false);
-		mainShell.setCapture(false);
+			Log.Out("Starting SQL Export", 1, true);
+			File shpFile = new File(shpLocation.toString());
 
-		ExportSQL sqlHelper = new ExportSQL();
-		File shpFile = new File(shpLocation.toString());
-		sqlHelper.processCollection(shapefileContainer.getGeometryCollection(), shpFile.getName());
+			// initialise the runnable
+			Runnable sqlProcessor = new ProcessorSQLiteExporter(shapefileContainer.getGeometryCollection(), shpFile.getName());
 
-		changeStateOfWidgets(true);
-		mainShell.setCapture(true);
+			// start the processor
+			executeTask(sqlProcessor);
+		}
 	}
 
 	/**
@@ -281,7 +291,6 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 		return infoShell;
 	}
 
-
 	/**
 	 * The method creates a Shell in a Display defined by input
 	 * @param firstDisplay : The Display (JAVA.SWT) on which the Shell will be created
@@ -307,6 +316,7 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 
 		return mainShell;
 	}
+
 
 	/**
 	 * 
@@ -505,9 +515,67 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 				buttonSearchCRS.ergoButton.setEnabled(state);
 				buttonDetectCRS.ergoButton.setEnabled(state);
 				buttonExportSQL.ergoButton.setEnabled(state);
+				
+				if (shapefileContainer != null) {
+					buttonBrowse.ergoButton.setEnabled(state);
+				}
 				mainShell.update();
 			}
 		});
+	}
+
+	/**
+	 * Method for starting a non-UI Thread and monitoring its execution. Several UI widgets are disabled while the Threads are alive.
+	 * @param processorRunnable Runnable which will do all the work
+	 */
+	private void executeTask(final Runnable processorRunnable) {
+		// disable UI widgets before starting
+		changeStateOfWidgets(false);
+
+		// create a thread to handle the runnable
+		Thread processorThread = new Thread(processorRunnable);
+
+		// create a thread that will monitor the processor
+		Thread monitorThread = new Thread(new Runnable() {
+			@Override
+			public void run() {
+				processorThread.start();
+
+				// wait for the processor thread to finish
+				synchronized (processorThread) {
+					try {
+						processorThread.wait();
+					} catch (InterruptedException e) {
+						Log.Exception(e, 1);
+					}
+
+					// if it's a parser, retrieve the parsed data once finished
+					if (processorRunnable instanceof ParserInterface) {
+						try {
+							shapefileContainer = (ShapefileContainer) ((ParserInterface) processorRunnable).getData();
+							// update the UI
+							Display.getDefault().syncExec( new Runnable() {
+								public void run() {
+									setUIData();
+								}
+							});
+						} catch (Exception e) {
+							Log.Exception(e, 1);
+						}
+					} 
+
+					// start a SWT UI thread to update the UI
+					Display.getDefault().syncExec( new Runnable() {
+						public void run() {
+							// change widget state
+							changeStateOfWidgets(true);
+						}
+					});
+				}
+			}
+		});
+		// start the monitor thread
+		monitorThread.start();
 	}
 
 	/**
@@ -666,11 +734,9 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 			}
 
 		} else if (callerHashCode == comboSource.getErgoID()) {
-			Log.Out("Detected action on Combo Source " + selectionEvent.getSource().hashCode(), 1, false);
 			setSystem();
 
 		}  else if (callerHashCode == comboTarget.getErgoID()) {
-			Log.Out("Detected action on Combo Target " + selectionEvent.getSource().hashCode(), 1, false);
 			String selectedItem = comboTarget.ergoCombo.getItem(comboTarget.ergoCombo.getSelectionIndex());
 
 			ErgoReferenceSystem selectedCRS = new ProcessingOperations().splitComboString(selectedItem);
@@ -679,12 +745,10 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 
 
 		}  else if (callerHashCode == buttonDetectCRS.getErgoID()) {
-			Log.Out("Detected click on Detect CRS Button " + selectionEvent.getSource().hashCode(), 1, false);
 			Log.Out("Detecting Coordinate Reference System. Please wait...", 0, true);
 			setComboIndex(comboSource);
 
 		} else if (callerHashCode == listID.getErgoID()) {
-			Log.Out("Detected click on ID List " + selectionEvent.getSource().hashCode(), 1, false);
 			listAttributes.ergoList.removeAll();
 			listCoordinates.ergoList.removeAll();
 			String[] selectedItems = listID.ergoList.getSelection();
@@ -717,13 +781,10 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 			}
 
 		}  else if (callerHashCode == buttonSearchCRS.getErgoID()) {
-			Log.Out("Detected click on Search Button " + selectionEvent.getSource().hashCode(), 1, false);
 			buildSearchShell();
 		}  else if (searchShellCreated && callerHashCode == buttonSearch1.getErgoID()) {
-			Log.Out("Detected click on Clear Search Button " + selectionEvent.getSource().hashCode(), 1, false);
 			textSearch.setText("");
 		} else if (searchShellCreated && callerHashCode == buttonSearch2.getErgoID()) {
-			Log.Out("Detected click on Set Source Button " + selectionEvent.getSource().hashCode(), 1, false);
 			int countSelected = listSearch.ergoList.getSelectionCount();
 			if (countSelected == 1) {
 
@@ -747,7 +808,6 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 			}
 
 		} else if (searchShellCreated && callerHashCode == buttonSearch3.getErgoID()) {
-			Log.Out("Detected click on Set Target Button " + selectionEvent.getSource().hashCode(), 1, false);
 			int countSelected = listSearch.ergoList.getSelectionCount();
 			if (countSelected == 1) {
 
@@ -769,63 +829,20 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 
 			}
 		} else if (callerHashCode == buttonViewCRS.getErgoID()) {
-			Log.Out("Detected click on View CRS Button " + selectionEvent.getSource().hashCode(), 1, false);
 			infoShell = addInfoShell();
 
 			Log.Out("Opening Info Shell...", 0, true);
 
 			infoShell.open();
 			infoShell.pack();
-
 		} else if (callerHashCode == buttonExportSQL.getErgoID()) {
-			Log.Out("Detected click on Export SQL Button " + selectionEvent.getSource().hashCode(), 1, false);
 			actionExportToSQLite();
 		} else if (callerHashCode == buttonExportRawCSV.getErgoID()) {
-
-			Log.Out("Detected click on Raw CSV Button " + selectionEvent.getSource().hashCode(), 1, false);
 			Log.Out("Starting CSV Export", 1, true);
-
-			try {
-				// browse for output file
-				File saveFile = new FileOperations().saveSpecificFile(".csv");
-
-				if (saveFile != null) {
-					Log.Out("Saving to File " + saveFile.getCanonicalPath(), 2, true);
-					Display.getDefault().syncExec(new Runnable() {
-						@Override
-						public void run() {
-							// start the export with Target CRS null (no conversion)
-							new ExportCSV().createAndExportCSV(saveFile, shapefileContainer, 
-									REFERENCE_SETS.getSourceSystem(), null);
-						}
-					});
-				}
-			} catch (IOException e) {
-				Log.Exception(e, 0);
-			}
+			actionExportToCSV(false);
 		} else if (callerHashCode == buttonExportTransformedCSV.getErgoID()) {
-
-			Log.Out("Detected click on Transformed CSV Button " + selectionEvent.getSource().hashCode(), 1, false);
 			Log.Out("Starting Transformed CSV Export", 1, true);
-
-			try {
-				// browse for output file
-				File saveFile = new FileOperations().saveSpecificFile(".csv");
-
-				if (saveFile != null) {
-					Log.Out("Saving to File " + saveFile.getCanonicalPath(), 2, true);
-					Display.getDefault().syncExec(new Runnable() {
-						@Override
-						public void run() {
-							// start the export with Target CRS null (no conversion)
-							new ExportCSV().createAndExportCSV(saveFile, shapefileContainer, 
-									REFERENCE_SETS.getSourceSystem(), REFERENCE_SETS.getTargetSystem());
-						}
-					});
-				}
-			} catch (IOException e) {
-				Log.Exception(e, 0);
-			}
+			actionExportToCSV(true);
 		} else {
 			Log.Err("Unidentified Command Intercepted.", 0 , false);
 			return;

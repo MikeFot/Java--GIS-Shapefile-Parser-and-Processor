@@ -1,5 +1,6 @@
 package com.michaelfotiadis.shpparser.userinterface.layouts;
 import java.io.File;
+
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.widgets.FileDialog;
 import org.eclipse.swt.widgets.MessageBox;

@@ -1,6 +1,5 @@
 package com.michaelfotiadis.shpparser.parsers.shapefile;
 
-import java.awt.Frame;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -10,9 +9,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.NoSuchElementException;
 
-import javax.swing.JOptionPane;
-
-import org.eclipse.swt.widgets.Display;
 import org.geotools.data.DataStore;
 import org.geotools.data.DataStoreFinder;
 import org.geotools.data.FeatureSource;
@@ -29,43 +25,24 @@ import com.michaelfotiadis.shpparser.containers.ergo.geometry.ErgoPolyline;
 import com.michaelfotiadis.shpparser.containers.ergo.geometry.ErgoShapefileGeometryType;
 import com.michaelfotiadis.shpparser.containers.ergo.geometry.ErgoVertex;
 import com.michaelfotiadis.shpparser.containers.file.ShapefileContainer;
+import com.michaelfotiadis.shpparser.containers.interfaces.ParserInterface;
 import com.michaelfotiadis.shpparser.helpers.FeatureOperations;
 import com.michaelfotiadis.shpparser.util.system.Log;
 
 /**
- * Class for parsing shapefiles
+ * Class for parsing shapefiles. Implements java.lang.Runnable.
  * @author Michael Fotiadis
  *
  */
-public class ParseShapefile {
+public class ProcessorShpParser implements ParserInterface, Runnable {
 
-	private static boolean userChoice;
 	private ShapefileContainer shapefileContainer;
+	private URL shapeURL;
 
-
-	/**
-	 * Prompts the user for input on whether to proceed or not according to initial parsing results
-	 * @param parsedItemSize Number of items to be parsed
-	 * @param referenceSystemDescription String description of the reference system
-	 * @return True if proceeding, False if aborting
-	 */
-	private boolean makeUserDialog(int parsedItemSize, String referenceSystemDescription) {
-		Display.getDefault().syncExec(new Runnable() {
-			@Override
-			public void run() {
-				// Wait for user input before continuing
-				final int dialogButton = JOptionPane.OK_CANCEL_OPTION;
-				int dialogResult = JOptionPane.showConfirmDialog (new Frame(), "Shapefile contains " + parsedItemSize + 
-						" items. \nThe geometry type is " + shapefileContainer.getGeometryType() +
-						". \nThe reference system is " + referenceSystemDescription,"Valid Shapefile Detected", dialogButton);
-				if (dialogResult == JOptionPane.CANCEL_OPTION){
-					userChoice = false;
-				} else {
-					userChoice = true;
-				}
-			}
-		});
-		return userChoice;
+	
+	
+	public ProcessorShpParser(final URL shapeURL) {
+		this.shapeURL = shapeURL;
 	}
 
 	/**
@@ -75,10 +52,16 @@ public class ParseShapefile {
 	 * @return ShapefileContainer custom object containing geometry and metadata. 
 	 * Returns null if operation failed.
 	 */
-	@SuppressWarnings("rawtypes")
-	public ShapefileContainer parseURLshapefile(final URL shapeURL) {
+	//	@SuppressWarnings("rawtypes")
+	//	public ShapefileContainer parseURLshapefile(final URL shapeURL) {
+	//	
+	//		
+	//	}
+
+	@Override
+	public void run() {
 		// initialise a container for the objects
-		shapefileContainer = new ShapefileContainer();
+		setShapefileContainer(new ShapefileContainer());
 
 		String shpReferenceSystem;
 
@@ -86,7 +69,7 @@ public class ParseShapefile {
 		map.put( "url", shapeURL );
 		final DataStore shpDataStore;
 		final String typeName;
-		final FeatureSource featureSource;
+		final FeatureSource<?, ?> featureSource;
 
 		try {
 			shpDataStore = DataStoreFinder.getDataStore(map);
@@ -94,7 +77,9 @@ public class ParseShapefile {
 			featureSource = shpDataStore.getFeatureSource(typeName);
 		} catch (IOException e) {
 			Log.Exception(e, 0);
-			return null;
+			setShapefileContainer(null);
+			notify();
+			return;
 		} 
 
 		Log.Out("Feature Source Hashcode = " + featureSource.hashCode(), 2, false);
@@ -102,67 +87,67 @@ public class ParseShapefile {
 
 		if (spatialFeatureType.getCoordinateReferenceSystem()!= null) {
 			shpReferenceSystem = spatialFeatureType.getCoordinateReferenceSystem().getName().toString();
-			shapefileContainer.setVerboseCRS(spatialFeatureType.getCoordinateReferenceSystem().toString());
+			getShapefileContainer().setVerboseCRS(spatialFeatureType.getCoordinateReferenceSystem().toString());
 			if (shpReferenceSystem.equals(com.michaelfotiadis.shpparser.constants.AppConstants.USER_PREFERRED_CRS)) {
-				shapefileContainer.setEpsgCode(AppConstants.USER_PREFERRED_EPSG);
+				getShapefileContainer().setEpsgCode(AppConstants.USER_PREFERRED_EPSG);
 			} else {
 				if (spatialFeatureType.getCoordinateReferenceSystem() != null) {
 					try {
 						// try to find the EPSG code of the reference system
-						shapefileContainer.setEpsgCode(
+						getShapefileContainer().setEpsgCode(
 								CRS.lookupEpsgCode(spatialFeatureType.getCoordinateReferenceSystem(), true));
 					} catch (FactoryException eFactory) {
 						Log.Exception(eFactory, 0);
 						shpReferenceSystem = "Not Defined";
-						shapefileContainer.setVerboseCRS("Not Defined");
-						shapefileContainer.setEpsgCode(0);
+						getShapefileContainer().setVerboseCRS("Not Defined");
+						getShapefileContainer().setEpsgCode(0);
 					} catch (NullPointerException e) {
 						Log.Exception(e, 0);
 						shpReferenceSystem = "Not Defined";
-						shapefileContainer.setVerboseCRS("Not Defined");
-						shapefileContainer.setEpsgCode(0);
+						getShapefileContainer().setVerboseCRS("Not Defined");
+						getShapefileContainer().setEpsgCode(0);
 					}
 				} else {
 					shpReferenceSystem = "Not Defined";
-					shapefileContainer.setVerboseCRS("Not Defined");
+					getShapefileContainer().setVerboseCRS("Not Defined");
 				}
 			}
 		} else {
 			shpReferenceSystem = "Not Defined";
-			shapefileContainer.setVerboseCRS("Not Defined");
+			getShapefileContainer().setVerboseCRS("Not Defined");
 		}
 
 		// e.g. prints "Points"
-		//		Log.Out("Geometry Type : " + spatialFeatureType.getGeometryDescriptor().getName() , 1, false); 
-		FeatureCollection fsShape;
+		// Log.Out("Geometry Type : " + spatialFeatureType.getGeometryDescriptor().getName() , 1, false); 
+		FeatureCollection<?, ?> fsShape;
 		try {
 			fsShape = featureSource.getFeatures();
 		} catch (IOException e) {
 			Log.Exception(e, 0);
-			return null;
+			setShapefileContainer(null);
+			return;
 		} 
-
-		final String shpPrintout = shpReferenceSystem.replace('_', ' ');
 
 		final int fsSize = fsShape.size();
 
-		String geom;
+		String geometryType;
 		try {
-			geom = featureSource.getFeatures().features().next().getDefaultGeometryProperty().getType().getName().toString();
+			geometryType = featureSource.getFeatures().features().next().getDefaultGeometryProperty().getType().getName().toString();
 		} catch (NoSuchElementException | IOException e) {
 			Log.Exception(e, 0);
-			return null;
+			setShapefileContainer(null);
+			return;
 		}
 
 		// replace geometry types
-		if (geom.equals(ErgoShapefileGeometryType.POINT.toString())) {
-			shapefileContainer.setGeometryType(geom);
-		} else if (geom.equals(ErgoShapefileGeometryType.MULTI_LINE_STRING.toString())) {
-			shapefileContainer.setGeometryType(ErgoShapefileGeometryType.POLYLINE.toString());
-		} else if (geom.equals(ErgoShapefileGeometryType.MULTI_POLYGON.toString())) {
-			shapefileContainer.setGeometryType(ErgoShapefileGeometryType.POLYGON.toString());
+		if (geometryType.equals(ErgoShapefileGeometryType.POINT.toString())) {
+			getShapefileContainer().setGeometryType(geometryType);
+		} else if (geometryType.equals(ErgoShapefileGeometryType.MULTI_LINE_STRING.toString())) {
+			getShapefileContainer().setGeometryType(ErgoShapefileGeometryType.POLYLINE.toString());
+		} else if (geometryType.equals(ErgoShapefileGeometryType.MULTI_POLYGON.toString())) {
+			getShapefileContainer().setGeometryType(ErgoShapefileGeometryType.POLYGON.toString());
 		} else {
-			shapefileContainer.setGeometryType(geom);
+			getShapefileContainer().setGeometryType(geometryType);
 		}
 
 		Log.Out("Size of the Feature Collection : " + fsSize, 2, true);
@@ -171,19 +156,11 @@ public class ParseShapefile {
 
 		Log.Out("Waiting for user input...", 2, true);
 
-		// show a dialog asking the user whether to continue parsing or not
-		boolean continueParsing = makeUserDialog(fsSize, shpPrintout);
-
-		if (!continueParsing) {
-			return null;
-		}
-
-		shapefileContainer.setGeometryCollection(secondStageParsing(featureSource, shpReferenceSystem));
+		getShapefileContainer().setGeometryCollection(secondStageParsing(featureSource, shpReferenceSystem));
 
 		shpDataStore.dispose();
 
 		Log.Out("Data Parsing Complete", 0, true);
-		return shapefileContainer;
 	}
 
 	/**
@@ -282,10 +259,10 @@ public class ParseShapefile {
 						String valueToMap = new FeatureOperations().createHashMapEntry(featurePolyline, propertyType, propertyValue, propertyName);
 
 						if (valueToMap != null) {
-							//				Log.Out(" Wrote " + propertyType + " value \"" + returnFromHashmap + "\" for field \"" + propertyName + "\"");
+							//Log.Out(" Wrote " + propertyType + " value \"" + returnFromHashmap + "\" for field \"" + propertyName + "\"");
 							featurePolyline.setHashMapSize();
 						} else {
-							//						Log.Err(" Property " + propertyName + " of type " + propertyType + " has not been added.", 1, false);
+							//Log.Err(" Property " + propertyName + " of type " + propertyType + " has not been added.", 1, false);
 						}
 						featurePolyline.setReferenceSystem(shpReferenceSystem);
 					}
@@ -300,6 +277,20 @@ public class ParseShapefile {
 
 		Log.Out("Exiting Shapefile Parser." , 1 , true);
 		return geometryCollection;
+	}
+
+	private ShapefileContainer getShapefileContainer() {
+		return shapefileContainer;
+	}
+
+	private void setShapefileContainer(ShapefileContainer shapefileContainer) {
+		this.shapefileContainer = shapefileContainer;
+	}
+
+	@Override
+	public Object getData() {
+		// TODO Auto-generated method stub
+		return shapefileContainer;
 	}
 
 }
