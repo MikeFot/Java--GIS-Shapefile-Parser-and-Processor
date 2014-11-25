@@ -18,7 +18,7 @@ import com.michaelfotiadis.shpparser.containers.ergo.widgets.ErgoList;
  * @author Michael Fotiadis
  *
  */
-public class CreateWidgets {
+public class WidgetFactory {
 
 	/**
 	 * 

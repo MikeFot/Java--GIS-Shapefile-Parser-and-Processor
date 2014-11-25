@@ -1,5 +1,6 @@
 package com.michaelfotiadis.shpparser.parsers.shapefile;
 
+import java.awt.Frame;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -50,17 +51,14 @@ public class ParseShapefile {
 	 */
 	private boolean makeUserDialog(int parsedItemSize, String referenceSystemDescription) {
 		Display.getDefault().syncExec(new Runnable() {
-
 			@Override
 			public void run() {
 				// Wait for user input before continuing
-				final int dialogButton = JOptionPane.YES_NO_OPTION;
-				int dialogResult = JOptionPane.showConfirmDialog (null, "Shapefile contains " + parsedItemSize + 
+				final int dialogButton = JOptionPane.OK_CANCEL_OPTION;
+				int dialogResult = JOptionPane.showConfirmDialog (new Frame(), "Shapefile contains " + parsedItemSize + 
 						" items. \nThe geometry type is " + shapefileContainer.getGeometryType() +
-						". \nThe reference system is " + referenceSystemDescription + 
-						".\n\nContinue parsing?","Valid Shapefile Detected", dialogButton);
-
-				if (dialogResult == JOptionPane.NO_OPTION){
+						". \nThe reference system is " + referenceSystemDescription,"Valid Shapefile Detected", dialogButton);
+				if (dialogResult == JOptionPane.CANCEL_OPTION){
 					userChoice = false;
 				} else {
 					userChoice = true;
@@ -79,15 +77,9 @@ public class ParseShapefile {
 	 */
 	@SuppressWarnings("rawtypes")
 	public ShapefileContainer parseURLshapefile(final URL shapeURL) {
-
-		
-		
+		// initialise a container for the objects
 		shapefileContainer = new ShapefileContainer();
 
-		Thread parserThread = new Thread() {
-			
-		};
-		
 		String shpReferenceSystem;
 
 		final Map<String, URL> map = new HashMap<String, URL>();
@@ -116,6 +108,7 @@ public class ParseShapefile {
 			} else {
 				if (spatialFeatureType.getCoordinateReferenceSystem() != null) {
 					try {
+						// try to find the EPSG code of the reference system
 						shapefileContainer.setEpsgCode(
 								CRS.lookupEpsgCode(spatialFeatureType.getCoordinateReferenceSystem(), true));
 					} catch (FactoryException eFactory) {
@@ -140,7 +133,7 @@ public class ParseShapefile {
 		}
 
 		// e.g. prints "Points"
-//		Log.Out("Geometry Type : " + spatialFeatureType.getGeometryDescriptor().getName() , 1, false); 
+		//		Log.Out("Geometry Type : " + spatialFeatureType.getGeometryDescriptor().getName() , 1, false); 
 		FeatureCollection fsShape;
 		try {
 			fsShape = featureSource.getFeatures();
@@ -178,6 +171,7 @@ public class ParseShapefile {
 
 		Log.Out("Waiting for user input...", 2, true);
 
+		// show a dialog asking the user whether to continue parsing or not
 		boolean continueParsing = makeUserDialog(fsSize, shpPrintout);
 
 		if (!continueParsing) {
@@ -214,15 +208,15 @@ public class ParseShapefile {
 
 		while (featureCollectionA.hasNext()) {
 			Feature featureA = featureCollectionA.next();
-//			Log.Out("Now Parsing Feature with ID : " + featureA.getIdentifier().toString().substring(featureA.getIdentifier().toString().indexOf('.')+1) , 2, true);
+			//			Log.Out("Now Parsing Feature with ID : " + featureA.getIdentifier().toString().substring(featureA.getIdentifier().toString().indexOf('.')+1) , 2, true);
 
 			String geomType = featureA.getDefaultGeometryProperty().getType().getName().toString();
 			String geomValue = featureA.getDefaultGeometryProperty().getValue().toString();
 
-//			Log.Out("GEOMETRY TYPE " + geomType , 3 , false);
-//			Log.Out("GEOMETRY VALUE " + geomValue , 3, false);
+			//			Log.Out("GEOMETRY TYPE " + geomType , 3 , false);
+			//			Log.Out("GEOMETRY VALUE " + geomValue , 3, false);
 
-			String[] splitGeomString = FeatureOperations.SplitGeometryString(geomType, geomValue);
+			String[] splitGeomString = FeatureOperations.splitGeometryString(geomType, geomValue);
 
 			// Collection of Vertices (MyVertex)
 			Collection<ErgoVertex> pointCollection = new ArrayList<ErgoVertex>(); 
@@ -260,7 +254,7 @@ public class ParseShapefile {
 			} // finish iterating coordinates
 
 			String featureID = featureA.getIdentifier().toString().substring(featureA.getIdentifier().toString().indexOf('.')+1);
-
+			//			Log.Out("Size of point collection: " + pointCollection.size(), 2, false);
 			ErgoPolyline featurePolyline = new ErgoPolyline(pointCollection, featureID, geomType);
 
 			// HASHMAP FROM HERE ON NOW
@@ -285,7 +279,7 @@ public class ParseShapefile {
 
 					if (!propertyName.equalsIgnoreCase("the_geom")) { // skip the_geom
 						// Write to HashMap and get recorded value
-						String valueToMap = new FeatureOperations().CreateHashMapEntry(featurePolyline, propertyType, propertyValue, propertyName);
+						String valueToMap = new FeatureOperations().createHashMapEntry(featurePolyline, propertyType, propertyValue, propertyName);
 
 						if (valueToMap != null) {
 							//				Log.Out(" Wrote " + propertyType + " value \"" + returnFromHashmap + "\" for field \"" + propertyName + "\"");

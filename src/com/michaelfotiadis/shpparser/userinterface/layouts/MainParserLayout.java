@@ -2,6 +2,7 @@ package com.michaelfotiadis.shpparser.userinterface.layouts;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 
@@ -17,6 +18,7 @@ import org.eclipse.swt.events.SelectionListener;
 import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.layout.GridLayout;
 import org.eclipse.swt.widgets.Display;
+import org.eclipse.swt.widgets.FileDialog;
 import org.eclipse.swt.widgets.Label;
 import org.eclipse.swt.widgets.Menu;
 import org.eclipse.swt.widgets.MenuItem;
@@ -38,7 +40,7 @@ import com.michaelfotiadis.shpparser.export.sql.ExportSQL;
 import com.michaelfotiadis.shpparser.helpers.ProcessingOperations;
 import com.michaelfotiadis.shpparser.parsers.shapefile.ParseShapefile;
 import com.michaelfotiadis.shpparser.userinterface.viewer.MapDisplay;
-import com.michaelfotiadis.shpparser.userinterface.widgets.CreateWidgets;
+import com.michaelfotiadis.shpparser.userinterface.widgets.WidgetFactory;
 import com.michaelfotiadis.shpparser.util.file.FileOperations;
 import com.michaelfotiadis.shpparser.util.system.Log;
 
@@ -48,14 +50,14 @@ import com.michaelfotiadis.shpparser.util.system.Log;
  *
  */
 public class MainParserLayout implements DisposeListener, SelectionListener {
-
+	// object container
 	private ShapefileContainer shapefileContainer;
-
+	// label fields
 	private Label labelFileSelection;
 	private Label labelCSR;
 	private Label labelStatus;
 	private Label labelInfo;
-
+	// button fields
 	private ErgoButton buttonBrowse;
 	private ErgoButton buttonMap;
 	private ErgoButton buttonKML;
@@ -65,21 +67,22 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 	private ErgoButton buttonViewCRS;
 	private ErgoButton buttonDetectCRS;
 	private ErgoButton buttonExportSQL;
-
+	// combo fields
 	private ErgoCombo comboSource;
 	private ErgoCombo comboTarget;
 	private ErgoCombo comboEPSG;
-
+	// list fields
 	private ErgoList listID;
 	private ErgoList listAttributes;
 	private ErgoList listCoordinates;
-
+	// search layout fields
 	private Text textSearch;
 	private ErgoButton buttonSearch1;
 	private ErgoButton buttonSearch2;
 	private ErgoButton buttonSearch3;
 	private ErgoList listSearch;
 
+	// list for displaying information
 	private static ErgoList STATUS_LIST;
 
 	private String fileName = "";
@@ -87,150 +90,174 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 	private Shell searchShell;
 	private Shell infoShell;
 
-	private boolean searchShellCreated = false;
-	private static Display display;
+	private final FileContainer filePath = new FileContainer();
 
-	private static ErgoReferenceSet REFERENCE_SETS = new ErgoReferenceSet();
+	private boolean searchShellCreated = false;
+
+	private Display display;
+
+	private ErgoReferenceSet REFERENCE_SETS = new ErgoReferenceSet();
+
+	URL shpLocation;
+
+	@SuppressWarnings("deprecation")
+	private void actionBrowseAndParseShapefile() {
+		Log.Out("Browsing for file...", 0, true);
+		mainShell.setCapture(false); // disable mouse clicks on main shell
+
+		changeStateOfWidgets(false);
+
+		// look for an input file and return it
+		FileDialog dialog = new FileDialog(mainShell);
+		dialog.setFilterExtensions(new String[] {"*.shp"});
+
+		String userSelectedPath =  dialog.open();
+
+		if (userSelectedPath == null || userSelectedPath.length() == 0) {
+			Log.Err("No file selected.", 0, true);
+			if (shapefileContainer != null) {
+				changeStateOfWidgets(true);
+			}
+			return;
+		}
+
+		try {
+			shpLocation = new File(userSelectedPath).toURL();
+		} catch (MalformedURLException e) {
+			Log.Exception(e, 0);
+			Log.Err("Error opening file.", 0, true);
+			if (shapefileContainer != null) {
+				changeStateOfWidgets(true);
+			}
+		}
+
+		// restore Shell functionality
+		mainShell.setCapture(true);
+		mainShell.setFocus();
+		// show the file path in the label widget
+		filePath.setStringPath(shpLocation.toString());
+		labelFileSelection.setText(filePath.getStringPath());
+
+		// clear all lists
+		listID.ergoList.removeAll();
+		listAttributes.ergoList.removeAll();
+		listCoordinates.ergoList.removeAll();
+		String[] clearCache = new String[1];
+		clearCache[0] = "";
+		listID.ergoList.setItems(clearCache);
+
+
+		Log.Out("Parsing File", 0, true);
+		// start a new thread to parse the file
+		shapefileContainer = new ParseShapefile().parseURLshapefile(shpLocation);
+
+		changeStateOfWidgets(true);
+
+		if (shapefileContainer == null || shapefileContainer.getGeometryCollection() == null) {
+			return;
+		}
+
+		final String shpCRS = getShapefileSystem();
+		Log.Out("Reference System is : " + shpCRS , 1 , true);
+		labelCSR.setText("CRS: " + shpCRS); // change the label displaying the reference system
+
+		// iterate through the collection and create a String [] to store IDs
+		String[] plineIDList = new String[shapefileContainer.getGeometryCollection().size()];
+		plineIDList = null;
+		plineIDList = new String[shapefileContainer.getGeometryCollection().size()];
+		int iter_PolylineCount = 0;
+
+		for (ErgoPolyline singlePolyline : shapefileContainer.getGeometryCollection()) {
+
+			String plineID = singlePolyline.getID();
+			int dot = plineID.indexOf(".");
+			plineIDList[iter_PolylineCount] = plineID.substring(dot + 1);
+			iter_PolylineCount ++;
+
+		} // end iteration
+
+		setComboIndex(comboSource);
+		listID.ergoList.setItems(plineIDList); // populate the list
+	}
+
 
 	/**
-	 * Initialise the Display
+	 * Action for exporting to KML (opens a file chooser)
 	 */
-	public void initUI() {
-		display = new Display();
+	private void actionExportToKML() {
+		changeStateOfWidgets(false);
 
-		final Shell mainShell = new MainParserLayout().addMainShell(getDisplay());
+		if (shapefileContainer.getGeometryCollection() != null && REFERENCE_SETS.getSourceSystem() != null) {
+			final SafeSaveDialog saveDialog = new SafeSaveDialog(mainShell);
+			saveDialog.setFilterExtensions(new String[]{"*.kml"});
 
-		mainShell.open();
-		Log.Out("Initialising UI...", 0, true);
-		while (!mainShell.isDisposed()) {
-			if (!getDisplay().readAndDispatch())
-				getDisplay().sleep();
+			final String destination = saveDialog.open();
+
+			if (destination != null) {
+				// create a thread that will monitor the processor
+				Thread monitorThread = new Thread(new Runnable() {
+					@Override
+					public void run() {
+						// set and start the processor
+						Thread processorThread = new ExportKML().createKMLProcessor(
+								new File(destination), shapefileContainer,
+								REFERENCE_SETS.getSourceSystem());
+						processorThread.start();
+
+						// wait for the processor thread to finish
+						synchronized (processorThread) {
+							try {
+								processorThread.wait();
+							} catch (InterruptedException e) {
+								Log.Exception(e, 1);
+							}
+							// start a SWT UI thread to update the UI
+							Display.getDefault().syncExec( new Runnable() {
+								public void run() {
+									// change widget state
+									changeStateOfWidgets(true);
+								}
+							});
+						}
+					}
+				});
+				// start the monitor thread
+				monitorThread.start();
+			} else {
+				Log.Err("No file selected", 1, true);
+				changeStateOfWidgets(true);
+			}
+		} else {
+			Log.Err("KML creation failed to start.", 0, true);
+			changeStateOfWidgets(true);
 		}
 	}
 
-	private final FileContainer filePath = new FileContainer();
-
 	/**
-	 * The method creates a Shell in a Display defined by input
-	 * @param firstDisplay : The Display (JAVA.SWT) on which the Shell will be created
-	 * @return
+	 * Method for handling exporting to SQLite
 	 */
-	private Shell addMainShell(final Display firstDisplay) {
-		mainShell = new Shell(firstDisplay, SWT.MAX | SWT.RESIZE | SWT.MIN);
-		mainShell.setText("Shapefile Parser");
-		GridLayout gridLayout = new GridLayout();
-		gridLayout.numColumns = 3;
-		gridLayout.marginWidth = 10;
-		gridLayout.marginHeight = 10;
+	private void actionExportToSQLite() {
 
-		mainShell.setLayout(gridLayout);
-		//		Log.Out("Successfully Created Main Shell.", 0);
+		Log.Out("Starting SQL Export", 1, true);
+		changeStateOfWidgets(false);
+		mainShell.setCapture(false);
 
-		mainShell =createMenuItems(mainShell); // Create Menu Items, should expand
+		ExportSQL sqlHelper = new ExportSQL();
+		File shpFile = new File(shpLocation.toString());
+		sqlHelper.processCollection(shapefileContainer.getGeometryCollection(), shpFile.getName());
 
-		addWidgets(mainShell); // Create all the Widgets
-
-		mainShell.addDisposeListener(this);
-		mainShell.pack();
-
-		return mainShell;
-	}
-
-
-	/**
-	 * 
-	 * @param inputShell
-	 */
-	public Shell createMenuItems(final Shell inputShell) {
-		Shell myShell = inputShell;
-		// Menu item section
-		Menu menuBar = new Menu(myShell, SWT.BAR);
-		MenuItem cascadeFileMenu = new MenuItem(menuBar, SWT.CASCADE);
-		cascadeFileMenu.setText("&File");
-		Menu fileMenu = new Menu(myShell, SWT.DROP_DOWN);
-		cascadeFileMenu.setMenu(fileMenu);
-
-		MenuItem exitItem = new MenuItem(fileMenu, SWT.PUSH);
-		exitItem.setText("&Exit"); // exit button
-		myShell.setMenuBar(menuBar);
-
-		exitItem.addSelectionListener(new SelectionAdapter() {
-			@Override
-			public void widgetSelected(SelectionEvent e) {
-				inputShell.getDisplay().dispose();
-				System.exit(0);
-			}
-		});// end menu item section
-		return inputShell;
+		changeStateOfWidgets(true);
+		mainShell.setCapture(true);
 	}
 
 	/**
-	 * 
-	 * @param shell
+	 * Displays an information shell
+	 * @param shell 
 	 * @return
 	 */
-	private Shell addSearchShell(Shell shell) {
+	private Shell addInfoShell() {
 
-		Log.Out("Creating Search Shell..." , 0, true);
-		searchShell = new Shell(shell);
-		searchShell.setText("Search");
-		searchShell.setSize(200,200);
-		GridLayout gridLayout = new GridLayout();
-		gridLayout.numColumns = 2;
-		gridLayout.marginWidth = 10;
-		gridLayout.marginHeight = 10;
-
-		searchShell.setLayout(gridLayout);
-
-		// Row 1
-		textSearch = new Text(searchShell, SWT.SINGLE | SWT.BORDER);
-		GridData gridData = new GridData(GridData.FILL, GridData.CENTER, true, false);
-		gridData.horizontalSpan = 2;
-		textSearch.setLayoutData(gridData);
-		buttonSearch1 = new CreateWidgets().createButton(searchShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Clear", 1); // create draw button
-
-		// Row 2
-		listSearch = new CreateWidgets().createList(searchShell, new GridData(GridData.FILL, GridData.FILL, true, true), 400, 400, 2); // create list populated with IDs
-
-		// Row 3
-		buttonSearch2 = new CreateWidgets().createButton(searchShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Set Source", 1); // create draw button
-		labelStatus = new CreateWidgets().createLabel(searchShell, new GridData(GridData.FILL), comboSource.ergoCombo.getText(), 500, 1); // create info label
-
-		// Row 4
-		buttonSearch3 = new CreateWidgets().createButton(searchShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Set Target", 1); // create draw button
-		labelInfo = new CreateWidgets().createLabel(searchShell, new GridData(GridData.FILL), comboTarget.ergoCombo.getText(), 400, 1); // create info label
-
-		listSearch.ergoList.setItems(comboSource.ergoCombo.getItems());
-
-		buttonSearch1.ergoButton.addSelectionListener(this);
-		buttonSearch2.ergoButton.addSelectionListener(this);
-		buttonSearch3.ergoButton.addSelectionListener(this);
-
-		textSearch.addModifyListener(new ModifyListener() {
-
-			@Override
-			public void modifyText(ModifyEvent modifyEvent) {
-				Display.getDefault().asyncExec(new Runnable() {
-					@Override
-					public void run() {
-						performSearch();
-					}
-				});
-			}
-		});
-
-		searchShellCreated = true;
-		return searchShell;
-	}
-
-	/**
-	 * 
-	 * @param shell
-	 * @return
-	 */
-	private Shell addInfoShell(Shell shell) {
-
-		infoShell = new Shell(shell);
+		infoShell = new Shell();
 		infoShell.setText("CRS Details");
 		infoShell.setSize(200,200);
 		GridLayout gridLayout = new GridLayout();
@@ -256,6 +283,32 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 
 
 	/**
+	 * The method creates a Shell in a Display defined by input
+	 * @param firstDisplay : The Display (JAVA.SWT) on which the Shell will be created
+	 * @return
+	 */
+	private Shell addMainShell(final Display firstDisplay) {
+		mainShell = new Shell(firstDisplay, SWT.MAX | SWT.RESIZE | SWT.MIN);
+		mainShell.setText("Shapefile Parser and Exporter");
+		GridLayout gridLayout = new GridLayout();
+		gridLayout.numColumns = 3;
+		gridLayout.marginWidth = 10;
+		gridLayout.marginHeight = 10;
+
+		mainShell.setLayout(gridLayout);
+		Log.Out("Successfully Created Main Shell.", 0, false);
+
+		mainShell = createMenuItems(mainShell); // Create Menu Items, should expand
+
+		addWidgets(mainShell); // Create all the Widgets
+
+		mainShell.addDisposeListener(this);
+		mainShell.pack();
+
+		return mainShell;
+	}
+
+	/**
 	 * 
 	 * @param shell
 	 */
@@ -263,71 +316,73 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 		Shell myShell = shell;
 		String dataDir = "externaldata/";
 
+		WidgetFactory widgetFactory = new WidgetFactory();
+
 		// start creating widgets - order is important
 		// Row 1
-		new CreateWidgets().createLabel(myShell,new GridData(GridData.BEGINNING), "Browse for a ShapeFile: ", 200, 1); // create info label
-		buttonBrowse = new CreateWidgets().createButton(myShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Browse", 2); // create draw button
+		widgetFactory.createLabel(myShell,new GridData(GridData.BEGINNING), "Browse for a ShapeFile: ", 200, 1); // create info label
+		buttonBrowse = new WidgetFactory().createButton(myShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Browse", 2); // create draw button
 
 		// Row 2
-		new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "Using ShapeFile: ", 200, 1); // create info label
-		labelFileSelection = new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "No File Selected. Please Select a Shapefile.", 600, 2); // create info label
+		widgetFactory.createLabel(myShell, new GridData(GridData.FILL), "Using ShapeFile: ", 200, 1); // create info label
+		labelFileSelection = new WidgetFactory().createLabel(myShell, new GridData(GridData.FILL), "No File Selected. Please Select a Shapefile.", 600, 2); // create info label
 
 		// Row 3
-		new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "Shape Identifier", 200, 1); // create info label for the List beneath it
-		new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "Attribute List", 600, 1); // create info label for the List beneath it
-		new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "Coordinate List", 200, 1); // create info label for the List beneath it
+		widgetFactory.createLabel(myShell, new GridData(GridData.FILL), "Shape Identifier", 200, 1); // create info label for the List beneath it
+		widgetFactory.createLabel(myShell, new GridData(GridData.FILL), "Attribute List", 600, 1); // create info label for the List beneath it
+		widgetFactory.createLabel(myShell, new GridData(GridData.FILL), "Coordinate List", 200, 1); // create info label for the List beneath it
 
 		// Row 4
-		listID = new CreateWidgets().createList(myShell, new GridData(GridData.FILL, GridData.FILL, true, true), 200, 400, 1); // create list populated with IDs
-		listAttributes = new CreateWidgets().createList(myShell, new GridData(GridData.FILL, GridData.FILL, true, true), 500, 400, 1); // create list populated with metadata
-		listCoordinates = new CreateWidgets().createList(myShell, new GridData(GridData.FILL, GridData.FILL, true, true), 200, 400, 1); // create list populated with coordinates
+		listID = widgetFactory.createList(myShell, new GridData(GridData.FILL, GridData.FILL, true, true), 200, 400, 1); // create list populated with IDs
+		listAttributes = widgetFactory.createList(myShell, new GridData(GridData.FILL, GridData.FILL, true, true), 500, 400, 1); // create list populated with metadata
+		listCoordinates = widgetFactory.createList(myShell, new GridData(GridData.FILL, GridData.FILL, true, true), 200, 400, 1); // create list populated with coordinates
 
 		// Row 5
-		labelCSR = new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "CRS : Not Defined", 200, 1); // create info label
-		buttonViewCRS = new CreateWidgets().createButton(myShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Details", 2); // create button
+		labelCSR = widgetFactory.createLabel(myShell, new GridData(GridData.FILL), "CRS : Not Defined", 200, 1); // create info label
+		buttonViewCRS = widgetFactory.createButton(myShell, new GridData(GridData.FILL, GridData.CENTER, false, false), "Details", 2); // create button
 
 		// Row 6
-		new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "Press to display map: ", 200, 1); // create info label
-		buttonMap = new CreateWidgets().createButton(myShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Open Map", 2); // create draw button
+		widgetFactory.createLabel(myShell, new GridData(GridData.FILL), "Press to display map: ", 200, 1); // create info label
+		buttonMap = new WidgetFactory().createButton(myShell, new GridData(GridData.FILL, GridData.CENTER, false, false), "Open Map", 2); // create draw button
 
 		// Row 7
-		new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "EPSG File :", 200, 1); // create info label
-		comboEPSG = new CreateWidgets().createCombo(myShell, new GridData(GridData.BEGINNING), 400, 1); 
+		widgetFactory.createLabel(myShell, new GridData(GridData.FILL), "EPSG File :", 200, 1); // create info label
+		comboEPSG = widgetFactory.createCombo(myShell, new GridData(GridData.FILL), 400, 1); 
 		new Label(myShell, SWT.NONE); // empty label, used to arrange widgets
 
 		// Row 8
-		new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "Source Coordinate System :", 200, 1); // create info label
-		comboSource = new CreateWidgets().createCombo(myShell, new GridData(GridData.FILL), 400, 1);
-		buttonDetectCRS = new CreateWidgets().createButton(myShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Auto-Detect CRS", 1); // create draw button
+		widgetFactory.createLabel(myShell, new GridData(GridData.FILL), "Source Coordinate System :", 200, 1); // create info label
+		comboSource = widgetFactory.createCombo(myShell, new GridData(GridData.FILL), 400, 1);
+		buttonDetectCRS = widgetFactory.createButton(myShell, new GridData(GridData.FILL, GridData.CENTER, false, false), "Auto-Detect CRS", 1); // create draw button
 
 		// Row 9
-		new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "Target Coordinate System :", 200, 1); // create info label
-		comboTarget = new CreateWidgets().createCombo(myShell, new GridData(GridData.FILL), 400, 1);
-		buttonSearchCRS = new CreateWidgets().createButton(myShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Search and Set CRS", 1); // create draw button
+		widgetFactory.createLabel(myShell, new GridData(GridData.FILL), "Target Coordinate System :", 200, 1); // create info label
+		comboTarget = widgetFactory.createCombo(myShell, new GridData(GridData.FILL), 400, 1);
+		buttonSearchCRS = widgetFactory.createButton(myShell, new GridData(GridData.FILL, GridData.CENTER, false, false), "Search and Set CRS", 1); // create draw button
 
 		// Row 10
-		new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "Export to CSV :", 200, 1); // create info label
-		buttonExportRawCSV = new CreateWidgets().createButton(myShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Export to CSV", 1); // create draw button
+		widgetFactory.createLabel(myShell, new GridData(GridData.FILL), "Export to CSV :", 200, 1); // create info label
+		buttonExportRawCSV = widgetFactory.createButton(myShell, new GridData(GridData.FILL, GridData.CENTER, false, false), "Export to CSV", 1); // create draw button
 		new Label(myShell, SWT.NONE); // empty label, used to arrange widgets
 
 		// Row 11
-		new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "Transform and Export to CSV :", 200, 1); // create info label
-		buttonExportTransformedCSV = new CreateWidgets().createButton(myShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Transform to CSV", 1); // create draw button
+		widgetFactory.createLabel(myShell, new GridData(GridData.FILL), "Transform and Export to CSV :", 200, 1); // create info label
+		buttonExportTransformedCSV = widgetFactory.createButton(myShell, new GridData(GridData.FILL, GridData.CENTER, false, false), "Transform and Export to CSV", 1); // create draw button
 		new Label(myShell, SWT.NONE); // empty label, used to arrange widgets
 
 		// Row 12
-		new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "Export to KML (to WGS 1984) :", 200, 1); // create info label
-		buttonKML = new CreateWidgets().createButton(myShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Export to KML", 1); // create draw button
+		widgetFactory.createLabel(myShell, new GridData(GridData.FILL), "Export to KML (to WGS 1984) :", 200, 1); // create info label
+		buttonKML = widgetFactory.createButton(myShell, new GridData(GridData.FILL, GridData.CENTER, false, false), "Export to KML File", 1); // create draw button
 		new Label(myShell, SWT.NONE); // empty label, used to arrange widgets
 
 		// Row 13
-		new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "Export to SQL :", 200, 1); // create info label
-		buttonExportSQL = new CreateWidgets().createButton(myShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Export SQL", 1); // create export button
+		widgetFactory.createLabel(myShell, new GridData(GridData.FILL), "Export to SQL :", 200, 1); // create info label
+		buttonExportSQL = widgetFactory.createButton(myShell, new GridData(GridData.FILL, GridData.CENTER, false, false), "Export to SQL Database", 1); // create export button
 		new Label(myShell, SWT.NONE); // empty label, used to arrange widgets
 
 		// Row 14
-		labelStatus = new CreateWidgets().createLabel(myShell, new GridData(GridData.FILL), "Status : ", 200, 1); // create status label
-		STATUS_LIST = new CreateWidgets().createList(myShell, new GridData(GridData.FILL, GridData.FILL_HORIZONTAL, false, false), 100, 50, 1); // create list populated with IDs 
+		labelStatus = widgetFactory.createLabel(myShell, new GridData(GridData.FILL), "Status : ", 200, 1); // create status label
+		STATUS_LIST = widgetFactory.createList(myShell, new GridData(GridData.FILL, GridData.FILL_HORIZONTAL, false, false), 100, 50, 1); // create list populated with IDs 
 
 		// Add listeners
 		buttonDetectCRS.ergoButton.addSelectionListener(this);
@@ -361,9 +416,75 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 			String[] listCRS = new ProcessingOperations().createComboString(fileName);
 			comboSource.ergoCombo.setItems(listCRS);
 			comboTarget.ergoCombo.setItems(listCRS);
-		} else { Log.Err("Empty file selected.", 0, true);
+		} else { 
+			Log.Err("Empty file selected.", 0, true);
 		}
+
 		changeStateOfWidgets(false);
+	}
+
+	/**
+	 * 
+	 */
+	private void buildSearchShell() {
+
+		Log.Out("Creating Search Shell..." , 0, true);
+		searchShell = new Shell();
+		searchShell.setText("Search");
+		searchShell.setSize(200,200);
+		GridLayout gridLayout = new GridLayout();
+		gridLayout.numColumns = 2;
+		gridLayout.marginWidth = 10;
+		gridLayout.marginHeight = 10;
+
+		searchShell.setLayout(gridLayout);
+
+		// create a factory for the creation of widgets
+		WidgetFactory widgetFactory = new WidgetFactory();
+
+		// Row 1
+		textSearch = new Text(searchShell, SWT.SINGLE | SWT.BORDER);
+		GridData gridData = new GridData(GridData.FILL, GridData.CENTER, true, false);
+		gridData.horizontalSpan = 2;
+		textSearch.setLayoutData(gridData);
+		buttonSearch1 = widgetFactory.createButton(searchShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Clear", 1); // create draw button
+
+		// Row 2
+		listSearch = widgetFactory.createList(searchShell, new GridData(GridData.FILL, GridData.FILL, true, true), 400, 400, 2); // create list populated with IDs
+
+		// Row 3
+		buttonSearch2 = widgetFactory.createButton(searchShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Set Source", 1); // create draw button
+		labelStatus = widgetFactory.createLabel(searchShell, new GridData(GridData.FILL), comboSource.ergoCombo.getText(), 500, 1); // create info label
+
+		// Row 4
+		buttonSearch3 = widgetFactory.createButton(searchShell, new GridData(GridData.BEGINNING, GridData.CENTER, false, false), "Set Target", 1); // create draw button
+		labelInfo = widgetFactory.createLabel(searchShell, new GridData(GridData.FILL), comboTarget.ergoCombo.getText(), 400, 1); // create info label
+
+		listSearch.ergoList.setItems(comboSource.ergoCombo.getItems());
+
+		buttonSearch1.ergoButton.addSelectionListener(this);
+		buttonSearch2.ergoButton.addSelectionListener(this);
+		buttonSearch3.ergoButton.addSelectionListener(this);
+
+		textSearch.addModifyListener(new ModifyListener() {
+			// initialise the search
+			@Override
+			public void modifyText(ModifyEvent modifyEvent) {
+				Display.getDefault().asyncExec(new Runnable() {
+					@Override
+					public void run() {
+						performSearch();
+					}
+				});
+			}
+		});
+
+		searchShellCreated = true;
+
+		Log.Out("Opening Search Shell...", 0, true);
+
+		searchShell.open();
+		searchShell.pack();
 	}
 
 	/**
@@ -371,19 +492,22 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 	 * @param state : Boolean TRUE or FALSE
 	 */
 	private void changeStateOfWidgets(boolean state) {
-
-		buttonKML.ergoButton.setEnabled(state);
-		buttonExportTransformedCSV.ergoButton.setEnabled(state);
-		buttonExportRawCSV.ergoButton.setEnabled(state);
-		buttonViewCRS.ergoButton.setEnabled(state);
-		buttonMap.ergoButton.setEnabled(state);
-		comboEPSG.ergoCombo.setEnabled(state);
-		comboSource.ergoCombo.setEnabled(state);
-		comboTarget.ergoCombo.setEnabled(state);
-		buttonSearchCRS.ergoButton.setEnabled(state);
-		buttonDetectCRS.ergoButton.setEnabled(state);
-		buttonExportSQL.ergoButton.setEnabled(state);
-
+		Display.getDefault().syncExec( new Runnable() {
+			public void run() {
+				buttonKML.ergoButton.setEnabled(state);
+				buttonExportTransformedCSV.ergoButton.setEnabled(state);
+				buttonExportRawCSV.ergoButton.setEnabled(state);
+				buttonViewCRS.ergoButton.setEnabled(state);
+				buttonMap.ergoButton.setEnabled(state);
+				comboEPSG.ergoCombo.setEnabled(state);
+				comboSource.ergoCombo.setEnabled(state);
+				comboTarget.ergoCombo.setEnabled(state);
+				buttonSearchCRS.ergoButton.setEnabled(state);
+				buttonDetectCRS.ergoButton.setEnabled(state);
+				buttonExportSQL.ergoButton.setEnabled(state);
+				mainShell.update();
+			}
+		});
 	}
 
 	/**
@@ -401,6 +525,21 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 			return null;
 		} else {
 			return referenceLabel;
+		}
+	}
+
+	/**
+	 * Initialise the Display
+	 */
+	public void initUI() {
+		display = new Display();
+		final Shell mainShell = new MainParserLayout().addMainShell(display);
+		mainShell.open();
+
+		Log.Out("UI Initialised successfully. Please browse for a Shapefile.", 1, true);
+		while (!mainShell.isDisposed()) {
+			if (!display.readAndDispatch())
+				display.sleep();
 		}
 	}
 
@@ -468,6 +607,27 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 		}
 	}
 
+	private void setSystem() {
+
+		String selectedItem = comboSource.ergoCombo.getItem(comboSource.ergoCombo.getSelectionIndex());
+
+		Log.Out("Selected " + selectedItem, 1, true);
+
+		ErgoReferenceSystem selectedCRS = new ProcessingOperations().splitComboString(selectedItem);
+		REFERENCE_SETS.setSourceSystem(selectedCRS);
+
+	}
+
+	@Override
+	public void widgetDefaultSelected(SelectionEvent defaultEvent) {
+		int callerHashCode = defaultEvent.getSource().hashCode();
+		if (callerHashCode == comboEPSG.getErgoID()) {
+			comboEPSG.ergoCombo.select(0);
+		} else if (callerHashCode == listID.getErgoID()) {
+			listID.ergoList.deselectAll();
+		}
+	}
+
 	@Override
 	public void widgetDisposed(DisposeEvent disposeEvent) {
 
@@ -482,111 +642,22 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 	}
 
 	@Override
-	public void widgetDefaultSelected(SelectionEvent defaultEvent) {
-		int callerHashCode = defaultEvent.getSource().hashCode();
-		if (callerHashCode == comboEPSG.getErgoID()) {
-			comboEPSG.ergoCombo.select(0);
-		} else if (callerHashCode == listID.getErgoID()) {
-			listID.ergoList.deselectAll();
-		}
-	}
-
-	URL shpLocation;
-
-	@Override
 	public void widgetSelected(SelectionEvent selectionEvent) {
 
 		int callerHashCode = selectionEvent.getSource().hashCode();
 
 		if (callerHashCode == buttonBrowse.getErgoID()) {
-			Log.Out("Detected click on Browse Button " + selectionEvent.getSource().hashCode(), 1, false);
-			Log.Out("Browsing for file...", 0, true);
-			mainShell.setCapture(false); // disable mouse clicks on main shell
-
-			Display.getDefault().syncExec(new Runnable() {
-				@Override
-				public void run() {
-					shpLocation = new FileOperations().browseAndReturnURL(); // user input for file
-				}
-			});
-
-			if(shpLocation == null) {
-				mainShell.setCapture(true);
-				mainShell.setFocus();
-				Log.Err("No file selected.", 0, false);
-				return;
-			}
-			mainShell.setCapture(true);
-			mainShell.setFocus();
-			mainShell.setVisible(true);
-
-			filePath.setStringPath(shpLocation.toString());
-			labelFileSelection.setText(filePath.getStringPath());
-
-			listID.ergoList.removeAll();
-			listAttributes.ergoList.removeAll();
-			listCoordinates.ergoList.removeAll();
-			String[] clearCache = new String[1];
-			clearCache[0] = "";
-			listID.ergoList.setItems(clearCache);
-
-			Display.getDefault().syncExec(new Runnable() {
-				@Override
-				public void run() {
-					shapefileContainer = new ParseShapefile().parseURLshapefile(shpLocation);
-				}
-			});
-
-			if (shapefileContainer.getGeometryCollection() == null) {
-				changeStateOfWidgets(false);
-				return;
-			}
-			changeStateOfWidgets(true);
-
-			String shpCRS = getShapefileSystem();
-			Log.Out("Reference System is : " + shpCRS , 1 , true);
-			labelCSR.setText("CRS: " + shpCRS); // change the label displaying the reference system
-
-			// iterate through the collection and create a String [] to store IDs
-			String[] plineIDList = new String[shapefileContainer.getGeometryCollection().size()];
-			plineIDList = null;
-			plineIDList = new String[shapefileContainer.getGeometryCollection().size()];
-			int iter_PolylineCount = 0;
-
-			for (ErgoPolyline singlePolyline : shapefileContainer.getGeometryCollection()) {
-
-				String plineID = singlePolyline.getID();
-				int dot = plineID.indexOf(".");
-				plineIDList[iter_PolylineCount] = plineID.substring(dot + 1);
-				iter_PolylineCount ++;
-
-			} // end iteration
-
-			setComboIndex(comboSource);
-			listID.ergoList.setItems(plineIDList); // populate the list
-
+			actionBrowseAndParseShapefile();
 		} else if (callerHashCode == buttonMap.getErgoID()) {
-
+			Log.Out("Displaying Preview of File." , 1, true);
 			new MapDisplay().shapefileDisplay(filePath.getPathAsFile());
-			Log.Out("Displaying contents of file." , 1, true);
-
 		} else if (callerHashCode == buttonKML.getErgoID()) {
-
-			if (shapefileContainer.getGeometryCollection() != null && REFERENCE_SETS.getSourceSystem() != null) {
-				Display.getDefault().syncExec(new Runnable() {
-					@Override
-					public void run() {
-						new ExportKML().createKML(shapefileContainer, REFERENCE_SETS.getSourceSystem());
-					}
-				});
-			} else {
-				Log.Err("KML creation failed to start.", 0, true);
-			}
+			actionExportToKML();
 
 		} else if (callerHashCode == comboEPSG.getErgoID()) {
 
 			fileName = comboEPSG.ergoCombo.getItem(comboEPSG.ergoCombo.getSelectionIndex());
-			System.out.println("Selected " + fileName);
+			Log.Out("Selected " + fileName, 1, true);
 
 			if (!fileName.isEmpty() || !fileName.equals("") || fileName != null) {
 				String[] listCRS = new ProcessingOperations().createComboString(fileName);
@@ -647,22 +718,12 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 
 		}  else if (callerHashCode == buttonSearchCRS.getErgoID()) {
 			Log.Out("Detected click on Search Button " + selectionEvent.getSource().hashCode(), 1, false);
-
-			searchShell = addSearchShell(mainShell);
-
-			Log.Out("Opening Search Shell...", 0, true);
-
-			searchShell.open();
-			searchShell.pack();
-
+			buildSearchShell();
 		}  else if (searchShellCreated && callerHashCode == buttonSearch1.getErgoID()) {
 			Log.Out("Detected click on Clear Search Button " + selectionEvent.getSource().hashCode(), 1, false);
-
 			textSearch.setText("");
-
 		} else if (searchShellCreated && callerHashCode == buttonSearch2.getErgoID()) {
 			Log.Out("Detected click on Set Source Button " + selectionEvent.getSource().hashCode(), 1, false);
-
 			int countSelected = listSearch.ergoList.getSelectionCount();
 			if (countSelected == 1) {
 
@@ -707,10 +768,9 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 				}
 
 			}
-
 		} else if (callerHashCode == buttonViewCRS.getErgoID()) {
 			Log.Out("Detected click on View CRS Button " + selectionEvent.getSource().hashCode(), 1, false);
-			infoShell = addInfoShell(mainShell);
+			infoShell = addInfoShell();
 
 			Log.Out("Opening Info Shell...", 0, true);
 
@@ -719,28 +779,18 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 
 		} else if (callerHashCode == buttonExportSQL.getErgoID()) {
 			Log.Out("Detected click on Export SQL Button " + selectionEvent.getSource().hashCode(), 1, false);
-			Log.Out("Starting SQL Export", 1, true);
-
-			Display.getDefault().syncExec(new Runnable() {
-				@Override
-				public void run() {
-					ExportSQL sqlHelper = new ExportSQL();
-					File shpFile = new File(shpLocation.toString());
-					sqlHelper.processCollection(shapefileContainer.getGeometryCollection(), shpFile.getName());
-				}
-			});
-
+			actionExportToSQLite();
 		} else if (callerHashCode == buttonExportRawCSV.getErgoID()) {
 
 			Log.Out("Detected click on Raw CSV Button " + selectionEvent.getSource().hashCode(), 1, false);
 			Log.Out("Starting CSV Export", 1, true);
-			
+
 			try {
 				// browse for output file
 				File saveFile = new FileOperations().saveSpecificFile(".csv");
-				Log.Out("Saving to File " + saveFile.getCanonicalPath(), 2, true);
-				
+
 				if (saveFile != null) {
+					Log.Out("Saving to File " + saveFile.getCanonicalPath(), 2, true);
 					Display.getDefault().syncExec(new Runnable() {
 						@Override
 						public void run() {
@@ -757,13 +807,13 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 
 			Log.Out("Detected click on Transformed CSV Button " + selectionEvent.getSource().hashCode(), 1, false);
 			Log.Out("Starting Transformed CSV Export", 1, true);
-			
+
 			try {
 				// browse for output file
 				File saveFile = new FileOperations().saveSpecificFile(".csv");
-				Log.Out("Saving to File " + saveFile.getCanonicalPath(), 2, true);
-				
+
 				if (saveFile != null) {
+					Log.Out("Saving to File " + saveFile.getCanonicalPath(), 2, true);
 					Display.getDefault().syncExec(new Runnable() {
 						@Override
 						public void run() {
@@ -783,29 +833,45 @@ public class MainParserLayout implements DisposeListener, SelectionListener {
 
 	}
 
-	private void setSystem() {
 
-		String selectedItem = comboSource.ergoCombo.getItem(comboSource.ergoCombo.getSelectionIndex());
+	/**
+	 * Method for generating MenuItems and adding them to a Shell
+	 * @param inputShell Shell to be used
+	 */
+	private static Shell createMenuItems(final Shell inputShell) {
+		// Menu item section
+		Menu menuBar = new Menu(inputShell, SWT.BAR);
+		MenuItem cascadeFileMenu = new MenuItem(menuBar, SWT.CASCADE);
+		cascadeFileMenu.setText("&File");
+		Menu fileMenu = new Menu(inputShell, SWT.DROP_DOWN);
+		cascadeFileMenu.setMenu(fileMenu);
 
-		Log.Out("Selected " + selectedItem, 1, true);
+		final MenuItem exitItem = new MenuItem(fileMenu, SWT.PUSH);
+		exitItem.setText("&Exit"); // exit button
+		inputShell.setMenuBar(menuBar);
 
-		ErgoReferenceSystem selectedCRS = new ProcessingOperations().splitComboString(selectedItem);
-		REFERENCE_SETS.setSourceSystem(selectedCRS);
-
+		exitItem.addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+				inputShell.getDisplay().dispose();
+				System.exit(0);
+			}
+		});// end menu item section
+		return inputShell;
 	}
 
-	public static ErgoList getSTATUS_LIST() {
-		if (STATUS_LIST != null) {
-			return STATUS_LIST;
-		} else {
-			return null;
-		}
 
+	public static void updateStatusList(String text) {
+		Display.getDefault().syncExec( new Runnable() {
+			public void run() {
+				STATUS_LIST.ergoList.add(text);
+				STATUS_LIST.ergoList.setTopIndex(STATUS_LIST.ergoList.getItemCount() - 1); // ensure list always scrolls down
+				STATUS_LIST.ergoList.redraw();
+			}
+		});
 	}
 
 
-	public static Display getDisplay() {
-		return display;
-	}
+
 
 }

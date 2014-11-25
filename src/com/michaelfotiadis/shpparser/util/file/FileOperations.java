@@ -4,13 +4,9 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
-import java.net.MalformedURLException;
-import java.net.URL;
 
 import javax.swing.JFileChooser;
 import javax.swing.filechooser.FileFilter;
-
-import org.geotools.graph.util.SimpleFileFilter;
 
 import com.michaelfotiadis.shpparser.util.system.Log;
 
@@ -76,7 +72,7 @@ public class FileOperations {
 	 */
 	public File convertURLtoFile(String pathURL) {
 		final String urlSeparator = "file:/";
-		
+
 		if (pathURL.contains(urlSeparator)) {
 
 			String[] stringURL = pathURL.toString().split(urlSeparator);
@@ -93,32 +89,6 @@ public class FileOperations {
 
 	}
 
-	/**
-	 * Opens a browser for shapefiles and returns a URL
-	 * @return Location of the user selected shapefile in URL format 
-	 */
-	@SuppressWarnings("deprecation")
-	public URL browseAndReturnURL() {
-
-		URL shapeURL = null;
-		JFileChooser fileChooser = new JFileChooser();
-		fileChooser.setFileFilter(new SimpleFileFilter("shp", SHAPEFILE_DESCRIPTION)); // browse for a Shapefile
-		int result = fileChooser.showOpenDialog(null);
-
-		if (result == JFileChooser.APPROVE_OPTION) {
-			File file = fileChooser.getSelectedFile();
-
-			try {
-				shapeURL = file.toURL();
-			} catch (MalformedURLException e) {
-				Log.Exception(e, 0);
-			}
-
-		} else {
-			Log.Err("FileOperations Report: File error.", 1, true);
-		}
-		return shapeURL;
-	}
 
 
 	/**

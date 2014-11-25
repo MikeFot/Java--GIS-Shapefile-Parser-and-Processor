@@ -17,7 +17,7 @@ public class FeatureOperations {
 	 * @param propertyName : String descriptor of the property i.e. 2Radius"
 	 * @return The toString value of the property as read from the HashMap
 	 */
-	public String CreateHashMapEntry(ErgoPolyline featurePolyline, String propertyType, String propertyValue, String propertyName) {
+	public String createHashMapEntry(ErgoPolyline featurePolyline, String propertyType, String propertyValue, String propertyName) {
 
 		String returnValue;  
 
@@ -48,7 +48,7 @@ public class FeatureOperations {
 	 * @param geomValue
 	 * @return
 	 */
-	public static String[] SplitGeometryString(String geomType, String geomValue) {
+	public static String[] splitGeometryString(String geomType, String geomValue) {
 		String geomString;
 
 		if  (geomValue.startsWith("POINT", 0)) {

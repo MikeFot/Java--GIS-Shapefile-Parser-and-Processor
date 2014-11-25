@@ -45,8 +45,7 @@ public class ExportSQL {
 		try {
 			// use a prepared statement to avoid injections
 
-			Log.Out("Processing " + ID + " for object " + line, 2, false);
-
+			Log.Out("Processing object " + ID, 2, true);
 
 			prepStmt = Singleton.getConnection().prepareStatement(schema);
 
@@ -97,7 +96,7 @@ public class ExportSQL {
 			Connection connection = Singleton.getConnection();
 			if (connection == null)
 				return false;
-			
+
 			connection.setAutoCommit(true);
 			connection.setReadOnly(false);
 
@@ -106,7 +105,7 @@ public class ExportSQL {
 			Log.Out("Created Table with Result " + creationResult, 1, true);
 
 			statement.close();
-			
+
 			return true;
 		} catch (SQLException | DataAccessException e) {
 			Log.Exception(e, 0);
@@ -122,77 +121,87 @@ public class ExportSQL {
 	 * @param fileName Location of tha database
 	 */
 	public void processCollection(Collection<ErgoPolyline> collection, String fileName) {
+		Thread thread = new Thread(new Runnable() {
 
-		String mFileName = fileName.replaceAll(".shp", "");
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
 
-		StringBuilder queryStringBuilder = new StringBuilder();
-		StringBuilder schemaStringBuilder = new StringBuilder();
-		StringBuilder valueStringBulder = new StringBuilder();
 
-		queryStringBuilder.append("CREATE TABLE ");
-		queryStringBuilder.append(mFileName);
-		queryStringBuilder.append(" (ID INT PRIMARY KEY NOT NULL, COORDINATES TEXT");
+				String mFileName = fileName.replaceAll(".shp", "");
 
-		schemaStringBuilder.append("(ID, COORDINATES");
-		valueStringBulder.append("VALUES(?,?");
+				StringBuilder queryStringBuilder = new StringBuilder();
+				StringBuilder schemaStringBuilder = new StringBuilder();
+				StringBuilder valueStringBulder = new StringBuilder();
 
-		ErgoPolyline lineZero = collection.iterator().next();
-		for (String key : lineZero.getStringKeys()) {
-			Log.Out(key, 1, true);
-			if (key.equalsIgnoreCase("ID")) {
-				key = "ID_1";
+				queryStringBuilder.append("CREATE TABLE ");
+				queryStringBuilder.append(mFileName);
+				queryStringBuilder.append(" (ID INT PRIMARY KEY NOT NULL, COORDINATES TEXT");
+
+				schemaStringBuilder.append("(ID, COORDINATES");
+				valueStringBulder.append("VALUES(?,?");
+
+				ErgoPolyline lineZero = collection.iterator().next();
+				for (String key : lineZero.getStringKeys()) {
+					Log.Out(key, 1, true);
+					if (key.equalsIgnoreCase("ID")) {
+						key = "ID_1";
+					}
+					if (key.equalsIgnoreCase("COORDINATES")) {
+						key = "COORDINATES_1";
+					}
+
+					queryStringBuilder.append(",");
+					queryStringBuilder.append(key);
+					queryStringBuilder.append(" TEXT");
+
+					schemaStringBuilder.append(" ,");
+					schemaStringBuilder.append(key);
+
+					valueStringBulder.append(", ?");
+
+				}
+				// TODO Add Type
+				queryStringBuilder.append(")");
+				schemaStringBuilder.append(") ");
+				valueStringBulder.append(");");
+
+				Log.Out(queryStringBuilder.toString(), 1, true);
+				Log.Out("Creating Table " + mFileName, 1, true);
+				boolean didICreateTable = makeTable(queryStringBuilder.toString());
+
+				if (didICreateTable) {
+					Log.Out("Table did not exist so it had to be created", 0, false);
+				}
+
+				String builderPrefix = "INSERT OR IGNORE INTO " + mFileName + " ";
+
+				String insertSchema = builderPrefix + schemaStringBuilder.toString() + valueStringBulder.toString();
+
+				Log.Out("Insert Schema is " + insertSchema, 1, true);
+
+				try {
+					Singleton.openConnection();
+					Connection connection = Singleton.getConnection();
+					connection.setAutoCommit(true);
+					connection.setReadOnly(false);
+
+					int id = 0;
+					for (ErgoPolyline line : collection) {
+						id++;
+						insertDataToTable(id, line, insertSchema);
+					}
+				} catch (SQLException ex) {
+					Logger.getLogger(ExportSQL.class.getName()).log(Level.SEVERE, null, ex);
+					Singleton.closeConnection();
+				} finally {
+					Singleton.closeConnection();
+					Log.Out("Finished exporting to SQL", 1, true);
+				}
 			}
-			if (key.equalsIgnoreCase("COORDINATES")) {
-				key = "COORDINATES_1";
-			}
-			
-			queryStringBuilder.append(",");
-			queryStringBuilder.append(key);
-			queryStringBuilder.append(" TEXT");
-
-			schemaStringBuilder.append(" ,");
-			schemaStringBuilder.append(key);
-
-			valueStringBulder.append(", ?");
-
-		}
-		// TODO Add Type and Vertex List
-		queryStringBuilder.append(")");
-		schemaStringBuilder.append(") ");
-		valueStringBulder.append(");");
-
-		Log.Out(queryStringBuilder.toString(), 1, true);
-		Log.Out("Creating Table " + mFileName, 1, true);
-		boolean didICreateTable = makeTable(queryStringBuilder.toString());
-
-		if (didICreateTable) {
-			Log.Out("Table did not exist so it had to be created", 0, false);
-		}
-
-		String builderPrefix = "INSERT OR IGNORE INTO " + mFileName + " ";
-
-		String insertSchema = builderPrefix + schemaStringBuilder.toString() + valueStringBulder.toString();
-
-		Log.Out("Insert Schema is " + insertSchema, 1, true);
-
-		try {
-			Singleton.openConnection();
-			Connection connection = Singleton.getConnection();
-			connection.setAutoCommit(true);
-			connection.setReadOnly(false);
-
-			int id = 0;
-			for (ErgoPolyline line : collection) {
-				id++;
-				insertDataToTable(id, line, insertSchema);
-			}
-		} catch (SQLException ex) {
-			Logger.getLogger(ExportSQL.class.getName()).log(Level.SEVERE, null, ex);
-			Singleton.closeConnection();
-		} finally {
-			Singleton.closeConnection();
-		}
-
+		});
+		thread.start();
+		
 	}
 
 	public Result<Record> selectQuery(String dbTable, String fieldColumn, String fieldValue) {

@@ -8,8 +8,6 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.eclipse.swt.widgets.List;
-
 import com.michaelfotiadis.shpparser.constants.AppConstants;
 import com.michaelfotiadis.shpparser.userinterface.layouts.MainParserLayout;
 
@@ -163,11 +161,11 @@ public class Log {
 	
 	private static void logUI(int indent_level, String text) {
 
-		List status = MainParserLayout.getSTATUS_LIST().ergoList;
-		if ( status != null && MainParserLayout.getDisplay() != null) {
-			MainParserLayout.getDisplay().asyncExec(new Runnable() {
-				@Override
-				public void run() {
+//		List status = MainParserLayout.getSTATUS_LIST().ergoList;
+//		if ( status != null && MainParserLayout.getDisplay() != null) {
+//			MainParserLayout.getDisplay().asyncExec(new Runnable() {
+//				@Override
+//				public void run() {
 					String indent = "";
 					switch (indent_level) {
 					case 0 : indent = "";
@@ -176,12 +174,13 @@ public class Log {
 					case 3 : indent = "   ";
 					default : indent = "";
 					}
-					status.add(indent + text);
-					status.setTopIndex(status.getItemCount() - 1); // ensure list always scrolls down
-					MainParserLayout.getSTATUS_LIST().ergoList.redraw();
-				}
-			});
+					MainParserLayout.updateStatusList(indent + text);
+					
+//					status.add(indent + text);
+//					status.setTopIndex(status.getItemCount() - 1); // ensure list always scrolls down
+//					MainParserLayout.getSTATUS_LIST().ergoList.redraw();
+//				}
+//			});
 
 		}
-	}
 }
