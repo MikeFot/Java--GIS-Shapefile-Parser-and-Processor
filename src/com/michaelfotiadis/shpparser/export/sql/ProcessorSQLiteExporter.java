@@ -141,9 +141,6 @@ public class ProcessorSQLiteExporter implements ExporterInterface, Runnable {
 
 		try {
 			// use a prepared statement to avoid injections
-
-			
-
 			prepStmt = Singleton.getConnection().prepareStatement(schema);
 
 			// initialise the column index
