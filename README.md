@@ -20,3 +20,5 @@ Project is currently using the SWT library for Windows by default.
 ##Notes
 - Exporting to KML is not currently corrected for Google Sphere offset. I will not be adding it until I can validate the external accuracy of the transformation.
 - Please be aware that transformations are done through the GeoTools library, so there is a chance that they may not meet the accuracy requirements of certain projects. If you are going for high accuracy, please consult an expert in Geodesy (http://en.wikipedia.org/wiki/Geodesy) or Cartography (http://en.wikipedia.org/wiki/Cartography) first.
+
+The code in this project is licensed under the Apache Software License 2.0.
