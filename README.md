@@ -4,7 +4,7 @@ Java-GIS-Shapefile-Parser-And-Processor
 Java Desktop application for Windows which allows for the parsing and processing (displaying, coordinate system transformation, exporting to KML, CSV, SQLite) of Shapefiles.
 
 ##Description
-Supports parsing of shapefiles, coordinate system transformation, and exporting to KML / SQLite / CSV (work in progress on that one). 
+Supports parsing of shapefiles, coordinate system transformation, and exporting to KML / SQLite / CSV (as-is and with transformed coordinates). 
 
 ##Dependencies
 - GeoTools 9.4 (http://www.geotools.org/)
